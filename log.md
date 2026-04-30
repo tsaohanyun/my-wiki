@@ -54,3 +54,13 @@
 - 同步创建 SKILL：software-development/harness-engineering（五层架构方法论提炼为可操作指南）
 - 交叉引用：2个页面共 6 个 wikilink
 - 总页面数：29（原有27 + 新增2）
+
+## [2026-05-02] ingest | Text2KPI V2 + NL2SQL 方案4篇
+- 来源：trans-import 目录下4个 Markdown 文件（02b_NL2SQL精确映射方案、02_Text2KPI_Demo设计方案V2、text2kpi-reference-code、text2kpi-prompt-and-config）
+- 保存的原始文件：4个文件在 raw/articles/
+- 创建的概念：nl2sql-precise-mapping.md（7879 bytes）、text2kpi-reference-code.md（12370 bytes）、text2kpi-prompt-and-config.md（9981 bytes）
+- 更新的概念：text2kpi-optimization.md（6908→14221 bytes，补充V2四层架构/五步Pipeline/查询编排/推理可观测设计）
+- 合并策略：V2设计方案与已有text2kpi-optimization属同项目演进，更新而非另建
+- 新增标签：架构与设计新增 nl2sql、nl2api；实践与文化新增 prompt-engineering；工具与效率新增 config
+- 交叉引用：4个页面共 12+ 个 wikilink，形成 Text2KPI 系列知识网络
+- 总页面数：32（原有29 + 新增3）
