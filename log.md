@@ -23,3 +23,10 @@
 - 将 SCHEMA.md、index.md、log.md 中所有英文内容翻译为简体中文
 - 内容页面（entities、concepts、comparisons）已经是中文，无需修改
 - raw/ 目录按约定保持不变（原始来源不可修改）
+## [2026-04-30] ingest | 14个技能（核心开发 + 文档处理）
+- 来源：claude-api、mcp-builder、hermes-agent、systematic-debugging、test-driven-development、writing-plans、requesting-code-review、plan、skill-creator、docx、xlsx、pptx、pdf、doc-coauthoring
+- 保存的原始文件：14个文件在 raw/articles/
+- 创建的实体：hermes-agent.md、word-document-processing.md、excel-spreadsheet-processing.md、powerpoint-presentation-processing.md、pdf-document-processing.md
+- 创建的概念：claude-api-development.md、mcp-server-development.md、systematic-debugging.md、test-driven-development.md、writing-plans.md、requesting-code-review.md、plan-mode.md、skill-creator.md、doc-coauthoring.md
+- 交叉引用：所有页面共 40+ 个 wikilink
+- 总页面数：20（原有6 + 新增14）
