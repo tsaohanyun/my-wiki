@@ -48,7 +48,7 @@ sha256: <原始内容（前端元数据下方）的十六进制摘要>
 ## 标签分类法
 - 语言与运行时：language, runtime, compiler, type-system
 - 框架与库：framework, library, sdk, api
-- 架构与设计：architecture, pattern, design-principle, ddd, microservices
+- 架构与设计：architecture, pattern, design-principle, ddd, microservices, ai-agent
 - 基础设施与 DevOps：infra, containerization, orchestration, ci-cd, monitoring, cloud
 - 数据库与存储：database, cache, message-queue, storage
 - 数据治理：data-governance, data-quality, data-warehouse, metadata, data-model, data-lifecycle

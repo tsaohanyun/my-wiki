@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-04-30 | 总页面数：27
+> 最后更新：2026-04-30 | 总页面数：29
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -34,6 +34,8 @@
 - [[manufacturing-digital-policy]] — 制造业数字化转型政策：美/欧/德/日/东盟政策对比
 - [[data-visualization-selection]] — 数据可视化选型：比较/联系/分布/构成四类图表选择指南
 - [[consensus-management]] — 共识管理：书面/口头共识分类、层级选择、固化与范围演进
+- [[harness-engineering]] — AI Agent 驾驭层工程方法论：五层架构（Tool/Prompt/Permission/Orchestration/Memory）
+- [[text2kpi-optimization]] — Text2KPI 项目优化方案：反馈闭环、Tool建模、批量参数、分层上下文、记忆、可视化
 
 ## 对比
 - [[html-generation-styles]] — 五种 HTML 生成风格横向对比：Apple/复古未来/通用/模板/演示

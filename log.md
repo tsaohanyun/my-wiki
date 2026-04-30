@@ -46,3 +46,11 @@
 - 新增标签分类：数据治理（6个标签）、智能制造（5个标签）、可视化（3个标签）、产业政策（2个标签），consensus 加入实践与文化
 - 交叉引用：7个页面共 20+ 个 wikilink
 - 总页面数：27（原有20 + 新增7）
+
+## [2026-04-30] ingest | Harness Engineering 方法论
+- 来源：用户提供文档"01_Harness_Engineering方法论.md"
+- 保存的原始文件：raw/articles/harness-engineering-methodology.md
+- 创建的概念：harness-engineering.md、text2kpi-optimization.md
+- 同步创建 SKILL：software-development/harness-engineering（五层架构方法论提炼为可操作指南）
+- 交叉引用：2个页面共 6 个 wikilink
+- 总页面数：29（原有27 + 新增2）
