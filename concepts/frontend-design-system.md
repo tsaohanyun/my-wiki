@@ -1,7 +1,7 @@
 ---
 title: 前端设计系统
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-01
 type: concept
 tags: [architecture, pattern, design-principle, best-practice]
 sources: [raw/articles/skill-frontend-design.md]
@@ -16,10 +16,10 @@ sources: [raw/articles/skill-frontend-design.md]
 
 在编码之前，理解上下文并确定大胆的美学方向：
 
-- **Purpose**：这个界面解决什么问题？谁在用？
-- **Tone**：选择一个极致方向：极简、极繁混乱、复古未来、有机自然、奢华精致、趣味玩具、编辑杂志、粗野主义、装饰几何、柔和粉彩、工业实用等
-- **Constraints**：技术约束（框架、性能、无障碍）
-- **Differentiation**：什么让人记住？那个"一"是什么？
+- **目的 (Purpose)**：这个界面解决什么问题？谁在用？
+- **调性 (Tone)**：选择一个极致方向：极简、极繁混乱、复古未来、有机自然、奢华精致、趣味玩具、编辑杂志、粗野主义、装饰几何、柔和粉彩、工业实用等
+- **约束 (Constraints)**：技术约束（框架、性能、无障碍）
+- **差异化 (Differentiation)**：什么让人记住？那个"一"是什么？
 
 关键：选择清晰的概念方向并精确执行。大胆极繁和精致极简都可行——关键是意图性，而非强度。
 

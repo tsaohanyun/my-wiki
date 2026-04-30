@@ -1,7 +1,7 @@
 ---
 title: HTML 演示文稿生成
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-01
 type: concept
 tags: [framework, tool, best-practice]
 sources: [raw/articles/skill-frontend-slides.md]
@@ -41,27 +41,27 @@ sources: [raw/articles/skill-frontend-slides.md]
 
 ## 工作流程
 
-### Phase 0：检测模式
-- **模式A：新建演示** → Phase 1
-- **模式B：PPT转换** → Phase 4
+### 阶段 0：检测模式
+- **模式A：新建演示** → 阶段 1
+- **模式B：PPT转换** → 阶段 4
 - **模式C：增强现有** → 遵循修改规则
 
-### Phase 1：内容发现
+### 阶段 1：内容发现
 询问：用途（路演/教学/会议/内部）、长度（5-10/10-20/20+）、内容状态、是否需要浏览器内编辑
 
-### Phase 2：风格发现
+### 阶段 2：风格发现
 "展示而非讲述"阶段：
-- 选择心情：Impressed/Excited/Calm/Inspired
+- 选择心情：震撼/兴奋/平静/灵感
 - 生成3个风格预览幻灯片
 
 | 心情 | 推荐预设 |
 |------|---------|
-| Impressed | Bold Signal, Electric Studio, Dark Botanical |
-| Excited | Creative Voltage, Neon Cyber, Split Pastel |
-| Calm | Notebook Tabs, Paper & Ink, Swiss Modern |
-| Inspired | Dark Botanical, Vintage Editorial, Pastel Geometry |
+| 震撼 | Bold Signal, Electric Studio, Dark Botanical |
+| 兴奋 | Creative Voltage, Neon Cyber, Split Pastel |
+| 平静 | Notebook Tabs, Paper & Ink, Swiss Modern |
+| 灵感 | Dark Botanical, Vintage Editorial, Pastel Geometry |
 
-### Phase 3：生成演示
+### 阶段 3：生成演示
 关键要求：
 - 单个自包含 HTML 文件
 - 包含 viewport-base.css 全部内容
@@ -69,18 +69,18 @@ sources: [raw/articles/skill-frontend-slides.md]
 - 详细注释每个区块
 - `/* === SECTION NAME ===` 注释块
 
-### Phase 4：PPT转换
+### 阶段 4：PPT转换
 1. `python scripts/extract-pptx.py <input.pptx> <output_dir>` 提取内容
 2. 确认提取结果
-3. Phase 2 风格选择
+3. 阶段 2 风格选择
 4. 生成 HTML
 
-### Phase 5：交付
+### 阶段 5：交付
 - 文件位置、风格名、幻灯片数
 - 导航方式：方向键/空格/滚动/点击导航点
 - 自定义方式：`:root` CSS变量、字体链接、`.reveal` 类动画
 
-### Phase 6：分享与导出（可选）
+### 阶段 6：分享与导出（可选）
 - 部署到 URL（Vercel）：`bash scripts/deploy.sh <path>`
 - 导出 PDF：`bash scripts/export-pdf.sh <path-to-html> [output.pdf]`（用 Playwright 截图1920×1080合成PDF，`--compact` 为1280×720）
 

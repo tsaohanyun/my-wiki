@@ -1,7 +1,7 @@
 ---
 title: HTML 原型生成
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-01
 type: concept
 tags: [framework, architecture, best-practice]
 sources: [raw/articles/skill-apple-prototype-html.md, raw/articles/skill-product-prototype-html.md]
@@ -35,14 +35,14 @@ sources: [raw/articles/skill-apple-prototype-html.md, raw/articles/skill-product
 ## Web 布局模式
 ```
 ┌──────────────────────────────────────────────┐
-│ Top Nav (logo + role + logout)               │
+│ 顶部导航栏 (logo + 角色 + 退出)              │
 ├──────┬───────────────────────────────────────┤
-│ Side │ Content Area                          │
-│ bar  │                                       │
-│ nav  │  Cards / Tables / Forms              │
-│      │                                       │
+│ 侧   │ 内容区域                              │
+│ 边   │                                       │
+│ 导   │  卡片 / 表格 / 表单                   │
+│ 航   │                                       │
 ├──────┴───────────────────────────────────────┤
-                                   [Func Panel] │ (fixed, top-right)
+                                   [功能面板] │ (fixed, 右上角)
 ```
 - 顶栏：sticky, `backdrop-filter:blur(20px)`, 高52px
 - 侧栏：220px宽，导航项含激活状态
@@ -51,20 +51,20 @@ sources: [raw/articles/skill-apple-prototype-html.md, raw/articles/skill-product
 ## 移动端布局模式
 ```
 ┌──────────────────────┐
-│ Nav Bar (back+title)  │
+│ 导航栏 (返回+标题)    │
 ├──────────────────────┤
 │                      │
-│ Content (cards,      │
-│ forms, lists)        │
+│ 内容 (卡片,           │
+│ 表单, 列表)          │
 │                      │
 ├──────────────────────┤
-│ Bottom Tab Bar       │
+│ 底部标签栏            │
 └──────────────────────┘
-                  [i FAB] → triggers bottom drawer
+                  [i 悬浮按钮] → 触发底部抽屉
 ```
 - 视口：max-width 430px, `margin:0 auto`
 - 底部标签栏：fixed, `backdrop-filter:blur(20px)`, `safe-area-inset-bottom`
-- 功能FAB：fixed, 底部96px, 右侧16px
+- 功能悬浮按钮：fixed, 底部96px, 右侧16px
 - 功能面板：底部抽屉式，`transform:translateY(100%)` 切换
 
 ## 功能说明面板
@@ -76,7 +76,7 @@ sources: [raw/articles/skill-apple-prototype-html.md, raw/articles/skill-product
 5. 数据流（操作后发生什么）
 
 - **Web**：浮动面板，右上角，320px宽，蓝色"功能说明"徽章
-- **Mobile**：FAB触发底部抽屉，含手柄栏，半透明遮罩
+- **移动端**：悬浮按钮触发底部抽屉，含手柄栏，半透明遮罩
 
 ## 常用组件
 

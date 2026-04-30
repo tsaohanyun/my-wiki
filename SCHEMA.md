@@ -51,10 +51,14 @@ sha256: <原始内容（前端元数据下方）的十六进制摘要>
 - 架构与设计：architecture, pattern, design-principle, ddd, microservices
 - 基础设施与 DevOps：infra, containerization, orchestration, ci-cd, monitoring, cloud
 - 数据库与存储：database, cache, message-queue, storage
+- 数据治理：data-governance, data-quality, data-warehouse, metadata, data-model, data-lifecycle
+- 智能制造：smart-manufacturing, digital-transformation, mes, iot, industry-4
+- 可视化：visualization, data-visualization, chart
 - 测试与质量：testing, quality, linting, code-review
 - 安全：security, auth, encryption
 - 工具与效率：tool, editor, cli, productivity
-- 实践与文化：best-practice, agile, team-process, documentation
+- 实践与文化：best-practice, agile, team-process, documentation, consensus
+- 产业政策：industry-policy, manufacturing
 - 元信息：comparison, timeline, controversy, prediction, trend
 
 规则：页面上的每个标签必须出现在此分类法中。如需新标签，先在此添加，再使用。
