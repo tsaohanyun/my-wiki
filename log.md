@@ -67,11 +67,11 @@
 
 ## [2026-05-03] ingest | SIE-IIDP 设计风格分析
 - 来源：/home/agentuser/trans-import/ 目录下的10个 DIM 系统 HTML 页面及其配套 CSS/JS/SVG 资产
-- 来源实体：通威股份 SIE-IIDP 工业互联网数据平台，DIM 制造执行系统
+- 来源实体：SIE-IIDP 工业互联网数据平台，DIM 制造执行系统
 - 保存的原始文件：raw/articles/sie-iidp-design-analysis.md
 - 创建的概念：sie-iidp-design-style.md（5272 bytes）
 - 新增标签：架构与设计新增 design-system、ui-design、css-variables、frontend-design、component-library
 - 分析维度：色彩系统（含CSS变量体系）、排版（100px根字号）、布局架构、图标系统、组件设计语言、间距规范、设计哲学、与主流系统对比
-- 核心发现：通威红 #E60012 贯穿全部组件、2px 极小圆角、100px 根字号 rem 缩放、白色 SVG 圆形徽章图标系统
+- 核心发现：#E60012 贯穿全部组件、2px 极小圆角、100px 根字号 rem 缩放、白色 SVG 圆形徽章图标系统
 - 交叉引用：5个 wikilink（frontend-design-system、html-generation-styles、retro-futuristic-html-design、smart-manufacturing、apple-prototype-html）
 - 总页面数：33（原有32 + 新增1）
