@@ -31,7 +31,7 @@
 - [[big-data-governance]] — 大数据治理：全链路平台、数据仓库分层、成本管理、指标规范、质量评估
 - [[smart-manufacturing]] — 智能制造：数据+算力+算法驱动，从工具革命到决策革命
 - [[smart-factory-planning]] — 智能工厂规划：MES 15大模块、五大层次、行业案例与交付保障
-- [[sie-iidp-design-style]] — SIE-IIDP 工业互联网平台设计风格：#E60012、2px极小圆角、功能主义美学、100px根字号rem体系
+- [[sie-iidp-design-style]] — SIE-IIDP 工业互联网平台设计风格：#AC2A48、2px极小圆角、功能主义美学、100px根字号rem体系
 - [[manufacturing-digital-policy]] — 制造业数字化转型政策：美/欧/德/日/东盟政策对比
 - [[data-visualization-selection]] — 数据可视化选型：比较/联系/分布/构成四类图表选择指南
 - [[consensus-management]] — 共识管理：书面/口头共识分类、层级选择、固化与范围演进
