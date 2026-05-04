@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-03 | 总页面数：33
+> 最后更新：2026-05-04 | 总页面数：35
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -13,6 +13,8 @@
 - [[powerpoint-presentation-processing]] — 使用 python-pptx 创建和编辑 PowerPoint 演示文稿
 - [[pdf-document-processing]] — PDF 文件处理：读取、创建、合并、拆分、加密、OCR
 - [[tianwei-food-digital-status]] — 天味食品数字化现状：车间/仓库/计划部痛点与数字化需求
+- [[feed-industry-knowledge]] — 饲料行业知识：工艺/配方/仓储/质量/设备管理完整体系（基于通威农发智能工厂蓝图）
+
 
 ## 概念
 - [[html-prototype-generation]] — Apple Design Language 产品原型 HTML 生成，Web+Mobile 布局与功能说明面板
@@ -40,6 +42,8 @@
 - [[nl2sql-precise-mapping]] — NL2SQL 六层受约束架构：Schema映射→意图分类→SQL生成→自校验→护栏→执行
 - [[text2kpi-reference-code]] — Text2KPI 核心参考代码节选：7段体现方法论的实现片段（Python+Java+YAML）
 - [[text2kpi-prompt-and-config]] — Text2KPI Prompt分层模板与工程化配置清单：8个模板/清单
+- [[blueprint-writing-methodology]] — 企业智能制造蓝图解决方案编写方法论（基于通威农发智能工厂592页蓝图文档）
+
 
 ## 对比
 - [[html-generation-styles]] — 五种 HTML 生成风格横向对比：Apple/复古未来/通用/模板/演示
