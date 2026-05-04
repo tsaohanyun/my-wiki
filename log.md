@@ -93,3 +93,11 @@
 - 更新页面：manufacturing-kpi-system.md（2341 → 6909 bytes）
 - 新增内容：指标体系搭建4大原则、指标金字塔（核心/业务/操作三层）、搭建4大关键步骤、指标拆解4步流程、指标命名公式（限定词+业务主题+指标名称+量化词）、指标字典五要素、设备/质量/出入库/库存/采购/财务分析等详细KPI参考
 - 新增wikilink：value-stream-mapping（与VSM建立连接）
+
+## [2026-05-04] ingest+update | 数据治理补充 + 大数据技术体系新建
+- 来源：trans-import/数据治理的全貌.pdf、大数据治理训练营-一大数据治理的解读.pdf、大数据开发基础知识.pdf
+- 保存的原始文件：raw/articles/data-governance-overview.md、raw/articles/bigdata-development-basics.md
+- 更新概念：big-data-governance.md（补充消息队列Kafka & Flink流批一体、数据湖、数据API服务、数据资产监控、Apache Atlas详解）
+- 新建概念：big-data-development-basics.md（4021 bytes）——企业级大数据技术六层框架、Hadoop/Spark技术栈、HDFS分布式文件系统、Lambda Architecture
+- 新增wikilink：big-data-development-basics 链接 big-data-governance、data-visualization-selection
+- 总页面数：43（原有42 + 新增1）

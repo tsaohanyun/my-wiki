@@ -1,10 +1,10 @@
 ---
 title: 大数据治理
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-04
 type: concept
 tags: [data-governance, data-quality, data-warehouse, metadata, data-model, data-lifecycle]
-sources: [raw/articles/big-data-governance-day1.md, raw/articles/big-data-governance-day2.md, raw/articles/big-data-governance-day3.md]
+sources: [raw/articles/big-data-governance-day1.md, raw/articles/big-data-governance-day2.md, raw/articles/big-data-governance-day3.md, raw/articles/data-governance-overview.md]
 ---
 
 # 大数据治理
@@ -23,7 +23,7 @@ sources: [raw/articles/big-data-governance-day1.md, raw/articles/big-data-govern
 | 使用门槛 | 缺乏有效的元数据标签解释 |
 | 价值密度 | 海量数据中有价值的信息比例低 |
 | 真实性 | 数据质量参差不齐，多拷贝导致不一致 |
-| 有效性 | 数据合规性与隐私保护要求 |
+| 有效性 | 数据合规性与隐私保护要求；2021年《数据安全法》正式通过 |
 
 ## 核心技术架构
 
@@ -31,12 +31,47 @@ sources: [raw/articles/big-data-governance-day1.md, raw/articles/big-data-govern
 
 数据处理的六个阶段：
 
-1. **数据上报** — 传感器、设备、业务系统的原始数据产出
-2. **数据采集** — 批量/流式采集接入
-3. **数据同步** — 跨系统、跨环境的数据同步
-4. **数据加工** — ETL/ELT 处理，数据清洗与转换
-5. **数据分发** — 将加工后的数据推送至消费端
-6. **数据服务** — API 化的数据访问服务
+1. **数据上报** — Log Server、binlog 等原始数据产出
+2. **数据采集** — Kafka 消息队列批量/流式采集接入
+3. **数据同步** — 跨系统、跨环境的数据同步，支持 HIVE
+4. **数据加工** — 离线/实时 ETL 处理，数据清洗与转换
+5. **数据分发** — 分发至数仓（DORIS、DRUID、ClickHouse 等）
+6. **数据服务** — API 化的数据访问服务，对接报表平台、App分析、AB系统等
+
+### 消息队列与流式计算
+
+- **Kafka** — 极强的集成能力，一套技术满足流式和批式两种处理方式，使业务和开发团队有较好的技术积累
+- **Flink** — 流批一体的计算框架，流式处理平台和批处理平台采用统一平台，降低成本和复杂度
+
+技术选型重点：支持流批一体（Kafka + Flink）。
+
+### 数据湖
+
+数据湖是一套数据存储、处理的解决方案，包含流式和批式（离线）。与数仓分层关联，作为数据一站式开发平台的底层支撑。^[raw/articles/data-governance-overview.md]
+
+### 数据API服务
+
+- 隐藏复杂业务逻辑
+- 屏蔽数据的差异性
+- 访问控制与审计
+
+### 数据资产监控和管理
+
+| 监控维度 | 内容 |
+|---------|------|
+| 数据使用监控 | 冷热数据管理、安全审计需求 |
+| 数据生产质量监控 | SLA定义、全链路监控覆盖 |
+| 数据源集成监控 | 数据源状态跟踪、数据质量监控 |
+| 数据容量管理和监控 | 数据存储分层管理、脏数据清理 |
+
+### 开源工具：Apache Atlas
+
+Apache Atlas 是开放式元数据管理和治理工具，核心功能包括：
+
+1. **元数据类型&实例** — 类型合一，具有原始属性、复杂属性、对象引用；可继承其他类型；捕获元数据对象详细信息及关系
+2. **分类** — 动态创建分类，可包含更多属性
+3. **血缘** — API 更新/访问、UI 查看
+4. **搜索和发现** — UI 查询、类 SQL 查询
 
 ### 数据仓库分层 ^[raw/articles/big-data-governance-day1.md]
 

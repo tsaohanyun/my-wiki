@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-04 | 总页面数：42
+> 最后更新：2026-05-04 | 总页面数：43
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -32,7 +32,7 @@
 - [[plan-mode]] — Hermes Agent 的计划模式，检查上下文并创建 markdown 计划
 - [[skill-creator]] — 创建、修改、优化 Hermes Agent 技能的指南
 - [[doc-coauthoring]] — 结构化文档协作工作流，高效转移上下文、迭代优化内容
-- [[big-data-governance]] — 大数据治理：全链路平台、数据仓库分层、成本管理、指标规范、质量评估
+- [[big-data-governance]] — 大数据治理：全链路平台/数据湖/Flink流批一体/Atlas元数据管理/成本治理/模型治理
 - [[smart-manufacturing]] — 智能制造：数据+算力+算法驱动，从工具革命到决策革命
 - [[smart-factory-planning]] — 智能工厂规划：MES 15大模块、五大层次、行业案例与交付保障
 - [[sie-iidp-design-style]] — SIE-IIDP 工业互联网平台设计风格：#AC2A48、2px极小圆角、功能主义美学、100px根字号rem体系
@@ -50,6 +50,7 @@
 - [[metric-platform-construction]] — 指标中台建设方法与实践：原子/派生/复合指标分类与OSM方法论
 - [[efficiency-improvement-methods]] — 效率与效率改善方法：OPE架构、精益改善十大精神、效率损失结构
 - [[value-stream-mapping]] — 价值流图VSM：绘制现状/未来价值流图、增值比分析与改善框架
+- [[big-data-development-basics]] — 企业级大数据技术体系：六层技术框架、Hadoop/Spark技术栈、HDFS分布式文件系统
 
 
 ## 对比
