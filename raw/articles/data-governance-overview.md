@@ -1,5 +1,5 @@
 ---
-source_url: 大数据治理训练营（光环国际）——数据治理的全貌
+source_url: 大数据治理训练营——数据治理的全貌
 ingested: 2026-05-04
 sha256: placeholder
 ---

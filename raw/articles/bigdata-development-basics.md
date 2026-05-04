@@ -1,5 +1,5 @@
 ---
-source_url: 光环国际《大数据开发基础知识》（董西成 著）
+source_url: 《大数据开发基础知识》（董西成 著）
 ingested: 2026-05-04
 sha256: placeholder
 ---
