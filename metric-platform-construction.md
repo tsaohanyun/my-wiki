@@ -4,12 +4,14 @@ created: 2026-05-04
 updated: 2026-05-04
 type: concept
 tags: [data-governance, data-warehouse, metadata, data-model, kpi]
-sources: [raw/articles/metric-platform-whitepaper.md]
+sources: [raw/articles/metric-platform-whitepaper.md, raw/articles/fi-metric-platform-intro.md]
 ---
 
 # 指标中台建设方法与实践
 
-指标中台是供组织集中管理、存储关键指标的平台，提供统一业务模型、指标管理、指标加工、数据服务于一体的完整解决方案（Kyligence 白皮书）。
+指标中台是数据应用的一个分支，是集中化、标准化、自动化、场景化的指标管理、计算、应用平台，专注于解决指标定义不统一、数据冗余、口径不一致以及快速响应业务变化等问题。^[raw/articles/fi-metric-platform-intro.md]
+
+主要功能特点：集中管理、业务模型构建、指标生命周期管理、指标加工计算、指标数据服务、跨系统复用、场景业务赋能、数据治理与合规。
 
 ## 发展历程
 
@@ -46,6 +48,48 @@ sources: [raw/articles/metric-platform-whitepaper.md]
 ### 北极星指标
 指引全公司方向的唯一关键指标
 
+## 建设理念：需求驱动 vs 数据驱动
+
+传统数据中台采用**自下而上**的方式：以数据为核心，汇集全部业务数据，分层建设数仓，固化业务指标。
+
+指标中台采用**自上而下**的方式：抽象单独的指标层，采用数据虚拟化技术，以需求驱动指标建设，再向下寻找数据对接。与底层数据建设不冲突，能够在满足业务需求的过程中保证资源利用最大化。^[raw/articles/fi-metric-platform-intro.md]
+
+## 产品功能架构
+
+### 统一数据门户
+千人千面数据工作台，整合指标、报表、决策看板、外部报表，结合权限管理为不同用户创建不同的数据工作台。
+
+### 指标中台核心能力
+- **指标定义** — 可视化口径配置，支持原子指标、派生指标、复合指标的定义
+- **指标管理** — 版本管理、生命周期管理、元数据管理
+- **指标计算** — 自动建模和构建，支持预计算和查询加速
+- **指标服务** — API查询、数据推送、指标目录
+- **指标分析** — 归因分析、相关性分析、指标血缘、指标关系图谱
+
+### 智能分析（AI+指标）
+以指标及指标间图谱关系为核心，通过自动化的归因模型、规则编辑、手动事件模型，实现AI+场景应用的知识沉淀。^[raw/articles/fi-metric-platform-intro.md]
+
+### 指标PDCA闭环
+- **计划(Plan)** — 定义指标、设定目标
+- **执行(Do)** — 指标接入、计算、展示
+- **检查(Check)** — 预警监控、归因分析
+- **改进(Act)** — 基于洞察调整策略
+
+### 预警与目标管理
+- 阈值预警、周期预警、趋势预警
+- 目标关联、目标拆分、目标监测
+
+## 产品技术架构
+
+### 零代码配置
+数据类配置（采集/交换/服务）、管理类配置（用户/流程/系统）、分析类配置（指标/预警/报表）
+
+### 框架引擎
+规则引擎、调度引擎、流程引擎、搜索引擎、AIGC、报表引擎
+
+### 计算引擎
+Spark（批处理）、Flink（流处理）、AutoML（自动机器学习）
+
 ## 价值动因
 
 - **理解业务** — 用指标作为统一语言了解业务发展
@@ -58,4 +102,4 @@ sources: [raw/articles/metric-platform-whitepaper.md]
 
 指标计算引擎选型：Kylin（预计算）、Spark（批处理）、Druid（实时）、ClickHouse（MPP）
 
-相关概念：[[manufacturing-kpi-system]]、[[big-data-governance]]
+相关概念：[[data-mid-platform]]、[[manufacturing-kpi-system]]、[[big-data-governance]]

@@ -106,3 +106,11 @@
 - 来源：用户要求
 - 更新 SCHEMA.md 约定章节，新增"去除编著信息"规则：原始文件和 wiki 页面中不得保留作者、编著者、出品机构、研究团队等署名信息
 - 该规则已应用于本次编辑的 6 个文件
+
+## [2026-05-04] ingest | 数据中台 + 指标中台补充 + 白酒行业分析
+- 来源：trans-import/数据中台解决方案.pdf、FI指标中台产品介绍V4.pdf、白酒Ⅲ行业深度报告：酱酒专题.pdf
+- 保存的原始文件：raw/articles/data-mid-platform-solution.md、raw/articles/fi-metric-platform-intro.md、raw/articles/baijiu-industry-report.md（均去除编著信息）
+- 新建概念（2个）：data-mid-platform.md（3154 bytes）——数据中台全链路架构与产品能力、baijiu-industry-analysis.md（2271 bytes）——酱香型白酒市场分析
+- 更新概念：metric-platform-construction.md（2868 → 5297 bytes）——补充需求驱动vs数据驱动理念、产品功能/技术架构、指标PDCA闭环、预警与目标管理、零代码配置等产品实践内容
+- 交叉引用：data-mid-platform 链接 metric-platform-construction、big-data-governance、big-data-development-basics
+- 总页面数：45（原有43 + 新增2）

@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-04 | 总页面数：43
+> 最后更新：2026-05-04 | 总页面数：45
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -47,10 +47,12 @@
 - [[blueprint-writing-methodology]] — 企业智能制造蓝图解决方案编写方法论（基于通威农发智能工厂592页蓝图文档）
 - [[sme-digital-innovation]] — 中小企业数字化模式创新：业务/管理/技术三维创新路径与服务商生态
 - [[manufacturing-kpi-system]] — 制造业数据指标体系：搭建方法论（指标金字塔/四大步骤/指标字典）+六大类业务KPI详细参考
-- [[metric-platform-construction]] — 指标中台建设方法与实践：原子/派生/复合指标分类与OSM方法论
+- [[metric-platform-construction]] — 指标中台建设方法与实践：需求驱动vs数据驱动、指标PDCA闭环、产品功能/技术架构
 - [[efficiency-improvement-methods]] — 效率与效率改善方法：OPE架构、精益改善十大精神、效率损失结构
 - [[value-stream-mapping]] — 价值流图VSM：绘制现状/未来价值流图、增值比分析与改善框架
 - [[big-data-development-basics]] — 企业级大数据技术体系：六层技术框架、Hadoop/Spark技术栈、HDFS分布式文件系统
+- [[data-mid-platform]] — 数据中台解决方案：全链路数据集成/存储/计算/治理/服务一体化平台架构
+- [[baijiu-industry-analysis]] — 酱香型白酒行业分析：市场格局、竞争阵营、周期复盘与发展趋势
 
 
 ## 对比
