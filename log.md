@@ -121,3 +121,21 @@
 - 去除 wikilink 引用：smart-manufacturing.md、manufacturing-digital-policy.md、smart-factory-planning.md
 - 更新 index.md 移除条目
 - 总页面数：44（原有45 - 删除1）
+
+## [2026-05-05] ingest | 10份文档批量纳入（数字孪生/数据治理/企业信息化/智能制造）
+- 来源：trans-import目录下12个有效文件（含4个ISA-95标准合并为1个）
+- 跳过7个图片型文件（数据治理及数据资产化创新实践-京东.pdf、企业智能制造解决方案.pdf、京东物流数字孪生白皮书.pdf、数据仓库架构落地版.pptx、华为APS系统总体架构介绍.ppt、华为内训绩效管理.ppt、数据中台解决方案.pdf（已处理过））
+- 原始文件：raw/articles/ 下12个文件（已去除华为/编著/品牌等信息）
+- 新建概念（10个）：
+  - digital-twin.md — 数字孪生技术架构与应用
+  - data-asset-management-standard.md — 数据资产管理标准化
+  - data-element-valuation.md — 数据要素价值评估
+  - data-security-governance.md — 数据安全治理体系
+  - enterprise-info-flow-planning.md — 企业信息流规划
+  - enterprise-architecture-planning.md — 企业架构与信息化规划
+  - isa-95-integration.md — ISA-95企业控制系统集成（4部分合并）
+  - aps-advanced-planning-scheduling.md — APS高级计划与排程
+  - data-governance-two-phase.md — 数据治理两阶段实践
+  - logistics-transport-solution.md — 物流与运输解决方案
+- 交叉引用：10个页面共 20+ 个wikilink
+- 总页面数：54（原有44 + 新增10）

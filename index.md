@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-04 | 总页面数：44
+> 最后更新：2026-05-05 | 总页面数：54
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -52,6 +52,16 @@
 - [[big-data-development-basics]] — 企业级大数据技术体系：六层技术框架、Hadoop/Spark技术栈、HDFS分布式文件系统
 - [[data-mid-platform]] — 数据中台解决方案：全链路数据集成/存储/计算/治理/服务一体化平台架构
 - [[baijiu-industry-analysis]] — 酱香型白酒行业分析：市场格局、竞争阵营、周期复盘与发展趋势
+- [[digital-twin]] — 数字孪生技术：物理空间与数字空间交互映射的通用技术架构与应用场景
+- [[data-asset-management-standard]] — 数据资产管理标准化：数据资源→资产→资本的转化路径与标准体系
+- [[data-element-valuation]] — 数据要素价值评估：市场/社会双视角的数据价值评估方法论
+- [[data-security-governance]] — 数据安全治理：全生命周期数据安全防护体系与流程
+- [[enterprise-info-flow-planning]] — 企业信息流规划：信源/信道/信宿四要素方法论与重组方案
+- [[enterprise-architecture-planning]] — 企业架构与信息化规划：业务架构/IT架构/实施落地三部分
+- [[isa-95-integration]] — ISA-95企业控制系统集成：Purdue层级模型与MES/ERP接口标准
+- [[aps-advanced-planning-scheduling]] — APS高级计划与排程：物料+能力双重约束下的生产计划优化
+- [[data-governance-two-phase]] — 数据治理两阶段实践：从数据清洁到数据服务化的演进路径
+- [[logistics-transport-solution]] — 物流与运输解决方案：基于RTLS实时定位的供应链可视化
 
 
 ## 对比
