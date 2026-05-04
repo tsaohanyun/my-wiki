@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-04 | 总页面数：45
+> 最后更新：2026-05-04 | 总页面数：44
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -12,8 +12,7 @@
 - [[excel-spreadsheet-processing]] — 使用 openpyxl/pandas 处理 Excel 文件
 - [[powerpoint-presentation-processing]] — 使用 python-pptx 创建和编辑 PowerPoint 演示文稿
 - [[pdf-document-processing]] — PDF 文件处理：读取、创建、合并、拆分、加密、OCR
-- [[tianwei-food-digital-status]] — 天味食品数字化现状：车间/仓库/计划部痛点与数字化需求
-- [[feed-industry-knowledge]] — 饲料行业知识：工艺/配方/仓储/质量/设备管理完整体系（基于通威农发智能工厂蓝图）
+- [[feed-industry-knowledge]] — 饲料行业知识：工艺/配方/仓储/质量/设备管理完整体系
 - [[feed-industry-solution]] — 饲料行业智能制造解决方案：配方/计划/生产/仓储/质量/设备六大模块业务蓝图与数字化升级策略
 - [[apqc-process-metrics]] — APQC 流程绩效指标库：跨企业流程的标准化度量指标体系
 

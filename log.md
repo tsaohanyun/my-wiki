@@ -114,3 +114,10 @@
 - 更新概念：metric-platform-construction.md（2868 → 5297 bytes）——补充需求驱动vs数据驱动理念、产品功能/技术架构、指标PDCA闭环、预警与目标管理、零代码配置等产品实践内容
 - 交叉引用：data-mid-platform 链接 metric-platform-construction、big-data-governance、big-data-development-basics
 - 总页面数：45（原有43 + 新增2）
+
+## [2026-05-04] delete | 去除天味食品相关描述
+- 删除实体页面：entities/tianwei-food-digital-status.md
+- 删除原始文件：raw/articles/tianwei-food-pain-points.md
+- 去除 wikilink 引用：smart-manufacturing.md、manufacturing-digital-policy.md、smart-factory-planning.md
+- 更新 index.md 移除条目
+- 总页面数：44（原有45 - 删除1）

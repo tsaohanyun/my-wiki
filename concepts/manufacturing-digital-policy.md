@@ -108,4 +108,3 @@ sources: [raw/articles/manufacturing-digital-policy.md]
 
 - [[智能制造]] — 政策推动的核心方向
 - [[智能工厂规划]] — 政策落地的工厂形态
-- [[天味食品数字化现状]] — 中国制造业数字化转型的微观案例
