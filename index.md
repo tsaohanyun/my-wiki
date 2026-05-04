@@ -46,7 +46,7 @@
 - [[text2kpi-prompt-and-config]] — Text2KPI Prompt分层模板与工程化配置清单：8个模板/清单
 - [[blueprint-writing-methodology]] — 企业智能制造蓝图解决方案编写方法论（基于通威农发智能工厂592页蓝图文档）
 - [[sme-digital-innovation]] — 中小企业数字化模式创新：业务/管理/技术三维创新路径与服务商生态
-- [[manufacturing-kpi-system]] — 制造业数据指标体系：库存/生产/采购/销售/财务/人力六大类指标
+- [[manufacturing-kpi-system]] — 制造业数据指标体系：搭建方法论（指标金字塔/四大步骤/指标字典）+六大类业务KPI详细参考
 - [[metric-platform-construction]] — 指标中台建设方法与实践：原子/派生/复合指标分类与OSM方法论
 - [[efficiency-improvement-methods]] — 效率与效率改善方法：OPE架构、精益改善十大精神、效率损失结构
 - [[value-stream-mapping]] — 价值流图VSM：绘制现状/未来价值流图、增值比分析与改善框架

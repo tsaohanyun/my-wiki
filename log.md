@@ -86,3 +86,10 @@
 - 合并策略：中小企业数字化报告2个分段原文件合并为1个wiki页面；APQC作为实体（标准框架），其余5个作为概念
 - 交叉引用：6个页面共 12+ 个 wikilink，连接智能制造知识网络
 - 总页面数：42（原有36 + 新增6）
+
+## [2026-05-04] update | manufacturing-kpi-system 方法论扩展
+- 来源：trans-import/【搭建标准】制造业指标体系搭建指导(26页).pdf
+- 保存的原始文件：raw/articles/manufacturing-kpi-guide.md
+- 更新页面：manufacturing-kpi-system.md（2341 → 6909 bytes）
+- 新增内容：指标体系搭建4大原则、指标金字塔（核心/业务/操作三层）、搭建4大关键步骤、指标拆解4步流程、指标命名公式（限定词+业务主题+指标名称+量化词）、指标字典五要素、设备/质量/出入库/库存/采购/财务分析等详细KPI参考
+- 新增wikilink：value-stream-mapping（与VSM建立连接）
