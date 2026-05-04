@@ -52,11 +52,11 @@ sha256: <原始内容（前端元数据下方）的十六进制摘要>
 - 基础设施与 DevOps：infra, containerization, orchestration, ci-cd, monitoring, cloud
 - 数据库与存储：database, cache, message-queue, storage
 - 数据治理：data-governance, data-quality, data-warehouse, metadata, data-model, data-lifecycle
-- 智能制造：smart-manufacturing, digital-transformation, mes, iot, industry-4
+- 智能制造：smart-manufacturing, digital-transformation, mes, iot, industry-4, lean-manufacturing, vsm, efficiency
 - 可视化：visualization, data-visualization, chart
 - 测试与质量：testing, quality, linting, code-review
 - 安全：security, auth, encryption
-- 工具与效率：tool, editor, cli, productivity, config
+- 工具与效率：tool, editor, cli, productivity, config, kpi, process-management
 - 实践与文化：best-practice, agile, team-process, documentation, consensus, prompt-engineering
 - 产业政策：industry-policy, manufacturing
 - 元信息：comparison, timeline, controversy, prediction, trend

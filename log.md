@@ -75,3 +75,14 @@
 - 核心发现：#AC2A48 贯穿全部组件、2px 极小圆角、100px 根字号 rem 缩放、白色 SVG 圆形徽章图标系统
 - 交叉引用：5个 wikilink（frontend-design-system、html-generation-styles、retro-futuristic-html-design、smart-manufacturing、apple-prototype-html）
 - 总页面数：33（原有32 + 新增1）
+
+## [2026-05-04] ingest | 6份文档（制造业运营管理方向）
+- 来源：trans-import 目录下6个文件（中小企业数字化模式创新研究报告2023.pdf、制造业数据指标体系.pdf、指标中台建设方法与实践.pdf、效率与效率改善方法.pdf、VSM.pptx、APQC流程绩效指标库.pdf）
+- 跳过文件：AIGC产业发展及应用白皮书-2023.pdf（扫描版，无有效文本）
+- 保存的原始文件：7个文件在 raw/articles/（含1个补充分段文件）
+- 创建的概念（5个）：sme-digital-innovation.md（2457 bytes）、manufacturing-kpi-system.md（2391 bytes）、metric-platform-construction.md（2926 bytes）、efficiency-improvement-methods.md（2449 bytes）、value-stream-mapping.md（1867 bytes）
+- 创建的实体（1个）：apqc-process-metrics.md（2235 bytes）
+- 新增标签：智能制造新增 lean-manufacturing, vsm, efficiency；工具与效率新增 kpi, process-management
+- 合并策略：中小企业数字化报告2个分段原文件合并为1个wiki页面；APQC作为实体（标准框架），其余5个作为概念
+- 交叉引用：6个页面共 12+ 个 wikilink，连接智能制造知识网络
+- 总页面数：42（原有36 + 新增6）

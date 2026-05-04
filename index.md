@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-04 | 总页面数：36
+> 最后更新：2026-05-04 | 总页面数：42
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -15,6 +15,7 @@
 - [[tianwei-food-digital-status]] — 天味食品数字化现状：车间/仓库/计划部痛点与数字化需求
 - [[feed-industry-knowledge]] — 饲料行业知识：工艺/配方/仓储/质量/设备管理完整体系（基于通威农发智能工厂蓝图）
 - [[feed-industry-solution]] — 饲料行业智能制造解决方案：配方/计划/生产/仓储/质量/设备六大模块业务蓝图与数字化升级策略
+- [[apqc-process-metrics]] — APQC 流程绩效指标库：跨企业流程的标准化度量指标体系
 
 
 ## 概念
@@ -44,6 +45,11 @@
 - [[text2kpi-reference-code]] — Text2KPI 核心参考代码节选：7段体现方法论的实现片段（Python+Java+YAML）
 - [[text2kpi-prompt-and-config]] — Text2KPI Prompt分层模板与工程化配置清单：8个模板/清单
 - [[blueprint-writing-methodology]] — 企业智能制造蓝图解决方案编写方法论（基于通威农发智能工厂592页蓝图文档）
+- [[sme-digital-innovation]] — 中小企业数字化模式创新：业务/管理/技术三维创新路径与服务商生态
+- [[manufacturing-kpi-system]] — 制造业数据指标体系：库存/生产/采购/销售/财务/人力六大类指标
+- [[metric-platform-construction]] — 指标中台建设方法与实践：原子/派生/复合指标分类与OSM方法论
+- [[efficiency-improvement-methods]] — 效率与效率改善方法：OPE架构、精益改善十大精神、效率损失结构
+- [[value-stream-mapping]] — 价值流图VSM：绘制现状/未来价值流图、增值比分析与改善框架
 
 
 ## 对比
