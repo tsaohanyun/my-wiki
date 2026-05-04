@@ -1,5 +1,5 @@
 ---
-source_url: 甲子光年智库《中小企业数字化模式创新研究报告2023》续
+source_url: 《中小企业数字化模式创新研究报告2023》续
 ingested: 2026-05-04
 sha256: placeholder
 ---
