@@ -101,3 +101,8 @@
 - 新建概念：big-data-development-basics.md（4021 bytes）——企业级大数据技术六层框架、Hadoop/Spark技术栈、HDFS分布式文件系统、Lambda Architecture
 - 新增wikilink：big-data-development-basics 链接 big-data-governance、data-visualization-selection
 - 总页面数：43（原有42 + 新增1）
+
+## [2026-05-04] update | SCHEMA.md 新增"去除编著信息"标准
+- 来源：用户要求
+- 更新 SCHEMA.md 约定章节，新增"去除编著信息"规则：原始文件和 wiki 页面中不得保留作者、编著者、出品机构、研究团队等署名信息
+- 该规则已应用于本次编辑的 6 个文件
