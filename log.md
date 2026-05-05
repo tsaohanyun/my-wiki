@@ -139,3 +139,18 @@
   - logistics-transport-solution.md — 物流与运输解决方案
 - 交叉引用：10个页面共 20+ 个wikilink
 - 总页面数：54（原有44 + 新增10）
+
+## [2026-05-05] ingest | 智能工厂详细设计-精益文档
+- 来源：trans-import/TWAD_IF_智能工厂生产业务平台详细设计-精益.docx
+- 文档编号：TWAD_IF_302 V1.4，共4846行，涵盖9大精益管理业务模块
+- 原始文件：raw/articles/smart-factory-lean-detail-design.md（已去除品牌/编著信息）
+- 新建概念（1个）：detail-design-specification.md — 详细设计文档编写规范
+  - 提炼通用编写规范而非仅精益管理业务内容
+  - 包含：功能描述7要素模板、三区字段定义、审批流/定时任务/多终端设计模式
+- Skill创建：consulting/detail-design-specification
+  - SKILL.md：详细设计文档编写规范（通用方法论）
+  - references/lean-module-functions.md：精益管理9大模块功能清单与设计要点
+  - templates/function-design-template.md：功能描述空白模板
+- SCHEMA.md新增标签：occupational-health, safety-management, kpi-indicator
+- 交叉引用：6个wikilink（feed-industry-solution, feed-industry-knowledge, smart-factory-planning, efficiency-improvement-methods, manufacturing-kpi-system, blueprint-writing-methodology）
+- 总页面数：55（原有54 + 新增1）

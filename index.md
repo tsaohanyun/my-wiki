@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-05 | 总页面数：54
+> 最后更新：2026-05-05 | 总页面数：55
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -62,6 +62,7 @@
 - [[aps-advanced-planning-scheduling]] — APS高级计划与排程：物料+能力双重约束下的生产计划优化
 - [[data-governance-two-phase]] — 数据治理两阶段实践：从数据清洁到数据服务化的演进路径
 - [[logistics-transport-solution]] — 物流与运输解决方案：基于RTLS实时定位的供应链可视化
+- [[detail-design-specification]] — 详细设计文档编写规范：功能描述7要素模板、三区字段定义、审批流/定时任务/多终端设计模式
 
 
 ## 对比
