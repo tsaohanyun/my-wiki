@@ -1,13 +1,13 @@
 ---
-title: 通威农发-EDO电子单据
+title: 通威农发-EDO设备管理
 created: 2026-05-07
 updated: 2026-05-07
 type: concept
-tags: [数据库, 通威农发, edo, 电子单据]
+tags: [数据库, 通威农发, edo, 设备管理]
 confidence: high
 ---
 
-# 通威农发-EDO电子单据
+# 通威农发-EDO设备管理
 
 ## 模块简介
 
