@@ -154,3 +154,9 @@
 - SCHEMA.md新增标签：occupational-health, safety-management, kpi-indicator
 - 交叉引用：6个wikilink（feed-industry-solution, feed-industry-knowledge, smart-factory-planning, efficiency-improvement-methods, manufacturing-kpi-system, blueprint-writing-methodology）
 - 总页面数：55（原有54 + 新增1）
+
+## [2026-05-07] ingest | 通威农发数据库表结构
+- 来源：/home/agentuser/trans-import/snest.sql（24MB，3785条CREATE TABLE语句）
+- 分析：过滤1418个分区表、55个备份表后，提取1407张核心业务表，按108个模块前缀分组
+- 新建目录：databases/，共创建18个wiki页面
+- 总页面数：73
