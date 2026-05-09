@@ -1,7 +1,8 @@
 ---
-source_url: APQC 流程绩效指标库
 ingested: 2026-05-04
 sha256: placeholder
+source_url: APQC 流程绩效指标库
+title: APQC 流程绩效指标库
 ---
 
 # APQC 流程绩效指标库

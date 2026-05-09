@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://claude-api
 ingested: 2026-04-30
 sha256: a3e8818616ea3175
+source_url: hermes-skill://claude-api
+title: Building LLM-Powered Applications with Claude
 ---
 
 # Building LLM-Powered Applications with Claude

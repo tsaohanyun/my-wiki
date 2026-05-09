@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://pdf
 ingested: 2026-04-30
 sha256: 7df6239766ef0214
+source_url: hermes-skill://pdf
+title: PDF Processing Guide
 ---
 
 # PDF Processing Guide

@@ -1,7 +1,8 @@
 ---
-source_url: file://trans-import/02_Text2KPI_Demo设计方案.md
 ingested: 2026-04-30
 sha256: be03fcbe99cabbed4a35808daedaf86debc93f44bd94e746e0ff8c686be67cc5
+source_url: file://trans-import/02_Text2KPI_Demo设计方案.md
+title: Text2KPI AI 问数系统 — 设计方案 V2
 ---
 
 # Text2KPI AI 问数系统 — 设计方案 V2

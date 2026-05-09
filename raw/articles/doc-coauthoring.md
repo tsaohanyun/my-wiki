@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://doc-coauthoring
 ingested: 2026-04-30
 sha256: cdc0afd5dccbe073
+source_url: hermes-skill://doc-coauthoring
+title: Doc Co-Authoring Workflow
 ---
 
 # Doc Co-Authoring Workflow

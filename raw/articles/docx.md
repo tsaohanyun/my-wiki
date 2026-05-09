@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://docx
 ingested: 2026-04-30
 sha256: fc3c79c198a3d691
+source_url: hermes-skill://docx
+title: DOCX creation, editing, and analysis
 ---
 
 # DOCX creation, editing, and analysis

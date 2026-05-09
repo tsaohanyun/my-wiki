@@ -1,7 +1,8 @@
 ---
-source_url: 《企业架构与信息化规划》
 ingested: 2026-05-05
 sha256: placeholder
+source_url: 《企业架构与信息化规划》
+title: 企业架构与信息化规划
 ---
 
 # 企业架构与信息化规划

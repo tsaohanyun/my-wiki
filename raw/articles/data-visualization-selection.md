@@ -1,7 +1,8 @@
 ---
-source_url: 幕布文档导出
 ingested: 2026-04-30
 sha256: 97d5611d96066cd667b7c9a855ba7d0e88fce303c27916839a80812a5beb9975
+source_url: 幕布文档导出
+title: data-visualization-selection
 ---
 
 比较

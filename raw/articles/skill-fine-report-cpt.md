@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://fine-report-cpt
 ingested: 2026-04-30
 sha256: 5ec47300890e6333
+source_url: hermes-skill://fine-report-cpt
+title: FineReport (帆软报表) CPT File Analysis & Development
 ---
 ---
 name: fine-report-cpt

@@ -1,7 +1,8 @@
 ---
-source_url: 大数据治理训练营——数据治理的全貌
 ingested: 2026-05-04
 sha256: placeholder
+source_url: 大数据治理训练营——数据治理的全貌
+title: 数据治理的全貌
 ---
 
 # 数据治理的全貌

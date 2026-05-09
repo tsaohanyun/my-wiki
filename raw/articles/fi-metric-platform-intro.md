@@ -1,7 +1,8 @@
 ---
-source_url: 《FI指标中台产品介绍V4》
 ingested: 2026-05-04
 sha256: placeholder
+source_url: 《FI指标中台产品介绍V4》
+title: FI指标中台产品介绍
 ---
 
 发布时间：2024.4

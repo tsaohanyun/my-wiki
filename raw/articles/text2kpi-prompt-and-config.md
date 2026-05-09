@@ -1,7 +1,8 @@
 ---
-source_url: file://trans-import/04_Prompt模板与工程化配置清单.md
 ingested: 2026-04-30
 sha256: 3c32e76dff8b6d44d034894c9b46f8f1aa9cf60d634061091845031811ecdb6c
+source_url: file://trans-import/04_Prompt模板与工程化配置清单.md
+title: 课程同款 · Prompt 模板 + 工程化配置清单
 ---
 
 # 课程同款 · Prompt 模板 + 工程化配置清单

@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://skill-creator
 ingested: 2026-04-30
 sha256: eca09455adc04359
+source_url: hermes-skill://skill-creator
+title: Skill Creator
 ---
 
 # Skill Creator

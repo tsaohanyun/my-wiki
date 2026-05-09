@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://plan
 ingested: 2026-04-30
 sha256: 7f0639dc94b4dc65
+source_url: hermes-skill://plan
+title: Plan Mode
 ---
 
 # Plan Mode

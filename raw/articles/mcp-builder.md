@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://mcp-builder
 ingested: 2026-04-30
 sha256: 9c749e86e79ce070
+source_url: hermes-skill://mcp-builder
+title: MCP Server Development Guide
 ---
 
 # MCP Server Development Guide

@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://frontend-slides
 ingested: 2026-04-30
 sha256: f8aa9cd3cb8c4a9f
+source_url: hermes-skill://frontend-slides
+title: Frontend Slides
 ---
 ---
 name: frontend-slides

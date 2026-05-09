@@ -1,7 +1,8 @@
 ---
-source_url: 《数据中台解决方案》
 ingested: 2026-05-04
 sha256: placeholder
+source_url: 《数据中台解决方案》
+title: 数据中台解决方案
 ---
 
 发布时间：2024.4

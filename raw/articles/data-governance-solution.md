@@ -1,7 +1,8 @@
 ---
-source_url: 《数据治理解决方案》
 ingested: 2026-05-05
 sha256: placeholder
+source_url: 《数据治理解决方案》
+title: 数据治理解决方案
 ---
 
 # 数据治理解决方案

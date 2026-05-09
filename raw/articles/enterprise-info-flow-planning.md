@@ -1,7 +1,8 @@
 ---
-source_url: 《企业信息流规划》
 ingested: 2026-05-05
 sha256: placeholder
+source_url: 《企业信息流规划》
+title: 企业信息流规划
 ---
 
 # 企业信息流规划

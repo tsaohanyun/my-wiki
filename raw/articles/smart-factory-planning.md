@@ -1,7 +1,8 @@
 ---
-source_url: 幕布文档导出
 ingested: 2026-04-30
 sha256: 8077433ad3d860a01027247b13db78f62366ceb0c03107bbbd89795e6db6740a
+source_url: 幕布文档导出
+title: smart-factory-planning
 ---
 
 关于欧软

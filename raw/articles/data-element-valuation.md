@@ -1,7 +1,8 @@
 ---
-source_url: 《数据要素价值评估方法研究》
 ingested: 2026-05-05
 sha256: placeholder
+source_url: 《数据要素价值评估方法研究》
+title: 数据要素价值评估方法研究
 ---
 
 # 数据要素价值评估方法研究

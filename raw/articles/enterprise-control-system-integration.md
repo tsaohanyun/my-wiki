@@ -1,7 +1,8 @@
 ---
-source_url: 《企业控制系统集成》系列标准（ISA-95/IEC 62264）
 ingested: 2026-05-05
 sha256: placeholder
+source_url: 《企业控制系统集成》系列标准（ISA-95/IEC 62264）
+title: 企业控制系统集成（ISA-95）
 ---
 
 # 企业控制系统集成（ISA-95）

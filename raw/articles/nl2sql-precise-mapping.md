@@ -1,7 +1,8 @@
 ---
-source_url: file://trans-import/02b_NL2SQL精确映射方案.md
 ingested: 2026-04-30
 sha256: decf4c96f6606a723994f46508165fc8b6c08abcda14e94742064d811df71d38
+source_url: file://trans-import/02b_NL2SQL精确映射方案.md
+title: 自然语言到 SQL 语句的精准映射实现方案
 ---
 
 # 自然语言到 SQL 语句的精准映射实现方案

@@ -1,7 +1,8 @@
 ---
-source_url: 《数据资产管理标准化实践》
 ingested: 2026-05-05
 sha256: placeholder
+source_url: 《数据资产管理标准化实践》
+title: 数据资产管理标准化实践
 ---
 
 # 数据资产管理标准化实践

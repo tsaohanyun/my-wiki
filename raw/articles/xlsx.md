@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://xlsx
 ingested: 2026-04-30
 sha256: 5d4e24fe67e95d41
+source_url: hermes-skill://xlsx
+title: Requirements for Outputs
 ---
 
 # Requirements for Outputs

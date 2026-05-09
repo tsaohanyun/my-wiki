@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://requesting-code-review
 ingested: 2026-04-30
 sha256: b7e1ae64565ffafe
+source_url: hermes-skill://requesting-code-review
+title: Pre-Commit Code Verification
 ---
 
 # Pre-Commit Code Verification

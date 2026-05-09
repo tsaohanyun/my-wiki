@@ -1,7 +1,8 @@
 ---
-source_url: 幕布文档导出
 ingested: 2026-04-30
 sha256: 28a02572a8067056696d97da50cc01cc96d274b0fd2a4c7def058d33516e5955
+source_url: 幕布文档导出
+title: big-data-governance-day1
 ---
 
 数据治理的必要性

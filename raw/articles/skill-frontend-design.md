@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://frontend-design
 ingested: 2026-04-30
 sha256: 770e28bfbaa3fa40
+source_url: hermes-skill://frontend-design
+title: Design Thinking
 ---
 ---
 name: frontend-design

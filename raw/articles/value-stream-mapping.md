@@ -1,7 +1,8 @@
 ---
-source_url: VSM（价值流图析/物流情报图）培训材料（75页PPTX）
 ingested: 2026-05-04
 sha256: placeholder
+source_url: VSM（价值流图析/物流情报图）培训材料（75页PPTX）
+title: VSM 价值流图析培训材料
 ---
 
 # VSM 价值流图析培训材料

@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://writing-plans
 ingested: 2026-04-30
 sha256: 88cedac7068788ab
+source_url: hermes-skill://writing-plans
+title: Writing Implementation Plans
 ---
 
 # Writing Implementation Plans

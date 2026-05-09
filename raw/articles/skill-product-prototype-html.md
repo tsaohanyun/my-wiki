@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://product-prototype-html
 ingested: 2026-04-30
 sha256: 7f3b83dd96ee3d04
+source_url: hermes-skill://product-prototype-html
+title: Product Prototype HTML Generator
 ---
 ---
 name: product-prototype-html

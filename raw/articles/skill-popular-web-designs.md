@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://popular-web-designs
 ingested: 2026-04-30
 sha256: 0b7147bc3fa44f3a
+source_url: hermes-skill://popular-web-designs
+title: Popular Web Designs
 ---
 ---
 name: popular-web-designs

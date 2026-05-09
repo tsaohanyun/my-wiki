@@ -1,7 +1,8 @@
 ---
-source_url: Kyligence 白皮书《指标中台建设方法与实践》
 ingested: 2026-05-04
 sha256: placeholder
+source_url: Kyligence 白皮书《指标中台建设方法与实践》
+title: 指标中台建设方法与实践
 ---
 
 # 指标中台建设方法与实践

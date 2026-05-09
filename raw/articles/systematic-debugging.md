@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://systematic-debugging
 ingested: 2026-04-30
 sha256: 30e3b2a92f3e846a
+source_url: hermes-skill://systematic-debugging
+title: Systematic Debugging
 ---
 
 # Systematic Debugging

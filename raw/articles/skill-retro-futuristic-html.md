@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://retro-futuristic-html
 ingested: 2026-04-30
 sha256: f181dc1e99af263b
+source_url: hermes-skill://retro-futuristic-html
+title: Retro-Futuristic HTML Design System
 ---
 ---
 name: retro-futuristic-html

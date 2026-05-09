@@ -1,7 +1,8 @@
 ---
-source_url: 《APS高级计划与排程》培训材料
 ingested: 2026-05-05
 sha256: placeholder
+source_url: 《APS高级计划与排程》培训材料
+title: APS高级计划与排程
 ---
 
 # APS高级计划与排程

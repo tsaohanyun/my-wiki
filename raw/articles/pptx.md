@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://pptx
 ingested: 2026-04-30
 sha256: c7179b494d062fcb
+source_url: hermes-skill://pptx
+title: PPTX Skill
 ---
 
 # PPTX Skill

@@ -1,7 +1,8 @@
 ---
-source_url: hermes-skill://hermes-agent
 ingested: 2026-04-30
 sha256: d30c1ed9a97b8666
+source_url: hermes-skill://hermes-agent
+title: Hermes Agent
 ---
 
 # Hermes Agent
