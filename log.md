@@ -167,3 +167,11 @@
 - LM精益管理：移除 lm_st_* 42张统计中间表，更新计数为154张
 - 更新：数据库总览、index.md
 - 总页面数：74
+
+## [2026-05-11] ingest | 采购管理（百度百科）
+- 来源：https://baike.baidu.com/item/采购管理/3925
+- 保存的原始文件：raw/articles/procurement-management-baike.md
+- 创建的概念：[[procurement-management]] — 采购管理概念页面
+- 更新：SCHEMA.md — 新增"企业管理与供应链"标签分类（enterprise-management, supply-chain, procurement, purchasing, logistics, inventory, supplier）
+- 交叉引用：4个wikilink（smart-manufacturing, feed-industry-solution, logistics-transport-solution, manufacturing-kpi-system）
+- 总页面数：76（原有75 + 新增1）

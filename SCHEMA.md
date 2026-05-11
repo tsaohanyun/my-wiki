@@ -60,6 +60,7 @@ sha256: <原始内容（前端元数据下方）的十六进制摘要>
 - 工具与效率：tool, editor, cli, productivity, config, kpi, process-management
 - 实践与文化：best-practice, agile, team-process, documentation, consensus, prompt-engineering
 - 产业政策：industry-policy, manufacturing
+- 企业管理与供应链：enterprise-management, supply-chain, procurement, purchasing, logistics, inventory, supplier
 - 元信息：comparison, timeline, controversy, prediction, trend
 
 规则：页面上的每个标签必须出现在此分类法中。如需新标签，先在此添加，再使用。

@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-09 | 总页面数：75
+> 最后更新：2026-05-11 | 总页面数：76
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -29,6 +29,7 @@
 - [[writing-plans]] — 创建全面的实现计划，包含小任务、精确文件路径和完整代码示例
 - [[requesting-code-review]] — 提交前验证管道：静态扫描、质量门禁、独立审查、自动修复循环
 - [[plan-mode]] — Hermes Agent 的计划模式，检查上下文并创建 markdown 计划
+- [[procurement-management]] — 采购管理：核心职能、采购模式演进、采购流程、采购分类、ERP集成
 - [[skill-creator]] — 创建、修改、优化 Hermes Agent 技能的指南
 - [[doc-coauthoring]] — 结构化文档协作工作流，高效转移上下文、迭代优化内容
 - [[big-data-governance]] — 大数据治理：全链路平台/数据湖/Flink流批一体/Atlas元数据管理/成本治理/模型治理
