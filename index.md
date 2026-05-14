@@ -6,6 +6,7 @@
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
+- [[通威农发-CPT报表分析]] — 通威农发30张CPT绩效报表分析经验、指标编码体系与已知BUG
 - [[popular-web-design-templates]] — 54种真实网站设计模板，含 AI/开发工具/基础设施/设计/金融/企业类
 - [[hermes-agent]] — CLI AI Agent 平台，支持技能系统、多平台网关、子代理、语音交互
 - [[word-document-processing]] — 使用 python-docx 创建、读取、编辑 Word 文档
