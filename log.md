@@ -175,3 +175,10 @@
 - 更新：SCHEMA.md — 新增"企业管理与供应链"标签分类（enterprise-management, supply-chain, procurement, purchasing, logistics, inventory, supplier）
 - 交叉引用：4个wikilink（smart-manufacturing, feed-industry-solution, logistics-transport-solution, manufacturing-kpi-system）
 - 总页面数：76（原有75 + 新增1）
+
+## [2026-05-14] create | 天然气处理厂 — 生产组织与质量管理
+- 新建 wiki 页面：[[06-生产组织]] — 组织架构、岗位体系、倒班制度、设备管理、HSE、环保、信息化（12.6KB）
+- 新建 wiki 页面：[[07-质量管理]] — 质量管理体系、产品标准、在线监测、化验分析、不合格品管理、计量管理（13.4KB）
+- 更新 index.md：新增06/07页面条目，总页面数 82→84
+- 新建综合研究报告：天然气处理厂_研究报告.md（18KB，覆盖工艺制程/生产组织/质量管理/数字化展望）
+- 说明：网络搜索受限（GFW阻断），内容基于行业标准、技术文献和工程实践知识库编写

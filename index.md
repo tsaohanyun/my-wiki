@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-13 | 总页面数：82
+> 最后更新：2026-05-14 | 总页面数：84
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -101,3 +101,5 @@
 - [[natural-gas-processing/03-主要设备]] — 分离器、塔器、换热器、压缩机、膨胀机、脱水与硫磺回收设备
 - [[natural-gas-processing/04-行业标准]] — GB/SY中国标准、ISO/ASME/API/NACE/GPA国际标准
 - [[natural-gas-processing/05-行业现状]] — 全球与中国行业格局、主要企业（PetroChina/Sinopec/Shell等）、重大项目
+- [[natural-gas-processing/06-生产组织]] — 组织架构、岗位体系、倒班制度、设备管理、HSE管理、环保管理、信息化数字化
+- [[natural-gas-processing/07-质量管理]] — 质量管理体系、产品标准（GB 17820等）、在线监测、化验分析、不合格品管理、计量管理
