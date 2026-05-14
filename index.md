@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-11 | 总页面数：76
+> 最后更新：2026-05-13 | 总页面数：82
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -93,3 +93,10 @@
 - [[html-generation-styles]] — 五种 HTML 生成风格横向对比：Apple/复古未来/通用/模板/演示
 
 ## 查询
+
+- [[natural-gas-processing/index]] — 天然气处理厂（Natural Gas Processing Plant）完整知识库：定义、工艺流程、设备、标准、行业现状
+- [[natural-gas-processing/01-概述与定义]] — 天然气处理厂定义、分类、产品标准、安全环保
+- [[natural-gas-processing/02-工艺流程]] — 入口分离、脱硫脱碳、脱水、NGL回收、硫磺回收等全流程
+- [[natural-gas-processing/03-主要设备]] — 分离器、塔器、换热器、压缩机、膨胀机、脱水与硫磺回收设备
+- [[natural-gas-processing/04-行业标准]] — GB/SY中国标准、ISO/ASME/API/NACE/GPA国际标准
+- [[natural-gas-processing/05-行业现状]] — 全球与中国行业格局、主要企业（PetroChina/Sinopec/Shell等）、重大项目
