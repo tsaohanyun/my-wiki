@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-15 | 总页面数：90
+> 最后更新：2026-05-15 | 总页面数：103
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -111,3 +111,19 @@
 - [[queries/natural-gas-processing/08-工艺流程详解]] — 天然气处理完整工艺路线详解：入口分离、胺法脱硫、TEG脱水、深冷NGL回收、Claus硫磺回收
 - [[queries/industry-analysis/index]] — 行业分析总览（企业研究、行业格局、市场分析等深度研究产出）
 - [[queries/industry-analysis/baijiu-industry-analysis]] — 酱香型白酒行业分析：市场格局、竞争阵营、周期复盘与发展趋势
+
+## 制造业方案
+- [[queries/manufacturing-solutions/index]] — 制造业数字化解决方案总览（109份行业方案，13个分类页面）
+- [[queries/manufacturing-solutions/离散制造-注塑汽配机加工钣金]] — 注塑/汽配/机加工/钣金（14份）
+- [[queries/manufacturing-solutions/离散制造-铸造新材料电梯钢铁]] — 铸造/新材料/电梯/钢铁（12份）
+- [[queries/manufacturing-solutions/流程制造-化工行业]] — 化工行业（7份）
+- [[queries/manufacturing-solutions/流程制造-光伏光纤光缆]] — 光伏/光纤光缆（5份）
+- [[queries/manufacturing-solutions/消费与医疗行业方案]] — 医药/食品/酒类（6份）
+- [[queries/manufacturing-solutions/汽车与交通行业方案]] — 汽车/ANDON/电子制造（10份）
+- [[queries/manufacturing-solutions/智能制造-智能工厂规划]] — 智能工厂规划方法论（11份）
+- [[queries/manufacturing-solutions/智能制造-产品方案体系]] — MES/QMS/APS产品体系（8份）
+- [[queries/manufacturing-solutions/WMS仓储与SRM供应链]] — WMS/SRM方案（8份）
+- [[queries/manufacturing-solutions/物联网与设备管理]] — IIoT/设备管理（8份）
+- [[queries/manufacturing-solutions/数据与指标体系]] — 数据治理/指标体系（7份）
+- [[queries/manufacturing-solutions/IT战略与数字化规划]] — IT战略/数字化升级（4份）
+- [[queries/manufacturing-solutions/厂商与案例汇编]] — 厂商/案例汇编（9份）

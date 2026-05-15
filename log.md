@@ -209,3 +209,33 @@
 - ⑤ 修复内部断链：工厂概述页3个失效引用→正确指向系列内页面
 - ⑥ 更新 index.md：天然气路径统一为 queries/xxx，白酒移至查询节
 - 关键原则：queries/ 放行业分析+专题研究，concepts/ 放通用概念，不再混放
+
+## [2026-05-15] ingest | trans-import 制造业方案文档批量导入
+- 来源: /home/agentuser/trans-import/ (109个文件: PPTX/PDF/DOCX/PPT/DOC)
+- 成功提取: 95个文件, 14个损坏/无法读取
+- 按行业分类为25个类别, 整合为10个wiki页面 + 1个索引页
+- 创建页面:
+  - queries/manufacturing-solutions/index.md — 制造业数字化解决方案总览
+  - queries/manufacturing-solutions/离散制造行业方案.md — 注塑/汽配/机加工/钣金/铸造/新材料/电梯/钢铁(23份)
+  - queries/manufacturing-solutions/流程与新能源行业方案.md — 化工/光伏/光纤光缆(12份)
+  - queries/manufacturing-solutions/消费与医疗行业方案.md — 医药/食品/酒类(4份)
+  - queries/manufacturing-solutions/汽车与交通行业方案.md — 汽车/ANDON/电子(8份)
+  - queries/manufacturing-solutions/智能制造通用方案.md — 通用方案(16份)
+  - queries/manufacturing-solutions/WMS仓储与SRM供应链.md — WMS/SRM(7份)
+  - queries/manufacturing-solutions/物联网与设备管理.md — IIoT/设备(7份)
+  - queries/manufacturing-solutions/数据与指标体系.md — 数据/指标(7份)
+  - queries/manufacturing-solutions/IT战略与数字化规划.md — IT战略(3份)
+  - queries/manufacturing-solutions/厂商与案例汇编.md — 厂商/案例(8份)
+- 更新: index.md (新增制造业方案分类, 页面数90→101)
+
+## [2026-05-15] update | 制造业方案Wiki结构优化
+- 原因: 3个页面超过200行阈值, 内容含原始slide标记和未脱敏公司名
+- 优化内容:
+  1. 清洗所有页面: 去除 === /slide[N] ===, #OCLI_NOTEVAL!, 公司名称脱敏
+  2. 拆分3个大页面:
+     - 离散制造行业方案(379行) → 离散制造-注塑汽配机加工钣金(113行) + 离散制造-铸造新材料电梯钢铁(103行)
+     - 智能制造通用方案(265行) → 智能制造-智能工厂规划(92行) + 智能制造-产品方案体系(77行)
+     - 流程与新能源行业方案(212行) → 流程制造-化工行业(72行) + 流程制造-光伏光纤光缆(64行)
+  3. 总页面数: 11 → 13 (拆分6个新页面, 删除5个旧页面)
+  4. 更新 index.md 和主索引
+- 结果: 所有页面均在200行以内, 内容清洁度提升
