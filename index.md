@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-14 | 总页面数：84
+> 最后更新：2026-05-15 | 总页面数：89
 
 ## 实体
 - [[fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -66,6 +66,11 @@
 - [[logistics-transport-solution]] — 物流与运输解决方案：基于RTLS实时定位的供应链可视化
 - [[detail-design-specification]] — 详细设计文档编写规范：功能描述7要素模板、三区字段定义、审批流/定时任务/多终端设计模式
 - [[feed-to-tongwei-mapping]] — 饲料行业与通威农发项目知识映射：六大业务模块深度关联、行业术语对照、数据库视角映射
+- [[methodologies-overview]] — 方法论知识总览：企业架构、数字化转型、实施交付、咨询销售四大类别方法论体系汇编
+- [[enterprise-it-planning-methodology]] — 企业架构与IT规划方法论：EA四视图（业务/信息/应用/技术架构）与IT规划四步法
+- [[digital-transformation-methodology]] — 数字化转型方法论：用友12367框架、数字化三段论、智能制造五步法
+- [[implementation-methodology]] — 实施方法论：IPM五阶段、六步法、汉得中台实施方法论体系
+- [[consulting-sales-methodology]] — 咨询与销售方法论：麦肯锡七步法、金蝶售前四阶段、MEDDIC销售方法论
 
 
 ## 数据库

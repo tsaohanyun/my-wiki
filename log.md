@@ -55,8 +55,19 @@
 - 交叉引用：2个页面共 6 个 wikilink
 - 总页面数：29（原有27 + 新增2）
 
+## [2026-05-15] ingest | 方法论知识总览（trans-import文件夹15套方法论）
+- 来源：trans-import/ 下27个方法论文件（含重复），涵盖企业架构、数字化转型、实施交付、咨询销售四大类别
+- 实际有效方法论约15套，提取核心框架和步骤
+- 创建的概念：
+  - [[methodologies-overview]] — 方法论知识总览（四大类别全景）
+  - [[enterprise-it-planning-methodology]] — 企业架构与IT规划方法论（EA四视图+四步法）
+  - [[digital-transformation-methodology]] — 数字化转型方法论（12367+三段论+五步法）
+  - [[implementation-methodology]] — 实施方法论（IPM五阶段+六步法+汉得中台）
+  - [[consulting-sales-methodology]] — 咨询与销售方法论（麦肯锡七步法+金蝶售前+MEDDIC）
+- 索引更新：84 → 89页
+- PDF扫描件/图片型文件跳过（系统工程方法论、华为白皮书等）
+
 ## [2026-05-02] ingest | Text2KPI V2 + NL2SQL 方案4篇
-- 来源：trans-import 目录下4个 Markdown 文件（02b_NL2SQL精确映射方案、02_Text2KPI_Demo设计方案V2、text2kpi-reference-code、text2kpi-prompt-and-config）
 - 保存的原始文件：4个文件在 raw/articles/
 - 创建的概念：nl2sql-precise-mapping.md（7879 bytes）、text2kpi-reference-code.md（12370 bytes）、text2kpi-prompt-and-config.md（9981 bytes）
 - 更新的概念：text2kpi-optimization.md（6908→14221 bytes，补充V2四层架构/五步Pipeline/查询编排/推理可观测设计）
