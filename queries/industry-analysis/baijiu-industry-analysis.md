@@ -2,7 +2,7 @@
 title: 酱香型白酒行业分析
 created: 2026-05-04
 updated: 2026-05-04
-type: concept
+type: query
 tags: [industry-policy, manufacturing, trend]
 sources: [raw/articles/baijiu-industry-report.md]
 ---

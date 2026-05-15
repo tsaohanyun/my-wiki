@@ -53,7 +53,6 @@
 - [[value-stream-mapping]] — 价值流图VSM：绘制现状/未来价值流图、增值比分析与改善框架
 - [[big-data-development-basics]] — 企业级大数据技术体系：六层技术框架、Hadoop/Spark技术栈、HDFS分布式文件系统
 - [[data-mid-platform]] — 数据中台解决方案：全链路数据集成/存储/计算/治理/服务一体化平台架构
-- [[baijiu-industry-analysis]] — 酱香型白酒行业分析：市场格局、竞争阵营、周期复盘与发展趋势
 - [[digital-twin]] — 数字孪生技术：物理空间与数字空间交互映射的通用技术架构与应用场景
 - [[data-asset-management-standard]] — 数据资产管理标准化：数据资源→资产→资本的转化路径与标准体系
 - [[data-element-valuation]] — 数据要素价值评估：市场/社会双视角的数据价值评估方法论
@@ -100,12 +99,15 @@
 
 ## 查询
 
-- [[natural-gas-processing/index]] — 天然气处理厂（Natural Gas Processing Plant）完整知识库：定义、工艺流程、设备、标准、行业现状
-- [[natural-gas-processing/01-概述与定义]] — 天然气处理厂定义、分类、产品标准、安全环保
-- [[natural-gas-processing/02-工艺流程]] — 入口分离、脱硫脱碳、脱水、NGL回收、硫磺回收等全流程
-- [[natural-gas-processing/03-主要设备]] — 分离器、塔器、换热器、压缩机、膨胀机、脱水与硫磺回收设备
-- [[natural-gas-processing/04-行业标准]] — GB/SY中国标准、ISO/ASME/API/NACE/GPA国际标准
-- [[natural-gas-processing/05-行业现状]] — 全球与中国行业格局、主要企业（PetroChina/Sinopec/Shell等）、重大项目
-- [[natural-gas-processing/06-生产组织]] — 组织架构、岗位体系、倒班制度、设备管理、HSE管理、环保管理、信息化数字化
-- [[natural-gas-processing/07-质量管理]] — 质量管理体系、产品标准（GB 17820等）、在线监测、化验分析、不合格品管理、计量管理
-- [[industry-analysis/index]] — 行业分析总览（企业研究、行业格局、市场分析等深度研究产出）
+- [[queries/natural-gas-processing/index]] — 天然气处理厂（Natural Gas Processing Plant）完整知识库：定义、工艺流程、设备、标准、行业现状
+- [[queries/natural-gas-processing/00-工厂概述]] — 天然气处理厂定位、功能、分类与关键指标总览
+- [[queries/natural-gas-processing/01-概述与定义]] — 天然气处理厂定义、分类、产品标准、安全环保
+- [[queries/natural-gas-processing/02-工艺流程]] — 入口分离、脱硫脱碳、脱水、NGL回收、硫磺回收等全流程
+- [[queries/natural-gas-processing/03-主要设备]] — 分离器、塔器、换热器、压缩机、膨胀机、脱水与硫磺回收设备
+- [[queries/natural-gas-processing/04-行业标准]] — GB/SY中国标准、ISO/ASME/API/NACE/GPA国际标准
+- [[queries/natural-gas-processing/05-行业现状]] — 全球与中国行业格局、主要企业（PetroChina/Sinopec/Shell等）、重大项目
+- [[queries/natural-gas-processing/06-生产组织]] — 组织架构、岗位体系、倒班制度、设备管理、HSE管理、环保管理、信息化数字化
+- [[queries/natural-gas-processing/07-质量管理]] — 质量管理体系、产品标准（GB 17820等）、在线监测、化验分析、不合格品管理、计量管理
+- [[queries/natural-gas-processing/08-工艺流程详解]] — 天然气处理完整工艺路线详解：入口分离、胺法脱硫、TEG脱水、深冷NGL回收、Claus硫磺回收
+- [[queries/industry-analysis/index]] — 行业分析总览（企业研究、行业格局、市场分析等深度研究产出）
+- [[queries/industry-analysis/baijiu-industry-analysis]] — 酱香型白酒行业分析：市场格局、竞争阵营、周期复盘与发展趋势

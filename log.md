@@ -200,3 +200,12 @@
 - 目的：为行业/公司研究提供独立空间，与天然气工艺技术页面分离，避免命名混淆
 - 命名规范：queries/industry-analysis/公司名-研究维度.md
 - 索引更新：89 → 90页
+
+## [2026-05-15] restructure | WIKI目录结构大整理
+- ① natural-gas-processing 整目录从根目录移至 queries/ 下
+- ② 合并 concepts/ 下2个天然气概念页入 queries/natural-gas-processing/（00-工厂概述 + 08-工艺流程详解）
+- ③ 白酒行业分析从 concepts/ 移至 queries/industry-analysis/
+- ④ 7个根目录散落文件移入 concepts/（apqc-process-metrics, efficiency-improvement-methods等）
+- ⑤ 修复内部断链：工厂概述页3个失效引用→正确指向系列内页面
+- ⑥ 更新 index.md：天然气路径统一为 queries/xxx，白酒移至查询节
+- 关键原则：queries/ 放行业分析+专题研究，concepts/ 放通用概念，不再混放
