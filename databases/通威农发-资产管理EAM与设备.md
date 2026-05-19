@@ -9,6 +9,10 @@ confidence: high
 
 # 资产管理EAM与设备
 
+
+> 项目：**通威农发**（通威股份农业发展有限公司）
+>
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ## 模块简介
 
 EAM（Enterprise Asset Management）企业资产管理模块，管理通威农发的固定资产和设备资产。涵盖资产台账、资产折旧、资产变动、设备台账、设备维修工单、备件管理等功能。

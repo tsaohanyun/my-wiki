@@ -9,6 +9,10 @@ confidence: high
 
 # 物流执行LES与WHM
 
+
+> 项目：**通威农发**（通威股份农业发展有限公司）
+>
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ## 模块简介
 
 LES（Logistics Execution System）物流执行系统和WHM（Warehouse Helper Module）仓库辅助模块。涵盖物流运输管理（运输计划/运输单/运输跟踪）、仓库辅助（库位管理/搬运设备/叉车管理）等功能。

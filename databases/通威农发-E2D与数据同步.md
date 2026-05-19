@@ -9,6 +9,10 @@ confidence: high
 
 # E2D与数据同步
 
+
+> 项目：**通威农发**（通威股份农业发展有限公司）
+>
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ## 模块简介
 
 E2D（Enterprise to Data）数据同步模块，负责通威农发与Oracle EBS ERP系统及其他外围系统的数据交换。涵盖EBS接口配置、数据同步任务、数据映射转换、同步日志、异常处理等功能。

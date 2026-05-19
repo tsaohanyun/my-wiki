@@ -5,6 +5,10 @@ title: "饲料行业智能制造解决方案"
 
 > 本文档基于通威农发智能工厂蓝图解决方案提炼，侧重系统功能、业务流程、管理目标和数字化升级策略。行业基础知识请参考 [[feed-industry-knowledge]]。
 
+
+> 项目：**通威农发**（通威股份农业发展有限公司）
+>
+> 相关Wiki：[数据库总览](../databases/通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ---
 
 ## 1 方案概述

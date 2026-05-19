@@ -9,6 +9,10 @@ confidence: high
 
 # MBM物料BOM与配方
 
+
+> 项目：**通威农发**（通威股份农业发展有限公司）
+>
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ## 模块简介
 
 MBM（Material & BOM Management）物料BOM与配方管理模块。涵盖物料主数据维护、BOM（Bill of Materials）配方结构管理、配方版本控制、配方审批流程、物料替代关系、BOM成本核算等功能。

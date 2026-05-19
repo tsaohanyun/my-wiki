@@ -9,6 +9,10 @@ confidence: high
 
 # IIoT工业物联网
 
+
+> 项目：**通威农发**（通威股份农业发展有限公司）
+>
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ## 模块简介
 
 IIoT（Industrial Internet of Things）工业物联网模块，负责通威农发各工厂的设备数据采集、实时监控和智能分析。涵盖设备连接管理、数据采集（PLC/DCS/传感器）、实时数据存储、报警管理、数据可视化、边缘计算、协议转换等功能。

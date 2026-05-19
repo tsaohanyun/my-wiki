@@ -9,6 +9,10 @@ confidence: high
 
 # LM精益管理
 
+
+> 项目：**通威农发**（通威股份农业发展有限公司）
+>
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ## 模块简介
 
 LM（Lean Management）精益管理模块，涵盖8D问题解决、标准化作业、安环管理、变动生产费用、指标标准等精益管理核心流程。

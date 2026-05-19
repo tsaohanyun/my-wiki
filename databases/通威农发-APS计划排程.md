@@ -9,6 +9,10 @@ confidence: high
 
 # APS计划排程
 
+
+> 项目：**通威农发**（通威股份农业发展有限公司）
+>
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ## 模块简介
 
 APS（Advanced Planning and Scheduling）高级计划排程模块，管理通威农发的生产计划、需求预测和排程优化。涵盖需求管理、主生产计划、车间作业排程、产能规划、排程约束、能源预算等功能。
