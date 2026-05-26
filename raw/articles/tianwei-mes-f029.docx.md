@@ -1,0 +1,14 @@
+---
+source_url: 会议纪要\老车间数字化改造工艺物料防呆防错信息化项目周会-会议纪要 20230630 V2.docx
+ingested: 2026-05-26
+project: 天味家园B栋MES
+---
+
+SOURCE: 会议纪要\老车间数字化改造工艺物料防呆防错信息化项目周会-会议纪要 20230630 V2.docx
+DESC: 会议纪要-0630周会
+============================================================
+[/body/tbl[1]] [Table: 5 rows]
+[/body/p[@paraId=33FCA11D]] 
+[/body/tbl[2]] [Table: 2 rows]
+[/body/p[@paraId=2BD6DE67]] 
+[/body/p[@paraId=6D1ED076]]

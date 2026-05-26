@@ -1,0 +1,197 @@
+---
+source_url: UAT测试\天味家园B栋防呆防错UAT测试方案V1.2.docx
+ingested: 2026-05-26
+project: 天味家园B栋MES
+---
+
+SOURCE: UAT测试\天味家园B栋防呆防错UAT测试方案V1.2.docx
+DESC: 测试-UAT方案
+============================================================
+[/body/p[@paraId=262C43CB]] 
+[/body/p[@paraId=0B3178B3]] 天味家园老车间防呆防错项目
+[/body/p[@paraId=03F0161D]] UAT测试方案
+[/body/p[@paraId=2C8D1B05]] 
+[/body/p[@paraId=3C526968]] 
+[/body/p[@paraId=40A28569]] 
+[/body/p[@paraId=35E4E3B0]] 一、 测试目标	2
+[/body/p[@paraId=28FFA8E9]] 二、 测试规划	2
+[/body/p[@paraId=72FFC18B]] 三、 测试准备	2
+[/body/p[@paraId=58B0D599]] 四、 测试计划和参加人员	2
+[/body/p[@paraId=12FF4233]] 五、 测试步骤	4
+[/body/p[@paraId=659B5C6B]] 六、 测试用数据：	5
+[/body/p[@paraId=14355010]] 七、 详细测试脚本：	6
+[/body/p[@paraId=5C4D2B76]] 八、 UAT问题清单管控	10
+[/body/p[@paraId=178929CF]] 九、 组织通讯：	10
+[/body/p[@paraId=041598CF]] 十、 测试结论与测试报告输出：	11
+[/body/p[@paraId=4B93EFED]] 
+[/body/p[@paraId=05682FD1]] 
+[/body/p[@paraId=08FF1ACE]] MES系统UAT测试方案
+[/body/p[@paraId=3DB3F4F4]] • 测试目标
+[/body/p[@paraId=3BC8FD3F]] 测试MES系统在现场的各个业务场景的操作以及与SAP、WMS的系统集成。
+[/body/p[@paraId=28A8341A]] 
+[/body/p[@paraId=57E39798]] • 测试规划
+[/body/p[@paraId=513B8D5E]] 分两步完成系统UAT测试：
+[/body/p[@paraId=74AB1F3E]] 1、10月19日：办公室模拟测试，由关键用户及外围系统实施管理人员参加，初步验证系统功能。
+[/body/p[@paraId=63DA9464]] 2、10月20日-10月25日：车间生产现场功能验证，由实际生产与运营人员参加，首日从手工牛油麻辣/特麻辣开始，逐步测试车间全业务全产品，并于24-25日完成车间全天连续生产测试。
+[/body/p[@paraId=537BBEBB]] 对于测试期间出现的问题进行问题清单记录并对问题点日清日结。
+[/body/p[@paraId=4D50F62E]] 
+[/body/p[@paraId=36013248]] • 测试准备
+[/body/tbl[1]] [Table: 7 rows]
+[/body/p[@paraId=399F4808]] 
+[/body/p[@paraId=2E9B259C]] 
+[/body/p[@paraId=10FEAF30]] 
+[/body/p[@paraId=15936BED]] 
+[/body/p[@paraId=53A0325F]] 
+[/body/p[@paraId=43B94718]] 
+[/body/p[@paraId=35E942BB]] 
+[/body/p[@paraId=50B1BFB2]] 
+[/body/p[@paraId=4E13FF9B]] • 测试计划和参加人员
+[/body/p[@paraId=7041C562]] 1、关键用户模拟测试
+[/body/p[@paraId=263E25E8]] 测试时间：2023年10月19日 9：00 ----2023年10月19日 12：00
+[/body/p[@paraId=3940FEF0]] 测试地点：办公楼202及B栋2楼办公室等
+[/body/p[@paraId=0D8105DF]] 参加人员：阮智、宋臻、刘春雷、杨利英、陈苗苗、熊波、朱成霖、周晓锐、梁文、李娟、[已脱敏]、赛意。
+[/body/p[@paraId=29CAF6D5]] 
+[/body/tbl[2]] [Table: 7 rows]
+[/body/p[@paraId=67C588F5]] 
+[/body/p[@paraId=2023FDDE]] 
+[/body/p[@paraId=1FCEDF7A]] 
+[/body/p[@paraId=5E601D24]] 
+[/body/p[@paraId=284AD568]] 
+[/body/p[@paraId=59E9BCC3]] 
+[/body/p[@paraId=76FB77B4]] 
+[/body/p[@paraId=282C1FB1]] 
+[/body/p[@paraId=3FC880F9]] 
+[/body/p[@paraId=0A08A8BA]] 
+[/body/p[@paraId=093D9A00]] 
+[/body/p[@paraId=1B49AED8]] 2、现场功能测试
+[/body/p[@paraId=74C55AD3]] 测试时间：2023年10月20日 9：00 -2023年10月25日 17：00
+[/body/p[@paraId=523A3FFF]] 测试地点：B栋
+[/body/p[@paraId=1FB5F07B]] 参加人员：阮智、宋臻、刘春雷、杨利英、陈苗苗、熊波、朱成霖、周晓锐、梁文、李娟、[已脱敏]、赛意及其他用户。
+[/body/p[@paraId=21D7662B]] 
+[/body/tbl[3]] [Table: 6 rows]
+[/body/p[@paraId=5B377428]] 
+[/body/p[@paraId=79701C10]] 
+[/body/p[@paraId=5CF1837A]] 
+[/body/p[@paraId=384DCE4A]] 
+[/body/p[@paraId=1BEFC719]] 
+[/body/p[@paraId=58B5D83B]] 
+[/body/p[@paraId=53353A95]] 
+[/body/p[@paraId=3C15363A]] 
+[/body/p[@paraId=14CE2F95]] 
+[/body/p[@paraId=450418CE]] • 测试步骤
+[/body/p[@paraId=49388116]] 1. 生产订单建立：
+[/body/p[@paraId=17BCF233]] 成功创建并在清单上生成对应信息清单（创建+导入）。
+[/body/p[@paraId=46A453C3]] 1. 生产订单下发：
+[/body/p[@paraId=292E3363]] 点击生成工单，将订单拆解成工序工单。
+[/body/p[@paraId=6C7624BE]] 3、工单审核下发：
+[/body/p[@paraId=0B6C8DAE]] 点击生成工单，将订单拆解成生产执行单与配料任务单。
+[/body/p[@paraId=5E83FB0A]] 1. 大料与炒制、内外包直接生成执行单与配料任务单。
+[/body/p[@paraId=08429CA2]] 1. 小料选择锅数后生成小料执行单与溶液执行单。
+[/body/p[@paraId=7E7F98D6]] 4、车间备料：
+[/body/p[@paraId=00174D78]] 对某段时间范围内计划执行未执行和执行的工单进行备料需求计算，并分收货仓库形成不同单据。
+[/body/p[@paraId=1903B4A9]] 将单据传递给WMS发起车间备料。
+[/body/p[@paraId=3E36767C]] 5、收货任务：
+[/body/p[@paraId=4A6C584B]] 车间根据WMS返回的数据进行物料收货。
+[/body/p[@paraId=3984166E]] 6、大料预处理：
+[/body/p[@paraId=1B5D43FE]] 收料后对大料进行预处理 B栋1F
+[/body/p[@paraId=64062C6E]] 1. 姜蒜、番茄预处理
+[/body/p[@paraId=5BE36AE6]] 1. 煮椒
+[/body/p[@paraId=3E88EBD2]] 7、小料配料及报工：
+[/body/p[@paraId=25CBB134]] 小料按照配方单配料、报工
+[/body/p[@paraId=1259F089]] 1、小料称重配料
+[/body/p[@paraId=1F6D66AD]] 2、小料进搅拌罐
+[/body/p[@paraId=4308C973]] 3、干料配料
+[/body/p[@paraId=43250902]] 4、小料报工
+[/body/p[@paraId=7ED76F75]] 8、大料配料：
+[/body/p[@paraId=29DBE4A0]] 依据炒制工艺单数据的各桶物料信息生成配料任务单，各操作工根据配料任务单完成工艺配料。
+[/body/p[@paraId=73DE912F]] 
+[/body/p[@paraId=3C74A7B8]] 9、炒制拉料：
+[/body/p[@paraId=62530A32]] 炒制前根据工艺单物料使用情况使用板车进行拉料至炒锅。
+[/body/p[@paraId=26BAFD87]] 10、炒制投料、报工-设备联动：
+[/body/p[@paraId=6E9CE3F4]] 开启炒锅设备联动，下发工艺单，并按照工艺单要求物料与工步完成生产。
+[/body/p[@paraId=13E20586]] 11、炒制投料、报工-手动：
+[/body/p[@paraId=60FA9F26]] 关闭炒锅联动（需二级密码），按照物料指引在各工步投入物料并手动报工。
+[/body/p[@paraId=09B85ADC]] 12、内外包装：
+[/body/p[@paraId=00826C8A]] 内外包装物料投料与内包报工。
+[/body/p[@paraId=268A899B]] 13、报工与投料记录查看与退回：
+[/body/p[@paraId=2BCDBDE0]] 查看各项投料记录，并将错误数据退回。
+[/body/p[@paraId=0EFA130E]] 
+[/body/p[@paraId=2AB9C5A9]] • 测试用数据：
+[/body/p[@paraId=33E09DC1]] 1. 测试用仓库地址：
+[/body/tbl[4]] [Table: 54 rows]
+[/body/p[@paraId=60C7D972]] 
+[/body/p[@paraId=6DEDCCF1]] 1. 测试用手工牛油麻辣BOM
+[/body/p[@paraId=09A92294]] [OLE: Excel.Sheet.12]
+[/body/p[@paraId=56DC3448]] 1. 测试用三代厚火锅BOM
+[/body/p[@paraId=06EF9136]] [OLE: Excel.Sheet.12]
+[/body/p[@paraId=58CE9C60]] 1. 测试用鲜番茄汤料BOM
+[/body/p[@paraId=5555FE61]] [OLE: Excel.Sheet.12]
+[/body/p[@paraId=0951F023]] 1. 测试用账号清单
+[/body/tbl[5]] [Table: 16 rows]
+[/body/p[@paraId=2776195A]] 
+[/body/p[@paraId=78B752BB]] 
+[/body/p[@paraId=2BEDC340]] 
+[/body/p[@paraId=5B6836B4]] 
+[/body/p[@paraId=48078A08]] 
+[/body/p[@paraId=64472B4C]] • 详细测试脚本
+[/body/p[@paraId=1954ED03]] 更多信息见附件测试脚本
+[/body/p[@paraId=6A153CDE]] 
+[/body/tbl[6]] [Table: 24 rows]
+[/body/p[@paraId=692BAEBD]] 
+[/body/p[@paraId=4BDB7A1A]] 
+[/body/p[@paraId=3DE8116F]] 
+[/body/p[@paraId=0AF1AEF0]] 
+[/body/p[@paraId=74D0D7F8]] 
+[/body/p[@paraId=0AFA3A6F]] 
+[/body/p[@paraId=3CA0792F]] 
+[/body/p[@paraId=7355D723]] 
+[/body/p[@paraId=3F2B5C77]] 
+[/body/p[@paraId=7D8719B8]] 
+[/body/p[@paraId=42F2958A]] • UAT问题清单管控
+[/body/p[@paraId=6F5FA5F9]] UAT问题清单使用在线文档进行管控，原则上问题需日清日结：
+[/body/p[@paraId=436F2F4D]] 
+[/body/p[@paraId=1B7681E7]] 【腾讯文档】B栋防呆防错项目UAT测试问题清单-家园B栋老车间物料与工艺防呆防错信息化优化项目MES项目
+[/body/p[@paraId=2C624818]] https://docs.qq.com/sheet/DUERhbUlzc1JEUUhn?tab=BB08J2
+[/body/p[@paraId=51749E01]] 
+[/body/p[@paraId=01DE6BAD]] • 组织通讯：
+[/body/p[@paraId=4CD5811F]] 1.测试期间问题通报与测试任务沟通
+[/body/p[@paraId=35C761B9]] 防呆防错项目通讯群：需数字中心协助建立
+[/body/p[@paraId=3CFCD06C]] 2.每日测试进度与报告：
+[/body/p[@paraId=49D48D62]] 每日进度以邮件形式发出通报各相关方，并在测试通讯群通报
+[/body/p[@paraId=7A40D3BF]] 每日报告内容参考如下：
+[/body/p[@paraId=24083CDA]] 
+[/body/p[@paraId=6B13316A]] 10月17日测试报告：
+[/body/p[@paraId=5A5B8E84]] 测试目标：基础数据及生产计划与备料
+[/body/p[@paraId=05774416]] 测试内容与参与人员：
+[/body/p[@paraId=4B7BA335]] 1.物料主数据建立-参与人员：张三
+[/body/p[@paraId=61311054]] 2.车间计划导入-参与人员：
+[/body/p[@paraId=324C4BD2]] 新增问题清单
+[/body/p[@paraId=340580F2]] 
+[/body/p[@paraId=52308C98]] 历史清单清理进度与遗留项：
+[/body/p[@paraId=2B8E8467]] 
+[/body/p[@paraId=157A2D73]] 
+[/body/p[@paraId=0B2E59F1]] 测试日志记录：
+[/body/tbl[7]] [Table: 3 rows]
+[/body/p[@paraId=103AEA4A]] 
+[/body/p[@paraId=3F3AC0D2]] 1. 疑难问题升级机制：
+[/body/p[@paraId=4C040B02]] 出现疑难问题或重大影响项升级机制：
+[/body/p[@paraId=522739F2]] 
+[/body/p[@paraId=45E6DA2C]] 
+[/body/p[@paraId=444C9AFB]] 
+[/body/p[@paraId=49E27696]] 
+[/body/p[@paraId=0FEC2572]] 
+[/body/p[@paraId=71654ECB]] 
+[/body/p[@paraId=568CAD6B]] 
+[/body/p[@paraId=6DE5BC75]] 
+[/body/p[@paraId=217BC57F]] 
+[/body/p[@paraId=24546FAE]] 
+[/body/p[@paraId=564D382E]] 
+[/body/p[@paraId=6B7131F9]] 
+[/body/p[@paraId=7097018F]] 
+[/body/p[@paraId=6C23BE90]] • 测试结论与测试报告输出
+[/body/p[@paraId=32527EA5]] 1.测试结束后由[已脱敏]输出系统测试记录以及编订系统测试报告
+[/body/p[@paraId=21D13BD0]] 2.由双方项目组确认测试记录后输出测试结论
+[/body/p[@paraId=72F0530E]] 
+[/body/tbl[8]] [Table: 10 rows]
+[/body/p[@paraId=044FA211]] 
+[/body/p[@paraId=7E090EB5]]

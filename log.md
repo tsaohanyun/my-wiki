@@ -319,3 +319,84 @@
   3. 总页面数: 11 → 13 (拆分6个新页面, 删除5个旧页面)
   4. 更新 index.md 和主索引
 - 结果: 所有页面均在200行以内, 内容清洁度提升
+
+## [2026-05-26] create | 天味家园B栋MES详细设计方案
+- 来源: /tmp/tianwei_extracted/ f001~f013.docx.txt（13份详细设计文档）
+- 新建概念页: concepts/tianwei-mes-detailed-design.md（17,496 bytes）
+- 内容组织: 按三大模块共13个子模块，每模块含功能概述/业务流程/关键规则
+  - 生产执行（6个）：大料配料、大料预处理、小料预处理、炒料炒制、内外包装、返工品拆解
+  - 基础配置（6个）：工艺配方单、工单管理、委外物料配置、工序产品配置、返工品投料配置、小料干料配料方式
+  - 车间备料（1个）：自动备料/手工备料/审核流程
+- 脱敏处理: 博依特 → [已脱敏]
+- 交叉引用: 4个wikilink（smart-manufacturing, smart-factory-planning, detail-design-specification, isa-95-integration）
+- 标签: [mes, smart-manufacturing, architecture]
+- 更新: index.md（新增条目，总页面数109→110）
+
+## [2026-05-26] create | 天味家园B栋MES测试方案
+- 来源: /tmp/tianwei_extracted/ f040.docx.txt（UAT测试方案, 188行）、f041.docx.txt（炒锅联调测试方案, 91行）
+- 新建概念页: concepts/tianwei-mes-testing.md（~11,000 bytes）
+- 内容组织:
+  - UAT测试方案: 测试目标/测试规划/测试准备/测试计划与人员/测试步骤（13步）/测试用数据/问题清单管控/测试结论
+  - 炒锅联调测试方案: 联调范围/测试准备/测试步骤（8步）/3个特殊场景验证/测试结果记录
+  - 对比总结表: UAT vs 炒锅联调六大维度对比
+- 脱敏处理: 博依特 → [已脱敏]
+- 交叉引用: 3个wikilink（tianwei-mes-project-overview, tianwei-mes-detailed-design, tianwei-mes-interface-integration）
+- 标签: [mes, testing, quality]
+- 更新: index.md（新增条目，总页面数110→111）
+
+## [2026-05-26] create | 天味家园B栋MES上线策略
+- 来源: /tmp/tianwei_extracted/ f036~f039.doc.txt（4份上线策略报告，版本I/II/III/V1.6）
+- 新建概念页: concepts/tianwei-mes-go-live-strategy.md（~10,789 bytes）
+- 内容组织:
+  - 上线策略总述: 单机上线 vs SAP联调上线的路径选择与迭代
+  - 上线范围与版本演进: V1.0(9月30日)→V2.0(10月30日)→V2.1(10月30日)→V1.6(11月17日)
+  - 关键风险与应对: 7大风险（临时工、油污操作、基础数据、炒锅通讯、打印机、SAP对接、合并计量）+ 灾备方案
+  - 上线步骤与时间表: 分步联机上线策略（11/17~12/05）、准备时间线、培训计划
+- 脱敏处理: 博依特 → [已脱敏]，移除所有公司/人名
+- 交叉引用: 4个wikilink（tianwei-mes-project-overview, mes-risk-management, mes-implementation-phases, tianwei-mes-functional-design）
+- 标签: [mes, process-management, best-practice]
+- 更新: index.md（新增条目，总页面数111→112）
+
+## [2026-05-26] create | 天味家园B栋MES会议纪要
+- 来源: /tmp/tianwei_extracted/ f015~f030.docx.txt（16份会议纪要）+ f046.pdf.txt（6月度汇报）
+- 新建概念页: concepts/tianwei-mes-meeting-minutes.md（14,658 bytes）
+- 内容组织: 按会议类型分为7大类，组内按时间排列
+  - 项目月度汇报（0630×2）
+  - 详设评审会（0703~0706，共4天）
+  - 部署/方案评审会（0707×2）
+  - UI评审（0711小料UI、0714 UI）
+  - 内部盘点（0712）
+  - 接口/SAP集成（0718接口边界、0725 SAP方向、0726 BOM业务）
+  - 项目推进（0920×2）
+- 每场会议含：日期、主题、关键决策、待办事项
+- 附时间线总览表
+- 脱敏处理: 所有人名 → [已脱敏]，公司名移除
+- 交叉引用: 5个wikilink（tianwei-mes-project-overview, tianwei-mes-detailed-design, tianwei-mes-interface-integration, smart-manufacturing, consensus-management）
+- 标签: [mes, documentation]
+- 更新: index.md（新增条目）
+
+## 2026-05-26 天味家园B栋MES项目文件入库
+
+### 操作
+批量入库天味家园B栋MES项目核心文件，从 D:\前归档\交付\天味家园B栋 目录提取。
+
+### 处理文件
+47个核心文件（详设评审15 + 会议纪要16 + 接口说明5 + 上线策略4 + 测试方案2 + 培训材料2 + 部署文档1 + 验收报告1 + PDF 2）
+
+### 新建页面（7个）
+- [[tianwei-mes-project-overview]] — 项目概览
+- [[tianwei-mes-detailed-design]] — 详细设计方案（13个功能模块）
+- [[tianwei-mes-interface-integration]] — 接口集成方案
+- [[tianwei-mes-go-live-strategy]] — 上线策略（4个版本合并）
+- [[tianwei-mes-testing]] — 测试方案（UAT + 炒锅联调）
+- [[tianwei-mes-meeting-minutes]] — 会议纪要（16次会议）
+- [[tianwei-mes-training-deployment]] — 培训与系统部署
+
+### 跳过文件
+图片(.jpg/.png)、视频(无)、.rar压缩包、.vsdx流程图、.xmind思维导图、重复版本文件、日报(53个)、周报(61个)均按计划跳过
+
+### 原始文件
+47个raw articles保存至 wiki/raw/articles/tianwei-mes-*.md
+
+### 脱敏处理
+所有公司名称（博依特等）已替换为[已脱敏]，人员姓名已替换为[已脱敏]

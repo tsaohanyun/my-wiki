@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-05-26 | 总页面数：109
+> 最后更新：2026-05-26 | 总页面数：114
 
 ## 通威农发项目
 
@@ -41,6 +41,13 @@
 
 
 ## 概念
+- [[tianwei-mes-go-live-strategy]] — 天味家园B栋MES上线策略：单机/SAP联调、版本演进、风险应对与时间表
+- [[tianwei-mes-detailed-design]] — 天味家园B栋MES详细设计方案：生产执行/基础配置/车间备料三大模块
+- [[tianwei-mes-meeting-minutes]] — 天味家园B栋MES项目会议纪要汇总（2023.06-09，16场会议）
+- [[tianwei-mes-testing]] — 天味家园B栋MES测试方案：UAT用户验收测试与炒锅联调测试完整流程
+- [[tianwei-mes-project-overview]] — 天味家园B栋MES项目概览：背景、目标、核心功能清单、交付内容
+- [[tianwei-mes-interface-integration]] — 天味家园B栋MES接口集成：MES-WMS接口清单、MES-SAP集成、上线风险、联调测试
+- [[tianwei-mes-training-deployment]] — 天味家园B栋MES培训与系统部署：操作手册、培训方案、部署架构
 - [[html-prototype-generation]] — Apple Design Language 产品原型 HTML 生成，Web+Mobile 布局与功能说明面板
 - [[frontend-design-system]] — 前端设计方法论，避免 AI 泛风格，追求有意图的设计方向
 - [[retro-futuristic-html-design]] — CRT 终端 × 太空仪表盘设计系统，琥珀/青色霓虹美学

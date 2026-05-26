@@ -1,0 +1,89 @@
+---
+source_url: 接口说明\B栋单机上线风险说明与应对方案.docx
+ingested: 2026-05-26
+project: 天味家园B栋MES
+---
+
+SOURCE: 接口说明\B栋单机上线风险说明与应对方案.docx
+DESC: 接口-单机上线风险
+============================================================
+[/body/p[@paraId=496CE6E4]] 单机上线风险项及处理方案：
+[/body/p[@paraId=5BBA357C]] • 风险项清单
+[/body/p[@paraId=12C0B335]] 经整理风险项清单如下：
+[/body/tbl[1]] [Table: 11 rows]
+[/body/p[@paraId=6E753AB9]] 
+[/body/p[@paraId=1850385B]] • 风险说明
+[/body/p[@paraId=377B042C]] 1. 基础数据变更
+[/body/p[@paraId=1C5CE39B]] 1.1风险说明
+[/body/p[@paraId=4F28B3C9]]    系统初始的数据导入系统后，后续数据发生变化，MES系统数据建立不及时会影响后续业务生产。
+[/body/p[@paraId=3BECF540]] 1.2风险预防
+[/body/p[@paraId=0C896CD9]]    物料类别：物料类别变更较少，新增物料类别会随物料主数据上的物料类别字段自动新建。
+[/body/p[@paraId=35274775]]    物料主数据：物料主数据每周进行导入确认
+[/body/p[@paraId=1B80EF54]]    BOM：物料BOM发生变更或新增时会通知到生产工艺。生产工艺接收到后执行变更。导出BOM清单后在MES系统中导入。（过渡阶段可以将变更数据交由[已脱敏]项目团队处理）
+[/body/p[@paraId=4E7A7D4A]]    生产版本：按当前版本管理，同时只会有一个生产版本启用。生产工艺收到变更后，需要在系统中启用对应的生产版本。（过渡阶段可以将生产版本变更同步[已脱敏]团队处理）需每日编订计划前确认有无生产版本变更。
+[/body/p[@paraId=41D75E45]] 1.3风险影响及应对方案
+[/body/p[@paraId=3E398EA6]]     物料主数据缺失：生产工单、生产任务单建立失败。
+[/body/p[@paraId=3B255A6E]]     如出现生产工单和生产任务单建立失败的情况，根据页面报错提示，查询SAP数据在MES新增物料档案。
+[/body/p[@paraId=483062B3]]    BOM缺失：生产工单、生产任务单建立失败。
+[/body/p[@paraId=3A2AAD9C]] 如出现生产工单和生产任务单建立失败的情况，根据页面报错提示，通知生产工艺在MES系统导入数据。找不到对应BOM时，需要至PLM查询对应记录。
+[/body/p[@paraId=1252FB3D]]    生产版本错误：生产版本错误且在生产前没有发现的，生产的产品由质量、工艺按照不良品决定处理方案。
+[/body/p[@paraId=3FC8F58D]] 
+[/body/p[@paraId=1015AACA]] 1. 车间退料
+[/body/p[@paraId=2A45BD55]] 1.1风险说明
+[/body/p[@paraId=507D3753]]    车间退料时，MES做出库操作，没有接口的情况下需要在SAP再次制单。录错的情况下两个系统会出现账务不符
+[/body/p[@paraId=6EC055FF]] 1.2风险预防
+[/body/p[@paraId=63B01896]]    通过现场标识、移动制单、定时盘点等方式，保证MES数据与实物流转的一致。
+[/body/p[@paraId=24B436B8]]    由MES汇总退料情况输出对应报表，辅助内勤确认数据。
+[/body/p[@paraId=30A4001F]] 1.3风险影响及应对方案
+[/body/p[@paraId=1EA55F7C]]     账务差异：在SAP录入的退料单与实际退料不符。
+[/body/p[@paraId=22EEFC6E]]     如出现账务差异，核对MES与SAP的退料账务，修正SAP的单据异常。
+[/body/p[@paraId=67BF9611]] 
+[/body/p[@paraId=7B3ED5DD]] 1. 称重接收
+[/body/p[@paraId=349F7B38]] 1.1风险说明
+[/body/p[@paraId=6546D79A]]    称重接收是B栋新增场景。用于解决账务发料数量与实物重量不符合的情况。称重差异成本需要发SAP对应的成本中心。
+[/body/p[@paraId=69CA1AFD]] 1.2风险预防
+[/body/p[@paraId=097A5945]]    现场MES与电子秤对接，保证MES系统重量录入正确。
+[/body/p[@paraId=35BF5B1F]]    由MES汇总称重差异情况输出对应报表，辅助内勤确认数据。
+[/body/p[@paraId=091790CD]] 1.3风险影响及应对方案
+[/body/p[@paraId=681AC876]]     账务差异：遗漏在SAP的单据录入导致SAP库存虚高。
+[/body/p[@paraId=6689355A]]     如出现账务差异，核对MES与SAP的账务，修正SAP的单据异常或新建单据。
+[/body/p[@paraId=22142E3E]] 工作量增加：参照其他车间已有称重接收业务评估工作量
+[/body/p[@paraId=2C800286]]     
+[/body/p[@paraId=1AA4E989]] 新旧SAP称重接收业务逻辑相同，检查接口通用性是否可以通用。
+[/body/p[@paraId=13AE5DC9]] 
+[/body/p[@paraId=523A9229]] 1. 生产工单创建
+[/body/p[@paraId=2C0610E7]] 1.1风险说明
+[/body/p[@paraId=7FC337DE]]    生产工单在SAP创建后需要在MES系统导入生成工单。之前没有该操作，可能会操作错误。
+[/body/p[@paraId=7F434A90]] 1.2风险预防
+[/body/p[@paraId=53906D86]]    SAP配置导出模板避免导出文件需要二次筛选。
+[/body/p[@paraId=66C68738]]    MES在导入时对工作中心等字段进行校验，避免出现错误的工单。
+[/body/p[@paraId=693E4B81]] 1.3风险影响及应对方案
+[/body/p[@paraId=15E37DBD]]     工单无法创建：忘记导入或导入错误MES工单无法创建。
+[/body/p[@paraId=798C17CD]]     再次导出导入。异常联系[已脱敏]项目团队或关键用户
+[/body/p[@paraId=64F7597D]] 
+[/body/p[@paraId=687245CB]] 1. 生产工单投入与产出
+[/body/p[@paraId=02EC6E1E]] 1.1风险说明
+[/body/p[@paraId=4349218E]]    生产工单的投料、产出、工时在MES随生产业务发生完成统计和账务处理。没有接口时需要SAP在系统中按照工单各项情况分别制生产出库单、生产入库单、生产报工单。制单错误或不及时可能导致系统间账务差异。
+[/body/p[@paraId=67992851]] 1.2风险预防
+[/body/p[@paraId=6C97FB51]]    通过条码化等措施避免MES与实物出现差异。
+[/body/p[@paraId=27C45F23]]    MES提供对应报表对各项数据进行自动汇总，车间内勤根据个工单的汇总数据在SAP录入单据。
+[/body/p[@paraId=2FA88538]]    工时在无接口时按照理论工时录入SAP。
+[/body/p[@paraId=1D9152EE]] 1.3风险影响及应对方案
+[/body/p[@paraId=51654917]] SAP单据录入错误时和MES对账，对错误的单据进行撤回或冲销。
+[/body/p[@paraId=14BC4B99]] 
+[/body/p[@paraId=2ED739F3]] 1. 盘点分摊
+[/body/p[@paraId=11D6FBE4]] 1.1风险说明
+[/body/p[@paraId=7F8A20C8]]    盘点分摊是在盘点后将各项账务差异按照使用用量分摊到各个生产工单上。不及时会出现账务不符
+[/body/p[@paraId=71189961]] 1.2风险预防
+[/body/p[@paraId=6CA2D8E5]]    在SAP制单前查看MES系统是否完成盘点。MES会根据盘点分摊的结果在报表上修正工单的投入和产出，盘点结束后按照工单情况正常制单。
+[/body/p[@paraId=040DFCF9]] 1.3风险影响及应对方案
+[/body/p[@paraId=27AE8C30]] SAP单据录入错误时和MES对账，对错误的单据进行撤回或冲销。
+[/body/p[@paraId=38030F64]] 
+[/body/p[@paraId=5B421AF7]] 1. 跨车间、跨工厂调拨
+[/body/p[@paraId=12114A67]] 1.1风险说明
+[/body/p[@paraId=3C600EA3]]    跨车间、跨工厂调拨时MES系统和SAP系统都需要进行出入库。没有接口的情况下会出现在两个系统制单的情况，可能出现账务的差异。
+[/body/p[@paraId=4C1E460D]] 1.2风险预防
+[/body/p[@paraId=40723B76]]    通过移动端在实际发货收货时现场完成MES系统的账务制单。之后根据MES的记录完成SAP的单据制单。
+[/body/p[@paraId=795FF66E]] 1.3风险影响及应对方案
+[/body/p[@paraId=07DD98F8]] SAP单据录入错误时和MES对账，对错误的单据进行撤回或冲销。
+[/body/p[@paraId=3F7A1928]] 工作量增加：统计业务发生频率核定工作量。由于原先管控失效环节进行系统管控导致工作量增加的，需要和车间相关人员开会宣贯。
