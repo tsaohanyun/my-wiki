@@ -3,9 +3,13 @@ title: 数字化转型方法论
 created: 2026-05-15
 updated: 2026-05-15
 type: concept
-tags: [methodology, digital-transformation, smart-manufacturing, industry-4]
+description: >
+  > 企业利用数字技术实现业务转型的系统方法论，涵盖从战略定位到落地实施的完整路径。 源自《企业数字化转型方法论》，六个层次架构：
+tags: [best-practice, digital-transformation, smart-manufacturing, industry-4]
+sources: [raw/]
 confidence: high
 ---
+
 
 # 数字化转型方法论
 
@@ -75,3 +79,10 @@ confidence: high
 - **关键场景：** 风险管理、合规审查、客户洞察、智能投顾
 - **建设方法：** 数据采集 → 知识抽取 → 知识融合 → 知识存储 → 知识应用
 - **实践形式：** Big Lab动手实验计划，赋能金融机构自行搭建定制化知识图谱
+
+## 相关页面
+- [[apqc-process-metrics]]
+- [[aps-advanced-planning-scheduling]]
+- [[big-data-development-basics]]
+- [[big-data-governance]]
+- [[blueprint-writing-methodology]]

@@ -3,9 +3,12 @@ title: 文档协作流程
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-tags: [实践, 文档, 协作]
+description: >
+  文档协作的结构化工作流，帮助用户高效创建和优化文档。 - word-document-processing - Word 文档处理
+tags: [best-practice, documentation, team-process]
 sources: [raw/articles/doc-coauthoring.md]
 ---
+
 
 # 文档协作流程
 

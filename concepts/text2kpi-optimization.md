@@ -3,11 +3,12 @@ title: Text2KPI 优化方案
 created: 2026-04-30
 updated: 2026-05-02
 type: concept
+description: >
+  Text2KPI 是一个 NL2API（自然语言转 API 调用）系统，用户通过自然语言查询业务指标，系统自动路由到对应 API 并返回结果。基于 harness-engineering 方法论，对其人机交互体验提出六项优化方案，并在 V2 设计中完成了分层架构重构。
 tags: [architecture, pattern, ai-agent, design-principle, nl2api]
-sources:
-  - raw/articles/harness-engineering-methodology.md
-  - raw/articles/text2kpi-demo-design-v2.md
+sources: [raw/articles/harness-engineering-methodology.md, raw/articles/text2kpi-demo-design-v2.md]
 ---
+
 
 # Text2KPI 优化方案
 

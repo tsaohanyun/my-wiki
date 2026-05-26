@@ -3,9 +3,12 @@ title: 酱香型白酒行业分析
 created: 2026-05-04
 updated: 2026-05-04
 type: query
+description: >
+  酱香型白酒行业深度报告（2023.8），分析酱酒市场规模、竞争格局、周期性特征及发展趋势。 2022年酱酒市场规模达2100亿元，已超越清香型成为我国白酒第二大香型。酱酒以白酒行业10%的产能实现32%的收入和39%的利润，近5年收入/产能/利润CAGR分别达19.9%/14%/19.3%，呈现高收入、低产量、高盈利的显著特点。
 tags: [industry-policy, manufacturing, trend]
 sources: [raw/articles/baijiu-industry-report.md]
 ---
+
 
 # 酱香型白酒行业分析
 
@@ -45,3 +48,8 @@ sources: [raw/articles/baijiu-industry-report.md]
 - **下游消费**：全国化布局持续推进，广东、河南、山东为成熟样板市场（酱化率均超50%）；从区域集中走向泛全国化
 
 相关概念：[[feed-industry-knowledge]]（食品行业知识体系）
+
+## 相关页面
+- [[数据与指标体系]]
+- [[IT战略与数字化规划]]
+- [[manufacturing-kpi-system]]

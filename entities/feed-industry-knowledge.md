@@ -1,6 +1,14 @@
 ---
-title: "饲料行业知识"
+title: 饲料行业知识
+created: 2026-05-26
+updated: 2026-05-26
+type: entity
+description: >
+  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 饲料工业是连接种植业与养殖业的关键环节，是为动物饲养提供营养全面、均衡的配合饲料及饲料添加剂的制造业。中国是全球最大的饲料生产国，饲料年产量超过3亿吨。
+tags: [mes, digital-transformation, inventory, quality, iot]
+sources: [raw/]
 ---
+
 # 饲料行业知识
 
 
@@ -225,3 +233,10 @@ title: "饲料行业知识"
 - 通威农发智能工厂蓝图解决方案文档（TWAD_IF_203.INV_蓝图解决方案V1.0.pdf）
 - 编制方：赛意顾问
 - 版本：V1.0（2024-06-03）
+
+## 相关页面
+- [[excel-spreadsheet-processing]]
+- [[feed-industry-solution]]
+- [[fine-report-cpt]]
+- [[hermes-agent]]
+- [[pdf-document-processing]]

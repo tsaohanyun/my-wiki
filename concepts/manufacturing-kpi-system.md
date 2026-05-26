@@ -3,9 +3,12 @@ title: 制造业数据指标体系
 created: 2026-05-04
 updated: 2026-05-04
 type: concept
+description: >
+  制造业企业的数据指标体系，涵盖指标体系搭建方法论与六大类业务KPI参考。 单一指标无法全面衡量企业的经营状况。成体系化的指标能够结合问题背景、串联各个指标、通过各种维度进行分析，使解决方案更有针对性，也能在出现异动时快速定位问题环节。
 tags: [kpi, manufacturing, data-governance, process-management]
 sources: [raw/articles/manufacturing-kpi-system.md, raw/articles/manufacturing-kpi-guide.md]
 ---
+
 
 # 制造业数据指标体系
 

@@ -3,9 +3,12 @@ title: Excel 电子表格处理
 created: 2026-04-30
 updated: 2026-04-30
 type: entity
-tags: [工具, 文档, Excel, xlsx]
+description: >
+  处理 Excel 电子表格的完整指南，支持 .xlsx/.xlsm/.csv 格式。 - word-document-processing - Word 文档
+tags: [tool, documentation]
 sources: [raw/articles/xlsx.md]
 ---
+
 
 # Excel 电子表格处理
 

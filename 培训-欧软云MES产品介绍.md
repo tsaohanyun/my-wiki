@@ -1,3 +1,13 @@
+---
+title: 培训-欧软云MES产品介绍
+created: 2026-05-26
+updated: 2026-05-26
+type: summary
+description: >
+  面向通用零散制造行业的云MES系统，聚焦小微企业智能制造转型。 - 适用行业：机械、电子、数码、耗材、塑胶、食品等通用零散制造行业
+tags: [mes, smart-manufacturing, inventory, quality, data-visualization]
+sources: [raw/]
+---
 项目：**前归档-培训** | 交叉引用 [[培训-总览]]
 
 # 欧软云MES系统产品介绍

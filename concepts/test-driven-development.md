@@ -3,9 +3,12 @@ title: 测试驱动开发
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-tags: [实践, 测试, TDD, 质量]
+description: >
+  测试驱动开发 (TDD) 的实践指南，强调先写测试、再写实现、最后重构的开发循环。 2. GREEN - 编写最少代码使测试通过
+tags: [best-practice, testing, quality]
 sources: [raw/articles/test-driven-development.md]
 ---
+
 
 # 测试驱动开发
 

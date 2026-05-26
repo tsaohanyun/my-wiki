@@ -3,9 +3,12 @@ title: 共识管理
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
+description: >
+  共识管理是对协作过程中共识达成、固化与扩展的系统性管理方法。核心在于确保团队/组织在关键决策上达成明确、可追溯、可演进的共识。 │   │       特征：需共识方正面书面答复同意
 tags: [consensus, best-practice, team-process]
 sources: [raw/articles/consensus-management.md]
 ---
+
 
 # 共识管理
 

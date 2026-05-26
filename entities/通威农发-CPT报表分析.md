@@ -1,12 +1,14 @@
 ---
-title: 通威农发CPT报表分析
-created: 2026-05-14
-updated: 2026-05-14
+title: 通威农发-CPT报表分析
+created: 2026-05-26
+updated: 2026-05-26
 type: entity
-tags: [通威农发, CPT, FineReport, 报表, 指标编码, 数据分析]
-confidence: high
-related: [[fine-report-cpt]], [[通威农发-数据库总览]], [[通威农发-报表预处理中间表]]
+description: >
+  > 通威农发项目共30张FineReport CPT绩效报表的分析经验汇总。 > 报表路径：/home/agentuser/finereport-files/通威农发/
+tags: [inventory, quality, api, security, kpi-indicator]
+sources: [raw/]
 ---
+
 
 # 通威农发CPT报表分析
 
@@ -119,3 +121,10 @@ LEFT JOIN res_enterprise re  ON re.id            = rio.company_id
 - **LEFT JOIN退化为INNER JOIN**：右表条件放在WHERE而非ON中会丢失不匹配行
 - **decimal精度丢失**：`CAST(... AS decimal(12,3))` 会截断小于0.0005的值
 - **MySQL列名大小写不敏感**：多表JOIN时同名列冲突需用别名区分
+
+## 相关页面
+- [[excel-spreadsheet-processing]]
+- [[feed-industry-knowledge]]
+- [[feed-industry-solution]]
+- [[fine-report-cpt]]
+- [[hermes-agent]]

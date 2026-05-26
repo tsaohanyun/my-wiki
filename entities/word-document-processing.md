@@ -3,9 +3,12 @@ title: Word 文档处理
 created: 2026-04-30
 updated: 2026-04-30
 type: entity
-tags: [工具, 文档, Word, docx]
+description: >
+  使用 python-docx 库处理 Word 文档的完整指南。 - doc-coauthoring - 文档协作流程
+tags: [tool, documentation]
 sources: [raw/articles/docx.md]
 ---
+
 
 # Word 文档处理
 

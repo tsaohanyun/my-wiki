@@ -1,3 +1,13 @@
+---
+title: 培训-金蝶Cloud同步对照表
+created: 2026-05-26
+updated: 2026-05-26
+type: summary
+description: >
+  本文档记录了ERP系统与WMS（仓储管理系统）之间的数据同步字段映射关系，用于系统对接开发参考。 - 同步方式：标准版O3对接金蝶K3Cloud
+tags: [mes, inventory, testing, documentation, database]
+sources: [raw/]
+---
 项目：**前归档-培训** | 交叉引用 [[培训-总览]]
 
 # 金蝶Cloud与WMS同步字段对照表

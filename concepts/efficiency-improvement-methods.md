@@ -3,9 +3,12 @@ title: 效率与效率改善方法
 created: 2026-05-04
 updated: 2026-05-04
 type: concept
+description: >
+  精益生产领域的效率提升方法论，涵盖效率定义、人力主导型改善、设备主导型改善和OPE指标体系。 效率 = 产出 / 投入，即将投入转化为产出的能力。
 tags: [lean-manufacturing, efficiency, process-management, smart-manufacturing]
 sources: [raw/articles/efficiency-improvement-methods.md]
 ---
+
 
 # 效率与效率改善方法
 

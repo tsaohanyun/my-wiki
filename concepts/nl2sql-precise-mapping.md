@@ -3,9 +3,12 @@ title: NL2SQL 精确映射
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
+description: >
+  NL2SQL 精确映射是一种受约束的 Text2SQL 系统架构，核心思想是不让 LLM 自由生成 SQL，而是通过多层管道将自然语言逐步转化为可执行且可信的 SQL 查询。与 text2kpi-optimization 的 NL2API 路线不同，NL2SQL 面向的是直接查询数据库的场景。
 tags: [architecture, pattern, ai-agent, nl2sql, metadata]
 sources: [raw/articles/nl2sql-precise-mapping.md]
 ---
+
 
 # NL2SQL 精确映射
 

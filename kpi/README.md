@@ -1,3 +1,13 @@
+---
+title: README
+created: 2026-05-26
+updated: 2026-05-26
+type: summary
+description: >
+  > 通威农发生产运营指标清单，涵盖财务、客户、内部管理、员工发展四大维度 > - 通威农发数据库总览 — 表结构与字段定义
+tags: [mes, api, documentation, kpi-indicator, ai-agent]
+sources: [raw/]
+---
 # 通威农发生产运营指标体系
 
 > 项目：**通威农发**（通威股份农业发展有限公司）
@@ -41,3 +51,9 @@
 ---
 
 *本文档由Hermes Agent自动从Excel指标清单提取生成，2026-05-19*
+
+## 相关页面
+- [[内部管理指标]]
+- [[员工发展指标]]
+- [[客户指标]]
+- [[财务指标]]

@@ -3,9 +3,12 @@ title: 数据中台解决方案
 created: 2026-05-04
 updated: 2026-05-04
 type: concept
+description: >
+  数据中台是整合企业内外部数据资源，提供统一数据采集、存储、计算、治理、服务的综合平台方案，是企业数字化转型的基础设施层。 - 后台数据源 — 核心业务系统、网银系统、交易平台、风险管理系统、CRM、支付清算等
 tags: [data-governance, data-warehouse, data-model, architecture, framework]
 sources: [raw/articles/data-mid-platform-solution.md]
 ---
+
 
 # 数据中台解决方案
 

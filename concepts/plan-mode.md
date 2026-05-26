@@ -3,9 +3,12 @@ title: 计划模式
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-tags: [实践, 计划, 模式]
+description: >
+  Hermes Agent 的计划模式，用于检查上下文、创建计划文档但不执行实际工作。 - 复杂任务规划 - 任务开始前的规划阶段
+tags: [best-practice]
 sources: [raw/articles/plan.md]
 ---
+
 
 # 计划模式
 

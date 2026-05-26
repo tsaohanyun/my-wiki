@@ -3,9 +3,12 @@ title: 代码审查流程
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-tags: [实践, 审查, 质量]
+description: >
+  代码审查的完整流程，包括提交前验证、质量门禁和独立审查。 - systematic-debugging - 审查中发现的问题调试
+tags: [best-practice, code-review, quality]
 sources: [raw/articles/requesting-code-review.md]
 ---
+
 
 # 代码审查流程
 

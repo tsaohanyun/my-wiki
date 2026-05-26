@@ -3,9 +3,12 @@ title: 数据要素价值评估
 created: 2026-05-05
 updated: 2026-05-05
 type: concept
+description: >
+  数据要素价值评估方法研究，从市场和非市场两个角度分析数据要素的经济价值和社会价值。 1. 数据驱动型企业内部优化 — 通过数据分析服务于经营决策、业务流程和生产效率，提升盈利能力和降低成本
 tags: [data-governance, data-quality, metadata, trend]
 sources: [raw/articles/data-element-valuation.md]
 ---
+
 
 # 数据要素价值评估
 

@@ -3,9 +3,13 @@ title: APS计划排程
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-tags: [数据库, 通威农发, aps, 计划排程]
+description: >
+  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 APS（Advanced Planning and Scheduling）高级计划排程模块，管理通威农发的生产计划、需求预测和排程优化。涵盖需求管理、主生产计划、车间作业排程、产能规划、排程约束、能源预算等功能。
+tags: [smart-manufacturing]
+sources: [raw/]
 confidence: high
 ---
+
 
 # APS计划排程
 
@@ -66,3 +70,10 @@ APS（Advanced Planning and Scheduling）高级计划排程模块，管理通威
 ---
 
 [[通威农发-数据库总览]]
+
+## 相关页面
+- [[通威农发-E2D与数据同步]]
+- [[通威农发-EDO设备管理]]
+- [[通威农发-IIoT工业物联网]]
+- [[通威农发-LM精益管理]]
+- [[通威农发-MBM物料BOM与配方]]

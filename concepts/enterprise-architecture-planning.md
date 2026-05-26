@@ -3,9 +3,12 @@ title: 企业架构与信息化规划
 created: 2026-05-05
 updated: 2026-05-05
 type: concept
+description: >
+  面向制造企业的企业架构与信息化规划方法论，涵盖业务架构、IT架构与实施落地。 1. 系统整合困难 — 多系统并存，数据孤岛
 tags: [architecture, digital-transformation, best-practice]
 sources: [raw/articles/enterprise-architecture-planning.md]
 ---
+
 
 # 企业架构与信息化规划
 

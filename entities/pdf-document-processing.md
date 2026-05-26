@@ -3,9 +3,12 @@ title: PDF 文档处理
 created: 2026-04-30
 updated: 2026-04-30
 type: entity
-tags: [工具, 文档, PDF]
+description: >
+  处理 PDF 文档的完整指南，包括读取、创建、编辑和转换。 - word-document-processing - Word 文档
+tags: [tool, documentation]
 sources: [raw/articles/pdf.md]
 ---
+
 
 # PDF 文档处理
 

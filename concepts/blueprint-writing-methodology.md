@@ -1,6 +1,14 @@
 ---
-title: "蓝图解决方案编写方法论"
+title: 蓝图解决方案编写方法论
+created: 2026-05-26
+updated: 2026-05-26
+type: concept
+description: >
+  蓝图解决方案（Blueprint Solution）是智能制造/数字化转型项目中承上启下的核心交付物，连接战略规划与系统实施。> 项目：通威农发（通威股份农业发展有限公司） > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系
+tags: [mes, digital-transformation, smart-manufacturing, inventory, quality]
+sources: [raw/]
 ---
+
 # 蓝图解决方案编写方法论
 
 ## 概述
@@ -249,3 +257,10 @@ title: "蓝图解决方案编写方法论"
 - 源文档：`TWAD_IF_203.INV_蓝图解决方案V1.0.pdf` — 通威农发智能工厂蓝图解决方案（592页）
 - 编制方：赛意顾问
 - 版本：V1.0（2024-06-03）
+
+## 相关页面
+- [[apqc-process-metrics]]
+- [[aps-advanced-planning-scheduling]]
+- [[big-data-development-basics]]
+- [[big-data-governance]]
+- [[claude-api-development]]

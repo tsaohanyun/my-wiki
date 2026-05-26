@@ -3,9 +3,13 @@ title: EDO设备管理
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-tags: [数据库, 通威农发, edo, 设备管理]
+description: >
+  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 EDO（Equipment & Device Operations）设备全生命周期管理模块。涵盖设备台账（设备基本信息/设备分类/设备参数）、设备维保（保养计划/保养工单/保养记录）、设备故障（故障报修/故障处理/故障分析）、设备巡检（巡检计划/巡检记录/巡检标准）、备品备件（备件库存/备件领用/备件采购）、设备能效、设备改造
+tags: [smart-manufacturing]
+sources: [raw/]
 confidence: high
 ---
+
 
 # EDO设备管理
 
@@ -148,3 +152,10 @@ EDO（Equipment & Device Operations）设备全生命周期管理模块。涵盖
 ---
 
 [[通威农发-数据库总览]]
+
+## 相关页面
+- [[通威农发-APS计划排程]]
+- [[通威农发-E2D与数据同步]]
+- [[通威农发-IIoT工业物联网]]
+- [[通威农发-LM精益管理]]
+- [[通威农发-MBM物料BOM与配方]]

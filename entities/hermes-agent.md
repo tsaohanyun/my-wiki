@@ -3,9 +3,12 @@ title: Hermes Agent
 created: 2026-04-30
 updated: 2026-04-30
 type: entity
-tags: [工具, Agent, 平台, CLI]
+description: >
+  Hermes Agent 是一个功能丰富的 CLI AI Agent 平台，支持技能扩展、多平台集成和自主代理。 - skill-creator - 技能创建
+tags: [tool, ai-agent]
 sources: [raw/articles/hermes-agent.md]
 ---
+
 
 # Hermes Agent
 

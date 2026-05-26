@@ -3,9 +3,12 @@ title: Text2KPI Prompt 模板与工程化配置
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
+description: >
+  Text2KPI 工程化落地的 8 个核心模板与清单，可在自己的项目里快速复刻同款工程结构。这些模板是 text2kpi-optimization V2 架构的 Prompt 层和配置层的完整实现规范。 ^[raw/articles/text2kpi-prompt-and-config.md]
 tags: [architecture, pattern, ai-agent, prompt-engineering, config]
 sources: [raw/articles/text2kpi-prompt-and-config.md]
 ---
+
 
 # Text2KPI Prompt 模板与工程化配置
 

@@ -3,9 +3,13 @@ title: 实施方法论
 created: 2026-05-15
 updated: 2026-05-15
 type: concept
-tags: [methodology, implementation, project-management, smart-factory, middle-platform]
+description: >
+  > 信息系统和软件项目的规范化交付方法论，覆盖从项目启动到持续运营的全生命周期。 IPM（Intelligent Plant implementation Methodology）是针对离散制造行业智能工厂项目打造的实施方法体系，2017年发布V2.0。
+tags: [best-practice, process-management, smart-manufacturing, architecture]
+sources: [raw/]
 confidence: high
 ---
+
 
 # 实施方法论
 
@@ -87,3 +91,10 @@ IPM五阶段（制造行业）
 中台方法论（中台领域）
   准备 → 规划与设计 → 实现与交付 → 发布运营
 ```
+
+## 相关页面
+- [[apqc-process-metrics]]
+- [[aps-advanced-planning-scheduling]]
+- [[big-data-development-basics]]
+- [[big-data-governance]]
+- [[blueprint-writing-methodology]]

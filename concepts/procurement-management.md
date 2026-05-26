@@ -3,10 +3,13 @@ title: 采购管理
 created: 2026-05-11
 updated: 2026-05-11
 type: concept
+description: >
+  采购管理（Purchasing Management）是对企业采购活动进行组织、实施与控制的管理过程，涵盖物资供应保障、供应链协调及市场信息整合核心职能。该体系通过采购计划制定、订单跟踪、供应商管理及发票校验等模块实现全流程管控。采购成本一般占企业最终产品销售价值的40%60%，因此采购管理对企业的盈利能力有着举足轻重的影响。
 tags: [procurement, purchasing, supply-chain, enterprise-management, process-management]
 sources: [raw/articles/procurement-management-baike.md]
 confidence: high
 ---
+
 
 # 采购管理
 

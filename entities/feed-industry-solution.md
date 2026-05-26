@@ -1,6 +1,14 @@
 ---
-title: "饲料行业智能制造解决方案"
+title: 饲料行业智能制造解决方案
+created: 2026-05-26
+updated: 2026-05-26
+type: entity
+description: >
+  > 本文档基于通威农发智能工厂蓝图解决方案提炼，侧重系统功能、业务流程、管理目标和数字化升级策略。行业基础知识请参考 feed-industry-knowledge。 > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系
+tags: [mes, digital-transformation, smart-manufacturing, inventory, quality]
+sources: [raw/]
 ---
+
 # 饲料行业智能制造解决方案
 
 > 本文档基于通威农发智能工厂蓝图解决方案提炼，侧重系统功能、业务流程、管理目标和数字化升级策略。行业基础知识请参考 [[feed-industry-knowledge]]。
@@ -893,3 +901,10 @@ FBC发起退货申请→品管线上检查→给出处理意见→线上回写FB
 | 仓储 | MA006.01-03 | 特殊流程（3种场景） |
 | 质量 | QC001-QC015 | 质量管理15个流程 |
 | 设备 | EQ001-EQ020 | 设备管理20个流程 |
+
+## 相关页面
+- [[excel-spreadsheet-processing]]
+- [[fine-report-cpt]]
+- [[hermes-agent]]
+- [[pdf-document-processing]]
+- [[popular-web-design-templates]]

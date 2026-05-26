@@ -3,9 +3,12 @@ title: 实现计划编写
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-tags: [实践, 计划, 管理]
+description: >
+  创建全面实现计划的指南，将复杂任务分解为可执行的小步骤。 - 小任务 - 每个任务可在30分钟内完成
+tags: [best-practice]
 sources: [raw/articles/writing-plans.md]
 ---
+
 
 # 实现计划编写
 

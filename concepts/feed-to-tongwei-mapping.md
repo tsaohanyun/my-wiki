@@ -3,8 +3,12 @@ title: 饲料行业与通威农发项目知识映射
 created: 2026-05-09
 updated: 2026-05-09
 type: concept
-tags: [通威农发, 饲料行业, 知识映射, 智能制造]
+description: >
+  > 本文档作为桥接页，系统性地梳理饲料行业的通用需求、工艺特征与管理要点如何对应到通威农发智能工厂项目的具体实现，帮助你在行业知识与项目文档之间建立双向连接。 > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系
+tags: [smart-manufacturing, data-model]
+sources: [raw/]
 ---
+
 
 # 饲料行业与通威农发项目知识映射
 

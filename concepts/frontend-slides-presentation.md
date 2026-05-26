@@ -3,9 +3,12 @@ title: HTML 演示文稿生成
 created: 2026-04-30
 updated: 2026-05-01
 type: concept
+description: >
+  创建零依赖、动画丰富的 HTML 演示文稿，完全在浏览器中运行。支持从零创建、PPT转换和已有演示增强三种模式。 1. 零依赖 — 单个 HTML 文件，内联 CSS/JS，无 npm/构建工具
 tags: [framework, tool, best-practice]
 sources: [raw/articles/skill-frontend-slides.md]
 ---
+
 
 # HTML 演示文稿生成
 

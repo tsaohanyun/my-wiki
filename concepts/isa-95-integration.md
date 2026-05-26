@@ -3,9 +3,12 @@ title: ISA-95 企业控制系统集成
 created: 2026-05-05
 updated: 2026-05-05
 type: concept
+description: >
+  ISA-95（IEC 62264）是企业控制系统集成的国际标准，定义了业务系统与制造控制系统之间的接口规范，是企业 IT/OT 融合的核心参考架构。 定义企业控制系统集成的通用术语和层级模型（Level 0-4），即 Purdue 层级模型：
 tags: [smart-manufacturing, mes, iot, architecture]
 sources: [raw/articles/enterprise-control-system-integration.md]
 ---
+
 
 # ISA-95 企业控制系统集成
 

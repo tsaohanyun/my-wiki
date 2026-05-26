@@ -3,9 +3,12 @@ title: 数据安全治理
 created: 2026-05-05
 updated: 2026-05-05
 type: concept
-tags: [data-governance, security, privacy]
+description: >
+  数据安全治理解决方案，从业务和数据识别入手，建立覆盖数据全生命周期的安全防护体系。 识别业务和数据 → 数据分类分级 → 风险评估 → 制定全生命周期安全策略 → 持续优化
+tags: [data-governance, security]
 sources: [raw/articles/data-security-governance.md]
 ---
+
 
 # 数据安全治理
 

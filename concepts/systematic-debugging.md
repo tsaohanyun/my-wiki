@@ -3,9 +3,12 @@ title: 系统化调试方法论
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-tags: [实践, 调试, 方法论]
+description: >
+  系统化调试的4阶段方法论，强调在修复前必须先理解问题根因。 - test-driven-development - 测试预防缺陷
+tags: [best-practice]
 sources: [raw/articles/systematic-debugging.md]
 ---
+
 
 # 系统化调试方法论
 

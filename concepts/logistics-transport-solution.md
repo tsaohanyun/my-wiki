@@ -3,9 +3,12 @@ title: 物流与运输解决方案
 created: 2026-05-05
 updated: 2026-05-05
 type: concept
+description: >
+  基于实时定位系统（RTLS）的物流与运输解决方案，实现供应链可视化与物流效率优化。 - 实时定位系统（RTLS） — 基于 Wi-Fi/RFID 的工业级实时定位
 tags: [smart-manufacturing, process-management, iot]
 sources: [raw/articles/logistics-transport-solution.md]
 ---
+
 
 # 物流与运输解决方案
 

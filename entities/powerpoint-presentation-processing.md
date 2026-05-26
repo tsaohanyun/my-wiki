@@ -3,9 +3,12 @@ title: PowerPoint 演示文稿处理
 created: 2026-04-30
 updated: 2026-04-30
 type: entity
-tags: [工具, 文档, PPT, pptx]
+description: >
+  使用 python-pptx 库处理 PowerPoint 演示文稿的完整指南。 - word-document-processing - Word 文档
+tags: [tool, documentation]
 sources: [raw/articles/pptx.md]
 ---
+
 
 # PowerPoint 演示文稿处理
 

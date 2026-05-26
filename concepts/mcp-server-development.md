@@ -3,9 +3,12 @@ title: MCP 服务器开发
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-tags: [工具, MCP, 协议, 集成]
+description: >
+  Model Context Protocol (MCP) 服务器开发指南，使 LLM 能够通过标准化工具接口与外部服务交互。 1. 工具 (Tools) - 暴露给 LLM 的可调用函数
+tags: [tool, api]
 sources: [raw/articles/mcp-builder.md]
 ---
+
 
 # MCP 服务器开发
 
