@@ -3,28 +3,29 @@ title: 天味家园B栋MES会议纪要
 created: 2026-05-26
 updated: 2026-05-26
 type: concept
-tags: [mes, documentation]
+tags:
+- mes
+- documentation
 sources:
-  - raw/articles/tianwei-mes-f029.docx.md
-  - raw/articles/tianwei-mes-f030.docx.md
-  - raw/articles/tianwei-mes-f046.pdf.md
-  - raw/articles/tianwei-mes-f015.docx.md
-  - raw/articles/tianwei-mes-f016.docx.md
-  - raw/articles/tianwei-mes-f017.docx.md
-  - raw/articles/tianwei-mes-f018.docx.md
-  - raw/articles/tianwei-mes-f019.docx.md
-  - raw/articles/tianwei-mes-f020.docx.md
-  - raw/articles/tianwei-mes-f021.docx.md
-  - raw/articles/tianwei-mes-f022.docx.md
-  - raw/articles/tianwei-mes-f023.docx.md
-  - raw/articles/tianwei-mes-f024.docx.md
-  - raw/articles/tianwei-mes-f025.docx.md
-  - raw/articles/tianwei-mes-f026.docx.md
-  - raw/articles/tianwei-mes-f027.docx.md
-  - raw/articles/tianwei-mes-f028.docx.md
-description: >
-  天味家园B栋老车间MES项目2023年6月至9月期间全部会议纪要汇总，涵盖月度汇报、详设评审、部署方案、
-  UI评审、内部盘点、接口集成、SAP对接、项目推进等16场会议的关键决策与待办事项。
+- raw/articles/tianwei-mes-f029.docx.md
+- raw/articles/tianwei-mes-f030.docx.md
+- raw/articles/tianwei-mes-f046.pdf.md
+- raw/articles/tianwei-mes-f015.docx.md
+- raw/articles/tianwei-mes-f016.docx.md
+- raw/articles/tianwei-mes-f017.docx.md
+- raw/articles/tianwei-mes-f018.docx.md
+- raw/articles/tianwei-mes-f019.docx.md
+- raw/articles/tianwei-mes-f020.docx.md
+- raw/articles/tianwei-mes-f021.docx.md
+- raw/articles/tianwei-mes-f022.docx.md
+- raw/articles/tianwei-mes-f023.docx.md
+- raw/articles/tianwei-mes-f024.docx.md
+- raw/articles/tianwei-mes-f025.docx.md
+- raw/articles/tianwei-mes-f026.docx.md
+- raw/articles/tianwei-mes-f027.docx.md
+- raw/articles/tianwei-mes-f028.docx.md
+description: 天味家园B栋老车间MES项目2023年6月至9月期间全部会议纪要汇总，涵盖月度汇报、详设评审、部署方案、 UI评审、内部盘点、接口集成、SAP对接、项目推进等16场会议的关键决策与待办事项。
+project: 天味
 ---
 
 # 天味家园B栋MES会议纪要

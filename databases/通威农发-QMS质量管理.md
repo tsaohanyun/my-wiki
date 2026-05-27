@@ -3,11 +3,16 @@ title: QMS质量管理
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 QMS（Quality Management System）质量管理模块，覆盖通威农发从原料进厂到成品出厂的全流程质量管理。涵盖来料检验（IQC/进货检验/抽样方案）、过程检验（IPQC/过程巡检）、成品检验（OQC/出货检验）、不合格品管理（不合格品处置/让步接收/报废/返工）、质量追溯（批次追溯/质量档案）、质量指标统计、
-tags: [smart-manufacturing, quality]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 QMS（Quality Management System）质量管理模块，覆盖通威农发从原料进厂到成品出厂的全流程质量管理。涵盖来料检验（IQC/进货检验/抽样方案）、过程检验（IPQC/过程巡检）、成品检验（OQC/出货检验）、不合格品管理（不合格品处置/让步接收/报废/返工）、质量追溯（批次追溯/质量档案）、质量指标统计、
+
+  '
+tags:
+- smart-manufacturing
+- quality
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

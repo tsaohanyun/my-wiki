@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 11d694c06ce53584
 source_url: hermes-skill://test-driven-development
 title: Test-Driven Development (TDD)
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # Test-Driven Development (TDD)
@@ -335,3 +338,12 @@ Otherwise → not TDD
 ```
 
 No exceptions without the user's explicit permission.
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

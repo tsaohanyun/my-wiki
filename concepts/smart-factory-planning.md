@@ -3,10 +3,18 @@ title: 智能工厂规划
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  智能工厂是以 MES（制造执行系统）为核心的数字神经系统，通过五大层次的系统建设实现工厂数字化、智能化运营。 2. 控制层 — DCS/SCADA 控制
-tags: [smart-manufacturing, mes, iot, digital-transformation]
-sources: [raw/articles/smart-factory-planning.md]
+description: '智能工厂是以 MES（制造执行系统）为核心的数字神经系统，通过五大层次的系统建设实现工厂数字化、智能化运营。 2. 控制层 — DCS/SCADA
+  控制
+
+  '
+tags:
+- smart-manufacturing
+- mes
+- iot
+- digital-transformation
+sources:
+- raw/articles/smart-factory-planning.md
+project: 通用知识
 ---
 
 
@@ -85,3 +93,12 @@ sources: [raw/articles/smart-factory-planning.md]
 - [[智能制造]] — 智能工厂的理论框架
 - [[大数据治理]] — 工厂数据底座
 - [[制造业数字化转型政策]] — 政策环境
+
+
+## 相关页面
+
+- [[数字孪生技术]]
+- [[ISA-95 企业控制系统集成]]
+- [[智能制造]]
+- [[APS 高级计划与排程]]
+- [[数字化转型方法论]]

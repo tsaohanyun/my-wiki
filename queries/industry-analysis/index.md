@@ -3,8 +3,12 @@ title: 行业分析总览
 created: 2026-05-15
 updated: 2026-05-15
 type: query
-tags: [industry-analysis, energy, market-research]
+tags:
+- industry-analysis
+- energy
+- market-research
 confidence: medium
+project: 研究
 ---
 
 # 行业分析总览

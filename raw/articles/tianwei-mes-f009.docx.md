@@ -2,6 +2,11 @@
 source_url: 详设评审\2-【生产管理】【生产执行】返工品拆解.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- SAP
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\2-【生产管理】【生产执行】返工品拆解.docx
@@ -37,3 +42,12 @@ DESC: 详设评审-返工品拆解
 [/body/tbl[2]] [Table: 4 rows]
 [/body/p[@paraId=70D87DBE]] 
 [/body/p[@paraId=3C5CC2D5]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

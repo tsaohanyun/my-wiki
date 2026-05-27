@@ -2,6 +2,10 @@
 source_url: 详设评审\详设评审主要功能清单.pdf
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\详设评审主要功能清单.pdf
@@ -33,3 +37,11 @@ DESC: 详设评审-功能清单
                   每个工序配置生产产品所属的物料类别，为将“生成订单”自动拆分成“生产工单”提供基础数据配置
      13 工序产品配置    。                                                低
 
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

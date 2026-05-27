@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 770e28bfbaa3fa40
 source_url: hermes-skill://frontend-design
 title: Design Thinking
+project: 外部资料
+tags:
+- 原始资料
 ---
 ---
 name: frontend-design
@@ -46,3 +49,12 @@ Interpret creatively and make unexpected choices that feel genuinely designed fo
 **IMPORTANT**: Match implementation complexity to the aesthetic vision. Maximalist designs need elaborate code with extensive animations and effects. Minimalist or refined designs need restraint, precision, and careful attention to spacing, typography, and subtle details. Elegance comes from executing the vision well.
 
 Remember: Claude is capable of extraordinary creative work. Don't hold back, show what can truly be created when thinking outside the box and committing fully to a distinctive vision.
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

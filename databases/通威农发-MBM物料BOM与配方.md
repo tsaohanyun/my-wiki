@@ -3,11 +3,16 @@ title: MBM物料BOM与配方
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 MBM（Material & BOM Management）物料BOM与配方管理模块。涵盖物料主数据维护、BOM（Bill of Materials）配方结构管理、配方版本控制、配方审批流程、物料替代关系、BOM成本核算等功能。
-tags: [smart-manufacturing]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 MBM（Material & BOM Management）物料BOM与配方管理模块。涵盖物料主数据维护、BOM（Bill
+  of Materials）配方结构管理、配方版本控制、配方审批流程、物料替代关系、BOM成本核算等功能。
+
+  '
+tags:
+- smart-manufacturing
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

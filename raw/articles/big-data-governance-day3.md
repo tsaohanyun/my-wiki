@@ -3,6 +3,10 @@ ingested: 2026-04-30
 sha256: 5ae67dc6d971b48e04e19db296a7d657a65e32c6b123a9df2b9220402085307d
 source_url: 幕布文档导出
 title: big-data-governance-day3
+project: 外部资料
+tags:
+- 原始资料
+- 智能制造
 ---
 
 数据治理的背景

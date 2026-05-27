@@ -3,11 +3,16 @@ title: MES生产执行
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 MES（Manufacturing Execution System）生产执行模块，管理通威农发各工厂的生产全流程。涵盖配方管理（配方/配方版本/配方审批）、配料作业（配料任务/配料明细/物料消耗）、生产工单（生产计划/工单/报工）、清洗作业（CIP清洗计划/清洗记录）、打包作业（打包任务/装车/码垛）、以及生产领退料、生产日
-tags: [smart-manufacturing, mes]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 MES（Manufacturing Execution System）生产执行模块，管理通威农发各工厂的生产全流程。涵盖配方管理（配方/配方版本/配方审批）、配料作业（配料任务/配料明细/物料消耗）、生产工单（生产计划/工单/报工）、清洗作业（CIP清洗计划/清洗记录）、打包作业（打包任务/装车/码垛）、以及生产领退料、生产日
+
+  '
+tags:
+- smart-manufacturing
+- mes
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

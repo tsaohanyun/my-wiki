@@ -2,6 +2,10 @@
 source_url: 接口说明\B栋单机上线风险说明与应对方案.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 接口说明\B栋单机上线风险说明与应对方案.docx
@@ -87,3 +91,12 @@ DESC: 接口-单机上线风险
 [/body/p[@paraId=795FF66E]] 1.3风险影响及应对方案
 [/body/p[@paraId=07DD98F8]] SAP单据录入错误时和MES对账，对错误的单据进行撤回或冲销。
 [/body/p[@paraId=3F7A1928]] 工作量增加：统计业务发生频率核定工作量。由于原先管控失效环节进行系统管控导致工作量增加的，需要和车间相关人员开会宣贯。
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

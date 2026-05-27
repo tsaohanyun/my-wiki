@@ -3,10 +3,17 @@ title: 智能制造
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  智能制造是以数据、算力、算法三大要素驱动的制造业范式变革，核心是将复杂系统的不确定性通过数据流动的自动化来化解。 数据 + 算力 + 算法：数据提供决策依据，算法提供决策方向，算力完成人力所不及的规划。数据+算法=全知（业务方向），算力=全能（技术方向）。
-tags: [smart-manufacturing, digital-transformation, iot, industry-4]
-sources: [raw/articles/smart-manufacturing-overview.md]
+description: '智能制造是以数据、算力、算法三大要素驱动的制造业范式变革，核心是将复杂系统的不确定性通过数据流动的自动化来化解。 数据 + 算力 + 算法：数据提供决策依据，算法提供决策方向，算力完成人力所不及的规划。数据+算法=全知（业务方向），算力=全能（技术方向）。
+
+  '
+tags:
+- smart-manufacturing
+- digital-transformation
+- iot
+- industry-4
+sources:
+- raw/articles/smart-manufacturing-overview.md
+project: 通用知识
 ---
 
 
@@ -76,3 +83,12 @@ sources: [raw/articles/smart-manufacturing-overview.md]
 - [[大数据治理]] — 智能制造的数据基础
 - [[智能工厂规划]] — 智能制造的工厂落地形态
 - [[制造业数字化转型政策]] — 各国政策支撑
+
+
+## 相关页面
+
+- [[数字化转型方法论]]
+- [[数字孪生技术]]
+- [[智能工厂规划]]
+- [[ISA-95 企业控制系统集成]]
+- [[物流与运输解决方案]]

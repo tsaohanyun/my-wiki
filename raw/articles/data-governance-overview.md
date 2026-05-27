@@ -3,6 +3,11 @@ ingested: 2026-05-04
 sha256: placeholder
 source_url: 大数据治理训练营——数据治理的全貌
 title: 数据治理的全貌
+project: 外部资料
+tags:
+- 原始资料
+- 大数据
+- 安全
 ---
 
 # 数据治理的全貌
@@ -54,3 +59,12 @@ title: 数据治理的全貌
 2. 分类：动态创建分类，可以包含更多属性
 3. 血缘：API更新、访问；UI查看
 4. 搜索和发现：UI查询、近SQL查询
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

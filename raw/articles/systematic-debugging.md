@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 30e3b2a92f3e846a
 source_url: hermes-skill://systematic-debugging
 title: Systematic Debugging
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # Systematic Debugging
@@ -359,3 +362,12 @@ From debugging sessions:
 - New bugs introduced: Near zero vs common
 
 **No shortcuts. No guessing. Systematic always wins.**
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

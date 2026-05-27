@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 7df6239766ef0214
 source_url: hermes-skill://pdf
 title: PDF Processing Guide
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # PDF Processing Guide
@@ -313,3 +316,12 @@ with open("encrypted.pdf", "wb") as output:
 - For JavaScript libraries (pdf-lib), see REFERENCE.md
 - If you need to fill out a PDF form, follow the instructions in FORMS.md
 - For troubleshooting guides, see REFERENCE.md
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

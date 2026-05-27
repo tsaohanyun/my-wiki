@@ -3,11 +3,16 @@ title: 物流执行LES与WHM
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 LES（Logistics Execution System）物流执行系统和WHM（Warehouse Helper Module）仓库辅助模块。涵盖物流运输管理（运输计划/运输单/运输跟踪）、仓库辅助（库位管理/搬运设备/叉车管理）等功能。
-tags: [smart-manufacturing]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 LES（Logistics Execution System）物流执行系统和WHM（Warehouse
+  Helper Module）仓库辅助模块。涵盖物流运输管理（运输计划/运输单/运输跟踪）、仓库辅助（库位管理/搬运设备/叉车管理）等功能。
+
+  '
+tags:
+- smart-manufacturing
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

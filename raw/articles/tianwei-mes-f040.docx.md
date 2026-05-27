@@ -2,6 +2,10 @@
 source_url: UAT测试\天味家园B栋防呆防错UAT测试方案V1.2.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: UAT测试\天味家园B栋防呆防错UAT测试方案V1.2.docx
@@ -195,3 +199,12 @@ DESC: 测试-UAT方案
 [/body/tbl[8]] [Table: 10 rows]
 [/body/p[@paraId=044FA211]] 
 [/body/p[@paraId=7E090EB5]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

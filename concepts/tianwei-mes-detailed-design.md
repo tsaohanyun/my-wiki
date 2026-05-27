@@ -3,22 +3,26 @@ title: 天味家园B栋MES详细设计方案
 created: 2026-05-26
 updated: 2026-05-26
 type: concept
-tags: [mes, smart-manufacturing, architecture]
+tags:
+- mes
+- smart-manufacturing
+- architecture
 sources:
-  - raw/articles/tianwei-f001-daliao-peiliao.md
-  - raw/articles/tianwei-f002-daliao-preprocess.md
-  - raw/articles/tianwei-f003-xiaoliao-preprocess.md
-  - raw/articles/tianwei-f004-chaoliao-chaozhi.md
-  - raw/articles/tianwei-f005-gongdan-management.md
-  - raw/articles/tianwei-f006-xiaoliao-ganliao-peiliao.md
-  - raw/articles/tianwei-f007-gongyi-peifang.md
-  - raw/articles/tianwei-f008-neiwai-baozhuang.md
-  - raw/articles/tianwei-f009-fangongpin-chaijie.md
-  - raw/articles/tianwei-f010-chejian-beiliao.md
-  - raw/articles/tianwei-f011-weiwu-peiliao.md
-  - raw/articles/tianwei-f012-gongxu-product.md
-  - raw/articles/tianwei-f013-fangongpin-touliao.md
+- raw/articles/tianwei-f001-daliao-peiliao.md
+- raw/articles/tianwei-f002-daliao-preprocess.md
+- raw/articles/tianwei-f003-xiaoliao-preprocess.md
+- raw/articles/tianwei-f004-chaoliao-chaozhi.md
+- raw/articles/tianwei-f005-gongdan-management.md
+- raw/articles/tianwei-f006-xiaoliao-ganliao-peiliao.md
+- raw/articles/tianwei-f007-gongyi-peifang.md
+- raw/articles/tianwei-f008-neiwai-baozhuang.md
+- raw/articles/tianwei-f009-fangongpin-chaijie.md
+- raw/articles/tianwei-f010-chejian-beiliao.md
+- raw/articles/tianwei-f011-weiwu-peiliao.md
+- raw/articles/tianwei-f012-gongxu-product.md
+- raw/articles/tianwei-f013-fangongpin-touliao.md
 description: 天味家园B栋车间MES系统详细设计方案，涵盖生产执行（大料配料/预处理、小料预处理、炒料炒制、内外包装、返工品拆解）、基础配置（工艺配方单/工单管理/委外物料/工序产品/返工品投料/小料干料配料方式）、车间备料三大模块。
+project: 天味
 ---
 
 # 天味家园B栋MES详细设计方案

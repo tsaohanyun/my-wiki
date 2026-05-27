@@ -3,10 +3,18 @@ title: 制造业数据指标体系
 created: 2026-05-04
 updated: 2026-05-04
 type: concept
-description: >
-  制造业企业的数据指标体系，涵盖指标体系搭建方法论与六大类业务KPI参考。 单一指标无法全面衡量企业的经营状况。成体系化的指标能够结合问题背景、串联各个指标、通过各种维度进行分析，使解决方案更有针对性，也能在出现异动时快速定位问题环节。
-tags: [kpi, manufacturing, data-governance, process-management]
-sources: [raw/articles/manufacturing-kpi-system.md, raw/articles/manufacturing-kpi-guide.md]
+description: '制造业企业的数据指标体系，涵盖指标体系搭建方法论与六大类业务KPI参考。 单一指标无法全面衡量企业的经营状况。成体系化的指标能够结合问题背景、串联各个指标、通过各种维度进行分析，使解决方案更有针对性，也能在出现异动时快速定位问题环节。
+
+  '
+tags:
+- kpi
+- manufacturing
+- data-governance
+- process-management
+sources:
+- raw/articles/manufacturing-kpi-system.md
+- raw/articles/manufacturing-kpi-guide.md
+project: 通用知识
 ---
 
 
@@ -128,3 +136,12 @@ sources: [raw/articles/manufacturing-kpi-system.md, raw/articles/manufacturing-k
 员工增加率、员工结构比例、关键人才流失率、工资增加率、人力资源培训完成率、人才引进完成率、考核通过率、部门员工出勤情况
 
 相关概念：[[metric-platform-construction]]、[[data-visualization-selection]]、[[value-stream-mapping]]
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[指标中台建设方法与实践]]
+- [[APS 高级计划与排程]]
+- [[大数据治理]]
+- [[数据资产管理标准化]]

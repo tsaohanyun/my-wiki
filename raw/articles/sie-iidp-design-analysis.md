@@ -3,6 +3,10 @@ ingested: 2026-05-03
 sha256: c2fc3fa4bdcf2e4a6e83467907a84ce8223b6130dfbea5174240d0bbd681526d
 source_url: /home/agentuser/trans-import/ (10 DIM HTML pages + CSS/JS/SVG assets)
 title: SIE-IIDP 网页设计风格 — 详细分析报告
+project: 外部资料
+tags:
+- MES
+- 原始资料
 ---
 
 # SIE-IIDP 网页设计风格 — 详细分析报告
@@ -433,3 +437,12 @@ SIE-IIDP 设计风格是一种**典型的中国大型制造企业后台管理系
 
 这是一种**高度实用主义**的设计风格，美学让位于功能效率，品牌色贯穿始终形成统一识别，是工业互联网领域的一个典型参考案例。
 
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

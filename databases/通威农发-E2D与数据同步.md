@@ -3,11 +3,16 @@ title: E2D与数据同步
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 E2D（Enterprise to Data）数据同步模块，负责通威农发与Oracle EBS ERP系统及其他外围系统的数据交换。涵盖EBS接口配置、数据同步任务、数据映射转换、同步日志、异常处理等功能。
-tags: [smart-manufacturing]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 E2D（Enterprise to Data）数据同步模块，负责通威农发与Oracle
+  EBS ERP系统及其他外围系统的数据交换。涵盖EBS接口配置、数据同步任务、数据映射转换、同步日志、异常处理等功能。
+
+  '
+tags:
+- smart-manufacturing
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

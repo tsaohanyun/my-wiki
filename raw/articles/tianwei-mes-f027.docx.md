@@ -2,6 +2,12 @@
 source_url: 会议纪要\20230920_天味食品一期项目推进会议.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
+- 食品
+status: minimal_extraction
 ---
 
 SOURCE: 会议纪要\20230920_天味食品一期项目推进会议.docx

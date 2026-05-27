@@ -3,10 +3,19 @@ title: 指标中台建设方法与实践
 created: 2026-05-04
 updated: 2026-05-04
 type: concept
-description: >
-  指标中台是数据应用的一个分支，是集中化、标准化、自动化、场景化的指标管理、计算、应用平台，专注于解决指标定义不统一、数据冗余、口径不一致以及快速响应业务变化等问题。^[raw/articles/fi-metric-platform-intro.md]
-tags: [data-governance, data-warehouse, metadata, data-model, kpi]
-sources: [raw/articles/metric-platform-whitepaper.md, raw/articles/fi-metric-platform-intro.md]
+description: '指标中台是数据应用的一个分支，是集中化、标准化、自动化、场景化的指标管理、计算、应用平台，专注于解决指标定义不统一、数据冗余、口径不一致以及快速响应业务变化等问题。^[raw/articles/fi-metric-platform-intro.md]
+
+  '
+tags:
+- data-governance
+- data-warehouse
+- metadata
+- data-model
+- kpi
+sources:
+- raw/articles/metric-platform-whitepaper.md
+- raw/articles/fi-metric-platform-intro.md
+project: 通用知识
 ---
 
 
@@ -106,3 +115,12 @@ Spark（批处理）、Flink（流处理）、AutoML（自动机器学习）
 指标计算引擎选型：Kylin（预计算）、Spark（批处理）、Druid（实时）、ClickHouse（MPP）
 
 相关概念：[[data-mid-platform]]、[[manufacturing-kpi-system]]、[[big-data-governance]]
+
+
+## 相关页面
+
+- [[大数据治理]]
+- [[数据资产管理标准化]]
+- [[数据治理两阶段实践]]
+- [[数据中台解决方案]]
+- [[APQC 流程绩效指标库]]

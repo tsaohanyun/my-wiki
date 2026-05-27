@@ -2,6 +2,10 @@
 source_url: 上线准备\上线策略报告III .doc
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 上线准备\上线策略报告III .doc
@@ -889,3 +893,12 @@ DESC: 上线策略-III
 
   系统保障机制，问题处理窗口。异常操作手册，系统账务问题。
 
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

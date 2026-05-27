@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: e5ff71271d7c5c76b6482545d7caf73776556ec8fa24705edb606c6d1da56381
 source_url: file://trans-import/03_参考代码节选.md
 title: 参考代码 · 精选片段
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # 参考代码 · 精选片段
@@ -388,3 +391,12 @@ session:
 
 > ⚠️ 完整代码 ~5 MB，仅作教学参考，**不可直接用于生产环境**。
 > 真实落地必须按你公司的鉴权 / 限流 / 数据合规要求进行二次加固。
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

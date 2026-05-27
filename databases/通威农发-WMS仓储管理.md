@@ -3,11 +3,15 @@ title: WMS仓储管理
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 WMS（Warehouse Management System）仓储管理模块，负责通威农发各工厂/公司的仓库全流程管理。涵盖入库管理（ASN送货单/收货单/验收）、出库管理（发运单/计划销售单/装车）、库存管理（库存原子结构/库存批次/库存移动/调整/预警）、拣货管理（拣货明细/波次）、盘点管理（盘点计划/盘点单/盘点配置）、
-tags: [smart-manufacturing]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 WMS（Warehouse Management System）仓储管理模块，负责通威农发各工厂/公司的仓库全流程管理。涵盖入库管理（ASN送货单/收货单/验收）、出库管理（发运单/计划销售单/装车）、库存管理（库存原子结构/库存批次/库存移动/调整/预警）、拣货管理（拣货明细/波次）、盘点管理（盘点计划/盘点单/盘点配置）、
+
+  '
+tags:
+- smart-manufacturing
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 7f3b83dd96ee3d04
 source_url: hermes-skill://product-prototype-html
 title: Product Prototype HTML Generator
+project: 外部资料
+tags:
+- 原始资料
 ---
 ---
 name: product-prototype-html
@@ -146,3 +149,12 @@ project-name/
 - Quantitative inputs need both national and enterprise standards displayed
 - All interactive elements (buttons, toggles, tabs) should have basic JS for state changes
 - Keep each HTML file under 20KB for fast loading
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

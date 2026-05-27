@@ -3,11 +3,15 @@ title: 资产管理EAM与设备
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 EAM（Enterprise Asset Management）企业资产管理模块，管理通威农发的固定资产和设备资产。涵盖资产台账、资产折旧、资产变动、设备台账、设备维修工单、备件管理等功能。
-tags: [smart-manufacturing]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 EAM（Enterprise Asset Management）企业资产管理模块，管理通威农发的固定资产和设备资产。涵盖资产台账、资产折旧、资产变动、设备台账、设备维修工单、备件管理等功能。
+
+  '
+tags:
+- smart-manufacturing
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

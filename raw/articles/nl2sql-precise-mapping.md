@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: decf4c96f6606a723994f46508165fc8b6c08abcda14e94742064d811df71d38
 source_url: file://trans-import/02b_NL2SQL精确映射方案.md
 title: 自然语言到 SQL 语句的精准映射实现方案
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # 自然语言到 SQL 语句的精准映射实现方案
@@ -569,3 +572,12 @@ field: r.region_name
 2. 一套可直接用的 Prompt 模板
 3. 一个 DSL 设计样例
 4. 一个销售域的完整 Demo（自然语言 -> DSL -> SQL）
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

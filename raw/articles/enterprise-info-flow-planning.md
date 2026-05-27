@@ -3,6 +3,9 @@ ingested: 2026-05-05
 sha256: placeholder
 source_url: 《企业信息流规划》
 title: 企业信息流规划
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # 企业信息流规划
@@ -220,3 +223,8 @@ title: 企业信息流规划
 下几个问题：
 
 
+
+
+## 精炼版本
+
+- 知识库页面：[concepts/enterprise-info-flow-planning.md](/concepts/enterprise-info-flow-planning.md)

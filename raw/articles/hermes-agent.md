@@ -3,6 +3,10 @@ ingested: 2026-04-30
 sha256: d30c1ed9a97b8666
 source_url: hermes-skill://hermes-agent
 title: Hermes Agent
+project: 外部资料
+tags:
+- AI
+- 原始资料
 ---
 
 # Hermes Agent
@@ -697,3 +701,12 @@ Types: `fix:`, `feat:`, `refactor:`, `docs:`, `chore:`
 - Use `get_hermes_home()` from `hermes_constants` for all paths (profile-safe)
 - Config values go in `config.yaml`, secrets go in `.env`
 - New tools need a `check_fn` so they only appear when requirements are met
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

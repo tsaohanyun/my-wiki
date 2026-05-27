@@ -3,10 +3,18 @@ title: 天味家园B栋MES项目概览
 created: 2026-05-26
 updated: 2026-05-26
 type: concept
-tags: [mes, smart-manufacturing, digital-transformation]
-sources: [raw/articles/f000.xlsx.txt, raw/articles/f014.pdf.txt, raw/articles/f045.docx.txt, raw/articles/f044.docx.txt, raw/articles/f046.pdf.txt]
-description: >
-  天味家园B栋老车间工艺和物料防呆防错信息化优化项目（MES系统）的整体概览，涵盖项目背景、目标、范围、13个核心功能模块及项目交付内容。
+tags:
+- mes
+- smart-manufacturing
+- digital-transformation
+sources:
+- raw/articles/f000.xlsx.txt
+- raw/articles/f014.pdf.txt
+- raw/articles/f045.docx.txt
+- raw/articles/f044.docx.txt
+- raw/articles/f046.pdf.txt
+description: 天味家园B栋老车间工艺和物料防呆防错信息化优化项目（MES系统）的整体概览，涵盖项目背景、目标、范围、13个核心功能模块及项目交付内容。
+project: 天味
 ---
 
 # 天味家园B栋MES项目概览

@@ -3,6 +3,10 @@ ingested: 2026-05-05
 sha256: placeholder
 source_url: 《数据治理解决方案》
 title: 数据治理解决方案
+project: 外部资料
+tags:
+- 原始资料
+- 数字化转型
 ---
 
 # 数据治理解决方案
@@ -177,3 +181,12 @@ title: 数据治理解决方案
 
                                                                                     xx     xx   xx
                
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

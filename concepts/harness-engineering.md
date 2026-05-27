@@ -3,10 +3,18 @@ title: Harness Engineering
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  Harness（驾驭层） 是介于 LLM 和用户之间的工程系统。它不是简单的 API 调用封装，而是一整套控制、引导、约束、增强 LLM 行为的运行时框架。 优秀的 AI Agent = 强大的 LLM × 精密的 Harness
-tags: [architecture, pattern, design-principle, ai-agent]
-sources: [raw/articles/harness-engineering-methodology.md]
+description: 'Harness（驾驭层） 是介于 LLM 和用户之间的工程系统。它不是简单的 API 调用封装，而是一整套控制、引导、约束、增强 LLM
+  行为的运行时框架。 优秀的 AI Agent = 强大的 LLM × 精密的 Harness
+
+  '
+tags:
+- architecture
+- pattern
+- design-principle
+- ai-agent
+sources:
+- raw/articles/harness-engineering-methodology.md
+project: 通用知识
 ---
 
 
@@ -157,3 +165,12 @@ Hooks 使 Harness 行为可被外部扩展而不需要修改代码。
 - [[systematic-debugging]] — Harness 的 Permission 层是系统调试的保障
 - [[hermes-agent]] — Hermes Agent 本身是 Harness 的一个实现实例
 - [[text2kpi-optimization]] — Harness 方法论在 Text2KPI 项目中的应用
+
+
+## 相关页面
+
+- [[Text2KPI 优化方案]]
+- [[前端设计系统]]
+- [[NL2SQL 精确映射]]
+- [[Text2KPI Prompt 模板与工程化配置]]
+- [[Text2KPI 参考代码节选]]

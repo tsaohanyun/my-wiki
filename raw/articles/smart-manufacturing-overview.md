@@ -3,6 +3,10 @@ ingested: 2026-04-30
 sha256: 550a1723966a427c68b7dc9c3a2f83d7d2daab1aad5d51a2394440fcb6ec8096
 source_url: 幕布文档导出
 title: smart-manufacturing-overview
+project: 外部资料
+tags:
+- 原始资料
+- 智能制造
 ---
 
 前言

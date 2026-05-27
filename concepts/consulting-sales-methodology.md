@@ -3,11 +3,16 @@ title: 咨询与销售方法论
 created: 2026-05-15
 updated: 2026-05-15
 type: concept
-description: >
-  > 管理咨询和销售领域经过验证的专业方法论体系，帮助解决复杂商业问题和推进大客户销售。 源自《管理咨询方法论》培训材料，核心思维框架和解决问题方法。
-tags: [best-practice, enterprise-management]
-sources: [raw/]
+description: '> 管理咨询和销售领域经过验证的专业方法论体系，帮助解决复杂商业问题和推进大客户销售。 源自《管理咨询方法论》培训材料，核心思维框架和解决问题方法。
+
+  '
+tags:
+- best-practice
+- enterprise-management
+sources:
+- raw/
 confidence: high
+project: 通用知识
 ---
 
 

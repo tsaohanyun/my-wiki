@@ -3,10 +3,17 @@ title: 54种热门网页设计模板
 created: 2026-04-30
 updated: 2026-04-30
 type: entity
-description: >
-  从真实网站提取的54套生产级设计系统。每套模板捕捉完整的视觉语言：色彩体系、字体层级、组件样式、间距系统、阴影、响应行为和可直接使用的CSS值。 2. 加载模板：skillview(name="popular-web-designs", filepath="templates/<site>.md")
-tags: [framework, library, tool]
-sources: [raw/articles/skill-popular-web-designs.md]
+description: '从真实网站提取的54套生产级设计系统。每套模板捕捉完整的视觉语言：色彩体系、字体层级、组件样式、间距系统、阴影、响应行为和可直接使用的CSS值。
+  2. 加载模板：skillview(name="popular-web-designs", filepath="templates/<site>.md")
+
+  '
+tags:
+- framework
+- library
+- tool
+sources:
+- raw/articles/skill-popular-web-designs.md
+project: 通用知识
 ---
 
 
@@ -120,3 +127,12 @@ sources: [raw/articles/skill-popular-web-designs.md]
 - [[html-prototype-generation]] — Apple Design 原型
 - [[retro-futuristic-html-design]] — 复古未来风
 - [[frontend-slides-presentation]] — 演示文稿生成
+
+
+## 相关页面
+
+- [[FineReport CPT 模板文件]]
+- [[HTML 演示文稿生成]]
+- [[Excel 电子表格处理]]
+- [[Hermes Agent]]
+- [[PDF 文档处理]]

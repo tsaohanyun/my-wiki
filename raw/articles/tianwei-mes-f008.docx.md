@@ -2,6 +2,10 @@
 source_url: 详设评审\2-【生产管理】【生产执行】内外包装.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\2-【生产管理】【生产执行】内外包装.docx
@@ -60,3 +64,12 @@ DESC: 详设评审-内外包装
 [/body/tbl[10]] [Table: 2 rows]
 [/body/p[@paraId=0034F58E]] 
 [/body/p[@paraId=5D792C81]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

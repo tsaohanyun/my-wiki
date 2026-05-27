@@ -2,6 +2,11 @@
 source_url: 部署方案评审会\天味食品运维部署文档-v3.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
+- 食品
 ---
 
 SOURCE: 部署方案评审会\天味食品运维部署文档-v3.docx
@@ -111,3 +116,12 @@ DESC: 部署-运维文档
 [/body/p[@paraId=3C45559B]] 生产环境网段：至少需预留 60个IP（一期约使用40个）；
 [/body/p[@paraId=4AF1EEA1]] 测试环境网段：至少需预留 40个IP（一期约使用25个）；
 [/body/p[@paraId=3E5C6FBA]] 2023-07-18更新：已确认生产环境与测试环境，不做网段隔离（注意：部署完成后，IP将不可再修改，届时若需做隔离，只能在现有IP基础上做隔离）
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

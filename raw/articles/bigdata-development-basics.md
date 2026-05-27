@@ -3,6 +3,10 @@ ingested: 2026-05-04
 sha256: placeholder
 source_url: 《大数据开发基础知识》
 title: 大数据开发基础知识
+project: 外部资料
+tags:
+- 原始资料
+- 大数据
 ---
 
 # 大数据开发基础知识

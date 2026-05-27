@@ -3,10 +3,19 @@ title: 饲料行业智能制造解决方案
 created: 2026-05-26
 updated: 2026-05-26
 type: entity
-description: >
-  > 本文档基于通威农发智能工厂蓝图解决方案提炼，侧重系统功能、业务流程、管理目标和数字化升级策略。行业基础知识请参考 feed-industry-knowledge。 > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系
-tags: [mes, digital-transformation, smart-manufacturing, inventory, quality]
-sources: [raw/]
+description: '> 本文档基于通威农发智能工厂蓝图解决方案提炼，侧重系统功能、业务流程、管理目标和数字化升级策略。行业基础知识请参考 feed-industry-knowledge。
+  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系
+
+  '
+tags:
+- mes
+- digital-transformation
+- smart-manufacturing
+- inventory
+- quality
+sources:
+- raw/
+project: 通威
 ---
 
 # 饲料行业智能制造解决方案

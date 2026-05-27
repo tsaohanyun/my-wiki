@@ -2,6 +2,12 @@
 source_url: 接口说明\天味食品_WMS&博依特MES_接口清单_V1.1_20230620.xlsx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- WMS
+- 原始资料
+- 天味
+- 食品
 ---
 
 SOURCE: 接口说明\天味食品_WMS&[已脱敏]MES_接口清单_V1.1_20230620.xlsx
@@ -474,3 +480,11 @@ WMS接收返回参数
 code	响应编码
 data	响应数据
 msg	响应信息
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

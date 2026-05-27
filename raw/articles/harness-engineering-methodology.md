@@ -3,6 +3,10 @@ ingested: 2026-04-30
 sha256: 30d89e639b50906ca02ba386c089d924054a48e8c56d3ca3caa6996182d2bff7
 source_url: 用户提供文档
 title: Harness Engineering 方法论
+project: 外部资料
+tags:
+- AI
+- 原始资料
 ---
 
 # Harness Engineering 方法论
@@ -469,3 +473,12 @@ Text2KPI 已经在 Permission 层（HumanApproveStep）和 Orchestration 层（P
 3. **交互效率** — 参数收集、反馈纠错的闭环尚未建立
 
 这三个方向是将 Text2KPI 从 "NL2API 工具" 进化为 "智能业务助手" 的关键路径。
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

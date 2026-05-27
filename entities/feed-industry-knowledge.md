@@ -3,10 +3,18 @@ title: 饲料行业知识
 created: 2026-05-26
 updated: 2026-05-26
 type: entity
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 饲料工业是连接种植业与养殖业的关键环节，是为动物饲养提供营养全面、均衡的配合饲料及饲料添加剂的制造业。中国是全球最大的饲料生产国，饲料年产量超过3亿吨。
-tags: [mes, digital-transformation, inventory, quality, iot]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 饲料工业是连接种植业与养殖业的关键环节，是为动物饲养提供营养全面、均衡的配合饲料及饲料添加剂的制造业。中国是全球最大的饲料生产国，饲料年产量超过3亿吨。
+
+  '
+tags:
+- mes
+- digital-transformation
+- inventory
+- quality
+- iot
+sources:
+- raw/
+project: 通威
 ---
 
 # 饲料行业知识

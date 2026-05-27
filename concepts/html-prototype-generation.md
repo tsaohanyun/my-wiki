@@ -3,10 +3,18 @@ title: HTML 原型生成
 created: 2026-04-30
 updated: 2026-05-01
 type: concept
-description: >
-  使用 Apple Design Language 生成产品原型 HTML 页面。每个页面是自包含的 HTML+CSS+JS 文件，内嵌功能说明面板供利益相关者审阅。覆盖 Web 端和移动端两种布局模式。
-tags: [framework, architecture, best-practice]
-sources: [raw/articles/skill-apple-prototype-html.md, raw/articles/skill-product-prototype-html.md]
+description: '使用 Apple Design Language 生成产品原型 HTML 页面。每个页面是自包含的 HTML+CSS+JS 文件，内嵌功能说明面板供利益相关者审阅。覆盖
+  Web 端和移动端两种布局模式。
+
+  '
+tags:
+- framework
+- architecture
+- best-practice
+sources:
+- raw/articles/skill-apple-prototype-html.md
+- raw/articles/skill-product-prototype-html.md
+project: 通用知识
 ---
 
 
@@ -146,3 +154,12 @@ project-name/
 - [[retro-futuristic-html-design]] — 另一种风格选择
 - [[popular-web-design-templates]] — 54种设计模板
 - [[fine-report-cpt]] — 报表模板系统
+
+
+## 相关页面
+
+- [[企业级大数据技术体系]]
+- [[数据中台解决方案]]
+- [[企业架构与信息化规划]]
+- [[企业信息流规划]]
+- [[企业架构与IT规划方法论]]

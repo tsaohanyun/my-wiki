@@ -2,6 +2,10 @@
 source_url: 详设评审\2-【生产管理】车间备料.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\2-【生产管理】车间备料.docx
@@ -57,3 +61,12 @@ DESC: 详设评审-车间备料
 [/body/p[@paraId=540E0A8F]] • 状态流转图
 [/body/p[@paraId=39B7EBF6]] 备料单状态流转图：
 [/body/p[@paraId=12A49FB5]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

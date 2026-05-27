@@ -2,6 +2,10 @@
 source_url: 详设评审\3-【生产管理】【基础配置】-返工品投料配置.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\3-【生产管理】【基础配置】-返工品投料配置.docx
@@ -40,3 +44,12 @@ DESC: 详设评审-返工品投料配置
 [/body/p[@paraId=203B4E03]] 
 [/body/p[@paraId=1E2C89D5]] 
 [/body/p[@paraId=2DB06175]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

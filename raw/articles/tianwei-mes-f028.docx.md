@@ -2,6 +2,11 @@
 source_url: 会议纪要\天味家园B栋项目推进会议-会议纪要 20230920 V1.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
+status: minimal_extraction
 ---
 
 SOURCE: 会议纪要\天味家园B栋项目推进会议-会议纪要 20230920 V1.docx

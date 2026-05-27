@@ -3,6 +3,10 @@ ingested: 2026-04-30
 sha256: 3c32e76dff8b6d44d034894c9b46f8f1aa9cf60d634061091845031811ecdb6c
 source_url: file://trans-import/04_Prompt模板与工程化配置清单.md
 title: 课程同款 · Prompt 模板 + 工程化配置清单
+project: 外部资料
+tags:
+- AI
+- 原始资料
 ---
 
 # 课程同款 · Prompt 模板 + 工程化配置清单
@@ -380,3 +384,12 @@ time_rules:
 
 > 📮 若你在自己项目落地时遇到具体问题，欢迎在课程社群里发出来一起讨论。
 > 本清单会随实战持续更新。
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

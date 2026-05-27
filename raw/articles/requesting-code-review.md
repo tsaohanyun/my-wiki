@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: b7e1ae64565ffafe
 source_url: hermes-skill://requesting-code-review
 title: Pre-Commit Code Verification
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # Pre-Commit Code Verification
@@ -272,3 +275,12 @@ tests exist, tests pass, no regressions.
 - **No test framework found** — skip regression check, reviewer verdict still runs
 - **Lint tools not installed** — skip that check silently, don't fail
 - **Auto-fix introduces new issues** — counts as a new failure, cycle continues
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

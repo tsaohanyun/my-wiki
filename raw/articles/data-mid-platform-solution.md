@@ -3,6 +3,11 @@ ingested: 2026-05-04
 sha256: placeholder
 source_url: 《数据中台解决方案》
 title: 数据中台解决方案
+project: 外部资料
+tags:
+- 中台
+- 原始资料
+- 大数据
 ---
 
 发布时间：2024.4
@@ -46,3 +51,8 @@ title: 数据中台解决方案
 
 ### 数据中台产品能力
 一站式数据融合平台DataFusion：新一代全场景数据仓库，支持数据集成（结构化/非结构化/NoSQL/MQ）、数据开发、数据治理、数据服务
+
+
+## 精炼版本
+
+- 知识库页面：[concepts/data-mid-platform.md](/concepts/data-mid-platform.md)

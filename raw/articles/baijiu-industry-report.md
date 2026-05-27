@@ -3,6 +3,9 @@ ingested: 2026-05-04
 sha256: placeholder
 source_url: 《白酒Ⅲ行业深度报告：酱酒专题》
 title: 白酒Ⅲ行业深度报告：酱酒专题
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 发布时间：2023.8
@@ -54,3 +57,12 @@ title: 白酒Ⅲ行业深度报告：酱酒专题
 - 上游酒厂：头部品牌稳产扩能，吨位决定地位，马太效应加速
 - 中游渠道：渠道利润回归合理水平，核心是厂商一体
 - 下游消费：全国化布局，广东/河南/山东为成熟样板市场
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]
+- [[big-data-governance-day3]]

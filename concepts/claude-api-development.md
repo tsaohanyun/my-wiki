@@ -3,10 +3,16 @@ title: Claude API 开发模式
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  构建 Claude API 应用的开发模式，包括 SDK 选择、prompt caching、流式输出等最佳实践。 1. 使用官方 SDK - 优先使用 Anthropic 官方 SDK（Python/TypeScript/Java）
-tags: [tool, api]
-sources: [raw/articles/claude-api.md]
+description: '构建 Claude API 应用的开发模式，包括 SDK 选择、prompt caching、流式输出等最佳实践。 1. 使用官方 SDK
+  - 优先使用 Anthropic 官方 SDK（Python/TypeScript/Java）
+
+  '
+tags:
+- tool
+- api
+sources:
+- raw/articles/claude-api.md
+project: 通用知识
 ---
 
 

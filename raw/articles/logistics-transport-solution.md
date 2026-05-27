@@ -3,6 +3,10 @@ ingested: 2026-05-05
 sha256: placeholder
 source_url: 《物流与运输解决方案》
 title: 物流与运输解决方案
+project: 外部资料
+tags:
+- 原始资料
+- 物流
 ---
 
 # 物流与运输解决方案
@@ -71,3 +75,8 @@ $  d    d  d 7$ 8$ H$ [$ \$ a$ gd t     $  dh   7$ 8$ H$ a$ gd^ o      $  d    d
 $  d   7$ 8$ a$ gda     $  dh   7$ 8$ H$ a$ gd$     $  d+  7$ 8$ H$ a$ gd$     $  d  7$ 8$ H$ a$     $  d+  7$ 8$ H$ a$   d   h   j   p   r   ~            çߍmM-                                              ? ha  ha 5 B* CJ  KH  OJ  PJ  QJ  \ ^J  aJ  nH  phk) tH  ? hde  h t 5 B* CJ  KH  OJ  PJ  QJ  \ ^J  aJ  nH  phk) tH  ? hde  hYbc 5 B* CJ  KH  OJ  PJ  QJ  \ ^J  aJ  nH  ph tH  3 hde  h$ 5 B* CJ  KH  OJ  QJ  \ ^J  aJ  ph 7 hde  hk 5 B* CJ  KH  OJ  PJ  QJ  \ ^J  aJ  ph 7 hde  h$ 5 B* CJ  KH  OJ  PJ  QJ  \ ^J  aJ  ph ? hde  h+m 5 B* CJ  KH  OJ  PJ  QJ  \ ^J  aJ  nH  ph tH                                           ĪybKby4bK                                        - hde  h, [ B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  hg+ B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  hk B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  h$ B* CJ  KH  OJ  QJ  ^J  aJ  ph    3 hde  h$ 5 B* CJ  KH  OJ  QJ  \ ^J  aJ  phk) 3 hde  h$ 5 B* CJ  KH  OJ  QJ  \ ^J  aJ  phk) 4 j     h `k  h `k CJ  OJ  QJ  U  ^J  mH  nH  tH  u   ? ha  ha 5 B* CJ  KH  OJ  PJ  QJ  \ ^J  aJ  nH  phk) tH                      2	  8	  <	  F	  T	  h	  j	  n	  r	  ~	  	  	  	  Ѻuu^G                                                - hde  h< B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  h$ B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  h, [ B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  h$ B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  hTj| B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  h 	H B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  hk B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  ha B* CJ  KH  OJ  QJ  ^J  aJ  ph
 ѺmS9    3 hde  h$ 5 B* CJ  KH  OJ  QJ  \ ^J  aJ  phk) 3 hde  h$ 5 B* CJ  KH  OJ  QJ  \ ^J  aJ  phk) 3 hde  h< 5 B* CJ  KH  OJ  QJ  \ ^J  aJ  phk) 7 ha  ha 5 B* CJ  KH  OJ  PJ  QJ  \ ^J  aJ  phk) 3 hde  hg+ 5 B* CJ  KH  OJ  QJ  \ ^J  aJ  phk) - hde  h$ B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  h< B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  hTj| B* CJ  KH  OJ  QJ  ^J  aJ  ph    - hde  hTj| B* CJ  KH  OJ  QJ  ^J  aJ  ph
 &   .   0   2   8   h   p
+
+
+## 精炼版本
+
+- 知识库页面：[concepts/logistics-transport-solution.md](/concepts/logistics-transport-solution.md)

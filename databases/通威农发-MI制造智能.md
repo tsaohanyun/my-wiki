@@ -3,11 +3,15 @@ title: MI制造智能
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 MI（Manufacturing Intelligence）制造智能模块，提供通威农发工厂级的智能分析和数据可视化能力。涵盖预警管理（预警规则/预警记录/预警推送）、测点管理（测点配置/测点数据）、数据填报（填报模板/填报记录）、IDA设计器（数据采集分析/报表配置）等功能。
-tags: [smart-manufacturing]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 MI（Manufacturing Intelligence）制造智能模块，提供通威农发工厂级的智能分析和数据可视化能力。涵盖预警管理（预警规则/预警记录/预警推送）、测点管理（测点配置/测点数据）、数据填报（填报模板/填报记录）、IDA设计器（数据采集分析/报表配置）等功能。
+
+  '
+tags:
+- smart-manufacturing
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

@@ -3,11 +3,20 @@ title: HTML 生成风格对比
 created: 2026-04-30
 updated: 2026-04-30
 type: comparison
-description: >
-  - Apple 原型 + FineReport：业务系统原型展示 + 报表模板开发 - 热门模板 + 通用设计：快速套用+定制化
-  
-tags: [comparison, framework, architecture]
-sources: [raw/articles/skill-apple-prototype-html.md, raw/articles/skill-retro-futuristic-html.md, raw/articles/skill-popular-web-designs.md, raw/articles/skill-frontend-design.md, raw/articles/skill-frontend-slides.md]
+description: '- Apple 原型 + FineReport：业务系统原型展示 + 报表模板开发 - 热门模板 + 通用设计：快速套用+定制化
+
+  '
+tags:
+- comparison
+- framework
+- architecture
+sources:
+- raw/articles/skill-apple-prototype-html.md
+- raw/articles/skill-retro-futuristic-html.md
+- raw/articles/skill-popular-web-designs.md
+- raw/articles/skill-frontend-design.md
+- raw/articles/skill-frontend-slides.md
+project: 通用知识
 ---
 
 
@@ -56,3 +65,12 @@ sources: [raw/articles/skill-apple-prototype-html.md, raw/articles/skill-retro-f
 - [[popular-web-design-templates]] — 54种模板目录
 - [[frontend-slides-presentation]] — 演示文稿详解
 - [[fine-report-cpt]] — FineReport 报表模板
+
+
+## 相关页面
+
+- [[企业级大数据技术体系]]
+- [[数据中台解决方案]]
+- [[HTML 原型生成]]
+- [[企业架构与信息化规划]]
+- [[企业信息流规划]]

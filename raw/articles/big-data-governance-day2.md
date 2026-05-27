@@ -3,6 +3,10 @@ ingested: 2026-04-30
 sha256: f0ae95ee1a1ae2319fc3065d58d289be546bb4a57300307da76d0729e3e7fbd2
 source_url: 幕布文档导出
 title: big-data-governance-day2
+project: 外部资料
+tags:
+- 原始资料
+- 大数据
 ---
 
 什么是成本管理

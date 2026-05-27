@@ -2,6 +2,11 @@
 source_url: 详设评审\1-【生产管理】工单管理.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- SAP
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\1-【生产管理】工单管理.docx
@@ -97,3 +102,12 @@ DESC: 详设评审-工单管理
 [/body/tbl[17]] [Table: 11 rows]
 [/body/p[@paraId=7AEEDBF4]] 
 [/body/p[@paraId=38792709]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

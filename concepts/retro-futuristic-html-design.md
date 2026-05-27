@@ -3,10 +3,17 @@ title: 复古未来风 HTML 设计系统
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  CRT 终端美学 × 太空时代仪表盘的完整设计系统。三个视觉支柱：CRT终端、太空控制面板、霓虹黑色电影。 - Orbitron：letter-spacing 0.08-0.15em，标题始终大写
-tags: [framework, design-principle, pattern]
-sources: [raw/articles/skill-retro-futuristic-html.md]
+description: 'CRT 终端美学 × 太空时代仪表盘的完整设计系统。三个视觉支柱：CRT终端、太空控制面板、霓虹黑色电影。 - Orbitron：letter-spacing
+  0.08-0.15em，标题始终大写
+
+  '
+tags:
+- framework
+- design-principle
+- pattern
+sources:
+- raw/articles/skill-retro-futuristic-html.md
+project: 通用知识
 ---
 
 
@@ -137,3 +144,12 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 - [[frontend-design-system]] — 前端设计方法论总览
 - [[html-prototype-generation]] — Apple Design 原型生成（对比风格）
 - [[popular-web-design-templates]] — 更多设计模板
+
+
+## 相关页面
+
+- [[前端设计系统]]
+- [[Harness Engineering]]
+- [[Text2KPI 优化方案]]
+- [[企业级大数据技术体系]]
+- [[数据中台解决方案]]

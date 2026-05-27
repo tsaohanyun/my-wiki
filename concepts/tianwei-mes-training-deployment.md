@@ -4,14 +4,15 @@ created: 2026-05-26
 updated: 2026-05-26
 type: concept
 tags:
-  - mes
-  - documentation
-  - process-management
+- mes
+- documentation
+- process-management
 sources:
-  - 天味家园操作手册(2023-08-15)
-  - 天味家园培训计划
-  - 天味老车间MES平台部署概要方案(2023-06)
+- 天味家园操作手册(2023-08-15)
+- 天味家园培训计划
+- 天味老车间MES平台部署概要方案(2023-06)
 description: 天味家园B栋MES项目的用户培训方案（炒料室/小料室/内外包/内勤岗位分层培训）和系统部署架构（超融合网络拓扑、VPN安全访问、Harbor镜像发布、虚拟化资源规划、域名与网段配置）。
+project: 天味
 ---
 
 项目：**天味家园B栋MES**（老车间工艺和物料防呆防错信息化优化项目）

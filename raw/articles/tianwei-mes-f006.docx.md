@@ -2,6 +2,10 @@
 source_url: 详设评审\1-小料特殊流程【生产管理】【基础配置】-小料干料配料方式配置.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\1-小料特殊流程【生产管理】【基础配置】-小料干料配料方式配置.docx
@@ -39,3 +43,12 @@ DESC: 详设评审-小料干料配料方式配置
 [/body/tbl[3]] [Table: 4 rows]
 [/body/p[@paraId=2F418F47]] 
 [/body/p[@paraId=012272E2]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

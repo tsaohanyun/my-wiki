@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 5ec47300890e6333
 source_url: hermes-skill://fine-report-cpt
 title: FineReport (帆软报表) CPT File Analysis & Development
+project: 外部资料
+tags:
+- 原始资料
 ---
 ---
 name: fine-report-cpt
@@ -199,3 +202,12 @@ collect(root)
 - Font size units are NOT points — must divide by 4.
 - Location/size values are in EMU, not pixels or cm — must convert.
 - Some attribute meanings are inferred but not yet confirmed by a FineReport expert — validate before critical edits.
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

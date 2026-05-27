@@ -3,6 +3,10 @@ ingested: 2026-04-30
 sha256: ae3d4c4189f8904c1eac731b21071c11ed45c006f82563c044132f868117a39e
 source_url: 幕布文档导出
 title: manufacturing-digital-policy
+project: 外部资料
+tags:
+- 原始资料
+- 数字化转型
 ---
 
 美国先进制造业发展主要举措
@@ -56,3 +60,12 @@ title: manufacturing-digital-policy
 越南：大力引入外部优势资源带动转型发展
 印尼和泰国：利用工业4.0带动实现一二三产业的转型发展
 重点优先发展食品饮料、汽车、电子、纺织、化工五大行业
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

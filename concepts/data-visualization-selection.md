@@ -3,10 +3,17 @@ title: 数据可视化选型
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  根据数据关系类型（比较、联系、分布、构成）选择最合适的图表类型，使数据表达准确、直观、高效。 ├── 比较 → 分类 or 时间？→ 分类数/周期数？→ 选图表
-tags: [data-visualization, visualization, chart]
-sources: [raw/articles/data-visualization-selection.md]
+description: '根据数据关系类型（比较、联系、分布、构成）选择最合适的图表类型，使数据表达准确、直观、高效。 ├── 比较 → 分类 or 时间？→ 分类数/周期数？→
+  选图表
+
+  '
+tags:
+- data-visualization
+- visualization
+- chart
+sources:
+- raw/articles/data-visualization-selection.md
+project: 通用知识
 ---
 
 
@@ -73,3 +80,12 @@ sources: [raw/articles/data-visualization-selection.md]
 
 - [[大数据治理]] — 治理后的数据通过可视化呈现
 - [[智能制造]] — 工厂看板与数据可视化的应用场景
+
+
+## 相关页面
+
+- [[数字孪生技术]]
+- [[APQC 流程绩效指标库]]
+- [[APS 高级计划与排程]]
+- [[企业级大数据技术体系]]
+- [[大数据治理]]

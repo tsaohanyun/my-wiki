@@ -3,6 +3,11 @@ ingested: 2026-05-04
 sha256: placeholder
 source_url: 《效率与效率提升的系统方法》培训材料
 title: 效率与效率提升的系统方法
+project: 外部资料
+tags:
+- 原始资料
+- 培训
+- 精益生产
 ---
 
 # 效率与效率提升的系统方法

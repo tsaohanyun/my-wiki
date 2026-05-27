@@ -3,10 +3,18 @@ title: 培训-WMS与MES测试方法论
 created: 2026-05-26
 updated: 2026-05-26
 type: summary
-description: >
-  本文档整合 WMS（仓储管理系统）与 MES（制造执行系统）的 UAT（用户验收测试）方法论，涵盖测试大纲结构、场景化测试设计、数据集成测试要点以及文件收集清单规范，适用于仓储与生产管理相关项目的测试培训与参考。
-tags: [mes, smart-manufacturing, inventory, quality, iot]
-sources: [raw/]
+description: '本文档整合 WMS（仓储管理系统）与 MES（制造执行系统）的 UAT（用户验收测试）方法论，涵盖测试大纲结构、场景化测试设计、数据集成测试要点以及文件收集清单规范，适用于仓储与生产管理相关项目的测试培训与参考。
+
+  '
+tags:
+- mes
+- smart-manufacturing
+- inventory
+- quality
+- iot
+sources:
+- raw/
+project: 通用
 ---
 项目：**前归档-培训** | 交叉引用 [[培训-总览]]
 

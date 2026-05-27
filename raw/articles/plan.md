@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 7f0639dc94b4dc65
 source_url: hermes-skill://plan
 title: Plan Mode
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # Plan Mode

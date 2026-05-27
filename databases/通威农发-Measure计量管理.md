@@ -3,11 +3,15 @@ title: Measure计量管理
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 Measure计量管理模块，负责通威农发各工厂的称重、计量和校准管理。涵盖秤管理（秤配置/秤校准/秤维护）、称重记录（毛重/皮重/净重）、计量器具管理、计量标准、校准记录等功能。
-tags: [smart-manufacturing]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 Measure计量管理模块，负责通威农发各工厂的称重、计量和校准管理。涵盖秤管理（秤配置/秤校准/秤维护）、称重记录（毛重/皮重/净重）、计量器具管理、计量标准、校准记录等功能。
+
+  '
+tags:
+- smart-manufacturing
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

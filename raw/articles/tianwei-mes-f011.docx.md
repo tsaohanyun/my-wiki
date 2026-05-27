@@ -2,6 +2,10 @@
 source_url: 详设评审\3-【生产管理】【基础配置】-委外物料配置.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\3-【生产管理】【基础配置】-委外物料配置.docx
@@ -36,3 +40,12 @@ DESC: 详设评审-委外物料配置
 [/body/p[@paraId=0D8C7F37]] >【委外物料配置】新开页操作
 [/body/tbl[3]] [Table: 4 rows]
 [/body/p[@paraId=6D19E6DF]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

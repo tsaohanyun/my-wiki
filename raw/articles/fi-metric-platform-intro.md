@@ -3,6 +3,12 @@ ingested: 2026-05-04
 sha256: placeholder
 source_url: 《FI指标中台产品介绍V4》
 title: FI指标中台产品介绍
+project: 外部资料
+tags:
+- AI
+- 中台
+- 原始资料
+- 智能制造
 ---
 
 发布时间：2024.4
@@ -59,3 +65,12 @@ title: FI指标中台产品介绍
 - 指标虚拟化技术，减少数据冗余
 - 指标图谱关系，支持归因和智能分析
 - 指标层预计算，查询加速
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

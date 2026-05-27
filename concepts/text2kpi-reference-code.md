@@ -3,10 +3,18 @@ title: Text2KPI 参考代码节选
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  从 Text2KPI 完整工程（Spring Boot + Python，约 5 MB / 数百文件）中精选 7 段最能体现方法论的核心代码，每段配有方法论映射讲解。这些代码是 text2kpi-optimization V2 架构的工程实现参考。 ^[raw/articles/text2kpi-reference-code.md]
-tags: [architecture, pattern, ai-agent, api]
-sources: [raw/articles/text2kpi-reference-code.md]
+description: '从 Text2KPI 完整工程（Spring Boot + Python，约 5 MB / 数百文件）中精选 7 段最能体现方法论的核心代码，每段配有方法论映射讲解。这些代码是
+  text2kpi-optimization V2 架构的工程实现参考。 ^[raw/articles/text2kpi-reference-code.md]
+
+  '
+tags:
+- architecture
+- pattern
+- ai-agent
+- api
+sources:
+- raw/articles/text2kpi-reference-code.md
+project: 通用知识
 ---
 
 
@@ -340,3 +348,12 @@ session:
 - [[text2kpi-prompt-and-config]] — Prompt 分层模板与工程化配置清单
 - [[nl2sql-precise-mapping]] — NL2SQL 路线的精确映射方案（对比参考）
 - [[harness-engineering]] — AI Agent 驾驭层方法论（本文代码的理论基础）
+
+
+## 相关页面
+
+- [[Harness Engineering]]
+- [[NL2SQL 精确映射]]
+- [[Text2KPI 优化方案]]
+- [[Text2KPI Prompt 模板与工程化配置]]
+- [[前端设计系统]]

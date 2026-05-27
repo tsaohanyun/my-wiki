@@ -3,6 +3,10 @@ ingested: 2026-04-30
 sha256: be03fcbe99cabbed4a35808daedaf86debc93f44bd94e746e0ff8c686be67cc5
 source_url: file://trans-import/02_Text2KPI_Demo设计方案.md
 title: Text2KPI AI 问数系统 — 设计方案 V2
+project: 外部资料
+tags:
+- AI
+- 原始资料
 ---
 
 # Text2KPI AI 问数系统 — 设计方案 V2
@@ -1651,3 +1655,12 @@ app/                               app/
 | 图表渲染 | 前端ECharts固定样式，AI只推荐类型 | 保证展示质量一致性 |
 | 元数据管理 | Phase1:YAML+热更新, Phase2:DB+管理后台 | 先快速验证，再持久化 |
 | 编排层 | Spring Boot总控 + DTO契约 | 企业级稳定性，接口不裸传Map |
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

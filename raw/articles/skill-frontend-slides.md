@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: f8aa9cd3cb8c4a9f
 source_url: hermes-skill://frontend-slides
 title: Frontend Slides
+project: 外部资料
+tags:
+- 原始资料
 ---
 ---
 name: frontend-slides
@@ -217,3 +220,12 @@ Uses Playwright to screenshot each slide at 1920x1080 and combine into a PDF. Ad
 | `scripts/extract-pptx.py` | PPT content extraction | Phase 4 (conversion) |
 | `scripts/deploy.sh` | Deploy to Vercel | Phase 6 (sharing) |
 | `scripts/export-pdf.sh` | Export slides to PDF | Phase 6 (sharing) |
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

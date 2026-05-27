@@ -3,6 +3,11 @@ ingested: 2026-04-30
 sha256: 8077433ad3d860a01027247b13db78f62366ceb0c03107bbbd89795e6db6740a
 source_url: 幕布文档导出
 title: smart-factory-planning
+project: 外部资料
+tags:
+- MES
+- 原始资料
+- 智能制造
 ---
 
 关于欧软

@@ -3,6 +3,11 @@ ingested: 2026-05-05
 sha256: c2a8947c1c3fceb763113e3d6debdba8afa0f25cf99dc1b848914222e83785eb
 source_url: 《智能工厂生产业务平台详细设计-精益》
 title: smart-factory-lean-detail-design
+project: 外部资料
+tags:
+- 原始资料
+- 智能制造
+- 精益生产
 ---
 
 甲方
@@ -4851,3 +4856,11 @@ PDA支持RFID袋装投料、袋装销售
 8D分析与报告
 注：当前阶段的签字仅针对已经上线的部分。对于其他部分（具体详情请参阅备忘录清单），我们将根据后续的实际情况输出详细的设计文档，并补充相应的签字。
 （完）
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

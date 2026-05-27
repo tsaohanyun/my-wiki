@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: cdc0afd5dccbe073
 source_url: hermes-skill://doc-coauthoring
 title: Doc Co-Authoring Workflow
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # Doc Co-Authoring Workflow
@@ -375,3 +378,12 @@ Announce document completion. Provide a few final tips:
 - Don't rush through stages
 - Each iteration should make meaningful improvements
 - The goal is a document that actually works for readers
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

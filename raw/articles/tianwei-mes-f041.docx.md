@@ -2,6 +2,10 @@
 source_url: 炒锅联调\系统联调测试方案8月14启动V2.0.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 炒锅联调\系统联调测试方案8月14启动V2.0.docx
@@ -98,3 +102,12 @@ DESC: 测试-炒锅联调方案
 [/body/p[@paraId=34372CEF]] 网闸设备：
 [/body/tbl[5]] [Table: 17 rows]
 [/body/p[@paraId=3DE0AF03]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

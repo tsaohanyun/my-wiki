@@ -2,6 +2,10 @@
 source_url: 详设评审\1-【生产管理】【生产执行】炒料炒制.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\1-【生产管理】【生产执行】炒料炒制.docx
@@ -58,3 +62,12 @@ DESC: 详设评审-炒料炒制
 [/body/p[@paraId=520F9260]] 
 [/body/p[@paraId=3A6F4A16]] 
 [/body/p[@paraId=5A7A0655]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f005.docx]]

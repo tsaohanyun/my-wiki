@@ -3,6 +3,11 @@ ingested: 2026-05-04
 sha256: placeholder
 source_url: Kyligence 白皮书《指标中台建设方法与实践》
 title: 指标中台建设方法与实践
+project: 外部资料
+tags:
+- 中台
+- 原始资料
+- 白皮书
 ---
 
 # 指标中台建设方法与实践
@@ -32,3 +37,8 @@ title: 指标中台建设方法与实践
 5. 数据治理难
 6. 指标计算重复，分析效率低
 7. 分析平台特性不足以支撑决策
+
+
+## 精炼版本
+
+- 知识库页面：[concepts/metric-platform-construction.md](/concepts/metric-platform-construction.md)

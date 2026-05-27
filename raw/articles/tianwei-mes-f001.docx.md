@@ -2,6 +2,10 @@
 source_url: 详设评审\1-【生产管理】【生产执行】大料配料.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: 详设评审\1-【生产管理】【生产执行】大料配料.docx
@@ -53,3 +57,12 @@ DESC: 详设评审-大料配料
 [/body/p[@paraId=464183CF]] 
 [/body/p[@paraId=02CAC414]] 
 [/body/p[@paraId=37D0EBEA]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]
+- [[tianwei-mes-f005.docx]]

@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: eca09455adc04359
 source_url: hermes-skill://skill-creator
 title: Skill Creator
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # Skill Creator
@@ -485,3 +488,12 @@ Repeating one more time the core loop here for emphasis:
 Please add steps to your TodoList, if you have such a thing, to make sure you don't forget. If you're in Cowork, please specifically put "Create evals JSON and run `eval-viewer/generate_review.py` so human can review test cases" in your TodoList to make sure it happens.
 
 Good luck!
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

@@ -3,10 +3,20 @@ title: Text2KPI 优化方案
 created: 2026-04-30
 updated: 2026-05-02
 type: concept
-description: >
-  Text2KPI 是一个 NL2API（自然语言转 API 调用）系统，用户通过自然语言查询业务指标，系统自动路由到对应 API 并返回结果。基于 harness-engineering 方法论，对其人机交互体验提出六项优化方案，并在 V2 设计中完成了分层架构重构。
-tags: [architecture, pattern, ai-agent, design-principle, nl2api]
-sources: [raw/articles/harness-engineering-methodology.md, raw/articles/text2kpi-demo-design-v2.md]
+description: 'Text2KPI 是一个 NL2API（自然语言转 API 调用）系统，用户通过自然语言查询业务指标，系统自动路由到对应 API 并返回结果。基于
+  harness-engineering 方法论，对其人机交互体验提出六项优化方案，并在 V2 设计中完成了分层架构重构。
+
+  '
+tags:
+- architecture
+- pattern
+- ai-agent
+- design-principle
+- nl2api
+sources:
+- raw/articles/harness-engineering-methodology.md
+- raw/articles/text2kpi-demo-design-v2.md
+project: 通用知识
 ---
 
 
@@ -319,3 +329,12 @@ V2 通过分层架构重构 + 查询编排计划 + 推理可观测，将 Text2KP
 - [[nl2sql-precise-mapping]] — NL2SQL 路线（对比参考：本系统走 NL2API 而非 NL2SQL）
 - [[text2kpi-reference-code]] — V2 架构的核心参考代码实现
 - [[text2kpi-prompt-and-config]] — Prompt 分层模板与工程化配置清单
+
+
+## 相关页面
+
+- [[Harness Engineering]]
+- [[前端设计系统]]
+- [[NL2SQL 精确映射]]
+- [[Text2KPI Prompt 模板与工程化配置]]
+- [[Text2KPI 参考代码节选]]

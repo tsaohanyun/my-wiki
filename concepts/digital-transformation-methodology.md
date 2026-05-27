@@ -3,11 +3,18 @@ title: 数字化转型方法论
 created: 2026-05-15
 updated: 2026-05-15
 type: concept
-description: >
-  > 企业利用数字技术实现业务转型的系统方法论，涵盖从战略定位到落地实施的完整路径。 源自《企业数字化转型方法论》，六个层次架构：
-tags: [best-practice, digital-transformation, smart-manufacturing, industry-4]
-sources: [raw/]
+description: '> 企业利用数字技术实现业务转型的系统方法论，涵盖从战略定位到落地实施的完整路径。 源自《企业数字化转型方法论》，六个层次架构：
+
+  '
+tags:
+- best-practice
+- digital-transformation
+- smart-manufacturing
+- industry-4
+sources:
+- raw/
 confidence: high
+project: 通用知识
 ---
 
 

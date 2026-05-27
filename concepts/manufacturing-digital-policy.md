@@ -3,10 +3,17 @@ title: 制造业数字化转型政策
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  全球主要经济体围绕制造业数字化转型出台的战略性政策体系，涵盖产业引导、资金支持、创新生态、人才培育等维度。 - 推出保护主义贸易政策，营造有利于国内产业发展的环境
-tags: [industry-policy, manufacturing, digital-transformation, industry-4]
-sources: [raw/articles/manufacturing-digital-policy.md]
+description: '全球主要经济体围绕制造业数字化转型出台的战略性政策体系，涵盖产业引导、资金支持、创新生态、人才培育等维度。 - 推出保护主义贸易政策，营造有利于国内产业发展的环境
+
+  '
+tags:
+- industry-policy
+- manufacturing
+- digital-transformation
+- industry-4
+sources:
+- raw/articles/manufacturing-digital-policy.md
+project: 通用知识
 ---
 
 
@@ -111,3 +118,12 @@ sources: [raw/articles/manufacturing-digital-policy.md]
 
 - [[智能制造]] — 政策推动的核心方向
 - [[智能工厂规划]] — 政策落地的工厂形态
+
+
+## 相关页面
+
+- [[数字化转型方法论]]
+- [[智能制造]]
+- [[中小企业数字化模式创新]]
+- [[APQC 流程绩效指标库]]
+- [[数字孪生技术]]

@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 5d4e24fe67e95d41
 source_url: hermes-skill://xlsx
 title: Requirements for Outputs
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # Requirements for Outputs
@@ -291,3 +294,12 @@ The script returns JSON with error details:
 - Add comments to cells with complex formulas or important assumptions
 - Document data sources for hardcoded values
 - Include notes for key calculations and model sections
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

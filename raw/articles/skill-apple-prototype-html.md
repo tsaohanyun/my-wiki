@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 445f6d767fd5aa8e
 source_url: hermes-skill://apple-prototype-html
 title: Design System
+project: 外部资料
+tags:
+- 原始资料
 ---
 ---
 name: apple-prototype-html
@@ -146,3 +149,12 @@ Show workflow stages with dots and connecting lines. States: done (green), activ
 4. Copy CSS variables and shared patterns across pages
 5. Each page is self-contained (no shared CSS file) for easy standalone review
 6. Include realistic sample data — not lorem ipsum
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

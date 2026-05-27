@@ -3,10 +3,23 @@ title: 大数据治理
 created: 2026-04-30
 updated: 2026-05-18
 type: concept
-description: >
-  大数据治理是在数据的全生命周期内，对其进行管理的原则性方法，目标是确保数据的安全、及时、准确、易用。数据生命周期包括：创建→处理→存储→查看→报告和使用→保留和检索→销毁。 1. 数据上报 — Log Server、binlog 等原始数据产出
-tags: [data-governance, data-quality, data-warehouse, metadata, data-model, data-lifecycle]
-sources: [raw/articles/big-data-governance-day1.md, raw/articles/big-data-governance-day2.md, raw/articles/big-data-governance-day3.md, raw/articles/data-governance-overview.md]
+description: '大数据治理是在数据的全生命周期内，对其进行管理的原则性方法，目标是确保数据的安全、及时、准确、易用。数据生命周期包括：创建→处理→存储→查看→报告和使用→保留和检索→销毁。
+  1. 数据上报 — Log Server、binlog 等原始数据产出
+
+  '
+tags:
+- data-governance
+- data-quality
+- data-warehouse
+- metadata
+- data-model
+- data-lifecycle
+sources:
+- raw/articles/big-data-governance-day1.md
+- raw/articles/big-data-governance-day2.md
+- raw/articles/big-data-governance-day3.md
+- raw/articles/data-governance-overview.md
+project: 通用知识
 ---
 
 
@@ -301,3 +314,12 @@ PDCA 循环 + 元数据驱动 + 专项数据治理 + 自驱式数据管理
 - [[智能工厂规划]] — 工厂数字化落地涉及数据治理需求
 - [[智能制造]] — 数据驱动的制造体系依赖数据治理基础
 - [[数据可视化选型]] — 治理后的数据通过可视化呈现
+
+
+## 相关页面
+
+- [[数据资产管理标准化]]
+- [[数据治理两阶段实践]]
+- [[指标中台建设方法与实践]]
+- [[数据要素价值评估]]
+- [[数据中台解决方案]]

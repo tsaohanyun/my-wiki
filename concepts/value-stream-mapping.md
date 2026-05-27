@@ -3,10 +3,18 @@ title: 价值流图 VSM
 created: 2026-05-04
 updated: 2026-05-04
 type: concept
-description: >
-  价值流图析（VSM），又称物流情报图，是精益生产中的核心分析工具，用于可视化产品从原材料到成品交付给客户的全过程。 1. 转换思维 — 望远镜思维、站在山顶、总经理的思维
-tags: [lean-manufacturing, vsm, efficiency, process-management]
-sources: [raw/articles/value-stream-mapping.md]
+description: '价值流图析（VSM），又称物流情报图，是精益生产中的核心分析工具，用于可视化产品从原材料到成品交付给客户的全过程。 1. 转换思维 —
+  望远镜思维、站在山顶、总经理的思维
+
+  '
+tags:
+- lean-manufacturing
+- vsm
+- efficiency
+- process-management
+sources:
+- raw/articles/value-stream-mapping.md
+project: 通用知识
 ---
 
 
@@ -53,3 +61,12 @@ sources: [raw/articles/value-stream-mapping.md]
 改善通常设定3年规划，分年推进物流、情报流、效率三大方向的改善，设定直达率、效率等KPI目标。
 
 相关概念：[[efficiency-improvement-methods]]、[[smart-manufacturing]]
+
+
+## 相关页面
+
+- [[效率与效率改善方法]]
+- [[APS 高级计划与排程]]
+- [[详细设计文档编写规范]]
+- [[APQC 流程绩效指标库]]
+- [[企业信息流规划]]

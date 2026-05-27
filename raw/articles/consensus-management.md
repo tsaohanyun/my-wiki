@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 936bb8b3e299db70d5a8595e7111e95eb7457db47f1bd9dcf4dde25ce54f5385
 source_url: 幕布文档导出
 title: consensus-management
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 共识管理的分类

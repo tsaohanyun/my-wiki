@@ -2,6 +2,12 @@
 source_url: 老车间数字化改造工艺物料防呆防错信息化项目月度汇报-会议纪要 20230630 V2.pdf
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
+- 数字化转型
+- 食品
 ---
 
 SOURCE: 老车间数字化改造工艺物料防呆防错信息化项目月度汇报-会议纪要 20230630 V2.pdf
@@ -81,3 +87,11 @@ PDA\电子秤样机的到货时间确认             Open   阮工    2023/07/07
 
 会议决议确认签字：
 
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

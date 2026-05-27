@@ -3,10 +3,18 @@ title: 通威农发-CPT报表分析
 created: 2026-05-26
 updated: 2026-05-26
 type: entity
-description: >
-  > 通威农发项目共30张FineReport CPT绩效报表的分析经验汇总。 > 报表路径：/home/agentuser/finereport-files/通威农发/
-tags: [inventory, quality, api, security, kpi-indicator]
-sources: [raw/]
+description: '> 通威农发项目共30张FineReport CPT绩效报表的分析经验汇总。 > 报表路径：/home/agentuser/finereport-files/通威农发/
+
+  '
+tags:
+- inventory
+- quality
+- api
+- security
+- kpi-indicator
+sources:
+- raw/
+project: 通威
 ---
 
 

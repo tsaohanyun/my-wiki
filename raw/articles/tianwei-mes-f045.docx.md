@@ -2,6 +2,10 @@
 source_url: 博依特与天味家园验收报告.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 天味
 ---
 
 SOURCE: [已脱敏]与天味家园验收报告.docx

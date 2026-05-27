@@ -3,11 +3,16 @@ title: 企业架构与IT规划方法论
 created: 2026-05-15
 updated: 2026-05-15
 type: concept
-description: >
-  > 企业架构（EA）是建设企业信息化的顶层设计蓝图，回答"企业去哪里、IT怎么建"的战略问题。IT规划是EA落地的具体路径。 源自《企业架构咨询方法论》，将企业信息化划分为四个相互关联的视图：
-tags: [best-practice, architecture]
-sources: [raw/]
+description: '> 企业架构（EA）是建设企业信息化的顶层设计蓝图，回答"企业去哪里、IT怎么建"的战略问题。IT规划是EA落地的具体路径。 源自《企业架构咨询方法论》，将企业信息化划分为四个相互关联的视图：
+
+  '
+tags:
+- best-practice
+- architecture
+sources:
+- raw/
 confidence: high
+project: 通用知识
 ---
 
 

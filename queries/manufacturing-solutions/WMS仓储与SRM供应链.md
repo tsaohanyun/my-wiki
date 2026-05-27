@@ -3,11 +3,17 @@ title: WMS仓储与SRM供应链
 created: 2026-05-15
 updated: 2026-05-15
 type: query
-description: >
-  > 公司引领行业发展，拓展行业化深入应用，聚焦通信线缆、光伏、汽配3大行业，覆盖28个细分应用，为近500家明星企业提供产品和服务。 智能工厂整体解决方案集成商 专注智能制造，以“敏捷、连接、透明、智能”...
-tags: [supply-chain, logistics]
-sources: [trans-import/]
+description: '> 公司引领行业发展，拓展行业化深入应用，聚焦通信线缆、光伏、汽配3大行业，覆盖28个细分应用，为近500家明星企业提供产品和服务。 智能工厂整体解决方案集成商
+  专注智能制造，以“敏捷、连接、透明、智能”...
+
+  '
+tags:
+- supply-chain
+- logistics
+sources:
+- trans-import/
 confidence: medium
+project: 研究
 ---
 
 

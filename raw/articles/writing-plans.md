@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 88cedac7068788ab
 source_url: hermes-skill://writing-plans
 title: Writing Implementation Plans
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # Writing Implementation Plans
@@ -289,3 +292,12 @@ Frequent commits
 ```
 
 **A good plan makes implementation obvious.**
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

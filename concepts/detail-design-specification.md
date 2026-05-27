@@ -3,10 +3,20 @@ title: 详细设计文档编写规范
 created: 2026-05-05
 updated: 2026-05-05
 type: concept
-description: >
-  > 详细设计是蓝图方案到系统开发之间的核心交付物。本文基于智能工厂生产业务平台8大模块（计划/配方/生产批组/质量/仓储/生产/设备/精益）的详细设计实践，提炼通用编写规范。关联：feed-industry-solution smart-factory-planning
-tags: [smart-manufacturing, lean-manufacturing, process-management, kpi-indicator, occupational-health, safety-management]
-sources: [raw/articles/smart-factory-lean-detail-design.md]
+description: '> 详细设计是蓝图方案到系统开发之间的核心交付物。本文基于智能工厂生产业务平台8大模块（计划/配方/生产批组/质量/仓储/生产/设备/精益）的详细设计实践，提炼通用编写规范。关联：feed-industry-solution
+  smart-factory-planning
+
+  '
+tags:
+- smart-manufacturing
+- lean-manufacturing
+- process-management
+- kpi-indicator
+- occupational-health
+- safety-management
+sources:
+- raw/articles/smart-factory-lean-detail-design.md
+project: 通用知识
 ---
 
 

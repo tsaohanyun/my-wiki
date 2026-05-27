@@ -2,6 +2,11 @@
 source_url: 培训\操作手册\天味家园操作手册.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 培训
+- 天味
 ---
 
 SOURCE: 培训\操作手册\天味家园操作手册.docx
@@ -519,3 +524,12 @@ DESC: 培训-操作手册
 [/body/p[@paraId=013F9D22]] • 根据工厂单元选择采集的表计设备参数。
 [/body/p[@paraId=007BD73B]] • 可以通过【最小值】~【最大值】手动过滤异常干扰值。
 ... (showed 500 rows, 832 total, use --start/--end to view more)
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

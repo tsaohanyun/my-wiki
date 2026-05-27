@@ -3,10 +3,17 @@ title: 技能创建与优化
 created: 2026-04-30
 updated: 2026-04-30
 type: concept
-description: >
-  创建和优化 Hermes Agent 技能的完整指南，从创建到性能测试。 1. 创建 - 编写 SKILL.md 和相关文件
-tags: [tool]
-sources: [raw/articles/skill-creator.md]
+description: '创建和优化 Hermes Agent 技能的完整指南，从创建到性能测试。 1. 创建 - 编写 SKILL.md 和相关文件
+
+  '
+tags:
+- Hermes
+- tool
+- 存根
+sources:
+- raw/articles/skill-creator.md
+project: 通用知识
+status: stub
 ---
 
 

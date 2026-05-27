@@ -3,13 +3,17 @@ title: 天味家园B栋MES上线策略
 created: 2026-05-26
 updated: 2026-05-26
 type: concept
-tags: [mes, process-management, best-practice]
+tags:
+- mes
+- process-management
+- best-practice
 sources:
-  - raw/extracted/f036.doc.txt
-  - raw/extracted/f037.doc.txt
-  - raw/extracted/f038.doc.txt
-  - raw/extracted/f039.doc.txt
+- raw/extracted/f036.doc.txt
+- raw/extracted/f037.doc.txt
+- raw/extracted/f038.doc.txt
+- raw/extracted/f039.doc.txt
 description: 天味家园B栋老车间防呆防错信息化项目的MES系统上线策略总述，涵盖分步上线方案、版本演进、风险应对与时间表。
+project: 天味
 ---
 
 # 天味家园B栋MES上线策略
@@ -204,3 +208,12 @@ description: 天味家园B栋老车间防呆防错信息化项目的MES系统上
 ^[raw/extracted/f037.doc.txt]
 ^[raw/extracted/f038.doc.txt]
 ^[raw/extracted/f039.doc.txt]
+
+
+## 相关页面
+
+- [[天味家园B栋MES培训与系统部署]]
+- [[天味家园B栋MES详细设计方案]]
+- [[天味家园B栋MES接口集成方案]]
+- [[天味家园B栋MES会议纪要]]
+- [[天味家园B栋MES项目概览]]

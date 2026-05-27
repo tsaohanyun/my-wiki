@@ -1,3 +1,10 @@
+---
+title: Wiki 模式定义
+project: 通用
+created: '2026-05-27'
+updated: '2026-05-27'
+---
+
 # Wiki 模式定义
 
 ## 领域

@@ -3,10 +3,19 @@ title: 中小企业数字化模式创新
 created: 2026-05-04
 updated: 2026-05-04
 type: concept
-description: >
-  中小企业数字化转型的研究报告（2023.1），分析中小企业面临的挑战、数字化转型路径和模式创新方向。 - 供应链管理能力弱，难以直接获取市场需求
-tags: [digital-transformation, smart-manufacturing, industry-policy, efficiency, trend]
-sources: [raw/articles/sme-digital-innovation-report.md, raw/articles/sme-digital-report-part2.md]
+description: '中小企业数字化转型的研究报告（2023.1），分析中小企业面临的挑战、数字化转型路径和模式创新方向。 - 供应链管理能力弱，难以直接获取市场需求
+
+  '
+tags:
+- digital-transformation
+- smart-manufacturing
+- industry-policy
+- efficiency
+- trend
+sources:
+- raw/articles/sme-digital-innovation-report.md
+- raw/articles/sme-digital-report-part2.md
+project: 通用知识
 ---
 
 
@@ -57,3 +66,12 @@ sources: [raw/articles/sme-digital-innovation-report.md, raw/articles/sme-digita
 丰富的服务商生态全面覆盖了中小企业由内到外的数字化需求，从财税、人力资源到生产、仓储、销售、营销等全方位。
 
 相关概念：[[smart-manufacturing]]、[[manufacturing-digital-policy]]
+
+
+## 相关页面
+
+- [[APS 高级计划与排程]]
+- [[数字化转型方法论]]
+- [[数字孪生技术]]
+- [[效率与效率改善方法]]
+- [[制造业数字化转型政策]]

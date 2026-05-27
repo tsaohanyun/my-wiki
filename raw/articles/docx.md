@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: fc3c79c198a3d691
 source_url: hermes-skill://docx
 title: DOCX creation, editing, and analysis
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # DOCX creation, editing, and analysis
@@ -589,3 +592,12 @@ After running `comment.py` (see Step 2), add markers to document.xml. For replie
 - **docx**: `npm install -g docx` (new documents)
 - **LibreOffice**: PDF conversion (auto-configured for sandboxed environments via `scripts/office/soffice.py`)
 - **Poppler**: `pdftoppm` for images
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

@@ -3,6 +3,9 @@ ingested: 2026-05-05
 sha256: placeholder
 source_url: 《数据要素价值评估方法研究》
 title: 数据要素价值评估方法研究
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # 数据要素价值评估方法研究
@@ -136,3 +139,12 @@ title: 数据要素价值评估方法研究
                            ［9］
 交通死亡人数和 16%的能源消耗                 。
                                                 3     基于市场角度的
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

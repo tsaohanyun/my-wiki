@@ -3,10 +3,18 @@ title: 前端设计系统
 created: 2026-04-30
 updated: 2026-05-01
 type: concept
-description: >
-  关于创建高质量、有辨识度的前端界面的设计方法论。核心理念是避免"AI 泛风格"（AI slop），追求有意为之的设计方向，无论是极致极简还是极致极繁。 在编码之前，理解上下文并确定大胆的美学方向：
-tags: [architecture, pattern, design-principle, best-practice]
-sources: [raw/articles/skill-frontend-design.md]
+description: '关于创建高质量、有辨识度的前端界面的设计方法论。核心理念是避免"AI 泛风格"（AI slop），追求有意为之的设计方向，无论是极致极简还是极致极繁。
+  在编码之前，理解上下文并确定大胆的美学方向：
+
+  '
+tags:
+- architecture
+- pattern
+- design-principle
+- best-practice
+sources:
+- raw/articles/skill-frontend-design.md
+project: 通用知识
 ---
 
 
@@ -71,3 +79,12 @@ sources: [raw/articles/skill-frontend-design.md]
 - [[retro-futuristic-html-design]] — 复古未来风设计系统
 - [[popular-web-design-templates]] — 54种真实网站设计模板
 - [[frontend-slides-presentation]] — HTML 演示文稿生成
+
+
+## 相关页面
+
+- [[Harness Engineering]]
+- [[Text2KPI 优化方案]]
+- [[企业架构与信息化规划]]
+- [[企业信息流规划]]
+- [[企业架构与IT规划方法论]]

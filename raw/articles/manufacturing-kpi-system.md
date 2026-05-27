@@ -3,6 +3,10 @@ ingested: 2026-05-04
 sha256: placeholder
 source_url: 公众号"商业智能研究"《制造业数据指标体系》
 title: 制造业数据指标体系
+project: 外部资料
+tags:
+- 原始资料
+- 智能制造
 ---
 
 # 制造业数据指标体系
@@ -34,3 +38,8 @@ title: 制造业数据指标体系
 
 ### 人力资源类指标
 员工增加率、员工结构比例、关键人才流失率、工资增加率、人力资源培训完成率、人才引进完成率、考核通过率、部门员工出勤情况
+
+
+## 精炼版本
+
+- 知识库页面：[concepts/manufacturing-kpi-system.md](/concepts/manufacturing-kpi-system.md)

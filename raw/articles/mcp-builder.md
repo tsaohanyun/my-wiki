@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: 9c749e86e79ce070
 source_url: hermes-skill://mcp-builder
 title: MCP Server Development Guide
+project: 外部资料
+tags:
+- 原始资料
 ---
 
 # MCP Server Development Guide
@@ -235,3 +238,12 @@ Load these resources as needed during development:
   - XML format specifications
   - Example questions and answers
   - Running an evaluation with the provided scripts
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

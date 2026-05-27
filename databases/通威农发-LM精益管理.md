@@ -3,11 +3,15 @@ title: LM精益管理
 created: 2026-05-07
 updated: 2026-05-14
 type: concept
-description: >
-  > 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 LM（Lean Management）精益管理模块，涵盖8D问题解决、标准化作业、安环管理、变动生产费用、指标标准等精益管理核心流程。
-tags: [smart-manufacturing]
-sources: [raw/]
+description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 LM（Lean Management）精益管理模块，涵盖8D问题解决、标准化作业、安环管理、变动生产费用、指标标准等精益管理核心流程。
+
+  '
+tags:
+- smart-manufacturing
+sources:
+- raw/
 confidence: high
+project: 通威
 ---
 
 

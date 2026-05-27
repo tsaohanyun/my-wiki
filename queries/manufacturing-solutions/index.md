@@ -3,9 +3,14 @@ title: 制造业数字化解决方案总览
 created: 2026-05-15
 updated: 2026-05-15
 type: query
-tags: [smart-manufacturing, digital-transformation, mes]
-sources: [trans-import/]
+tags:
+- smart-manufacturing
+- digital-transformation
+- mes
+sources:
+- trans-import/
 confidence: medium
+project: 研究
 ---
 
 # 制造业数字化解决方案总览

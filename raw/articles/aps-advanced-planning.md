@@ -3,6 +3,13 @@ ingested: 2026-05-05
 sha256: placeholder
 source_url: 《APS高级计划与排程》培训材料
 title: APS高级计划与排程
+project: 外部资料
+tags:
+- APS
+- 仓储
+- 原始资料
+- 培训
+- 精益生产
 ---
 
 # APS高级计划与排程
@@ -837,3 +844,12 @@ APS （高级计划与排程）功能：
 计划进度
 供应商
 采购进度计
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]
+- [[big-data-governance-day3]]

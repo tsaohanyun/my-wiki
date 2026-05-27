@@ -2,6 +2,11 @@
 source_url: 培训\培训计划\培训计划.docx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- 原始资料
+- 培训
+- 天味
 ---
 
 SOURCE: 培训\培训计划\培训计划.docx
@@ -49,3 +54,12 @@ DESC: 培训-培训计划
 [/body/tbl[6]] [Table: 4 rows]
 [/body/p[@paraId=113D9B4F]] 
 [/body/p[@paraId=037BF1FB]]
+
+
+## 相关页面
+
+- [[tianwei-mes-f000.xlsx]]
+- [[tianwei-mes-f001.docx]]
+- [[tianwei-mes-f002.docx]]
+- [[tianwei-mes-f003.docx]]
+- [[tianwei-mes-f004.docx]]

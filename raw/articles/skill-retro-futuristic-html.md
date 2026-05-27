@@ -3,6 +3,9 @@ ingested: 2026-04-30
 sha256: f181dc1e99af263b
 source_url: hermes-skill://retro-futuristic-html
 title: Retro-Futuristic HTML Design System
+project: 外部资料
+tags:
+- 原始资料
 ---
 ---
 name: retro-futuristic-html
@@ -236,3 +239,12 @@ Header icons: Use geometric Unicode symbols instead of emoji:
 4. **clip-path + overflow:hidden** — clip-path clips the visual but hover shadows may extend; use box-shadow sparingly
 5. **Google Fonts loading** — Orbitron is heavy; include `font-display: swap` behavior (Google Fonts handles this by default)
 6. **Mobile responsiveness** — clip-path cards still work at small sizes; reduce grid minmax to 320px if needed
+
+
+## 相关页面
+
+- [[APQC 流程绩效指标库]]
+- [[APS高级计划与排程]]
+- [[白酒Ⅲ行业深度报告：酱酒专题]]
+- [[big-data-governance-day1]]
+- [[big-data-governance-day2]]

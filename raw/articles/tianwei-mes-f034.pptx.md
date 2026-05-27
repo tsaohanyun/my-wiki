@@ -2,6 +2,13 @@
 source_url: 接口说明\天味老车间工艺和物料防呆防错信息化优化PCE_SAP集成.pptx
 ingested: 2026-05-26
 project: 天味家园B栋MES
+tags:
+- MES
+- SAP
+- WMS
+- 原始资料
+- 天味
+status: minimal_extraction
 ---
 
 SOURCE: 接口说明\天味老车间工艺和物料防呆防错信息化优化PCE_SAP集成.pptx
