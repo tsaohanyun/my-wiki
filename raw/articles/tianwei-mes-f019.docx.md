@@ -12,12 +12,8 @@ status: minimal_extraction
 SOURCE: 会议纪要\20230707_天味B栋系统部署方案会议纪要 .docx
 DESC: 会议纪要-0707部署方案
 ============================================================
-[/body/tbl[1]] [Table: 4 rows]
 
-[/body/tbl[2]] [Table: 5 rows]
 
-[/body/tbl[3]] [Table: 10 rows]
 
-[/body/tbl[4]] [Table: 20 rows]
 
 

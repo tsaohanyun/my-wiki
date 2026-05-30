@@ -13,12 +13,8 @@ status: minimal_extraction
 SOURCE: 会议纪要\20230920_天味食品一期项目推进会议.docx
 DESC: 会议纪要-0920项目推进
 ============================================================
-[/body/tbl[1]] [Table: 4 rows]
 
-[/body/tbl[2]] [Table: 5 rows]
 
-[/body/tbl[3]] [Table: 13 rows]
 
-[/body/tbl[4]] [Table: 17 rows]
 
 

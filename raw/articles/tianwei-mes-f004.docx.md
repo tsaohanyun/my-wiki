@@ -32,21 +32,13 @@ DESC: 详设评审-炒料炒制
 
 • 界面字段与操作
 >【新增/编辑】弹窗字段
-[/body/tbl[1]] [Table: 10 rows]
 >【新增/编辑】弹窗操作
-[/body/tbl[2]] [Table: 3 rows]
 >【订单类型配置】弹窗字段
-[/body/tbl[3]] [Table: 2 rows]
 >【订单类型配置】弹窗操作
-[/body/tbl[4]] [Table: 5 rows]
 >【生产订单】主页面列表字段
-[/body/tbl[5]] [Table: 17 rows]
 >【生产订单】主界面操作
-[/body/tbl[6]] [Table: 6 rows]
 >【生成工单】弹窗列表字段
-[/body/tbl[7]] [Table: 13 rows]
 >【生成工单】弹窗操作
-[/body/tbl[8]] [Table: 3 rows]
 
 • 后台逻辑
 >“生产订单”生成“生产工单”的逻辑如下：

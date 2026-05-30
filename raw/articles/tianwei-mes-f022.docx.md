@@ -12,12 +12,8 @@ status: minimal_extraction
 SOURCE: 会议纪要\20230712_天味项目盘点内部会议会议纪要.docx
 DESC: 会议纪要-0712项目盘点
 ============================================================
-[/body/tbl[1]] [Table: 4 rows]
 
-[/body/tbl[2]] [Table: 5 rows]
 
-[/body/tbl[3]] [Table: 7 rows]
 
-[/body/tbl[4]] [Table: 14 rows]
 
 

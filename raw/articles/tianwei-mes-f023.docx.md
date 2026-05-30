@@ -12,12 +12,8 @@ status: minimal_extraction
 SOURCE: 会议纪要\20230714_天味UI详细方案评审会议纪要.docx
 DESC: 会议纪要-0714UI评审
 ============================================================
-[/body/tbl[1]] [Table: 4 rows]
 
-[/body/tbl[2]] [Table: 5 rows]
 
-[/body/tbl[3]] [Table: 9 rows]
 
-[/body/tbl[4]] [Table: 13 rows]
 
 

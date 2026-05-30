@@ -13,8 +13,6 @@ status: minimal_extraction
 SOURCE: 会议纪要\老车间数字化改造工艺物料防呆防错信息化项目周会-会议纪要 20230630 V2.docx
 DESC: 会议纪要-0630周会
 ============================================================
-[/body/tbl[1]] [Table: 5 rows]
 
-[/body/tbl[2]] [Table: 2 rows]
 
 

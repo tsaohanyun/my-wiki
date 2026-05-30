@@ -40,7 +40,6 @@ MES系统UAT测试方案
 对于测试期间出现的问题进行问题清单记录并对问题点日清日结。
 
 • 测试准备
-[/body/tbl[1]] [Table: 7 rows]
 
 
 
@@ -55,7 +54,6 @@ MES系统UAT测试方案
 测试地点：办公楼202及B栋2楼办公室等
 参加人员：阮智、宋臻、刘春雷、杨利英、陈苗苗、熊波、朱成霖、周晓锐、梁文、李娟、[已脱敏]、赛意。
 
-[/body/tbl[2]] [Table: 7 rows]
 
 
 
@@ -72,7 +70,6 @@ MES系统UAT测试方案
 测试地点：B栋
 参加人员：阮智、宋臻、刘春雷、杨利英、陈苗苗、熊波、朱成霖、周晓锐、梁文、李娟、[已脱敏]、赛意及其他用户。
 
-[/body/tbl[3]] [Table: 6 rows]
 
 
 
@@ -122,7 +119,6 @@ MES系统UAT测试方案
 
 • 测试用数据：
 1. 测试用仓库地址：
-[/body/tbl[4]] [Table: 54 rows]
 
 1. 测试用手工牛油麻辣BOM
 [OLE: Excel.Sheet.12]
@@ -131,7 +127,6 @@ MES系统UAT测试方案
 1. 测试用鲜番茄汤料BOM
 [OLE: Excel.Sheet.12]
 1. 测试用账号清单
-[/body/tbl[5]] [Table: 16 rows]
 
 
 
@@ -140,7 +135,6 @@ MES系统UAT测试方案
 • 详细测试脚本
 更多信息见附件测试脚本
 
-[/body/tbl[6]] [Table: 24 rows]
 
 
 
@@ -175,7 +169,6 @@ https://docs.qq.com/sheet/DUERhbUlzc1JEUUhn?tab=BB08J2
 
 
 测试日志记录：
-[/body/tbl[7]] [Table: 3 rows]
 
 1. 疑难问题升级机制：
 出现疑难问题或重大影响项升级机制：
@@ -196,7 +189,6 @@ https://docs.qq.com/sheet/DUERhbUlzc1JEUUhn?tab=BB08J2
 1.测试结束后由[已脱敏]输出系统测试记录以及编订系统测试报告
 2.由双方项目组确认测试记录后输出测试结论
 
-[/body/tbl[8]] [Table: 10 rows]
 
 
 

@@ -35,18 +35,14 @@ DESC: 验收报告
 [/body/p[22]] 
 [/body/p[23]] 
 [/body/p[24]] 
-[/body/tbl[1]] [Table: 5 rows]
 [/body/p[25]] 
 [/body/p[26]] 
 [/body/p[27]] 
 [/body/p[28]] 1. 验收总结
-[/body/tbl[2]] [Table: 2 rows]
 [/body/p[29]] 
 [/body/p[30]] 1. 项目交付验收清单
 [/body/p[31]]   1. 项目交付验收内容
 [/body/p[32]] 2.1.1 硬件内容：
-[/body/tbl[3]] [Table: 10 rows]
 [/body/p[33]] 
 [/body/p[34]] 2.1.2产品功能验收内容
-[/body/tbl[4]] [Table: 66 rows]
 [/body/p[35]]

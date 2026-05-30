@@ -33,31 +33,18 @@ DESC: 详设评审-车间备料
 
 • 界面字段与操作
 >【自动备料】新开页-【①选择生产工单】标签页列表字段
-[/body/tbl[1]] [Table: 12 rows]
 >【自动备料】新开页-【①选择生产工单】标签页操作
-[/body/tbl[2]] [Table: 5 rows]
 >【自动备料】新开页-【选择生产工单】弹窗界面字段
-[/body/tbl[3]] [Table: 12 rows]
 >【自动备料】新开页-【②计算物料需求】标签页列表字段
-[/body/tbl[4]] [Table: 13 rows]
 >【自动备料】新开页-【②计算物料需求】标签页操作
-[/body/tbl[5]] [Table: 4 rows]
 >【手工备料】新开页字段：
-[/body/tbl[6]] [Table: 8 rows]
 >【手工备料】新开页操作
-[/body/tbl[7]] [Table: 5 rows]
 >【车间备料】主界面列表字段
-[/body/tbl[8]] [Table: 16 rows]
 >【车间备料】主界面操作
-[/body/tbl[9]] [Table: 5 rows]
 >【查看/审核】弹窗列表字段
-[/body/tbl[10]] [Table: 28 rows]
 >【审核】弹窗操作
-[/body/tbl[11]] [Table: 4 rows]
 >【编辑/核验】新开页列表字段
-[/body/tbl[12]] [Table: 16 rows]
 >【编辑/核验】弹窗操作
-[/body/tbl[13]] [Table: 4 rows]
 • 状态流转图
 备料单状态流转图：
 

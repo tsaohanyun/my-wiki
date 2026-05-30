@@ -37,9 +37,7 @@ DESC: 详设评审-返工品拆解
 工序类型=小料预处理 的生产执行单
 
 >【查询】字段
-[/body/tbl[1]] [Table: 6 rows]
 >操作说明
-[/body/tbl[2]] [Table: 4 rows]
 
 
 

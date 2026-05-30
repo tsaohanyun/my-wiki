@@ -37,22 +37,14 @@ DESC: 详设评审-工艺配方单
 • 界面字段与操作
 1. 工艺控制项目标签页
 >【新增/编辑】弹窗字段
-[/body/tbl[1]] [Table: 6 rows]
 >【新增/编辑】弹窗操作
-[/body/tbl[2]] [Table: 3 rows]
 >主界面列表字段
-[/body/tbl[3]] [Table: 8 rows]
 >主界面操作
-[/body/tbl[4]] [Table: 4 rows]
 1. 工艺单模板标签页
 >【新增/编辑】弹窗字段
-[/body/tbl[5]] [Table: 9 rows]
 >【新增/编辑】弹窗操作
-[/body/tbl[6]] [Table: 5 rows]
 >主界面列表字段
-[/body/tbl[7]] [Table: 8 rows]
 >主界面操作
-[/body/tbl[8]] [Table: 5 rows]
 2）界面1说明——工艺单配置
 • 功能概述
 维护炒制半成品工艺单的生产步骤，及每个步骤中需要投放的物料、工艺控制项目。
@@ -63,18 +55,12 @@ DESC: 详设评审-工艺配方单
 
 • 界面字段与操作
 >【新增/编辑】及【新增/编辑子版本】新开页字段
-[/body/tbl[9]] [Table: 17 rows]
 >【新增/编辑】及【新增/编辑子版本】新开页操作
-[/body/tbl[10]] [Table: 7 rows]
 >【添加步骤/编辑步骤】弹窗字段
-[/body/tbl[11]] [Table: 13 rows]
 >【添加步骤/编辑步骤】新开页操作
-[/body/tbl[12]] [Table: 7 rows]
 
 >主界面列表字段
-[/body/tbl[13]] [Table: 12 rows]
 >主界面操作
-[/body/tbl[14]] [Table: 7 rows]
 
 
 

@@ -13,12 +13,8 @@ status: minimal_extraction
 SOURCE: 会议纪要\20230726_天味SAP项目BOM版本与替代料业务.docx
 DESC: 会议纪要-0726BOM业务
 ============================================================
-[/body/tbl[1]] [Table: 4 rows]
 
-[/body/tbl[2]] [Table: 5 rows]
 
-[/body/tbl[3]] [Table: 12 rows]
 
-[/body/tbl[4]] [Table: 13 rows]
 
 

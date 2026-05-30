@@ -33,13 +33,9 @@ DESC: 详设评审-返工品投料配置
 
 • 界面字段与操作
 >【新增/编辑】新开页字段
-[/body/tbl[1]] [Table: 10 rows]
 >【新增/编辑】新开页操作
-[/body/tbl[2]] [Table: 3 rows]
 >主界面列表字段
-[/body/tbl[3]] [Table: 10 rows]
 >主界面操作
-[/body/tbl[4]] [Table: 6 rows]
 
 
 
