@@ -7,7 +7,6 @@ tags:
 - mes
 - documentation
 sources:
-- raw/tianwei-mes/天味MES-会议纪要-0714UI评审.md
 - raw/tianwei-mes/天味MES-月度汇报会议纪要.md
 description: 天味家园B栋MES项目2023年6月至9月共16场会议的关键决策与待办事项，按时间线组织。
 project: 天味
