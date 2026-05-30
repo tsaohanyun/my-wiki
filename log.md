@@ -390,14 +390,11 @@ updated: '2026-05-27'
 ### 处理文件
 47个核心文件（详设评审15 + 会议纪要16 + 接口说明5 + 上线策略4 + 测试方案2 + 培训材料2 + 部署文档1 + 验收报告1 + PDF 2）
 
-### 新建页面（7个）
-- [[tianwei-mes-project-overview]] — 项目概览
-- [[tianwei-mes-detailed-design]] — 详细设计方案（13个功能模块）
-- [[tianwei-mes-interface-integration]] — 接口集成方案
-- [[tianwei-mes-go-live-strategy]] — 上线策略（4个版本合并）
-- [[tianwei-mes-testing]] — 测试方案（UAT + 炒锅联调）
-- [[tianwei-mes-meeting-minutes]] — 会议纪要（16次会议）
-- [[tianwei-mes-training-deployment]] — 培训与系统部署
+### 新建页面（已合并为4个）
+- [[concepts/tianwei-mes-project|天味家园B栋MES项目]] — 项目概览
+- [[concepts/tianwei-mes-production-flow|天味MES-生产流程与业务规则]] — 详细设计方案（13个功能模块）+ 上线策略 + 测试方案
+- [[concepts/tianwei-mes-integration-delivery|天味MES-系统集成与交付]] — 接口集成方案 + 培训与系统部署
+- [[concepts/tianwei-mes-chronicle|天味MES-项目纪事]] — 会议纪要（16次会议）
 
 ### 跳过文件
 图片(.jpg/.png)、视频(无)、.rar压缩包、.vsdx流程图、.xmind思维导图、重复版本文件、日报(53个)、周报(61个)均按计划跳过
