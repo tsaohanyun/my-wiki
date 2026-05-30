@@ -1,0 +1,9 @@
+# Obsidian workspace (user-specific, changes frequently)
+.obsidian/workspace.json
+
+# Inbox - ghost files from clicking unresolved links land here
+inbox/
+
+# OS files
+.DS_Store
+Thumbs.db
