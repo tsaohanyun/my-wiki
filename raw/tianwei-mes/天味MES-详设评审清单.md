@@ -31,8 +31,8 @@ DESC: 详设评审-评审清单
 
 ## 相关页面
 
-- [[tianwei-mes-f001.docx]]
-- [[tianwei-mes-f002.docx]]
-- [[tianwei-mes-f003.docx]]
-- [[tianwei-mes-f004.docx]]
-- [[tianwei-mes-f005.docx]]
+- [[raw/tianwei-mes/天味MES-大料配料详设]]
+- [[raw/tianwei-mes/天味MES-大料预处理详设]]
+- [[raw/tianwei-mes/天味MES-小料预处理详设]]
+- [[raw/tianwei-mes/天味MES-炒料炒制详设]]
+- [[raw/tianwei-mes/天味MES-工单管理详设]]

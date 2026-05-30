@@ -483,8 +483,8 @@ msg	响应信息
 
 ## 相关页面
 
-- [[tianwei-mes-f000.xlsx]]
-- [[tianwei-mes-f001.docx]]
-- [[tianwei-mes-f002.docx]]
-- [[tianwei-mes-f003.docx]]
-- [[tianwei-mes-f004.docx]]
+- [[raw/tianwei-mes/天味MES-详设评审清单]]
+- [[raw/tianwei-mes/天味MES-大料配料详设]]
+- [[raw/tianwei-mes/天味MES-大料预处理详设]]
+- [[raw/tianwei-mes/天味MES-小料预处理详设]]
+- [[raw/tianwei-mes/天味MES-炒料炒制详设]]
