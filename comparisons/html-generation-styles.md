@@ -69,8 +69,8 @@ project: 通用知识
 
 ## 相关页面
 
-- [[企业级大数据技术体系]]
-- [[数据中台解决方案]]
-- [[HTML 原型生成]]
-- [[企业架构与信息化规划]]
-- [[企业信息流规划]]
+- [[concepts/big-data-development-basics]]
+- [[concepts/data-mid-platform]]
+- [[concepts/html-prototype-generation]]
+- [[concepts/enterprise-architecture-planning]]
+- [[concepts/enterprise-info-flow-planning]]

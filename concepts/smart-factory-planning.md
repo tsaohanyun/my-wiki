@@ -90,15 +90,15 @@ project: 通用知识
 
 ## 相关概念
 
-- [[智能制造]] — 智能工厂的理论框架
-- [[大数据治理]] — 工厂数据底座
-- [[制造业数字化转型政策]] — 政策环境
+- [[concepts/smart-factory-planning]] — 智能工厂的理论框架
+- [[concepts/big-data-governance]] — 工厂数据底座
+- [[concepts/manufacturing-digital-policy]] — 政策环境
 
 
 ## 相关页面
 
-- [[数字孪生技术]]
-- [[ISA-95 企业控制系统集成]]
-- [[智能制造]]
+- [[concepts/digital-twin]]
+- [[concepts/isa-95-integration]]
+- [[concepts/smart-factory-planning]]
 - [[APS 高级计划与排程]]
 - [[数字化转型方法论]]
