@@ -23,7 +23,7 @@ project: 通威
 
 > 项目：**通威农发**（通威股份农业发展有限公司）
 >
-> 相关Wiki：[数据库总览](../../databases/通威农发-数据库总览.md) | [EBS-DIM接口](../../integrations/ebs-dim/README.md) | [运营指标体系](../../kpi/README.md)
+> 相关Wiki：[数据库总览](../databases/通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
 ---
 
 ## 1 桥接概览
