@@ -7,23 +7,23 @@ tags:
 - mes
 - documentation
 sources:
-- raw/articles/tianwei-mes-f029.docx.md
-- raw/articles/tianwei-mes-f030.docx.md
-- raw/articles/tianwei-mes-f046.pdf.md
-- raw/articles/tianwei-mes-f015.docx.md
-- raw/articles/tianwei-mes-f016.docx.md
-- raw/articles/tianwei-mes-f017.docx.md
-- raw/articles/tianwei-mes-f018.docx.md
-- raw/articles/tianwei-mes-f019.docx.md
-- raw/articles/tianwei-mes-f020.docx.md
-- raw/articles/tianwei-mes-f021.docx.md
-- raw/articles/tianwei-mes-f022.docx.md
-- raw/articles/tianwei-mes-f023.docx.md
-- raw/articles/tianwei-mes-f024.docx.md
-- raw/articles/tianwei-mes-f025.docx.md
-- raw/articles/tianwei-mes-f026.docx.md
-- raw/articles/tianwei-mes-f027.docx.md
-- raw/articles/tianwei-mes-f028.docx.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
+raw/tianwei-mes/天味MES-详设评审清单.md
 description: 天味家园B栋老车间MES项目2023年6月至9月期间全部会议纪要汇总，涵盖月度汇报、详设评审、部署方案、 UI评审、内部盘点、接口集成、SAP对接、项目推进等16场会议的关键决策与待办事项。
 project: 天味
 ---
@@ -72,7 +72,7 @@ project: 天味
 | 数字工厂报表工具演示 | Open | [已脱敏] | 2023/07/05 |
 | 返工物料账务方案输出评审 | Open | [已脱敏] | 2023/07/07 |
 
-^[raw/articles/tianwei-mes-f046.pdf.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -85,7 +85,7 @@ project: 天味
 
 **待办事项**：待办事项与6月度汇报会议关联
 
-^[raw/articles/tianwei-mes-f029.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -104,7 +104,7 @@ project: 天味
 
 **待办事项**：根据评审意见修改设计方案，次日继续评审
 
-^[raw/articles/tianwei-mes-f015.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -119,7 +119,7 @@ project: 天味
 
 **待办事项**：根据评审意见完善设计，继续后续模块评审
 
-^[raw/articles/tianwei-mes-f016.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -135,7 +135,7 @@ project: 天味
 
 **待办事项**：完善返工品投料配置方案设计
 
-^[raw/articles/tianwei-mes-f017.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -154,7 +154,7 @@ project: 天味
 - 根据四天评审汇总意见，修改完善 [[tianwei-mes-detailed-design|详细设计方案]]
 - 启动系统开发工作
 
-^[raw/articles/tianwei-mes-f018.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -175,7 +175,7 @@ project: 天味
 - 确认行政楼机房至B栋光纤连通方案
 - 推进服务器硬件采购与到位
 
-^[raw/articles/tianwei-mes-f019.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -192,7 +192,7 @@ project: 天味
 - 各模块按评审结论启动开发
 - 硬件部署环境准备推进
 
-^[raw/articles/tianwei-mes-f020.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -213,7 +213,7 @@ project: 天味
 - 按评审意见修改小料模块UI设计
 - 准备大料及炒制模块UI评审
 
-^[raw/articles/tianwei-mes-f021.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -231,7 +231,7 @@ project: 天味
 - 完成全部UI评审修改
 - 进入全面开发阶段
 
-^[raw/articles/tianwei-mes-f023.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -251,7 +251,7 @@ project: 天味
 - 按盘点结果调整开发优先级
 - 跟进高风险项的解决方案
 
-^[raw/articles/tianwei-mes-f022.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -272,7 +272,7 @@ project: 天味
 - 启动MES调用SAP方向21个接口开发（计划8月1日启动）
 - 启动SAP调用MES方向5个接口开发（计划8月15日启动）
 
-^[raw/articles/tianwei-mes-f024.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -291,7 +291,7 @@ project: 天味
 - 按方向分批启动接口开发
 - 准备接口联调测试环境
 
-^[raw/articles/tianwei-mes-f025.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -309,7 +309,7 @@ project: 天味
 - 完成BOM版本管理接口设计
 - 落实替代料配置方案
 
-^[raw/articles/tianwei-mes-f026.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -329,7 +329,7 @@ project: 天味
 - 完成遗留问题整改
 - 组织系统上线前的最终验收测试
 
-^[raw/articles/tianwei-mes-f027.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
@@ -350,7 +350,7 @@ project: 天味
 - 炒锅设备交换机电源改为常通电，避免设备断电导致网络中断
 - 准备测试物料与设备（自来水模拟、物料桶贴二维码、电子秤、PDA等）
 
-^[raw/articles/tianwei-mes-f028.docx.md]
+raw/tianwei-mes/天味MES-详设评审清单.md
 
 ---
 
