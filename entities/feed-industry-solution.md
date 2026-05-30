@@ -912,8 +912,8 @@ FBC发起退货申请→品管线上检查→给出处理意见→线上回写FB
 | 设备 | EQ001-EQ020 | 设备管理20个流程 |
 
 ## 相关页面
-- [[excel-spreadsheet-processing]]
+- [[entities/document-processing-tools|文档处理工具]]
 - [[entities/fine-report-cpt|fine-report-cpt]]
 - [[entities/hermes-agent|hermes-agent]]
-- [[pdf-document-processing]]
+- [[entities/document-processing-tools|文档处理工具]]
 - [[entities/popular-web-design-templates|popular-web-design-templates]]

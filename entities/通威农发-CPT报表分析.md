@@ -131,7 +131,7 @@ LEFT JOIN res_enterprise re  ON re.id            = rio.company_id
 - **MySQL列名大小写不敏感**：多表JOIN时同名列冲突需用别名区分
 
 ## 相关页面
-- [[excel-spreadsheet-processing]]
+- [[entities/document-processing-tools|文档处理工具]]
 - [[entities/feed-industry-knowledge|feed-industry-knowledge]]
 - [[entities/feed-industry-solution|feed-industry-solution]]
 - [[entities/fine-report-cpt|fine-report-cpt]]

@@ -35,6 +35,6 @@ project: 通用知识
 - **批量生成** - 批量生成多个演示文稿
 - **格式转换** - 转换为其他格式
 ## 交叉引用
-- [[word-document-processing]] - Word 文档
-- [[pdf-document-processing]] - PDF 导出
+- [[entities/document-processing-tools|文档处理工具]]
+- [[entities/document-processing-tools|文档处理工具]]
 - [[concepts/doc-coauthoring|doc-coauthoring]] - 内容协作

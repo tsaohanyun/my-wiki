@@ -34,6 +34,6 @@ status: stub
 - **清晰结构** - 逻辑清晰的结构
 - **可验证** - 文档内容可验证
 ## 交叉引用
-- [[word-document-processing]] - Word 文档处理
-- [[pdf-document-processing]] - PDF 文档处理
+- [[entities/document-processing-tools|文档处理工具]]
+- [[entities/document-processing-tools|文档处理工具]]
 - [[concepts/writing-plans|writing-plans]] - 文档写作计划

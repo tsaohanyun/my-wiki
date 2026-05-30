@@ -243,8 +243,8 @@ project: 通威
 - 版本：V1.0（2024-06-03）
 
 ## 相关页面
-- [[excel-spreadsheet-processing]]
+- [[entities/document-processing-tools|文档处理工具]]
 - [[entities/feed-industry-solution|feed-industry-solution]]
 - [[entities/fine-report-cpt|fine-report-cpt]]
 - [[entities/hermes-agent|hermes-agent]]
-- [[pdf-document-processing]]
+- [[entities/document-processing-tools|文档处理工具]]
