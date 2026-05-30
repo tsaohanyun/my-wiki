@@ -49,4 +49,4 @@ project: 通用知识
 
 建立**战略 → 管理 → 执行**双向匹配的管理体系，确保信息化建设"少走弯路"。
 
-相关概念：[[enterprise-info-flow-planning]]、[[smart-factory-planning]]
+相关概念：[[concepts/enterprise-info-flow-planning|enterprise-info-flow-planning]]、[[concepts/smart-factory-planning|smart-factory-planning]]

@@ -23,7 +23,7 @@ project: 通用知识
 
 ## 定义
 
-NL2SQL 精确映射是一种**受约束的 Text2SQL 系统架构**，核心思想是不让 LLM 自由生成 SQL，而是通过多层管道将自然语言逐步转化为可执行且可信的 SQL 查询。与 [[text2kpi-optimization]] 的 NL2API 路线不同，NL2SQL 面向的是直接查询数据库的场景。
+NL2SQL 精确映射是一种**受约束的 Text2SQL 系统架构**，核心思想是不让 LLM 自由生成 SQL，而是通过多层管道将自然语言逐步转化为可执行且可信的 SQL 查询。与 [[concepts/text2kpi-optimization|text2kpi-optimization]] 的 NL2API 路线不同，NL2SQL 面向的是直接查询数据库的场景。
 
 ```
 ❌ 用户问题 → LLM → SQL（自由生成，不可控）
@@ -164,16 +164,16 @@ SQL 执行失败后，将错误信息 + 当前 schema + 原始问题回传模型
 
 ## 相关概念
 
-- [[text2kpi-optimization]] — NL2API 路线（自然语言转 API 调用，而非直接查 SQL）
-- [[harness-engineering]] — AI Agent 驾驭层方法论，NL2SQL 是其在数据查询领域的具体应用
-- [[text2kpi-reference-code]] — Text2KPI 的核心参考代码实现
-- [[text2kpi-prompt-and-config]] — Prompt 分层模板与工程化配置清单
+- [[concepts/text2kpi-optimization|text2kpi-optimization]] — NL2API 路线（自然语言转 API 调用，而非直接查 SQL）
+- [[concepts/harness-engineering|harness-engineering]] — AI Agent 驾驭层方法论，NL2SQL 是其在数据查询领域的具体应用
+- [[concepts/text2kpi-reference-code|text2kpi-reference-code]] — Text2KPI 的核心参考代码实现
+- [[concepts/text2kpi-prompt-and-config|text2kpi-prompt-and-config]] — Prompt 分层模板与工程化配置清单
 
 
 ## 相关页面
 
-- [[Harness Engineering]]
-- [[Text2KPI 优化方案]]
-- [[Text2KPI Prompt 模板与工程化配置]]
-- [[Text2KPI 参考代码节选]]
-- [[前端设计系统]]
+- [[concepts/harness-engineering|Harness Engineering]]
+- [[concepts/text2kpi-optimization|Text2KPI 优化方案]]
+- [[concepts/text2kpi-prompt-and-config|Text2KPI Prompt 模板与工程化配置]]
+- [[concepts/text2kpi-reference-code|Text2KPI 参考代码节选]]
+- [[concepts/frontend-design-system|前端设计系统]]

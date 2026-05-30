@@ -26,7 +26,7 @@ project: 通用知识
 
 ## 一、企业架构与IT规划方法论
 
-[[enterprise-it-planning-methodology]] — 企业架构（EA）四视图方法论（业务/信息/应用/技术架构），以及IT规划四步法（确认业务目标→评估IT现状→设计目标环境→制定行动计划）。
+[[concepts/enterprise-it-planning-methodology|enterprise-it-planning-methodology]] — 企业架构（EA）四视图方法论（业务/信息/应用/技术架构），以及IT规划四步法（确认业务目标→评估IT现状→设计目标环境→制定行动计划）。
 
 **代表方法论：**
 - 《企业架构咨询方法论》 — 基于TOGAF等框架的企业信息化顶层设计
@@ -34,7 +34,7 @@ project: 通用知识
 
 ## 二、数字化转型方法论
 
-[[digital-transformation-methodology]] — 涵盖从战略到执行的数字化转型系统方法论。
+[[concepts/digital-transformation-methodology|digital-transformation-methodology]] — 涵盖从战略到执行的数字化转型系统方法论。
 
 **代表方法论：**
 - 《企业数字化转型方法论》 — 12367框架：1个终极目标 + 2个驱动因素 + 3大转型方向 + 6大转型步骤 + 7大领域路径
@@ -43,7 +43,7 @@ project: 通用知识
 
 ## 三、实施方法论
 
-[[implementation-methodology]] — 软件/系统项目的规范化交付实施方法论。
+[[concepts/implementation-methodology|implementation-methodology]] — 软件/系统项目的规范化交付实施方法论。
 
 **代表方法论：**
 - 《智能工厂实施方法论V2.0（IPM）》 — 五阶段：项目启动 → 蓝图设计 → 系统构建 → 上线运行 → 持续支持
@@ -52,7 +52,7 @@ project: 通用知识
 
 ## 四、咨询与销售方法论
 
-[[consulting-sales-methodology]] — 管理咨询和销售领域的专业方法论。
+[[concepts/consulting-sales-methodology|consulting-sales-methodology]] — 管理咨询和销售领域的专业方法论。
 
 **代表方法论：**
 - 《管理咨询方法论》 — 解决问题的七步法，MECE原则，逻辑树分析
@@ -84,8 +84,8 @@ project: 通用知识
 
 ## 相关页面
 
-- [[企业架构与信息化规划]]
-- [[企业信息流规划]]
-- [[实施方法论]]
-- [[咨询与销售方法论]]
-- [[数字化转型方法论]]
+- [[concepts/enterprise-architecture-planning|企业架构与信息化规划]]
+- [[concepts/enterprise-info-flow-planning|企业信息流规划]]
+- [[concepts/implementation-methodology|实施方法论]]
+- [[concepts/consulting-sales-methodology|咨询与销售方法论]]
+- [[concepts/digital-transformation-methodology|数字化转型方法论]]

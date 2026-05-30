@@ -88,8 +88,8 @@ project: 通用知识
 - **实践形式：** Big Lab动手实验计划，赋能金融机构自行搭建定制化知识图谱
 
 ## 相关页面
-- [[apqc-process-metrics]]
-- [[aps-advanced-planning-scheduling]]
-- [[big-data-development-basics]]
-- [[big-data-governance]]
-- [[blueprint-writing-methodology]]
+- [[concepts/apqc-process-metrics|apqc-process-metrics]]
+- [[concepts/aps-advanced-planning-scheduling|aps-advanced-planning-scheduling]]
+- [[concepts/big-data-development-basics|big-data-development-basics]]
+- [[concepts/big-data-governance|big-data-governance]]
+- [[concepts/blueprint-writing-methodology|blueprint-writing-methodology]]

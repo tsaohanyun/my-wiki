@@ -69,14 +69,14 @@ project: 通用知识
 
 ## 相关概念
 
-- [[智能工厂规划]] — 大型项目需要多层级共识管理
-- [[大数据治理]] — 数据标准需要跨部门共识
+- [[concepts/smart-factory-planning|智能工厂规划]] — 大型项目需要多层级共识管理
+- [[concepts/big-data-governance|大数据治理]] — 数据标准需要跨部门共识
 
 
 ## 相关页面
 
-- [[文档协作流程]]
-- [[咨询与销售方法论]]
-- [[数字化转型方法论]]
-- [[企业架构与信息化规划]]
-- [[企业信息流规划]]
+- [[concepts/doc-coauthoring|文档协作流程]]
+- [[concepts/consulting-sales-methodology|咨询与销售方法论]]
+- [[concepts/digital-transformation-methodology|数字化转型方法论]]
+- [[concepts/enterprise-architecture-planning|企业架构与信息化规划]]
+- [[concepts/enterprise-info-flow-planning|企业信息流规划]]

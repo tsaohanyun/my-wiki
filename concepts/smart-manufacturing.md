@@ -80,15 +80,15 @@ project: 通用知识
 
 ## 相关概念
 
-- [[大数据治理]] — 智能制造的数据基础
-- [[智能工厂规划]] — 智能制造的工厂落地形态
-- [[制造业数字化转型政策]] — 各国政策支撑
+- [[concepts/big-data-governance|大数据治理]] — 智能制造的数据基础
+- [[concepts/smart-factory-planning|智能工厂规划]] — 智能制造的工厂落地形态
+- [[concepts/manufacturing-digital-policy|制造业数字化转型政策]] — 各国政策支撑
 
 
 ## 相关页面
 
-- [[数字化转型方法论]]
-- [[数字孪生技术]]
-- [[智能工厂规划]]
-- [[ISA-95 企业控制系统集成]]
-- [[物流与运输解决方案]]
+- [[concepts/digital-transformation-methodology|数字化转型方法论]]
+- [[concepts/digital-twin|数字孪生技术]]
+- [[concepts/smart-factory-planning|智能工厂规划]]
+- [[concepts/isa-95-integration|ISA-95 企业控制系统集成]]
+- [[concepts/logistics-transport-solution|物流与运输解决方案]]

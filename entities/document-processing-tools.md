@@ -40,6 +40,6 @@ OfficeCLI 支持 .xlsx/.xls 格式的创建、读取、编辑和验证。
 
 ## 相关页面
 
-- [[OfficeCLI]]
-- [[PDF 文档处理]]
-- [[Word 文档处理]]
+- [[entities/document-processing-tools|OfficeCLI]]
+- [[entities/document-processing-tools|文档处理工具]]
+- [[entities/document-processing-tools|文档处理工具]]

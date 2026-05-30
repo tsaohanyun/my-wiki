@@ -65,13 +65,13 @@ project: 通用知识
 
 丰富的服务商生态全面覆盖了中小企业由内到外的数字化需求，从财税、人力资源到生产、仓储、销售、营销等全方位。
 
-相关概念：[[smart-manufacturing]]、[[manufacturing-digital-policy]]
+相关概念：[[concepts/smart-manufacturing|smart-manufacturing]]、[[concepts/manufacturing-digital-policy|manufacturing-digital-policy]]
 
 
 ## 相关页面
 
-- [[APS 高级计划与排程]]
-- [[数字化转型方法论]]
-- [[数字孪生技术]]
-- [[效率与效率改善方法]]
-- [[制造业数字化转型政策]]
+- [[concepts/aps-advanced-planning-scheduling|APS 高级计划与排程]]
+- [[concepts/digital-transformation-methodology|数字化转型方法论]]
+- [[concepts/digital-twin|数字孪生技术]]
+- [[concepts/efficiency-improvement-methods|效率与效率改善方法]]
+- [[concepts/manufacturing-digital-policy|制造业数字化转型政策]]

@@ -146,11 +146,11 @@ updated: '2026-05-27'
 - 来源：trans-import/ 下27个方法论文件（含重复），涵盖企业架构、数字化转型、实施交付、咨询销售四大类别
 - 实际有效方法论约15套，提取核心框架和步骤
 - 创建的概念：
-  - [[methodologies-overview]] — 方法论知识总览（四大类别全景）
-  - [[enterprise-it-planning-methodology]] — 企业架构与IT规划方法论（EA四视图+四步法）
-  - [[digital-transformation-methodology]] — 数字化转型方法论（12367+三段论+五步法）
-  - [[implementation-methodology]] — 实施方法论（IPM五阶段+六步法+汉得中台）
-  - [[consulting-sales-methodology]] — 咨询与销售方法论（麦肯锡七步法+金蝶售前+MEDDIC）
+  - [[concepts/methodologies-overview|methodologies-overview]] — 方法论知识总览（四大类别全景）
+  - [[concepts/enterprise-it-planning-methodology|enterprise-it-planning-methodology]] — 企业架构与IT规划方法论（EA四视图+四步法）
+  - [[concepts/digital-transformation-methodology|digital-transformation-methodology]] — 数字化转型方法论（12367+三段论+五步法）
+  - [[concepts/implementation-methodology|implementation-methodology]] — 实施方法论（IPM五阶段+六步法+汉得中台）
+  - [[concepts/consulting-sales-methodology|consulting-sales-methodology]] — 咨询与销售方法论（麦肯锡七步法+金蝶售前+MEDDIC）
 - 索引更新：84 → 89页
 - PDF扫描件/图片型文件跳过（系统工程方法论、华为白皮书等）
 
@@ -260,7 +260,7 @@ updated: '2026-05-27'
 - 总页面数：73
 
 ## [2026-05-07] update | 通威农发数据库结构调整
-- 新增页面：[[通威农发-报表预处理中间表]]（ST 42张 + LM_ST 42张，共84张统计中间表）
+- 新增页面：[[databases/通威农发-报表预处理中间表|通威农发-报表预处理中间表]]（ST 42张 + LM_ST 42张，共84张统计中间表）
 - 分离调整：ST与MI → 拆分为 MI制造智能 (38张) + 报表预处理中间表 (84张)
 - LM精益管理：移除 lm_st_* 42张统计中间表，更新计数为154张
 - 更新：数据库总览、index.md
@@ -269,14 +269,14 @@ updated: '2026-05-27'
 ## [2026-05-11] ingest | 采购管理（百度百科）
 - 来源：https://baike.baidu.com/item/采购管理/3925
 - 保存的原始文件：raw/articles/procurement-management-baike.md
-- 创建的概念：[[procurement-management]] — 采购管理概念页面
+- 创建的概念：[[concepts/procurement-management|procurement-management]] — 采购管理概念页面
 - 更新：SCHEMA.md — 新增"企业管理与供应链"标签分类（enterprise-management, supply-chain, procurement, purchasing, logistics, inventory, supplier）
 - 交叉引用：4个wikilink（smart-manufacturing, feed-industry-solution, logistics-transport-solution, manufacturing-kpi-system）
 - 总页面数：76（原有75 + 新增1）
 
 ## [2026-05-14] create | 天然气处理厂 — 生产组织与质量管理
-- 新建 wiki 页面：[[06-生产组织]] — 组织架构、岗位体系、倒班制度、设备管理、HSE、环保、信息化（12.6KB）
-- 新建 wiki 页面：[[07-质量管理]] — 质量管理体系、产品标准、在线监测、化验分析、不合格品管理、计量管理（13.4KB）
+- 新建 wiki 页面：[[queries/natural-gas-processing/06-生产组织|06-生产组织]] — 组织架构、岗位体系、倒班制度、设备管理、HSE、环保、信息化（12.6KB）
+- 新建 wiki 页面：[[queries/natural-gas-processing/07-质量管理|07-质量管理]] — 质量管理体系、产品标准、在线监测、化验分析、不合格品管理、计量管理（13.4KB）
 - 更新 index.md：新增06/07页面条目，总页面数 82→84
 - 新建综合研究报告：天然气处理厂_研究报告.md（18KB，覆盖工艺制程/生产组织/质量管理/数字化展望）
 - 说明：网络搜索受限（GFW阻断），内容基于行业标准、技术文献和工程实践知识库编写

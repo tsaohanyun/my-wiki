@@ -29,6 +29,6 @@ project: 通用知识
 - **可验证** - 每个任务有明确的完成标准
 - **有序执行** - 按依赖关系排序
 ## 交叉引用
-- [[plan-mode]] - 计划模式
-- [[test-driven-development]] - 测试计划
-- [[systematic-debugging]] - 调试计划
+- [[concepts/plan-mode|plan-mode]] - 计划模式
+- [[concepts/test-driven-development|test-driven-development]] - 测试计划
+- [[concepts/systematic-debugging|systematic-debugging]] - 调试计划

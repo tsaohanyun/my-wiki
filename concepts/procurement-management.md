@@ -97,16 +97,16 @@ ERP采购管理信息系统运作流程包括：建立供应商资源 → 生成
 
 ## 相关概念
 
-- [[smart-manufacturing]] — 智能制造中的采购管理与供应链协同
-- [[feed-industry-solution]] — 饲料行业解决方案中的采购业务模块
-- [[logistics-transport-solution]] — 物流与运输解决方案
-- [[manufacturing-kpi-system]] — 制造业KPI体系中采购相关指标
+- [[concepts/smart-manufacturing|smart-manufacturing]] — 智能制造中的采购管理与供应链协同
+- [[entities/feed-industry-solution|feed-industry-solution]] — 饲料行业解决方案中的采购业务模块
+- [[concepts/logistics-transport-solution|logistics-transport-solution]] — 物流与运输解决方案
+- [[concepts/manufacturing-kpi-system|manufacturing-kpi-system]] — 制造业KPI体系中采购相关指标
 
 
 ## 相关页面
 
-- [[方法论知识总览]]
-- [[APQC 流程绩效指标库]]
-- [[APS 高级计划与排程]]
-- [[咨询与销售方法论]]
-- [[详细设计文档编写规范]]
+- [[concepts/methodologies-overview|方法论知识总览]]
+- [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]
+- [[concepts/aps-advanced-planning-scheduling|APS 高级计划与排程]]
+- [[concepts/consulting-sales-methodology|咨询与销售方法论]]
+- [[concepts/detail-design-specification|详细设计文档编写规范]]

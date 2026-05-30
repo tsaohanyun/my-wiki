@@ -141,15 +141,15 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 6. 移动端可减小网格 minmax 到 320px
 
 ## 相关链接
-- [[frontend-design-system]] — 前端设计方法论总览
-- [[html-prototype-generation]] — Apple Design 原型生成（对比风格）
-- [[popular-web-design-templates]] — 更多设计模板
+- [[concepts/frontend-design-system|frontend-design-system]] — 前端设计方法论总览
+- [[concepts/html-prototype-generation|html-prototype-generation]] — Apple Design 原型生成（对比风格）
+- [[entities/popular-web-design-templates|popular-web-design-templates]] — 更多设计模板
 
 
 ## 相关页面
 
-- [[前端设计系统]]
-- [[Harness Engineering]]
-- [[Text2KPI 优化方案]]
-- [[企业级大数据技术体系]]
-- [[数据中台解决方案]]
+- [[concepts/frontend-design-system|前端设计系统]]
+- [[concepts/harness-engineering|Harness Engineering]]
+- [[concepts/text2kpi-optimization|Text2KPI 优化方案]]
+- [[concepts/big-data-development-basics|企业级大数据技术体系]]
+- [[concepts/data-mid-platform|数据中台解决方案]]

@@ -150,16 +150,16 @@ project-name/
 - 每个HTML文件控制在20KB以内
 
 ## 相关链接
-- [[frontend-design-system]] — 前端设计系统总览
-- [[retro-futuristic-html-design]] — 另一种风格选择
-- [[popular-web-design-templates]] — 54种设计模板
-- [[fine-report-cpt]] — 报表模板系统
+- [[concepts/frontend-design-system|frontend-design-system]] — 前端设计系统总览
+- [[concepts/retro-futuristic-html-design|retro-futuristic-html-design]] — 另一种风格选择
+- [[entities/popular-web-design-templates|popular-web-design-templates]] — 54种设计模板
+- [[entities/fine-report-cpt|fine-report-cpt]] — 报表模板系统
 
 
 ## 相关页面
 
-- [[企业级大数据技术体系]]
-- [[数据中台解决方案]]
-- [[企业架构与信息化规划]]
-- [[企业信息流规划]]
-- [[企业架构与IT规划方法论]]
+- [[concepts/big-data-development-basics|企业级大数据技术体系]]
+- [[concepts/data-mid-platform|数据中台解决方案]]
+- [[concepts/enterprise-architecture-planning|企业架构与信息化规划]]
+- [[concepts/enterprise-info-flow-planning|企业信息流规划]]
+- [[concepts/enterprise-it-planning-methodology|企业架构与IT规划方法论]]

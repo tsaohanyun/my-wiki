@@ -114,13 +114,13 @@ Spark（批处理）、Flink（流处理）、AutoML（自动机器学习）
 
 指标计算引擎选型：Kylin（预计算）、Spark（批处理）、Druid（实时）、ClickHouse（MPP）
 
-相关概念：[[data-mid-platform]]、[[manufacturing-kpi-system]]、[[big-data-governance]]
+相关概念：[[concepts/data-mid-platform|data-mid-platform]]、[[concepts/manufacturing-kpi-system|manufacturing-kpi-system]]、[[concepts/big-data-governance|big-data-governance]]
 
 
 ## 相关页面
 
-- [[大数据治理]]
-- [[数据资产管理标准化]]
-- [[数据治理两阶段实践]]
-- [[数据中台解决方案]]
-- [[APQC 流程绩效指标库]]
+- [[concepts/big-data-governance|大数据治理]]
+- [[concepts/data-asset-management-standard|数据资产管理标准化]]
+- [[concepts/data-governance-two-phase|数据治理两阶段实践]]
+- [[concepts/data-mid-platform|数据中台解决方案]]
+- [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]

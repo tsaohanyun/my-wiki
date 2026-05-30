@@ -61,4 +61,4 @@ project: 通用知识
 
 **数据是企业的战略资产**。只有将数据作为企业核心资产来管理，才能真正发挥数据价值，支撑企业数字化转型。
 
-相关概念：[[big-data-governance]]、[[metric-platform-construction]]、[[data-mid-platform]]
+相关概念：[[concepts/big-data-governance|big-data-governance]]、[[concepts/metric-platform-construction|metric-platform-construction]]、[[concepts/data-mid-platform|data-mid-platform]]

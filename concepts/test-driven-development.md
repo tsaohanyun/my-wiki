@@ -30,6 +30,6 @@ project: 通用知识
 - **保持测试通过** - 重构时确保测试不失败
 - **测试即文档** - 测试描述了代码行为
 ## 交叉引用
-- [[systematic-debugging]] - 调试失败的测试
-- [[requesting-code-review]] - 审查测试覆盖率
-- [[writing-plans]] - 计划测试策略
+- [[concepts/systematic-debugging|systematic-debugging]] - 调试失败的测试
+- [[concepts/requesting-code-review|requesting-code-review]] - 审查测试覆盖率
+- [[concepts/writing-plans|writing-plans]] - 计划测试策略

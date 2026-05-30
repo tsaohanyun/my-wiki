@@ -59,12 +59,12 @@ project: 通用知识
 - 热门模板 + 通用设计：快速套用+定制化
 
 ## 相关链接
-- [[html-prototype-generation]] — Apple Design 原型详解
-- [[retro-futuristic-html-design]] — 复古未来风详解
-- [[frontend-design-system]] — 通用设计方法论
-- [[popular-web-design-templates]] — 54种模板目录
-- [[frontend-slides-presentation]] — 演示文稿详解
-- [[fine-report-cpt]] — FineReport 报表模板
+- [[concepts/html-prototype-generation|html-prototype-generation]] — Apple Design 原型详解
+- [[concepts/retro-futuristic-html-design|retro-futuristic-html-design]] — 复古未来风详解
+- [[concepts/frontend-design-system|frontend-design-system]] — 通用设计方法论
+- [[entities/popular-web-design-templates|popular-web-design-templates]] — 54种模板目录
+- [[concepts/frontend-slides-presentation|frontend-slides-presentation]] — 演示文稿详解
+- [[entities/fine-report-cpt|fine-report-cpt]] — FineReport 报表模板
 
 
 ## 相关页面

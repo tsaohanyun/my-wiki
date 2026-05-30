@@ -31,7 +31,7 @@ project: 天味
 
 本文档整合MES系统的**集成接口、上线策略、测试方案、培训部署**四大技术交付内容。
 
-项目背景详见 [[tianwei-mes-project|天味家园B栋MES项目]]，业务规则详见 [[tianwei-mes-production-flow|生产流程与业务规则]]。
+项目背景详见 [[concepts/tianwei-mes-project|天味家园B栋MES项目]]，业务规则详见 [[concepts/tianwei-mes-production-flow|生产流程与业务规则]]。
 
 ## 系统集成架构
 
@@ -217,13 +217,13 @@ MES平台采用**超融合架构**部署：
 ## 相关页面
 
 **项目内部**
-- [[tianwei-mes-project|天味家园B栋MES项目]] — 项目概述、功能矩阵、重大决策
-- [[tianwei-mes-production-flow|生产流程与业务规则]] — 一颗火锅底料的完整旅程
-- [[tianwei-mes-chronicle|项目纪事]] — 16场会议的时间线与关键决策
+- [[concepts/tianwei-mes-project|天味家园B栋MES项目]] — 项目概述、功能矩阵、重大决策
+- [[concepts/tianwei-mes-production-flow|生产流程与业务规则]] — 一颗火锅底料的完整旅程
+- [[concepts/tianwei-mes-chronicle|项目纪事]] — 16场会议的时间线与关键决策
 
 **跨项目对比**
 - [[久立项目/久立项目-系统接口|久立项目系统接口]] — 不锈钢管件MES↔SAP/QMS/OA接口，对比接口设计模式差异
 
 **方案与方法论**
-- [[B04-WMS仓储物流]] — WMS方案集，天味的MES↔WMS接口是仓储集成的具体实践
-- [[isa-95-integration|ISA-95集成标准]] — MES/ERP/DCS分层集成架构的国际标准
+- [[方案集/B04-WMS仓储物流|B04-WMS仓储物流]] — WMS方案集，天味的MES↔WMS接口是仓储集成的具体实践
+- [[concepts/isa-95-integration|ISA-95集成标准]] — MES/ERP/DCS分层集成架构的国际标准

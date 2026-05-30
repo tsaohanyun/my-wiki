@@ -75,16 +75,16 @@ project: 通用知识
 - 优雅来自于执行好愿景
 
 ## 相关链接
-- [[html-prototype-generation]] — Apple Design 原型生成
-- [[retro-futuristic-html-design]] — 复古未来风设计系统
-- [[popular-web-design-templates]] — 54种真实网站设计模板
-- [[frontend-slides-presentation]] — HTML 演示文稿生成
+- [[concepts/html-prototype-generation|html-prototype-generation]] — Apple Design 原型生成
+- [[concepts/retro-futuristic-html-design|retro-futuristic-html-design]] — 复古未来风设计系统
+- [[entities/popular-web-design-templates|popular-web-design-templates]] — 54种真实网站设计模板
+- [[concepts/frontend-slides-presentation|frontend-slides-presentation]] — HTML 演示文稿生成
 
 
 ## 相关页面
 
-- [[Harness Engineering]]
-- [[Text2KPI 优化方案]]
-- [[企业架构与信息化规划]]
-- [[企业信息流规划]]
-- [[企业架构与IT规划方法论]]
+- [[concepts/harness-engineering|Harness Engineering]]
+- [[concepts/text2kpi-optimization|Text2KPI 优化方案]]
+- [[concepts/enterprise-architecture-planning|企业架构与信息化规划]]
+- [[concepts/enterprise-info-flow-planning|企业信息流规划]]
+- [[concepts/enterprise-it-planning-methodology|企业架构与IT规划方法论]]

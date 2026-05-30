@@ -143,8 +143,8 @@ project: 通威
 *本文档由Hermes Agent自动从Excel接口文档提取生成，2026-05-19*
 
 ## 相关页面
-- [[仓储库存]]
-- [[成本财务]]
-- [[批次质量]]
-- [[生产管理]]
-- [[过磅管理]]
+- [[integrations/ebs-dim/仓储库存|仓储库存]]
+- [[integrations/ebs-dim/成本财务|成本财务]]
+- [[integrations/ebs-dim/批次质量|批次质量]]
+- [[integrations/ebs-dim/生产管理|生产管理]]
+- [[integrations/ebs-dim/过磅管理|过磅管理]]

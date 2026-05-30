@@ -117,13 +117,13 @@ project: 通用知识
 ## 相关概念
 
 - [[concepts/smart-factory-planning]] — 政策推动的核心方向
-- [[智能工厂规划]] — 政策落地的工厂形态
+- [[concepts/smart-factory-planning|智能工厂规划]] — 政策落地的工厂形态
 
 
 ## 相关页面
 
-- [[数字化转型方法论]]
+- [[concepts/digital-transformation-methodology|数字化转型方法论]]
 - [[concepts/smart-factory-planning]]
-- [[中小企业数字化模式创新]]
-- [[APQC 流程绩效指标库]]
-- [[数字孪生技术]]
+- [[concepts/sme-digital-innovation|中小企业数字化模式创新]]
+- [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]
+- [[concepts/digital-twin|数字孪生技术]]

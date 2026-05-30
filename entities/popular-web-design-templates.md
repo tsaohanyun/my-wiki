@@ -123,16 +123,16 @@ project: 通用知识
 | 等宽/终端美学 | Ollama, OpenCode, x.ai, VoltAgent |
 
 ## 相关链接
-- [[frontend-design-system]] — 前端设计方法论
-- [[html-prototype-generation]] — Apple Design 原型
-- [[retro-futuristic-html-design]] — 复古未来风
-- [[frontend-slides-presentation]] — 演示文稿生成
+- [[concepts/frontend-design-system|frontend-design-system]] — 前端设计方法论
+- [[concepts/html-prototype-generation|html-prototype-generation]] — Apple Design 原型
+- [[concepts/retro-futuristic-html-design|retro-futuristic-html-design]] — 复古未来风
+- [[concepts/frontend-slides-presentation|frontend-slides-presentation]] — 演示文稿生成
 
 
 ## 相关页面
 
-- [[FineReport CPT 模板文件]]
-- [[HTML 演示文稿生成]]
-- [[Excel 电子表格处理]]
-- [[Hermes Agent]]
-- [[PDF 文档处理]]
+- [[entities/fine-report-cpt|FineReport CPT 模板文件]]
+- [[concepts/frontend-slides-presentation|HTML 演示文稿生成]]
+- [[entities/document-processing-tools|文档处理工具]]
+- [[entities/hermes-agent|Hermes Agent]]
+- [[entities/document-processing-tools|文档处理工具]]

@@ -60,13 +60,13 @@ project: 通用知识
 
 改善通常设定3年规划，分年推进物流、情报流、效率三大方向的改善，设定直达率、效率等KPI目标。
 
-相关概念：[[efficiency-improvement-methods]]、[[smart-manufacturing]]
+相关概念：[[concepts/efficiency-improvement-methods|efficiency-improvement-methods]]、[[concepts/smart-manufacturing|smart-manufacturing]]
 
 
 ## 相关页面
 
-- [[效率与效率改善方法]]
-- [[APS 高级计划与排程]]
-- [[详细设计文档编写规范]]
-- [[APQC 流程绩效指标库]]
-- [[企业信息流规划]]
+- [[concepts/efficiency-improvement-methods|效率与效率改善方法]]
+- [[concepts/aps-advanced-planning-scheduling|APS 高级计划与排程]]
+- [[concepts/detail-design-specification|详细设计文档编写规范]]
+- [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]
+- [[concepts/enterprise-info-flow-planning|企业信息流规划]]

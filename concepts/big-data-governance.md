@@ -311,15 +311,15 @@ PDCA 循环 + 元数据驱动 + 专项数据治理 + 自驱式数据管理
 
 ## 相关概念
 
-- [[智能工厂规划]] — 工厂数字化落地涉及数据治理需求
+- [[concepts/smart-factory-planning|智能工厂规划]] — 工厂数字化落地涉及数据治理需求
 - [[concepts/smart-factory-planning]] — 数据驱动的制造体系依赖数据治理基础
-- [[数据可视化选型]] — 治理后的数据通过可视化呈现
+- [[concepts/data-visualization-selection|数据可视化选型]] — 治理后的数据通过可视化呈现
 
 
 ## 相关页面
 
-- [[数据资产管理标准化]]
-- [[数据治理两阶段实践]]
-- [[指标中台建设方法与实践]]
-- [[数据要素价值评估]]
-- [[数据中台解决方案]]
+- [[concepts/data-asset-management-standard|数据资产管理标准化]]
+- [[concepts/data-governance-two-phase|数据治理两阶段实践]]
+- [[concepts/metric-platform-construction|指标中台建设方法与实践]]
+- [[concepts/data-element-valuation|数据要素价值评估]]
+- [[concepts/data-mid-platform|数据中台解决方案]]

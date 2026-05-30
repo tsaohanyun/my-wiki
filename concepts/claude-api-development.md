@@ -37,6 +37,6 @@ project: 通用知识
 - **批处理** - Batch API 批量处理请求
 - **文件处理** - 上传和处理文件
 ## 交叉引用
-- [[mcp-server-development]] - MCP 协议集成
-- [[hermes-agent]] - Agent 平台集成
-- [[systematic-debugging]] - API 调试方法
+- [[concepts/mcp-server-development|mcp-server-development]] - MCP 协议集成
+- [[entities/hermes-agent|hermes-agent]] - Agent 平台集成
+- [[concepts/systematic-debugging|systematic-debugging]] - API 调试方法

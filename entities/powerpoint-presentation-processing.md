@@ -37,4 +37,4 @@ project: 通用知识
 ## 交叉引用
 - [[word-document-processing]] - Word 文档
 - [[pdf-document-processing]] - PDF 导出
-- [[doc-coauthoring]] - 内容协作
+- [[concepts/doc-coauthoring|doc-coauthoring]] - 内容协作

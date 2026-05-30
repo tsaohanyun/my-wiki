@@ -135,13 +135,13 @@ project: 通用知识
 ### 人力资源类指标
 员工增加率、员工结构比例、关键人才流失率、工资增加率、人力资源培训完成率、人才引进完成率、考核通过率、部门员工出勤情况
 
-相关概念：[[metric-platform-construction]]、[[data-visualization-selection]]、[[value-stream-mapping]]
+相关概念：[[concepts/metric-platform-construction|metric-platform-construction]]、[[concepts/data-visualization-selection|data-visualization-selection]]、[[concepts/value-stream-mapping|value-stream-mapping]]
 
 
 ## 相关页面
 
-- [[APQC 流程绩效指标库]]
-- [[指标中台建设方法与实践]]
-- [[APS 高级计划与排程]]
-- [[大数据治理]]
-- [[数据资产管理标准化]]
+- [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]
+- [[concepts/metric-platform-construction|指标中台建设方法与实践]]
+- [[concepts/aps-advanced-planning-scheduling|APS 高级计划与排程]]
+- [[concepts/big-data-governance|大数据治理]]
+- [[concepts/data-asset-management-standard|数据资产管理标准化]]

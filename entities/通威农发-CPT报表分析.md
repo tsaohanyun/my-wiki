@@ -113,7 +113,7 @@ LEFT JOIN res_inv_org    rio ON rio.inv_org_code = n.cargo_owner_code
 LEFT JOIN res_enterprise re  ON re.id            = rio.company_id
 ```
 
-详见 [[通威农发-数据库总览]] 中的视图BUG章节。
+详见 [[databases/通威农发-数据库总览|通威农发-数据库总览]] 中的视图BUG章节。
 
 ## CPT修改经验
 
@@ -132,7 +132,7 @@ LEFT JOIN res_enterprise re  ON re.id            = rio.company_id
 
 ## 相关页面
 - [[excel-spreadsheet-processing]]
-- [[feed-industry-knowledge]]
-- [[feed-industry-solution]]
-- [[fine-report-cpt]]
-- [[hermes-agent]]
+- [[entities/feed-industry-knowledge|feed-industry-knowledge]]
+- [[entities/feed-industry-solution|feed-industry-solution]]
+- [[entities/fine-report-cpt|fine-report-cpt]]
+- [[entities/hermes-agent|hermes-agent]]

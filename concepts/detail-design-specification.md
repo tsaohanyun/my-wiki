@@ -22,7 +22,7 @@ project: 通用知识
 
 # 详细设计文档编写规范
 
-> 详细设计是蓝图方案到系统开发之间的核心交付物。本文基于智能工厂生产业务平台8大模块（计划/配方/生产批组/质量/仓储/生产/设备/精益）的详细设计实践，提炼通用编写规范。关联：[[feed-industry-solution]] [[smart-factory-planning]]
+> 详细设计是蓝图方案到系统开发之间的核心交付物。本文基于智能工厂生产业务平台8大模块（计划/配方/生产批组/质量/仓储/生产/设备/精益）的详细设计实践，提炼通用编写规范。关联：[[entities/feed-industry-solution|feed-industry-solution]] [[concepts/smart-factory-planning|smart-factory-planning]]
 
 ## 文档定位
 
@@ -30,7 +30,7 @@ project: 通用知识
 - **上承蓝图方案**：将蓝图中的业务流程细化为可开发的功能规格
 - **下接开发实现**：开发团队依据详细设计编码，测试团队据此编写用例
 
-与[[blueprint-writing-methodology]]的区别：蓝图侧重业务流程和功能清单，详细设计侧重每个功能的字段级规格和交互逻辑。
+与[[concepts/blueprint-writing-methodology|blueprint-writing-methodology]]的区别：蓝图侧重业务流程和功能清单，详细设计侧重每个功能的字段级规格和交互逻辑。
 
 ## 文档整体结构
 
@@ -218,9 +218,9 @@ project: 通用知识
 
 ## 关联页面
 
-- [[feed-industry-solution]] — 饲料行业智能制造解决方案（蓝图层面）
-- [[feed-industry-knowledge]] — 饲料行业知识体系
-- [[smart-factory-planning]] — 智能工厂规划方法论
-- [[efficiency-improvement-methods]] — 精益效率改善方法论
-- [[manufacturing-kpi-system]] — 制造业指标体系
-- [[blueprint-writing-methodology]] — 蓝图解决方案编写方法论
+- [[entities/feed-industry-solution|feed-industry-solution]] — 饲料行业智能制造解决方案（蓝图层面）
+- [[entities/feed-industry-knowledge|feed-industry-knowledge]] — 饲料行业知识体系
+- [[concepts/smart-factory-planning|smart-factory-planning]] — 智能工厂规划方法论
+- [[concepts/efficiency-improvement-methods|efficiency-improvement-methods]] — 精益效率改善方法论
+- [[concepts/manufacturing-kpi-system|manufacturing-kpi-system]] — 制造业指标体系
+- [[concepts/blueprint-writing-methodology|blueprint-writing-methodology]] — 蓝图解决方案编写方法论

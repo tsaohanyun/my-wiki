@@ -29,6 +29,6 @@ project: 通用知识
 - **二分定位** - 使用二分法缩小范围
 - **记录过程** - 记录调试过程和发现
 ## 交叉引用
-- [[test-driven-development]] - 测试预防缺陷
-- [[requesting-code-review]] - 代码审查发现问题
-- [[writing-plans]] - 计划中考虑边界情况
+- [[concepts/test-driven-development|test-driven-development]] - 测试预防缺陷
+- [[concepts/requesting-code-review|requesting-code-review]] - 代码审查发现问题
+- [[concepts/writing-plans|writing-plans]] - 计划中考虑边界情况

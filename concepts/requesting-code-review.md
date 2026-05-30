@@ -31,6 +31,6 @@ project: 通用知识
 - **独立视角** - 需要独立审查者
 - **持续改进** - 从审查中学习
 ## 交叉引用
-- [[systematic-debugging]] - 审查中发现的问题调试
-- [[test-driven-development]] - 审查测试覆盖率
-- [[github-code-review]] - GitHub PR 审查
+- [[concepts/systematic-debugging|systematic-debugging]] - 审查中发现的问题调试
+- [[concepts/test-driven-development|test-driven-development]] - 审查测试覆盖率
+- [[concepts/requesting-code-review|github-code-review]] - GitHub PR 审查

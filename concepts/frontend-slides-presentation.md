@@ -102,15 +102,15 @@ project: 通用知识
 5. 主动重组：修改会导致溢出时自动拆分
 
 ## 相关链接
-- [[frontend-design-system]] — 前端设计方法论
-- [[popular-web-design-templates]] — 设计模板库
-- [[retro-futuristic-html-design]] — 复古未来风（适合科技演示）
+- [[concepts/frontend-design-system|frontend-design-system]] — 前端设计方法论
+- [[entities/popular-web-design-templates|popular-web-design-templates]] — 设计模板库
+- [[concepts/retro-futuristic-html-design|retro-futuristic-html-design]] — 复古未来风（适合科技演示）
 
 
 ## 相关页面
 
-- [[HTML 原型生成]]
-- [[FineReport CPT 模板文件]]
-- [[54种热门网页设计模板]]
-- [[企业级大数据技术体系]]
-- [[Claude API 开发模式]]
+- [[concepts/html-prototype-generation|HTML 原型生成]]
+- [[entities/fine-report-cpt|FineReport CPT 模板文件]]
+- [[entities/popular-web-design-templates|54种热门网页设计模板]]
+- [[concepts/big-data-development-basics|企业级大数据技术体系]]
+- [[concepts/claude-api-development|Claude API 开发模式]]

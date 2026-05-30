@@ -49,4 +49,4 @@ project: 通用知识
 - 数据要素市场培育
 - 数据价值评估与变现
 
-相关概念：[[big-data-governance]]、[[data-element-valuation]]、[[data-mid-platform]]
+相关概念：[[concepts/big-data-governance|big-data-governance]]、[[concepts/data-element-valuation|data-element-valuation]]、[[concepts/data-mid-platform|data-mid-platform]]

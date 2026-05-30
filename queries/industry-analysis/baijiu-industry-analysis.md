@@ -53,9 +53,9 @@ project: 研究
 - **中游渠道**：渠道利润回归合理水平为必然趋势，但仍会高于浓香；核心是厂商一体，保护经销商利润，稳价格、促动销
 - **下游消费**：全国化布局持续推进，广东、河南、山东为成熟样板市场（酱化率均超50%）；从区域集中走向泛全国化
 
-相关概念：[[feed-industry-knowledge]]（食品行业知识体系）
+相关概念：[[entities/feed-industry-knowledge|feed-industry-knowledge]]（食品行业知识体系）
 
 ## 相关页面
-- [[数据与指标体系]]
-- [[IT战略与数字化规划]]
-- [[manufacturing-kpi-system]]
+- [[queries/manufacturing-solutions/数据与指标体系|数据与指标体系]]
+- [[queries/manufacturing-solutions/IT战略与数字化规划|IT战略与数字化规划]]
+- [[concepts/manufacturing-kpi-system|manufacturing-kpi-system]]

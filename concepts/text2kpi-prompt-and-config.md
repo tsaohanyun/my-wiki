@@ -23,7 +23,7 @@ project: 通用知识
 
 ## 概述
 
-Text2KPI 工程化落地的 **8 个核心模板与清单**，可在自己的项目里快速复刻同款工程结构。这些模板是 [[text2kpi-optimization]] V2 架构的 Prompt 层和配置层的完整实现规范。 ^[raw/articles/text2kpi-prompt-and-config.md]
+Text2KPI 工程化落地的 **8 个核心模板与清单**，可在自己的项目里快速复刻同款工程结构。这些模板是 [[concepts/text2kpi-optimization|text2kpi-optimization]] V2 架构的 Prompt 层和配置层的完整实现规范。 ^[raw/articles/text2kpi-prompt-and-config.md]
 
 ## 模板索引
 
@@ -332,16 +332,16 @@ time_rules:
 
 ## 相关概念
 
-- [[text2kpi-optimization]] — V2 分层架构设计（本模板是其 Prompt 层和配置层实现）
-- [[text2kpi-reference-code]] — 核心参考代码实现（代码层面体现模板设计）
-- [[harness-engineering]] — AI Agent 驾驭层方法论（分层 Prompt 的理论基础）
-- [[nl2sql-precise-mapping]] — NL2SQL 精确映射方案（对比参考）
+- [[concepts/text2kpi-optimization|text2kpi-optimization]] — V2 分层架构设计（本模板是其 Prompt 层和配置层实现）
+- [[concepts/text2kpi-reference-code|text2kpi-reference-code]] — 核心参考代码实现（代码层面体现模板设计）
+- [[concepts/harness-engineering|harness-engineering]] — AI Agent 驾驭层方法论（分层 Prompt 的理论基础）
+- [[concepts/nl2sql-precise-mapping|nl2sql-precise-mapping]] — NL2SQL 精确映射方案（对比参考）
 
 
 ## 相关页面
 
-- [[Harness Engineering]]
-- [[NL2SQL 精确映射]]
-- [[Text2KPI 优化方案]]
-- [[Text2KPI 参考代码节选]]
-- [[前端设计系统]]
+- [[concepts/harness-engineering|Harness Engineering]]
+- [[concepts/nl2sql-precise-mapping|NL2SQL 精确映射]]
+- [[concepts/text2kpi-optimization|Text2KPI 优化方案]]
+- [[concepts/text2kpi-reference-code|Text2KPI 参考代码节选]]
+- [[concepts/frontend-design-system|前端设计系统]]

@@ -78,14 +78,14 @@ project: 通用知识
 
 ## 相关概念
 
-- [[大数据治理]] — 治理后的数据通过可视化呈现
+- [[concepts/big-data-governance|大数据治理]] — 治理后的数据通过可视化呈现
 - [[concepts/smart-factory-planning]] — 工厂看板与数据可视化的应用场景
 
 
 ## 相关页面
 
-- [[数字孪生技术]]
-- [[APQC 流程绩效指标库]]
-- [[APS 高级计划与排程]]
-- [[企业级大数据技术体系]]
-- [[大数据治理]]
+- [[concepts/digital-twin|数字孪生技术]]
+- [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]
+- [[concepts/aps-advanced-planning-scheduling|APS 高级计划与排程]]
+- [[concepts/big-data-development-basics|企业级大数据技术体系]]
+- [[concepts/big-data-governance|大数据治理]]

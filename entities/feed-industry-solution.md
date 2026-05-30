@@ -20,7 +20,7 @@ project: 通威
 
 # 饲料行业智能制造解决方案
 
-> 本文档基于通威农发智能工厂蓝图解决方案提炼，侧重系统功能、业务流程、管理目标和数字化升级策略。行业基础知识请参考 [[feed-industry-knowledge]]。
+> 本文档基于通威农发智能工厂蓝图解决方案提炼，侧重系统功能、业务流程、管理目标和数字化升级策略。行业基础知识请参考 [[entities/feed-industry-knowledge|feed-industry-knowledge]]。
 
 
 > 项目：**通威农发**（通威股份农业发展有限公司）
@@ -913,7 +913,7 @@ FBC发起退货申请→品管线上检查→给出处理意见→线上回写FB
 
 ## 相关页面
 - [[excel-spreadsheet-processing]]
-- [[fine-report-cpt]]
-- [[hermes-agent]]
+- [[entities/fine-report-cpt|fine-report-cpt]]
+- [[entities/hermes-agent|hermes-agent]]
 - [[pdf-document-processing]]
-- [[popular-web-design-templates]]
+- [[entities/popular-web-design-templates|popular-web-design-templates]]

@@ -23,24 +23,24 @@ project: 研究
 
 | 行业分类 | 页面 | 文档数 |
 |----------|------|--------|
-| 注塑/汽配/机加工/钣金 | [[离散制造-注塑汽配机加工钣金]] | 14 |
-| 铸造/新材料/电梯/钢铁 | [[离散制造-铸造新材料电梯钢铁]] | 12 |
-| 化工行业 | [[流程制造-化工行业]] | 7 |
-| 光伏/光纤光缆 | [[流程制造-光伏光纤光缆]] | 5 |
-| 医药/食品/酒类 | [[消费与医疗行业方案]] | 6 |
-| 汽车/ANDON/电子制造 | [[汽车与交通行业方案]] | 10 |
+| 注塑/汽配/机加工/钣金 | [[queries/manufacturing-solutions/离散制造-注塑汽配机加工钣金|离散制造-注塑汽配机加工钣金]] | 14 |
+| 铸造/新材料/电梯/钢铁 | [[queries/manufacturing-solutions/离散制造-铸造新材料电梯钢铁|离散制造-铸造新材料电梯钢铁]] | 12 |
+| 化工行业 | [[queries/manufacturing-solutions/流程制造-化工行业|流程制造-化工行业]] | 7 |
+| 光伏/光纤光缆 | [[queries/manufacturing-solutions/流程制造-光伏光纤光缆|流程制造-光伏光纤光缆]] | 5 |
+| 医药/食品/酒类 | [[queries/manufacturing-solutions/消费与医疗行业方案|消费与医疗行业方案]] | 6 |
+| 汽车/ANDON/电子制造 | [[queries/manufacturing-solutions/汽车与交通行业方案|汽车与交通行业方案]] | 10 |
 
 ## 跨行业方案
 
 | 主题 | 页面 | 文档数 |
 |------|------|--------|
-| 智能工厂规划 | [[智能制造-智能工厂规划]] | 11 |
-| 产品方案体系 | [[智能制造-产品方案体系]] | 8 |
-| WMS与SRM | [[WMS仓储与SRM供应链]] | 8 |
-| 物联网与设备 | [[物联网与设备管理]] | 8 |
-| 数据与指标 | [[数据与指标体系]] | 7 |
-| IT战略 | [[IT战略与数字化规划]] | 4 |
-| 厂商与案例 | [[厂商与案例汇编]] | 9 |
+| 智能工厂规划 | [[queries/manufacturing-solutions/智能制造-智能工厂规划|智能制造-智能工厂规划]] | 11 |
+| 产品方案体系 | [[queries/manufacturing-solutions/智能制造-产品方案体系|智能制造-产品方案体系]] | 8 |
+| WMS与SRM | [[queries/manufacturing-solutions/WMS仓储与SRM供应链|WMS仓储与SRM供应链]] | 8 |
+| 物联网与设备 | [[queries/manufacturing-solutions/物联网与设备管理|物联网与设备管理]] | 8 |
+| 数据与指标 | [[queries/manufacturing-solutions/数据与指标体系|数据与指标体系]] | 7 |
+| IT战略 | [[queries/manufacturing-solutions/IT战略与数字化规划|IT战略与数字化规划]] | 4 |
+| 厂商与案例 | [[queries/manufacturing-solutions/厂商与案例汇编|厂商与案例汇编]] | 9 |
 
 ## 共性特征
 
@@ -88,9 +88,9 @@ project: 研究
 
 ## 相关页面
 
-- [[smart-manufacturing]] — 智能制造概念总览
-- [[smart-factory-planning]] — 智能工厂规划方法论
-- [[feed-industry-solution]] — 饲料行业智能制造解决方案
-- [[blueprint-writing-methodology]] — 蓝图解决方案编写方法论
-- [[isa-95-integration]] — ISA-95企业控制系统集成标准
-- [[aps-advanced-planning-scheduling]] — APS高级计划与排程
+- [[concepts/smart-manufacturing|smart-manufacturing]] — 智能制造概念总览
+- [[concepts/smart-factory-planning|smart-factory-planning]] — 智能工厂规划方法论
+- [[entities/feed-industry-solution|feed-industry-solution]] — 饲料行业智能制造解决方案
+- [[concepts/blueprint-writing-methodology|blueprint-writing-methodology]] — 蓝图解决方案编写方法论
+- [[concepts/isa-95-integration|isa-95-integration]] — ISA-95企业控制系统集成标准
+- [[concepts/aps-advanced-planning-scheduling|aps-advanced-planning-scheduling]] — APS高级计划与排程

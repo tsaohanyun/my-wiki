@@ -36,4 +36,4 @@ status: stub
 ## 交叉引用
 - [[word-document-processing]] - Word 文档处理
 - [[pdf-document-processing]] - PDF 文档处理
-- [[writing-plans]] - 文档写作计划
+- [[concepts/writing-plans|writing-plans]] - 文档写作计划

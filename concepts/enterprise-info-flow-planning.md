@@ -52,4 +52,4 @@ project: 通用知识
 
 信息流反映着物流、资金流的运动状态，信息流的准确顺畅是物质流和资金流高效运行的保证。
 
-相关概念：[[enterprise-architecture-planning]]、[[smart-manufacturing]]
+相关概念：[[concepts/enterprise-architecture-planning|enterprise-architecture-planning]]、[[concepts/smart-manufacturing|smart-manufacturing]]

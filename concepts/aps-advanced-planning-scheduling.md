@@ -52,7 +52,7 @@ APS（Advanced Planning and Scheduling）高级计划与排程系统，是在考
 - 制造过程可视化
 - 运作绩效可视化
 
-相关概念：[[isa-95-integration]]、[[smart-factory-planning]]、[[efficiency-improvement-methods]]
+相关概念：[[concepts/isa-95-integration|isa-95-integration]]、[[concepts/smart-factory-planning|smart-factory-planning]]、[[concepts/efficiency-improvement-methods|efficiency-improvement-methods]]
 
 **实战案例**
-- [[tianwei-mes-production-flow|天味MES-生产流程与业务规则]] — 火锅底料MES的工单排程与生产调度实践
+- [[concepts/tianwei-mes-production-flow|天味MES-生产流程与业务规则]] — 火锅底料MES的工单排程与生产调度实践

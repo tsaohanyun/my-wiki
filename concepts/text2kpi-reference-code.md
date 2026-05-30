@@ -22,7 +22,7 @@ project: 通用知识
 
 ## 概述
 
-从 Text2KPI 完整工程（Spring Boot + Python，约 5 MB / 数百文件）中精选 **7 段最能体现方法论的核心代码**，每段配有方法论映射讲解。这些代码是 [[text2kpi-optimization]] V2 架构的工程实现参考。 ^[raw/articles/text2kpi-reference-code.md]
+从 Text2KPI 完整工程（Spring Boot + Python，约 5 MB / 数百文件）中精选 **7 段最能体现方法论的核心代码**，每段配有方法论映射讲解。这些代码是 [[concepts/text2kpi-optimization|text2kpi-optimization]] V2 架构的工程实现参考。 ^[raw/articles/text2kpi-reference-code.md]
 
 ## 代码片段索引
 
@@ -120,7 +120,7 @@ _COMPARE_PATTERNS = [
 
 **方法论映射**：
 - 复合 pattern 排在简单 pattern **前面**（`2025Q1` 必须早于 `Q1`），否则会被吞
-- 这是 [[harness-engineering]] 五层约束中的 L2 — 规则化预处理
+- 这是 [[concepts/harness-engineering|harness-engineering]] 五层约束中的 L2 — 规则化预处理
 
 ---
 
@@ -236,7 +236,7 @@ def _deterministic_metric_match(self, remaining_text: str) -> LLMIntentOutput:
 **方法论映射**：
 - LLM 是「软依赖」，**生产系统必须有降级路径**
 - 即使没有 LLM，规则 + 字符串匹配也能撑住 60%+ 的查询
-- 这就是 [[harness-engineering]] 「Harness 决定 LLM 在什么约束下做」的工程含义
+- 这就是 [[concepts/harness-engineering|harness-engineering]] 「Harness 决定 LLM 在什么约束下做」的工程含义
 
 ---
 
@@ -344,16 +344,16 @@ session:
 
 ## 相关概念
 
-- [[text2kpi-optimization]] — V2 分层架构设计（本文代码是其实现参考）
-- [[text2kpi-prompt-and-config]] — Prompt 分层模板与工程化配置清单
-- [[nl2sql-precise-mapping]] — NL2SQL 路线的精确映射方案（对比参考）
-- [[harness-engineering]] — AI Agent 驾驭层方法论（本文代码的理论基础）
+- [[concepts/text2kpi-optimization|text2kpi-optimization]] — V2 分层架构设计（本文代码是其实现参考）
+- [[concepts/text2kpi-prompt-and-config|text2kpi-prompt-and-config]] — Prompt 分层模板与工程化配置清单
+- [[concepts/nl2sql-precise-mapping|nl2sql-precise-mapping]] — NL2SQL 路线的精确映射方案（对比参考）
+- [[concepts/harness-engineering|harness-engineering]] — AI Agent 驾驭层方法论（本文代码的理论基础）
 
 
 ## 相关页面
 
-- [[Harness Engineering]]
-- [[NL2SQL 精确映射]]
-- [[Text2KPI 优化方案]]
-- [[Text2KPI Prompt 模板与工程化配置]]
-- [[前端设计系统]]
+- [[concepts/harness-engineering|Harness Engineering]]
+- [[concepts/nl2sql-precise-mapping|NL2SQL 精确映射]]
+- [[concepts/text2kpi-optimization|Text2KPI 优化方案]]
+- [[concepts/text2kpi-prompt-and-config|Text2KPI Prompt 模板与工程化配置]]
+- [[concepts/frontend-design-system|前端设计系统]]

@@ -80,13 +80,13 @@ project: 通用知识
 4. 方案实施 — 小步快跑、PDCA循环
 5. 效果确认与标准化 — 持续改善
 
-相关概念：[[value-stream-mapping]]、[[smart-manufacturing]]
+相关概念：[[concepts/value-stream-mapping|value-stream-mapping]]、[[concepts/smart-manufacturing|smart-manufacturing]]
 
 
 ## 相关页面
 
-- [[APS 高级计划与排程]]
-- [[详细设计文档编写规范]]
-- [[价值流图 VSM]]
-- [[实施方法论]]
-- [[物流与运输解决方案]]
+- [[concepts/aps-advanced-planning-scheduling|APS 高级计划与排程]]
+- [[concepts/detail-design-specification|详细设计文档编写规范]]
+- [[concepts/value-stream-mapping|价值流图 VSM]]
+- [[concepts/implementation-methodology|实施方法论]]
+- [[concepts/logistics-transport-solution|物流与运输解决方案]]

@@ -43,4 +43,4 @@ project: 通用知识
 - 资产利用率 — 减少资产闲置和丢失
 - 过程追溯 — 全流程记录，支持分析和优化
 
-相关概念：[[smart-manufacturing]]、[[smart-factory-planning]]
+相关概念：[[concepts/smart-manufacturing|smart-manufacturing]]、[[concepts/smart-factory-planning|smart-factory-planning]]

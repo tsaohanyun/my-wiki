@@ -43,4 +43,4 @@ project: 通用知识
 
 2019年全球大数据市场总体价值约490亿美元，预计2025年增长至900亿美元。
 
-相关概念：[[data-asset-management-standard]]、[[big-data-governance]]
+相关概念：[[concepts/data-asset-management-standard|data-asset-management-standard]]、[[concepts/big-data-governance|big-data-governance]]

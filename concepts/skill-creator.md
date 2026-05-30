@@ -32,5 +32,5 @@ status: stub
 - **可测试** - 技能可被测试和验证
 - **可维护** - 易于更新和改进
 ## 交叉引用
-- [[hermes-agent]] - Agent 平台
-- [[writing-plans]] - 技能开发计划
+- [[entities/hermes-agent|hermes-agent]] - Agent 平台
+- [[concepts/writing-plans|writing-plans]] - 技能开发计划

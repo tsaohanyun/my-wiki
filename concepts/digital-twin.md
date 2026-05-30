@@ -47,4 +47,4 @@ project: 通用知识
 
 据 IDC 预测，2025年全球数字孪生市场规模将从2020年的52.2亿美元增长到264.6亿美元，年均复合增长率超过38%。
 
-相关概念：[[smart-manufacturing]]、[[smart-factory-planning]]
+相关概念：[[concepts/smart-manufacturing|smart-manufacturing]]、[[concepts/smart-factory-planning|smart-factory-planning]]

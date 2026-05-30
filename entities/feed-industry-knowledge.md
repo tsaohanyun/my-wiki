@@ -244,7 +244,7 @@ project: 通威
 
 ## 相关页面
 - [[excel-spreadsheet-processing]]
-- [[feed-industry-solution]]
-- [[fine-report-cpt]]
-- [[hermes-agent]]
+- [[entities/feed-industry-solution|feed-industry-solution]]
+- [[entities/fine-report-cpt|fine-report-cpt]]
+- [[entities/hermes-agent|hermes-agent]]
 - [[pdf-document-processing]]

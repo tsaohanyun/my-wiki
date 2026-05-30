@@ -130,14 +130,14 @@ WorkBook (root)
 - 部分属性含义为推断，关键编辑前需验证
 
 ## 相关链接
-- [[html-prototype-generation]] — 原型生成可与报表系统配合
-- [[frontend-design-system]] — 前端设计系统概述
+- [[concepts/html-prototype-generation|html-prototype-generation]] — 原型生成可与报表系统配合
+- [[concepts/frontend-design-system|frontend-design-system]] — 前端设计系统概述
 
 
 ## 相关页面
 
-- [[54种热门网页设计模板]]
-- [[Claude API 开发模式]]
-- [[HTML 演示文稿生成]]
-- [[MCP 服务器开发]]
-- [[Excel 电子表格处理]]
+- [[entities/popular-web-design-templates|54种热门网页设计模板]]
+- [[concepts/claude-api-development|Claude API 开发模式]]
+- [[concepts/frontend-slides-presentation|HTML 演示文稿生成]]
+- [[concepts/mcp-server-development|MCP 服务器开发]]
+- [[entities/document-processing-tools|文档处理工具]]

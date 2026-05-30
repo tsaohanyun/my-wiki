@@ -24,9 +24,9 @@ project: 通用知识
 
 ## 概述
 
-Text2KPI 是一个 **NL2API**（自然语言转 API 调用）系统，用户通过自然语言查询业务指标，系统自动路由到对应 API 并返回结果。基于 [[harness-engineering]] 方法论，对其人机交互体验提出六项优化方案，并在 V2 设计中完成了分层架构重构。
+Text2KPI 是一个 **NL2API**（自然语言转 API 调用）系统，用户通过自然语言查询业务指标，系统自动路由到对应 API 并返回结果。基于 [[concepts/harness-engineering|harness-engineering]] 方法论，对其人机交互体验提出六项优化方案，并在 V2 设计中完成了分层架构重构。
 
-> **本系统不是 NL2SQL**。自然语言 → 理解意图 → 匹配已注册 API → 填充参数 → 调用取数 → 展示结果。不生成 SQL，不直接查数据库。与 [[nl2sql-precise-mapping]] 是不同路线。
+> **本系统不是 NL2SQL**。自然语言 → 理解意图 → 匹配已注册 API → 填充参数 → 调用取数 → 展示结果。不生成 SQL，不直接查数据库。与 [[concepts/nl2sql-precise-mapping|nl2sql-precise-mapping]] 是不同路线。
 
 ---
 
@@ -325,16 +325,16 @@ V2 通过分层架构重构 + 查询编排计划 + 推理可观测，将 Text2KP
 
 ## 相关概念
 
-- [[harness-engineering]] — V1 优化方案的理论基础
-- [[nl2sql-precise-mapping]] — NL2SQL 路线（对比参考：本系统走 NL2API 而非 NL2SQL）
-- [[text2kpi-reference-code]] — V2 架构的核心参考代码实现
-- [[text2kpi-prompt-and-config]] — Prompt 分层模板与工程化配置清单
+- [[concepts/harness-engineering|harness-engineering]] — V1 优化方案的理论基础
+- [[concepts/nl2sql-precise-mapping|nl2sql-precise-mapping]] — NL2SQL 路线（对比参考：本系统走 NL2API 而非 NL2SQL）
+- [[concepts/text2kpi-reference-code|text2kpi-reference-code]] — V2 架构的核心参考代码实现
+- [[concepts/text2kpi-prompt-and-config|text2kpi-prompt-and-config]] — Prompt 分层模板与工程化配置清单
 
 
 ## 相关页面
 
-- [[Harness Engineering]]
-- [[前端设计系统]]
-- [[NL2SQL 精确映射]]
-- [[Text2KPI Prompt 模板与工程化配置]]
-- [[Text2KPI 参考代码节选]]
+- [[concepts/harness-engineering|Harness Engineering]]
+- [[concepts/frontend-design-system|前端设计系统]]
+- [[concepts/nl2sql-precise-mapping|NL2SQL 精确映射]]
+- [[concepts/text2kpi-prompt-and-config|Text2KPI Prompt 模板与工程化配置]]
+- [[concepts/text2kpi-reference-code|Text2KPI 参考代码节选]]

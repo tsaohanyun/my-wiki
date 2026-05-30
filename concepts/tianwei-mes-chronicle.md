@@ -14,7 +14,7 @@ project: 天味
 
 # 天味MES-项目纪事
 
-本文档汇总天味家园B栋老车间工艺和物料防呆防错信息化项目（[[tianwei-mes-project|MES系统]]）自2023年6月30日至9月20日共16场会议的关键决策，按时间线组织。
+本文档汇总天味家园B栋老车间工艺和物料防呆防错信息化项目（[[concepts/tianwei-mes-project|MES系统]]）自2023年6月30日至9月20日共16场会议的关键决策，按时间线组织。
 
 ## 时间线总览
 
@@ -158,9 +158,9 @@ BOM版本管理方案和替代料业务规则确认。
 ## 相关页面
 
 **项目内部**
-- [[tianwei-mes-project|天味家园B栋MES项目]] — 项目概述、功能矩阵、重大决策
-- [[tianwei-mes-production-flow|生产流程与业务规则]] — 一颗火锅底料的完整旅程
-- [[tianwei-mes-integration-delivery|系统集成与交付]] — 接口、上线策略、测试
+- [[concepts/tianwei-mes-project|天味家园B栋MES项目]] — 项目概述、功能矩阵、重大决策
+- [[concepts/tianwei-mes-production-flow|生产流程与业务规则]] — 一颗火锅底料的完整旅程
+- [[concepts/tianwei-mes-integration-delivery|系统集成与交付]] — 接口、上线策略、测试
 
 **跨项目对比**
 - [[久立项目/久立项目-项目治理|久立项目治理]] — 同为MES项目的治理结构，可对比会议机制与决策流程

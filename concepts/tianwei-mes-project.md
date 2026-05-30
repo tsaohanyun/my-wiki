@@ -149,17 +149,17 @@ project: 天味
 ## 相关页面
 
 **项目内部**
-- [[tianwei-mes-production-flow|生产流程与业务规则]] — 一颗火锅底料的完整旅程
-- [[tianwei-mes-integration-delivery|系统集成与交付]] — 接口、上线、测试、培训
-- [[tianwei-mes-chronicle|项目纪事]] — 16场会议的时间线与关键决策
+- [[concepts/tianwei-mes-production-flow|生产流程与业务规则]] — 一颗火锅底料的完整旅程
+- [[concepts/tianwei-mes-integration-delivery|系统集成与交付]] — 接口、上线、测试、培训
+- [[concepts/tianwei-mes-chronicle|项目纪事]] — 16场会议的时间线与关键决策
 
 **跨项目对比**
 - [[久立项目/久立项目-蓝图方案|久立项目蓝图方案]] — 不锈钢管件MES蓝图，可对比流程制造 vs 离散制造的MES设计差异
 - [[久立项目/久立项目-功能设计说明书|久立项目功能设计]] — 同为MES详设文档，对比模块划分与业务规则设计思路
 
 **方案与方法论**
-- [[B01-MES制造执行系统]] — MES方案集总览，天味项目可作为实战案例参考
-- [[C03-食品饮料]] — 食品饮料行业数字化方案，天味家园属于此行业
-- [[smart-factory-planning|智能工厂规划]] — 智能工厂规划方法论，天味B栋改造是具体落地实践
-- [[isa-95-integration|ISA-95集成标准]] — MES/ERP/DCS分层集成的国际标准参考
-- [[blueprint-writing-methodology|蓝图方案编写方法论]] — 蓝图方案的标准编写方法
+- [[方案集/B01-MES制造执行系统|B01-MES制造执行系统]] — MES方案集总览，天味项目可作为实战案例参考
+- [[方案集/C03-食品饮料|C03-食品饮料]] — 食品饮料行业数字化方案，天味家园属于此行业
+- [[concepts/smart-factory-planning|智能工厂规划]] — 智能工厂规划方法论，天味B栋改造是具体落地实践
+- [[concepts/isa-95-integration|ISA-95集成标准]] — MES/ERP/DCS分层集成的国际标准参考
+- [[concepts/blueprint-writing-methodology|蓝图方案编写方法论]] — 蓝图方案的标准编写方法

@@ -77,8 +77,8 @@ project: 通用知识
 4. **持续迭代** — IT规划不是一次性工作，需要定期复盘和调整
 
 ## 相关页面
-- [[apqc-process-metrics]]
-- [[aps-advanced-planning-scheduling]]
-- [[big-data-development-basics]]
-- [[big-data-governance]]
-- [[blueprint-writing-methodology]]
+- [[concepts/apqc-process-metrics|apqc-process-metrics]]
+- [[concepts/aps-advanced-planning-scheduling|aps-advanced-planning-scheduling]]
+- [[concepts/big-data-development-basics|big-data-development-basics]]
+- [[concepts/big-data-governance|big-data-governance]]
+- [[concepts/blueprint-writing-methodology|blueprint-writing-methodology]]

@@ -67,13 +67,13 @@ project: 通用知识
 - **数据中台**：范围更广，涵盖数据全生命周期（采集→存储→计算→治理→服务→应用），是企业数据基础设施
 - **指标中台**：数据中台的上层应用，专注于指标的定义、管理、计算和服务
 
-相关概念：[[metric-platform-construction]]、[[big-data-governance]]、[[big-data-development-basics]]
+相关概念：[[concepts/metric-platform-construction|metric-platform-construction]]、[[concepts/big-data-governance|big-data-governance]]、[[concepts/big-data-development-basics|big-data-development-basics]]
 
 
 ## 相关页面
 
-- [[大数据治理]]
-- [[指标中台建设方法与实践]]
-- [[企业级大数据技术体系]]
-- [[数据资产管理标准化]]
-- [[数据治理两阶段实践]]
+- [[concepts/big-data-governance|大数据治理]]
+- [[concepts/metric-platform-construction|指标中台建设方法与实践]]
+- [[concepts/big-data-development-basics|企业级大数据技术体系]]
+- [[concepts/data-asset-management-standard|数据资产管理标准化]]
+- [[concepts/data-governance-two-phase|数据治理两阶段实践]]

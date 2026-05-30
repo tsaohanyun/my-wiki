@@ -52,4 +52,4 @@ project: 通用知识
 - **态势分析** — 对数据安全态势进行分析和呈现
 - **持续优化** — 推动数据安全策略持续优化
 
-相关概念：[[big-data-governance]]、[[data-asset-management-standard]]
+相关概念：[[concepts/big-data-governance|big-data-governance]]、[[concepts/data-asset-management-standard|data-asset-management-standard]]

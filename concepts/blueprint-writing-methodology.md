@@ -268,8 +268,8 @@ project: 通威
 - 版本：V1.0（2024-06-03）
 
 ## 相关页面
-- [[apqc-process-metrics]]
-- [[aps-advanced-planning-scheduling]]
-- [[big-data-development-basics]]
-- [[big-data-governance]]
-- [[claude-api-development]]
+- [[concepts/apqc-process-metrics|apqc-process-metrics]]
+- [[concepts/aps-advanced-planning-scheduling|aps-advanced-planning-scheduling]]
+- [[concepts/big-data-development-basics|big-data-development-basics]]
+- [[concepts/big-data-governance|big-data-governance]]
+- [[concepts/claude-api-development|claude-api-development]]

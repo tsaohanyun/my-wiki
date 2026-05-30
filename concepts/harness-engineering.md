@@ -161,16 +161,16 @@ Hooks 使 Harness 行为可被外部扩展而不需要修改代码。
 
 ## 相关概念
 
-- [[mcp-server-development]] — MCP 协议是 Tool 层的一种实现方式
-- [[systematic-debugging]] — Harness 的 Permission 层是系统调试的保障
-- [[hermes-agent]] — Hermes Agent 本身是 Harness 的一个实现实例
-- [[text2kpi-optimization]] — Harness 方法论在 Text2KPI 项目中的应用
+- [[concepts/mcp-server-development|mcp-server-development]] — MCP 协议是 Tool 层的一种实现方式
+- [[concepts/systematic-debugging|systematic-debugging]] — Harness 的 Permission 层是系统调试的保障
+- [[entities/hermes-agent|hermes-agent]] — Hermes Agent 本身是 Harness 的一个实现实例
+- [[concepts/text2kpi-optimization|text2kpi-optimization]] — Harness 方法论在 Text2KPI 项目中的应用
 
 
 ## 相关页面
 
-- [[Text2KPI 优化方案]]
-- [[前端设计系统]]
-- [[NL2SQL 精确映射]]
-- [[Text2KPI Prompt 模板与工程化配置]]
-- [[Text2KPI 参考代码节选]]
+- [[concepts/text2kpi-optimization|Text2KPI 优化方案]]
+- [[concepts/frontend-design-system|前端设计系统]]
+- [[concepts/nl2sql-precise-mapping|NL2SQL 精确映射]]
+- [[concepts/text2kpi-prompt-and-config|Text2KPI Prompt 模板与工程化配置]]
+- [[concepts/text2kpi-reference-code|Text2KPI 参考代码节选]]
