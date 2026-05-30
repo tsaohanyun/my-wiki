@@ -11,7 +11,6 @@ tags:
 - deployment
 sources:
 - raw/tianwei-mes/天味MES-WMS与MES接口清单.md
-- raw/tianwei-mes/天味MES-PCE与SAP集成.pptx.md
 - raw/tianwei-mes/天味MES-集成接口会议材料.pptx.md
 - raw/tianwei-mes/天味MES-上线策略报告-I.md
 - raw/tianwei-mes/天味MES-上线策略报告-II.md

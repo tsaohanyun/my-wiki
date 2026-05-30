@@ -7,22 +7,7 @@ tags:
 - mes
 - documentation
 sources:
-- raw/tianwei-mes/天味MES-会议纪要-0630月度汇报.md
-- raw/tianwei-mes/天味MES-会议纪要-0630周会.md
-- raw/tianwei-mes/天味MES-会议纪要-0703详设评审.md
-- raw/tianwei-mes/天味MES-会议纪要-0704详设评审.md
-- raw/tianwei-mes/天味MES-会议纪要-0705详设评审.md
-- raw/tianwei-mes/天味MES-会议纪要-0706详设评审.md
-- raw/tianwei-mes/天味MES-会议纪要-0707周会.md
-- raw/tianwei-mes/天味MES-会议纪要-0707部署方案.md
-- raw/tianwei-mes/天味MES-会议纪要-0711小料UI评审.md
-- raw/tianwei-mes/天味MES-会议纪要-0712项目盘点.md
 - raw/tianwei-mes/天味MES-会议纪要-0714UI评审.md
-- raw/tianwei-mes/天味MES-会议纪要-0718接口边界.md
-- raw/tianwei-mes/天味MES-会议纪要-0725SAP接口.md
-- raw/tianwei-mes/天味MES-会议纪要-0726BOM业务.md
-- raw/tianwei-mes/天味MES-会议纪要-0920B栋推进.md
-- raw/tianwei-mes/天味MES-会议纪要-0920项目推进.md
 - raw/tianwei-mes/天味MES-月度汇报会议纪要.md
 description: 天味家园B栋MES项目2023年6月至9月共16场会议的关键决策与待办事项，按时间线组织。
 project: 天味
