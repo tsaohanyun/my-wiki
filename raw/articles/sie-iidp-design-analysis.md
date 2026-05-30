@@ -441,8 +441,8 @@ SIE-IIDP 设计风格是一种**典型的中国大型制造企业后台管理系
 
 ## 相关页面
 
-- [[APQC 流程绩效指标库]]
-- [[APS高级计划与排程]]
+- [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]
+- [[concepts/aps-advanced-planning-scheduling|APS高级计划与排程]]
 
 - [[big-data-governance-day1]]
 - [[big-data-governance-day2]]

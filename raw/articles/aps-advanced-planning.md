@@ -848,7 +848,7 @@ APS （高级计划与排程）功能：
 
 ## 相关页面
 
-- [[APQC 流程绩效指标库]]
+- [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]
 
 - [[big-data-governance-day1]]
 - [[big-data-governance-day2]]
