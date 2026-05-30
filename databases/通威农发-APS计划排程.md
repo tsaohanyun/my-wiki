@@ -1,11 +1,9 @@
 ---
 title: APS计划排程
 created: 2026-05-07
-updated: 2026-05-14
+updated: 2026-05-28
 type: concept
-description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 APS（Advanced Planning and Scheduling）高级计划排程模块，管理通威农发的生产计划、需求预测和排程优化。涵盖需求管理、主生产计划、车间作业排程、产能规划、排程约束、能源预算等功能。
-
-  '
+description: 'APS（Advanced Planning and Scheduling）计划排程模块，涵盖需求管理（年/月计划）、计划排程（日计划/调料分配/月度检查）、物料需求计划、预算管理等功能。'
 tags:
 - smart-manufacturing
 sources:
@@ -20,64 +18,53 @@ project: 通威
 
 > 项目：**通威农发**（通威股份农业发展有限公司）
 >
-> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [MES生产执行](通威农发-MES生产执行.md) | [MBM物料BOM与配方](通威农发-MBM物料BOM与配方.md)
 ## 模块简介
 
-APS（Advanced Planning and Scheduling）高级计划排程模块，管理通威农发的生产计划、需求预测和排程优化。涵盖需求管理、主生产计划、车间作业排程、产能规划、排程约束、能源预算等功能。
+APS（Advanced Planning and Scheduling）计划排程模块，涵盖需求管理（年/月计划）、计划排程（日计划/调料分配/月度检查）、物料需求计划、预算管理等功能。
 
 ## 表清单（共37张表）
 
 | 表名 | 说明 |
 |------|------|
-| aps_base_cost | ApsBaseCost |
-| aps_base_energy_price | 能源价格 |
-| aps_base_energy_type | 能源类型 |
-| aps_base_power_num | 最小开机数量 |
-| aps_budget_energy | ApsBudgetEnergy |
-| aps_daily_plan | 日计划 |
-| aps_daily_plan_0402 | 日计划 |
-| aps_daily_plan_0412 | 日计划 |
-| aps_daily_plan_hb | 日计划 |
-| aps_demand_manage | 需求管理 |
-| aps_demand_management | 年/月计划需求管理 |
-| aps_inspect_checklist | 齐套检查 |
-| aps_kpwth_ebs | 开票未提货 |
-| aps_lack_material_detail | 缺料详情 |
-| aps_mark_demand_submit | 年/月计划市场需求提报 |
-| aps_mark_req_submit | 市场需求提报 |
-| aps_mark_req_submit_audit | 市场需求提报审核表 |
-| aps_mark_req_submit_cycle | 市场需求提报-销售周期设置 |
-| aps_material_needs_plan | 物料需求计划汇总表 |
-| aps_monthly_check | 月度检查 |
-| aps_monthly_material_demand | 月度物料需求 |
-| aps_monthly_material_needs_plan | 月度物料需求计划结果展示表 |
-| aps_plan_scheduling | 计划排程 |
-| aps_production_budget | 期间生产预算 |
-| aps_relative_plan | 预混料计划 |
-| aps_season_allocation | 调料分配 |
-| aps_season_audit | 调料审核 |
-| aps_season_audit_datas | 调料数据审核表 |
-| aps_selftesting_explanation | 自测因素说明 |
-| aps_supply_class | 供应分类 |
-| aps_supply_class_item | 供应分类-明细 |
-| aps_supply_classify | 供应分类明细 |
-| aps_tech_param_cate | 工艺参数分类 |
-| aps_unplanned_order | 未排计划单 |
-| aps_year_demand_management | 年计划需求管理 |
-| aps_year_demand_submit | 年/月计划市场需求提报 |
-| aps_year_season_allocation_detail | 年调料计划 |
-
-## 业务域概览
-
-- **aps** (37张表)：需求管理/主生产计划/车间排程/产能规划/能源预算
-
----
-
-[[通威农发-数据库总览]]
+| aps_base_cost |  |
+| aps_base_energy_price |  |
+| aps_base_energy_type |  |
+| aps_base_power_num |  |
+| aps_budget_energy |  |
+| aps_daily_plan |  |
+| aps_daily_plan_0402 |  |
+| aps_daily_plan_0412 |  |
+| aps_daily_plan_hb |  |
+| aps_demand_manage |  |
+| aps_demand_management |  |
+| aps_inspect_checklist |  |
+| aps_kpwth_ebs |  |
+| aps_lack_material_detail |  |
+| aps_mark_demand_submit |  |
+| aps_mark_req_submit |  |
+| aps_mark_req_submit_audit |  |
+| aps_mark_req_submit_cycle |  |
+| aps_material_needs_plan |  |
+| aps_monthly_check |  |
+| aps_monthly_material_demand |  |
+| aps_monthly_material_needs_plan |  |
+| aps_plan_scheduling |  |
+| aps_production_budget |  |
+| aps_relative_plan |  |
+| aps_season_allocation |  |
+| aps_season_audit |  |
+| aps_season_audit_datas |  |
+| aps_selftesting_explanation |  |
+| aps_supply_class |  |
+| aps_supply_class_item |  |
+| aps_supply_classify |  |
+| aps_tech_param_cate |  |
+| aps_unplanned_order |  |
+| aps_year_demand_management |  |
+| aps_year_demand_submit |  |
+| aps_year_season_allocation_detail |  |
 
 ## 相关页面
-- [[通威农发-E2D与数据同步]]
-- [[通威农发-EDO设备管理]]
-- [[通威农发-IIoT工业物联网]]
-- [[通威农发-LM精益管理]]
-- [[通威农发-MBM物料BOM与配方]]
+
+- [APS计划排程](通威农发-数据库总览.md) — 数据库总览

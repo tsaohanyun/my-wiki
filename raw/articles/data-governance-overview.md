@@ -65,6 +65,6 @@ tags:
 
 - [[APQC 流程绩效指标库]]
 - [[APS高级计划与排程]]
-- [[白酒Ⅲ行业深度报告：酱酒专题]]
+
 - [[big-data-governance-day1]]
 - [[big-data-governance-day2]]

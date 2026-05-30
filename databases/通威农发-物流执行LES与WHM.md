@@ -1,12 +1,9 @@
 ---
 title: 物流执行LES与WHM
 created: 2026-05-07
-updated: 2026-05-14
+updated: 2026-05-28
 type: concept
-description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 LES（Logistics Execution System）物流执行系统和WHM（Warehouse
-  Helper Module）仓库辅助模块。涵盖物流运输管理（运输计划/运输单/运输跟踪）、仓库辅助（库位管理/搬运设备/叉车管理）等功能。
-
-  '
+description: '物流执行模块，包含LES（Logistics Execution System）物流执行和WHM仓库辅助管理，涵盖运输调度、车辆管理、装卸管理、物流跟踪等功能。'
 tags:
 - smart-manufacturing
 sources:
@@ -21,53 +18,41 @@ project: 通威
 
 > 项目：**通威农发**（通威股份农业发展有限公司）
 >
-> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [WMS仓储管理](通威农发-WMS仓储管理.md)
 ## 模块简介
 
-LES（Logistics Execution System）物流执行系统和WHM（Warehouse Helper Module）仓库辅助模块。涵盖物流运输管理（运输计划/运输单/运输跟踪）、仓库辅助（库位管理/搬运设备/叉车管理）等功能。
+物流执行模块，包含LES（Logistics Execution System）物流执行和WHM仓库辅助管理，涵盖运输调度、车辆管理、装卸管理、物流跟踪等功能。
 
 ## 表清单（共25张表）
 
 | 表名 | 说明 |
 |------|------|
-| cargo_owner | 货主管理表 |
-| cargo_owner_org_rel | cargo_owner_org_rel 与 cargo_owner 的关联表 |
-| les_application_item_t | 微信端与自助终端车辆登记信息子表，记录合同、订单、申请信息 |
-| les_application_line | 车辆排队表 |
-| les_application_t | 微信端与自助终端车辆登记信息主表 |
-| les_carrier_t | 承运商 |
-| les_device_config | 自助终端 |
-| les_factory_operatype | 工厂业务 |
-| les_factory_queue | 工厂队列 |
-| les_factory_queue_info | 工厂队列配置明细 |
-| loading_account | loading_account |
-| loading_account_part_detail | loading_account_part_detail |
-| vehicle_type | 载具型号 |
-| vehicle_type_items | 载具型号-专用物料清单 |
-| whm_operate_management | 操作管理 |
-| whm_reservoir_area | 库区管理 |
-| whm_warehouse | 仓库管理 |
-| whm_warehouse_area | 仓库地址管理 |
-| whm_warehouse_location | 库位管理 |
-| whm_warehouse_location_freeze_release_reason | 库位管理-冻结/释放原因 |
-| whm_warehouse_location_info | 库位管理-基本信息 |
-| whm_warehouse_location_materials | 库位管理-仓储资料 |
-| whm_warehouse_location_mixed_rules | 库位管理-混放规则 |
-| whm_warehouse_location_operate | 库位管理-操作管理 |
-| whm_workspace_manage | 工作区管理 |
-
-## 业务域概览
-
-- **les** (8张表)：物流运输管理
-- **whm** (11张表)：仓库辅助管理
-
----
-
-[[通威农发-数据库总览]]
+| cargo_owner |  |
+| cargo_owner_org_rel |  |
+| les_application_item_t |  |
+| les_application_line |  |
+| les_application_t |  |
+| les_carrier_t |  |
+| les_device_config |  |
+| les_factory_operatype |  |
+| les_factory_queue |  |
+| les_factory_queue_info |  |
+| loading_account |  |
+| loading_account_part_detail |  |
+| vehicle_type |  |
+| vehicle_type_items |  |
+| whm_operate_management |  |
+| whm_reservoir_area |  |
+| whm_warehouse |  |
+| whm_warehouse_area |  |
+| whm_warehouse_location |  |
+| whm_warehouse_location_freeze_release_reason |  |
+| whm_warehouse_location_info |  |
+| whm_warehouse_location_materials |  |
+| whm_warehouse_location_mixed_rules |  |
+| whm_warehouse_location_operate |  |
+| whm_workspace_manage |  |
 
 ## 相关页面
-- [[通威农发-APS计划排程]]
-- [[通威农发-E2D与数据同步]]
-- [[通威农发-EDO设备管理]]
-- [[通威农发-IIoT工业物联网]]
-- [[通威农发-LM精益管理]]
+
+- [物流执行LES与WHM](通威农发-数据库总览.md) — 数据库总览

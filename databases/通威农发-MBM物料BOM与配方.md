@@ -1,12 +1,9 @@
 ---
 title: MBM物料BOM与配方
 created: 2026-05-07
-updated: 2026-05-14
+updated: 2026-05-28
 type: concept
-description: '> 相关Wiki：数据库总览 | EBS-DIM接口 | 运营指标体系 MBM（Material & BOM Management）物料BOM与配方管理模块。涵盖物料主数据维护、BOM（Bill
-  of Materials）配方结构管理、配方版本控制、配方审批流程、物料替代关系、BOM成本核算等功能。
-
-  '
+description: 'MBM（Material & BOM Management）物料BOM与配方管理模块，涵盖物料主数据管理、BOM结构配置、配方管理、替代料管理等功能。'
 tags:
 - smart-manufacturing
 sources:
@@ -21,53 +18,42 @@ project: 通威
 
 > 项目：**通威农发**（通威股份农业发展有限公司）
 >
-> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [EBS-DIM接口](../integrations/ebs-dim/README.md) | [运营指标体系](../kpi/README.md)
+> 相关Wiki：[数据库总览](通威农发-数据库总览.md) | [APS计划排程](通威农发-APS计划排程.md) | [基础数据与主数据](通威农发-基础数据与主数据.md)
 ## 模块简介
 
-MBM（Material & BOM Management）物料BOM与配方管理模块。涵盖物料主数据维护、BOM（Bill of Materials）配方结构管理、配方版本控制、配方审批流程、物料替代关系、BOM成本核算等功能。
+MBM（Material & BOM Management）物料BOM与配方管理模块，涵盖物料主数据管理、BOM结构配置、配方管理、替代料管理等功能。
 
 ## 表清单（共26张表）
 
 | 表名 | 说明 |
 |------|------|
-| mbm_custom_field | 自定义数据字段 |
-| mbm_custom_option | 自定义选项 |
-| mbm_equip_account_custom_field | 设备台账自定义数据字段 |
-| mbm_equip_custom_field | 设备自定义数据字段 |
-| mbm_equip_custom_field_conf | mbm_equip_custom_field_conf 与 mbm_equip_custom_field 的关联表 |
-| mbm_qms_base_statistical_coefficient | 统计系数主表 |
-| mbm_qms_base_statistical_coefficient_detail | 统计系数子表 |
-| mbm_qms_data_work_flow_config | 流程配置 |
-| mbm_qms_data_workflow_message_policy | 流程配置-消息推送策略 |
-| mbm_qms_spc_control_chart_alert_record | SPC预警记录 |
-| mbm_qms_spc_control_chart_alert_record_chart_info | 关联数据 |
-| mbm_qms_spc_control_chart_db | SPC数据源 |
-| mbm_qms_spc_control_chart_db_cfg | SPC数据源配置 |
-| mbm_qms_spc_control_chart_def | SPC控制图定义 |
-| mbm_qms_spc_control_chart_group_fid | SPC控制图定义-分组维度 |
-| mbm_qms_spc_control_chart_layer_condition | SPC-控制图定义-层别条件 |
-| mbm_qms_spc_control_chart_log_record | SPC日志记录 |
-| mbm_qms_spc_control_chart_monitor_item | SPC监控项目 |
-| mbm_qms_spc_control_chart_platform | SPC检验站台和定义的关联表 |
-| mbm_qms_spc_control_chart_rule | SPC控制图规则 |
-| mbm_qms_spc_control_chart_run | SPC控制图运行 |
-| mbm_qms_spc_control_chart_samp_counting_mock | SPC实时抽样模拟 |
-| mbm_qms_spc_control_chart_samp_mock | SPC实时抽样模拟 |
-| mbm_qms_spc_platform | SPC站台 |
-| mbm_qms_spc_platform_message_policy | SPC站台-消息推送配置 |
-| mbm_qms_spc_platform_user_config | SPC站台-用户配置 |
-
-## 业务域概览
-
-- **mbm** (26张表)：物料BOM/配方结构/配方版本/配方审批
-
----
-
-[[通威农发-数据库总览]]
+| mbm_custom_field |  |
+| mbm_custom_option |  |
+| mbm_equip_account_custom_field |  |
+| mbm_equip_custom_field |  |
+| mbm_equip_custom_field_conf |  |
+| mbm_qms_base_statistical_coefficient |  |
+| mbm_qms_base_statistical_coefficient_detail |  |
+| mbm_qms_data_work_flow_config |  |
+| mbm_qms_data_workflow_message_policy |  |
+| mbm_qms_spc_control_chart_alert_record |  |
+| mbm_qms_spc_control_chart_alert_record_chart_info |  |
+| mbm_qms_spc_control_chart_db |  |
+| mbm_qms_spc_control_chart_db_cfg |  |
+| mbm_qms_spc_control_chart_def |  |
+| mbm_qms_spc_control_chart_group_fid |  |
+| mbm_qms_spc_control_chart_layer_condition |  |
+| mbm_qms_spc_control_chart_log_record |  |
+| mbm_qms_spc_control_chart_monitor_item |  |
+| mbm_qms_spc_control_chart_platform |  |
+| mbm_qms_spc_control_chart_rule |  |
+| mbm_qms_spc_control_chart_run |  |
+| mbm_qms_spc_control_chart_samp_counting_mock |  |
+| mbm_qms_spc_control_chart_samp_mock |  |
+| mbm_qms_spc_platform |  |
+| mbm_qms_spc_platform_message_policy |  |
+| mbm_qms_spc_platform_user_config |  |
 
 ## 相关页面
-- [[通威农发-APS计划排程]]
-- [[通威农发-E2D与数据同步]]
-- [[通威农发-EDO设备管理]]
-- [[通威农发-IIoT工业物联网]]
-- [[通威农发-LM精益管理]]
+
+- [MBM物料BOM与配方](通威农发-数据库总览.md) — 数据库总览
