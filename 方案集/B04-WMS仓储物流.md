@@ -191,3 +191,6 @@ tags:
 - [[B12-自动化与机器人]]
 - [[B15-数字化转型方法论]]
 - [[C01-汽车行业]]
+
+**实战案例**
+- [[tianwei-mes-integration-delivery|天味MES-系统集成与交付]] — 火锅底料MES的MES↔WMS接口集成实践

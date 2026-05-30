@@ -102,3 +102,6 @@ project: 通用知识
 - [[concepts/smart-factory-planning]]
 - [[APS 高级计划与排程]]
 - [[数字化转型方法论]]
+
+**实战案例**
+- [[tianwei-mes-project|天味家园B栋MES项目]] — 火锅底料老车间智能工厂改造完整落地案例
