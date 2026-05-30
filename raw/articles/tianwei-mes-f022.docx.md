@@ -13,11 +13,11 @@ SOURCE: 会议纪要\20230712_天味项目盘点内部会议会议纪要.docx
 DESC: 会议纪要-0712项目盘点
 ============================================================
 [/body/tbl[1]] [Table: 4 rows]
-[/body/p[@paraId=4C939189]] 
+
 [/body/tbl[2]] [Table: 5 rows]
-[/body/p[@paraId=03701A59]] 
+
 [/body/tbl[3]] [Table: 7 rows]
-[/body/p[@paraId=3DAC0190]] 
+
 [/body/tbl[4]] [Table: 14 rows]
-[/body/p[@paraId=56FBE360]] 
-[/body/p[@paraId=184EACD3]]
+
+

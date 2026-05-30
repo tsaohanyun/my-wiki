@@ -13,11 +13,11 @@ SOURCE: 会议纪要\20230711_天味小料UI详细方案评审会议纪要.docx
 DESC: 会议纪要-0711小料UI评审
 ============================================================
 [/body/tbl[1]] [Table: 4 rows]
-[/body/p[@paraId=4C939189]] 
+
 [/body/tbl[2]] [Table: 5 rows]
-[/body/p[@paraId=03701A59]] 
+
 [/body/tbl[3]] [Table: 12 rows]
-[/body/p[@paraId=3DAC0190]] 
+
 [/body/tbl[4]] [Table: 14 rows]
-[/body/p[@paraId=56FBE360]] 
-[/body/p[@paraId=184EACD3]]
+
+
