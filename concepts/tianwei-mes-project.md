@@ -10,7 +10,6 @@ tags:
 sources:
 - raw/tianwei-mes/天味MES-详设评审清单.md
 - raw/tianwei-mes/天味MES-详设评审功能清单.md
-- raw/tianwei-mes/天味MES-验收报告.md
 - raw/tianwei-mes/天味MES-运维部署文档.md
 - raw/tianwei-mes/天味MES-月度汇报会议纪要.md
 description: 天味家园B栋老车间工艺和物料防呆防错信息化优化项目（MES系统）的项目入口页，涵盖项目概述、时间线、功能矩阵、系统架构与重大决策。
