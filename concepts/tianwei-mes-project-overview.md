@@ -1,18 +1,18 @@
 ---
 title: 天味家园B栋MES项目概览
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-30
 type: concept
 tags:
 - mes
 - smart-manufacturing
 - digital-transformation
 sources:
-- raw/articles/f000.xlsx.txt
-- raw/articles/f014.pdf.txt
-- raw/articles/f045.docx.txt
-- raw/articles/f044.docx.txt
-- raw/articles/f046.pdf.txt
+- raw/tianwei-mes/天味MES-详设评审清单.md
+- raw/tianwei-mes/天味MES-详设评审功能清单.md
+- raw/tianwei-mes/天味MES-验收报告.md
+- raw/tianwei-mes/天味MES-运维部署文档.md
+- raw/tianwei-mes/天味MES-月度汇报会议纪要.md
 description: 天味家园B栋老车间工艺和物料防呆防错信息化优化项目（MES系统）的整体概览，涵盖项目背景、目标、范围、13个核心功能模块及项目交付内容。
 project: 天味
 ---
@@ -25,14 +25,14 @@ project: 天味
 
 面对食品行业数字化智能化发展的变化与挑战，天味家园通过数据化运营平台（[[mes]]）的实施，引入先进的管理理念和模式，打造食品生产执行层中的关键环节。通过建立一体化平台，可实现对生产数据的实时采集、展示及MES的接入，实现数据的分析利用及基于数据决策运营，解决信息孤岛效应，促进天味的生产[[digital-transformation|数字化转型]]。
 
-本项目全称为"老车间工艺和物料防呆防错信息化优化项目"，部署于天味家园B栋食品加工车间，覆盖火锅底料从原料预处理到成品包装的完整生产流程。^[raw/articles/f044.docx.txt]
+本项目全称为"老车间工艺和物料防呆防错信息化优化项目"，部署于天味家园B栋食品加工车间，覆盖火锅底料从原料预处理到成品包装的完整生产流程。
 
 ### 项目目标
 
 - **工艺防呆防错**：通过系统指导操作配料、校验配料数量，确保投料顺序及工艺参数符合工艺要求，减少人为失误
 - **物料追溯与管控**：实现从原料投料到成品产出的全流程物料追溯，自动记录投料、报工数据
 - **生产数据实时采集**：对炒制过程中的投料顺序及工艺参数进行实时控制和记录
-- **账务数据集成**：与SAP系统对接，实现生产数据的账务回传与同步^[raw/articles/f046.pdf.txt]
+- **账务数据集成**：与SAP系统对接，实现生产数据的账务回传与同步
 
 ### 项目范围
 
@@ -46,11 +46,11 @@ project: 天味
 - 返工品管理（拆解、重新投料炒制）
 - 车间备料与物料流转
 
-系统同时与WMS（仓储管理系统）和SAP进行接口集成，实现备料需求下达、物料退料、外包装工单报工等12个接口的互联互通。^[raw/articles/f031.xlsx.txt]
+系统同时与WMS（仓储管理系统）和SAP进行接口集成，实现备料需求下达、物料退料、外包装工单报工等12个接口的互联互通。
 
 ## 核心功能清单
 
-以下为项目13个核心功能模块总览：^[raw/articles/f000.xlsx.txt] ^[raw/articles/f014.pdf.txt]
+以下为项目13个核心功能模块总览：
 
 | 序号 | 功能项名称 | 功能描述 | 关键性 |
 |------|-----------|----------|--------|
@@ -73,7 +73,7 @@ project: 天味
 
 ### 硬件交付
 
-项目部署采用超融合架构，服务器硬件资源需求如下：^[raw/articles/f044.docx.txt]
+项目部署采用超融合架构，服务器硬件资源需求如下：
 
 | 类别 | 规格描述 |
 |------|----------|
@@ -114,4 +114,7 @@ project: 天味
 - [[mes]] — MES系统概念与方法论
 - [[smart-manufacturing]] — 智能制造整体框架
 - [[digital-transformation]] — 企业数字化转型路径
-- [[isa-95-integration]] — ISA-95集成标准
+- [[isa-95-integration]] — ISA-95集成
+- [[tianwei-mes-detailed-design|详细设计方案]] — 13个核心功能模块的详细设计
+- [[tianwei-mes-interface-integration|接口集成方案]] — MES与WMS、SAP的接口清单
+- [[tianwei-mes-go-live-strategy|上线策略]] — 分步上线方案与风险应对
