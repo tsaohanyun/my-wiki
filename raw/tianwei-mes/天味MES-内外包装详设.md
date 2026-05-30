@@ -53,9 +53,6 @@ https://www.figma.com/file/lk4Ux3GSVoVS7L61DPOJzU/%E5%A4%A9%E5%91%B3?type=design
 >>“报工明细”标签页显示当前生产执行单的所有报工记录，列表字段有（按创建时间倒序排序）：
 >>“报工明细”标签页的操作有：
 
-
-
-
 ## 相关页面
 
 - [[raw/tianwei-mes/天味MES-详设评审清单]]
