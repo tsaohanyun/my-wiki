@@ -98,7 +98,7 @@ ERP采购管理信息系统运作流程包括：建立供应商资源 → 生成
 ## 相关概念
 
 - [[concepts/smart-manufacturing|smart-manufacturing]] — 智能制造中的采购管理与供应链协同
-- [[entities/feed-industry-solution|feed-industry-solution]] — 饲料行业解决方案中的采购业务模块
+- [[通威农发/行业知识/饲料行业解决方案|feed-industry-solution]] — 饲料行业解决方案中的采购业务模块
 - [[concepts/logistics-transport-solution|logistics-transport-solution]] — 物流与运输解决方案
 - [[concepts/manufacturing-kpi-system|manufacturing-kpi-system]] — 制造业KPI体系中采购相关指标
 

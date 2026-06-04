@@ -90,7 +90,7 @@ project: 研究
 
 - [[concepts/smart-manufacturing|smart-manufacturing]] — 智能制造概念总览
 - [[concepts/smart-factory-planning|smart-factory-planning]] — 智能工厂规划方法论
-- [[entities/feed-industry-solution|feed-industry-solution]] — 饲料行业智能制造解决方案
-- [[concepts/blueprint-writing-methodology|blueprint-writing-methodology]] — 蓝图解决方案编写方法论
+- [[通威农发/行业知识/饲料行业解决方案|feed-industry-solution]] — 饲料行业智能制造解决方案
+- [[通威农发/行业知识/蓝图编写方法论|blueprint-writing-methodology]] — 蓝图解决方案编写方法论
 - [[concepts/isa-95-integration|isa-95-integration]] — ISA-95企业控制系统集成标准
 - [[concepts/aps-advanced-planning-scheduling|aps-advanced-planning-scheduling]] — APS高级计划与排程

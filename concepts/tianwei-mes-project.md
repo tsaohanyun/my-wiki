@@ -162,4 +162,4 @@ project: 天味
 - [[方案集/C03-食品饮料|C03-食品饮料]] — 食品饮料行业数字化方案，天味家园属于此行业
 - [[concepts/smart-factory-planning|智能工厂规划]] — 智能工厂规划方法论，天味B栋改造是具体落地实践
 - [[concepts/isa-95-integration|ISA-95集成标准]] — MES/ERP/DCS分层集成的国际标准参考
-- [[concepts/blueprint-writing-methodology|蓝图方案编写方法论]] — 蓝图方案的标准编写方法
+- [[通威农发/行业知识/蓝图编写方法论|蓝图方案编写方法论]] — 蓝图方案的标准编写方法

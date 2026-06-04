@@ -1,0 +1,680 @@
+---
+title: 通威农发-EBS接口详表
+created: '2026-06-04'
+updated: '2026-06-04'
+type: summary
+tags:
+- smart-manufacturing
+- ebs
+- interface-design
+- digital-transformation
+- enterprise-management
+sources:
+- raw/articles/EBS_接口卡.md
+- raw/articles/EBS_接口服务文档.md
+- raw/articles/EBS_技术接口文档.md
+project: 通威农发
+description: 通威农发EBS与DIM/一点通接口详细定义：76个接口按6大业务域分组（主数据12/采购7/生产14/库存17/销售19/成本7），含完整字段映射
+---
+
+# EBS接口详表
+
+项目：**通威农发**
+
+EBS系统与DIM/一点通/智链通之间的全部接口定义，按业务域分组。共76个接口。
+
+## 接口卡片汇总
+
+| 编号 | 编码 | 名称 | 方向 | 类型 | 状态 | 说明 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 15 | DIM_ORG_GET | 组织查询接口 | EBS→DIM | 查询接口 | 已完成 | 组织结构法人、业务实体、库存组织 |
+| 16 | DIM_SUB_GET | 子库查询接口 | EBS→DIM | 查询接口 | 已完成 | 子库存子库存 |
+| 17 | DIM_ITEM_GET | 物料查询接口 | EBS→DIM | 查询接口 | 已完成 | 物料编码查询接口 |
+| 18 | DIM_CATEGORIES_GET | 物料类别查询接口 | EBS→DIM | 查询接口 | 已取消 | 物料类别组织查询接口 |
+| 19 | DIM_INVUOM_GET | 单位换算查询接口 | EBS→DIM | 查询接口 | 已完成 | 单位换算 |
+| 20 | DIM_CUSTOMER_GET | 客商查询接口 | EBS→DIM | 查询接口 | 已完成 | 客户客商同一个接口 |
+| 22 | DIM_ALIAS_GET | 帐户别名查询接口 | EBS→DIM | 查询接口 | 已完成 | 账户别名 |
+| 23 | DIM_PRODUCT_GET | 值集-内部项目、外部项目 | EBS→DIM | 查询接口 | 已取消 | 值集-内部项目、外部项目 |
+| 24 | DIM_ACCOUNT_GET | 非原料科目及用途查询 | EBS→DIM | 查询接口 | 已完成 | 非原料科目及用途用于机物料领用 |
+| 32 | DIM_FLEXV_GET | EBS值集查询 | EBS→DIM | 查询接口 | 已完成 | 值集查询接口用于机物料领用内部/外部项目值集、物料弹性域.. |
+| 33 | DIM_INV_ITEM | 机物料非原料导入 | EBS→DIM | 导入接口 | 已完成 | 物料编码同步接口-非原料（机物料） |
+| 34 | DIM_DESCR_GET | 物料弹性域查询 | EBS→DIM | 导入接口 | 已完成 | 物料弹性域查询接口 |
+| 6 | DIM_PR_RCV | 内部申请入库接口 | EBS→DIM | 导入接口 | 已完成 | 内部申请入库同步接口 |
+| 7 | DIM_PO_RCV | 采购订单入库 | EBS→DIM | 导入接口 | 已完成 | 采购入库同步接口 |
+| 8 | DIM_PO_RETURN | 采购订单退库 | EBS→DIM | 导入接口 | 已完成 | 采购退货同步接口 |
+| 21 | DIM_PO_GET | 采购订单查询接口 | EBS→DIM | 查询接口 | 已完成 | 采购订单查询接口 |
+| 29 | DIM_POTARGET_GET | 采购订单质检指标查询接口 | EBS→DIM | 查询接口 | 已完成 | 采购订单质检指标查询接口 |
+| 67 | DIM_WEITH_PO_GET | 进取磅单对应采购单查询 | EBS→DIM | 查询接口 | 已完成 | 进取磅单对应采购单查询 |
+| 69 | DIM_PO_PAY_GET | 批次是否已结算查询 | EBS→DIM | 查询接口 | 待确认 | 批次是否已结算查询 |
+| 1 | DIM_WIP_IMP | 生产批导入接口 | EBS→DIM | 导入接口 | 已完成 | 生产批创建 |
+| 2 | DIM_WIP_UPD | 生产批修改接口 | EBS→DIM | 导入接口 | 已完成 | 生产批修改接口 |
+| 4 | DIM_WIP_COM | 生产批投料完工导入接口 | EBS→DIM | 导入接口 | 已完成 | 生产批物料消耗/退回接口与生产批完工/退回同一接口 |
+| 5 | DIM_LOT_UPD | 批次号修改接口 | EBS→DIM | 导入接口 | 已完成 | 批次状态更新同步接口 |
+| 12 | DIM_WIP_M_PLAN | 月度生产需求同步接口 | EBS→DIM | 导入接口 | 已完成 | 月度生产需求同步接口 |
+| 13 | DIM_WIP_FORMULA | 配方导入接口 | EBS→DIM | 导入接口 | 已完成 | 配方 |
+| 14 | DIM_EXP_RATE | DIM加工耗能导入接口 | EBS→DIM | 导入接口 | 已完成 | 加工费能耗标准同步接口新增2024.01.26 |
+| 56 | DIM_M_WEIGH_GET | 手工过磅权限接口 | EBS→DIM | 查询接口 | 进行中 | 新增2024.04.29 ebs开放手工过磅和监磅控制配.. |
+| 59 | DIM_SENSORY_UPD | 感官检验同步接口 | EBS→DIM | 实时同步 | 已完成 | 过磅感官检验更新,原逻辑在采购订单接收时更新，先逻辑放在.. |
+| 60 | DIM_LOT_GET | 物料批次状态获取接口 | EBS→DIM | 实时同步 | 已完成 | DIM查询EBS物料批次状态，通过批次号+组织查询 |
+| 61 | DIM_BATCH_STATUS_GET | 生产批状态查询接口 | EBS→DIM | 实时同步 | 已完成 | DIM查询EBS生产批状态 |
+| 62 | DIM_EXPEND_IMP | 预混料耗用关系导入接口 | EBS→DIM | 实时同步 | 已完成 | 预混料耗用关系导入接口 |
+| 68 | DIM_TEST_TARGET | DIM检验指标获取 | EBS→DIM | 查询接口 | 待确认 | EBS查询DIM检验指标接口 |
+| 71 | DIM_SPEC_TESTS_GET | EBS获取DIM检验指标 | DIM→EBS | 查询接口 | 待确认 | EBS获取DIM检验指标 |
+| 3 | DIM_INV_TRANS | 子库存转移导入接口 | EBS→DIM | 导入接口 | 已完成 | 领料接口【原料仓与车间仓之间的转移】与子库存转移 |
+| 9 | DIM_INV_WGT | 过磅导入接口 | EBS→DIM | 导入接口 | 已完成 | 过磅记录同步接口 |
+| 11 | DIM_INV_REQUEST | 非原料领用导入接口 | EBS→DIM | 导入接口 | 已完成 | 非原料领用出库接口 |
+| 27 | DIM_INTPR_GET | 内部申请查询接口 | EBS→DIM | 查询接口 | 已完成 | 内部申请查询接口内部调拨，发货后再推送 |
+| 28 | DIM_INV_ALIAS | 账户别名出入库申请导入接口 | EBS→DIM | 导入接口 | 已完成 | 账户别名出入库申请同步接口 |
+| 30 | DIM_UPWEIGHT_GET | 磅单修正信息查询 | EBS→DIM | 查询接口 | 已完成 | 过磅修正数据查询接口新增，感官检验前，过磅对应的合同订单.. |
+| 37 | DIM_BALANCE_GET | 期初库存查询接口 | EBS→DIM | 查询接口 | 已完成 | 新增 2024.07.21 查询期初库存 |
+| 39 | DIM_INV_ONHAND | 平台库存查询接口 | DIM→EBS | 查询接口 | 未开始 | 新增 2024.03.25 用于销售下单量控制 |
+| 48 | DIM_ALIASST_GET | 账户别名出入库申请状态查询接口 | EBS→DIM | 查询接口 | 已完成 | 账户别名出入库申请状态查询接口 |
+| 49 | DIM_ONHAND_GET | EBS库存查询接口 | EBS→DIM | 查询接口 | 已完成 | 新增 2024.03.25 用于DIM与EBS库存对账 |
+| 55 | EBS_INV_PERIOD | EBS库存期间查询接口 | EBS→DIM | 查询接口 | 未开始 | 新增2024.04.26 ebs提供库存期间查询接口，供.. |
+| 64 | DIM_WEIGTH_DTL | 过磅明细推EBS | EBS→DIM | 实时同步 | 已完成 | 过磅明细导入 |
+| 65 | ISC_WEIGH_DTL | 过磅明细查询接口 | EBS→DIM | 查询接口 | 已完成 | 过磅明细查询接口 |
+| 70 | DIM_AVS_WEITH_GET | 仓储获取进去销售类型磅单 | EBS→DIM | 查询接口 | 待确认 | 仓储获取进去销售类型磅单 |
+| 73 | DIM_WEIGHNO_GET | 磅单查询接口 | EBS→DIM | 查询接口 | 待确认 | 磅单查询接口 |
+| 75 | EBS_QUERY_DIM_REQUISITION | EBS查询DIM领料申请通过信息 | DIM→EBS | 查询接口 | 待确认 | NaN |
+| 76 | EBS_QUERY_DIM_ALIAS_DTL | EBS查询DIM杂项账户别名明细信息 | DIM→EBS | 查询接口 | 待确认 | NaN |
+| 10 | DIM_OM_IMP | 销售订单发运/退货事务处理同步接口 | EBS→DIM | 导入接口 | 已完成 | 销售订单发运/退货事务处理同步接口 |
+| 26 | DIM_MPLAN_GET | 月度销售 & 生产调料需求查询 | EBS→DIM | 查询接口 | 已完成 | 月度销售计划&调料需求查询\n举例：\n1. 重庆的月度.. |
+| 38 | DIM_ORDER_GET | 销售订单/提货计划查询接口 | EBS→DIM | 查询接口 | 已完成 | 内部订单、外部销售、提货计划、退货订单，存在销售/退货订.. |
+| 40 | EBS_ORDER_CANCEL_CHK | 销售订单取消更新判断查询接口(EBS） | EBS→一点通/智链通 | 查询接口 | 已取消 | 新增 2024.03.25 用于销售更新与取消提货计划或.. |
+| 41 | EBS_PLAN_CANCEL_CHK | 提货计划取消更新判断查询接口（EBS） | EBS→一点通/智链通 | 查询接口 | 未开始 | 新增 2024.03.25 用于销售更新与取消提货计划或.. |
+| 42 | DIM_ORDER_CANCEL_CHK | 销售订单取消更新判断查询接口（DIM） | DIM→EBS | 查询接口 | 进行中 | 新增 2024.03.25 用于销售更新与取消提货计划或.. |
+| 43 | DIM_PLAN_CANCEL_CHK | 提货计划取消更新判断查询接口（DIM） | DIM→EBS | 查询接口 | 进行中 | 新增 2024.03.25 用于销售更新与取消提货计划或.. |
+| 44 | DIM_ORDER_IMP | 销售订单同步接口【定包&散装】 | 一点通/智链通→EBS | 导入接口 | 进行中 | 新增 2024.03.25  用于一点通&智链通将创建的.. |
+| 45 | DIM_PLAN_IMP | 提货计划同步接口（散装） | 一点通/智链通→EBS | 导入接口 | 已完成 | 新增 2024.03.25   用于一点通&智链通将创建.. |
+| 46 | DIM_RMA_W_GET | RMA称重信息查询接口 | EBS→一点通/智链通 | 查询接口 | 待确认 | 智链通查询DIM推送到EBS的称重信息 |
+| 47 | EBS_ORDER_UNPRINT_QTY | 已开单未打印提货数量查询接口 | EBS→DIM | 查询接口 | 未开始 | 新增 2024.03.25  用于DIM做子库存转移数量.. |
+| 51 | EBS_ORDER_SYNC_YDT | EBS订单同步一点通接口 | EBS→一点通 | 实时同步 | 进行中 | 老接口调整：2024.04.25 销售内勤直接在ebs进.. |
+| 52 | YDT_ORDER_CANCEL | 一点通销售订单取消接口 | EBS→一点通 | 实时同步 | 进行中 | 老接口调整：2024.04.25  一点通未打单时允许一.. |
+| 53 | EBS_ORDER_CANCEL_SYNC | EBS订单取消同步接口 | EBS→一点通 | 实时同步 | 进行中 | 老接口调整：2024.04.25  存在三种来源的订单，.. |
+| 54 | EBS_PLAN_CANCEL_SYNC | EBS提货计划取消同步接口 | EBS→一点通 | 实时同步 | 未开始 | 2024.04.25  存在三种来源的提货计划，直接在E.. |
+| 57 | EBS_ORDER_UPDATE_CHK | 销售订单更新查询接口 | EBS→DIM | 查询接口 | 进行中 | etl老接口 |
+| 58 | EBS_PLAN_CHANGE_INFO | 提货计划变更信息查询接口 | EBS→一点通 | 查询接口 | 已完成 | 提货计划传输EBS后，将不允许在一点通修改，只能在EBS.. |
+| 66 | EBS_CREATE_BULK_ORDER | EBS创建散装料计划订单 | 一点通/智链通→EBS | 查询接口 | 已完成 | EBS查询一点通提货计划是否可创建订单 |
+| 72 | DIM_ORDER_VEHICLE | 销售订单车牌修改 | EBS→DIM | 导入接口 | 待确认 | 销售订单车牌修改 |
+| 25 | DIM_COST_GET | 物料成本查询 | EBS→DIM | 查询接口 | 已完成 | 物料成本包含原材料、半成品、机物料、成品 |
+| 31 | DIM_JCYLIMIT_GET | 机物料库存额度查询 | EBS→DIM | 查询接口 | 已完成 | 机物料库存额度查询接口新增 2024.01.25 |
+| 35 | EBS_REV_EXP_ACTUAL | 收入费用实际值查询接口 | EBS→DIM | 查询接口 | 未开始 | 新增2024.01.26，废旧收入、制造费用、机物料费用.. |
+| 36 | EBS_WIP_COST_CHECK | 生产批成本检查查询接口 | EBS→DIM | 查询接口 | 未开始 | 新增 2024.03.25  用于DIM生产批成本检查 |
+| 50 | DIM_RSTCOST_GET | 非原料领用成本查询接口 | EBS→DIM | 查询接口 | 已取消 | 非原料领用成本查询接口 |
+| 63 | DIM_BALANCES_GET | 期末余额查询 | EBS→DIM | 查询接口 | 已完成 | 期末余额查询 |
+| 74 | DIM_BI_RATIO_GET | 投入产出汇总查询 | EBS→DIM | 查询接口 | 待确认 | 投入产出汇总查询 |
+
+## 主数据（12）
+
+**15. 组织查询接口**（DIM_ORG_GET）— EBS→DIM，查询接口，已完成
+
+> 组织结构法人、业务实体、库存组织
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`SOB_NAME`、`LEGAL_ID` 等22个字段
+
+**16. 子库查询接口**（DIM_SUB_GET）— EBS→DIM，查询接口，已完成
+
+> 子库存子库存
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_CODE`、`ORGANIZATION_NAME` 等18个字段
+
+**17. 物料查询接口**（DIM_ITEM_GET）— EBS→DIM，查询接口，已完成
+
+> 物料编码查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_CODE`、`ORGANIZATION_NAME` 等60个字段
+
+**18. 物料类别查询接口**（DIM_CATEGORIES_GET）— EBS→DIM，查询接口，已取消
+
+> 物料类别组织查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`VALUE_TYPE`、`VALUE_TYPE_DESC` 等10个字段
+
+**19. 单位换算查询接口**（DIM_INVUOM_GET）— EBS→DIM，查询接口，已完成
+
+> 单位换算
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`CONVERSION_TYPE`、`ITEM_NUM` 等16个字段
+
+**20. 客商查询接口**（DIM_CUSTOMER_GET）— EBS→DIM，查询接口，已完成
+
+> 客户客商同一个接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`PARTIES_TYPE`、`OPERATING_UNIT` 等22个字段
+
+**22. 帐户别名查询接口**（DIM_ALIAS_GET）— EBS→DIM，查询接口，已完成
+
+> 账户别名
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_CODE`、`ORGANIZATION_NAME` 等20个字段
+
+**23. 值集-内部项目、外部项目**（DIM_PRODUCT_GET）— EBS→DIM，查询接口，已取消
+
+> 值集-内部项目、外部项目
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`VALUE_TYPE`、`VALUE_TYPE_DESC` 等13个字段
+
+**24. 非原料科目及用途查询**（DIM_ACCOUNT_GET）— EBS→DIM，查询接口，已完成
+
+> 非原料科目及用途用于机物料领用
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`SOB_NAME`、`SOB_ACCOUNT` 等18个字段
+
+**32. EBS值集查询**（DIM_FLEXV_GET）— EBS→DIM，查询接口，已完成
+
+> 值集查询接口用于机物料领用内部/外部项目值集、物料弹性域值集
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`FLEX_VALUE_SET_NAME`、`FLEX_VALUE` 等15个字段
+
+**33. 机物料非原料导入**（DIM_INV_ITEM）— EBS→DIM，导入接口，已完成
+
+> 物料编码同步接口-非原料（机物料）
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`SOURCE_NUM`(VARCHAR2(6) 等48个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUM` 等14个字段
+
+**34. 物料弹性域查询**（DIM_DESCR_GET）— EBS→DIM，导入接口，已完成
+
+> 物料弹性域查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等32个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`APPLICATION_SHORT_NAME`、`TITLE` 等45个字段
+
+
+## 采购（7）
+
+**6. 内部申请入库接口**（DIM_PR_RCV）— EBS→DIM，导入接口，已完成
+
+> 内部申请入库同步接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`ORGANIZATION_CODE`(VARCHAR2(6) 等34个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`PR_NUM` 等13个字段
+
+**7. 采购订单入库**（DIM_PO_RCV）— EBS→DIM，导入接口，已完成
+
+> 采购入库同步接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`LINE_TYPE`(VARCHAR2(6) 等49个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`PO_NUM` 等13个字段
+
+**8. 采购订单退库**（DIM_PO_RETURN）— EBS→DIM，导入接口，已完成
+
+> 采购退货同步接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`LINE_TYPE`(VARCHAR2(6) 等39个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`PO_NUM` 等14个字段
+
+**21. 采购订单查询接口**（DIM_PO_GET）— EBS→DIM，查询接口，已完成
+
+> 采购订单查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`DOCUMENT_TYPE`、`PURCHASE_MODE` 等72个字段
+
+**29. 采购订单质检指标查询接口**（DIM_POTARGET_GET）— EBS→DIM，查询接口，已完成
+
+> 采购订单质检指标查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`OPERATING_UNIT`、`CONTRACT_NUM` 等19个字段
+
+**67. 进取磅单对应采购单查询**（DIM_WEITH_PO_GET）— EBS→DIM，查询接口，已完成
+
+> 进取磅单对应采购单查询
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`WEIGH_NO`、`PO_NUM` 等23个字段
+
+**69. 批次是否已结算查询**（DIM_PO_PAY_GET）— EBS→DIM，查询接口，待确认
+
+> 批次是否已结算查询
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`CONTRACT_NUMBER`、`VENDOR_NAME` 等20个字段
+
+
+## 生产（14）
+
+**1. 生产批导入接口**（DIM_WIP_IMP）— EBS→DIM，导入接口，已完成
+
+> 生产批创建
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`HEADER` 等48个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`BATCH_NO` 等11个字段
+
+**2. 生产批修改接口**（DIM_WIP_UPD）— EBS→DIM，导入接口，已完成
+
+> 生产批修改接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`HEADER` 等48个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`BATCH_NO` 等11个字段
+
+**4. 生产批投料完工导入接口**（DIM_WIP_COM）— EBS→DIM，导入接口，已完成
+
+> 生产批物料消耗/退回接口与生产批完工/退回同一接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`ORGANIZATION_CODE`(VARCHAR2(6) 等32个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`BATCH_NO` 等11个字段
+
+**5. 批次号修改接口**（DIM_LOT_UPD）— EBS→DIM，导入接口，已完成
+
+> 批次状态更新同步接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`ORGANIZATION_CODE`(VARCHAR2(6) 等22个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`ITEM_NUM` 等12个字段
+
+**12. 月度生产需求同步接口**（DIM_WIP_M_PLAN）— EBS→DIM，导入接口，已完成
+
+> 月度生产需求同步接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`SOURCE_NUM`(VARCHAR2(6) 等22个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUM` 等13个字段
+
+**13. 配方导入接口**（DIM_WIP_FORMULA）— EBS→DIM，导入接口，已完成
+
+> 配方
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`ORGANIZATION_CODE`(VARCHAR2(6) 等30个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`INTF_MESSAGE` 等13个字段
+
+**14. DIM加工耗能导入接口**（DIM_EXP_RATE）— EBS→DIM，导入接口，已完成
+
+> 加工费能耗标准同步接口新增2024.01.26
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`RATE_VERSION`(VARCHAR2(6) 等31个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`RATE_VERSION` 等11个字段
+
+**56. 手工过磅权限接口**（DIM_M_WEIGH_GET）— EBS→DIM，查询接口，进行中
+
+> 新增2024.04.29 ebs开放手工过磅和监磅控制配置信息查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`
+
+响应：`USER_NUMBER`、`USER_NAME`、`PROFILE_OPTION_NAME`、`USER_PROFILE_OPTION_NAME`、`PROFILE_OPTION_VALUE`、`START_DATE`、`END_DATE`
+
+**59. 感官检验同步接口**（DIM_SENSORY_UPD）— EBS→DIM，实时同步，已完成
+
+> 过磅感官检验更新,原逻辑在采购订单接收时更新，先逻辑放在磅单产生后在PO接收之前通过接口更新感官检验
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`SOURCE_NUM`(VARCHAR2(6) 等18个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUM` 等14个字段
+
+**60. 物料批次状态获取接口**（DIM_LOT_GET）— EBS→DIM，实时同步，已完成
+
+> DIM查询EBS物料批次状态，通过批次号+组织查询
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`
+
+响应：`INVENTORY_ITEM_ID`、`LOT_NUMBER`、`ITEM_NUM`、`DESCRIPTION`、`STATUS_CODE`、`ORGANIZATION_CODE`、`ORIGINATION_DATE`、`EXPIRATION_DATE` 等14个字段
+
+**61. 生产批状态查询接口**（DIM_BATCH_STATUS_GET）— EBS→DIM，实时同步，已完成
+
+> DIM查询EBS生产批状态
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`
+
+响应：`BATCH_ID`、`ORGANIZATION_ID`、`ORGANIZATION_CODE`、`ORGANIZATION_NAME`、`BATCH_NO`、`BATCH_STATUS`、`DIM_FLAG`、`M_WIP_PLAN_QTY` 等12个字段
+
+**62. 预混料耗用关系导入接口**（DIM_EXPEND_IMP）— EBS→DIM，实时同步，已完成
+
+> 预混料耗用关系导入接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`ORGANIZATION_CODE`(VARCHAR2(6) 等41个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUM` 等35个字段
+
+**68. DIM检验指标获取**（DIM_TEST_TARGET）— EBS→DIM，查询接口，待确认
+
+> EBS查询DIM检验指标接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_CODE`、`ITEM_CODE` 等16个字段
+
+**71. EBS获取DIM检验指标**（DIM_SPEC_TESTS_GET）— DIM→EBS，查询接口，待确认
+
+> EBS获取DIM检验指标
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`HEADER` 等14个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ITEM_NUM`、`TEST_NAME` 等11个字段
+
+
+## 库存（17）
+
+**3. 子库存转移导入接口**（DIM_INV_TRANS）— EBS→DIM，导入接口，已完成
+
+> 领料接口【原料仓与车间仓之间的转移】与子库存转移
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`LINE_TYPE`(VARCHAR2(6) 等43个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`ITEM_NUM` 等11个字段
+
+**9. 过磅导入接口**（DIM_INV_WGT）— EBS→DIM，导入接口，已完成
+
+> 过磅记录同步接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`ORGANIZATION_CODE`(VARCHAR2(6) 等47个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUM` 等15个字段
+
+**11. 非原料领用导入接口**（DIM_INV_REQUEST）— EBS→DIM，导入接口，已完成
+
+> 非原料领用出库接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`ORGANIZATION_CODE`(VARCHAR2(6) 等40个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUM` 等16个字段
+
+**27. 内部申请查询接口**（DIM_INTPR_GET）— EBS→DIM，查询接口，已完成
+
+> 内部申请查询接口内部调拨，发货后再推送
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`DOCUMENT_TYPE`、`REQ_HEADER_ID` 等37个字段
+
+**28. 账户别名出入库申请导入接口**（DIM_INV_ALIAS）— EBS→DIM，导入接口，已完成
+
+> 账户别名出入库申请同步接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`LINE_TYPE`(VARCHAR2(6) 等43个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUM` 等14个字段
+
+**30. 磅单修正信息查询**（DIM_UPWEIGHT_GET）— EBS→DIM，查询接口，已完成
+
+> 过磅修正数据查询接口新增，感官检验前，过磅对应的合同订单信息选择错误，修改后重新推送给平台
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_CODE`、`ORGANIZATION_NAME` 等15个字段
+
+**37. 期初库存查询接口**（DIM_BALANCE_GET）— EBS→DIM，查询接口，已完成
+
+> 新增 2024.07.21 查询期初库存
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等32个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`PERIOD_CODE`、`ORGANIZATION_CODE` 等36个字段
+
+**39. 平台库存查询接口**（DIM_INV_ONHAND）— DIM→EBS，查询接口，未开始
+
+> 新增 2024.03.25 用于销售下单量控制
+
+**48. 账户别名出入库申请状态查询接口**（DIM_ALIASST_GET）— EBS→DIM，查询接口，已完成
+
+> 账户别名出入库申请状态查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`REQUEST_NUMBER`、`ORGANIZATION_CODE` 等12个字段
+
+**49. EBS库存查询接口**（DIM_ONHAND_GET）— EBS→DIM，查询接口，已完成
+
+> 新增 2024.03.25 用于DIM与EBS库存对账
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_ID`、`ORGANIZATION_CODE` 等19个字段
+
+**55. EBS库存期间查询接口**（EBS_INV_PERIOD）— EBS→DIM，查询接口，未开始
+
+> 新增2024.04.26 ebs提供库存期间查询接口，供dim平台查询。按ou维度
+
+**64. 过磅明细推EBS**（DIM_WEIGTH_DTL）— EBS→DIM，实时同步，已完成
+
+> 过磅明细导入
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`HEADER` 等48个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`BATCH_NO` 等11个字段
+
+**65. 过磅明细查询接口**（ISC_WEIGH_DTL）— EBS→DIM，查询接口，已完成
+
+> 过磅明细查询接口
+
+**70. 仓储获取进去销售类型磅单**（DIM_AVS_WEITH_GET）— EBS→DIM，查询接口，待确认
+
+> 仓储获取进去销售类型磅单
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_NAME`、`ORGANIZATION_ID` 等17个字段
+
+**73. 磅单查询接口**（DIM_WEIGHNO_GET）— EBS→DIM，查询接口，待确认
+
+> 磅单查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_NAME`、`ORGANIZATION_ID` 等31个字段
+
+**75. EBS查询DIM领料申请通过信息**（EBS_QUERY_DIM_REQUISITION）— DIM→EBS，查询接口，待确认
+
+> NaN
+
+**76. EBS查询DIM杂项账户别名明细信息**（EBS_QUERY_DIM_ALIAS_DTL）— DIM→EBS，查询接口，待确认
+
+> NaN
+
+
+## 销售（19）
+
+**10. 销售订单发运/退货事务处理同步接口**（DIM_OM_IMP）— EBS→DIM，导入接口，已完成
+
+> 销售订单发运/退货事务处理同步接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`ORGANIZATION_CODE`(VARCHAR2(6) 等43个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUM` 等15个字段
+
+**26. 月度销售 & 生产调料需求查询**（DIM_MPLAN_GET）— EBS→DIM，查询接口，已完成
+
+> 月度销售计划&调料需求查询\n举例：\n1. 重庆的月度销售需求\n2. 四川的需求，重庆供应
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`PLAN_LINE_ID`、`NEED_ORG_NAME` 等14个字段
+
+**38. 销售订单/提货计划查询接口**（DIM_ORDER_GET）— EBS→DIM，查询接口，已完成
+
+> 内部订单、外部销售、提货计划、退货订单，存在销售/退货订单行数量、单价、状态更新\n用于平台装车发运、离厂校验
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`SOURCE_SYSTEM`、`BUSINESS_TYPE` 等62个字段
+
+**40. 销售订单取消更新判断查询接口(EBS）**（EBS_ORDER_CANCEL_CHK）— EBS→一点通/智链通，查询接口，已取消
+
+> 新增 2024.03.25 用于销售更新与取消提货计划或者销售订单时，调用EBS判断是否允许取消/更新
+
+**41. 提货计划取消更新判断查询接口（EBS）**（EBS_PLAN_CANCEL_CHK）— EBS→一点通/智链通，查询接口，未开始
+
+> 新增 2024.03.25 用于销售更新与取消提货计划或者销售订单时，调用DIM判断是否允许取消
+
+**42. 销售订单取消更新判断查询接口（DIM）**（DIM_ORDER_CANCEL_CHK）— DIM→EBS，查询接口，进行中
+
+> 新增 2024.03.25 用于销售更新与取消提货计划或者销售订单时，调用DIM判断是否允许取消/更新
+
+**43. 提货计划取消更新判断查询接口（DIM）**（DIM_PLAN_CANCEL_CHK）— DIM→EBS，查询接口，进行中
+
+> 新增 2024.03.25 用于销售更新与取消提货计划或者销售订单时，调用DIM判断是否允许取消
+
+**44. 销售订单同步接口【定包&散装】**（DIM_ORDER_IMP）— 一点通/智链通→EBS，导入接口，进行中
+
+> 新增 2024.03.25  用于一点通&智链通将创建的销售订单同步给EBS，若有更新，也用此接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`SOURCE_SYSTEM`(VARCHAR2(6) 等62个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUMBER` 等136个字段
+
+**45. 提货计划同步接口（散装）**（DIM_PLAN_IMP）— 一点通/智链通→EBS，导入接口，已完成
+
+> 新增 2024.03.25   用于一点通&智链通将创建确认的提货计划同步给EBS，若有更新，也用此接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`SOURCE_SYSTEM`(VARCHAR2(6) 等184个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`SOURCE_NUMBER` 等64个字段
+
+**46. RMA称重信息查询接口**（DIM_RMA_W_GET）— EBS→一点通/智链通，查询接口，待确认
+
+> 智链通查询DIM推送到EBS的称重信息
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`
+
+响应：`FBC_NO`、`SOURCE_ORDER_NUMBER`、`SOURCE_LINE_NO`、`ITEM_NUM`、`UNIT_CODE`、`QUTITY`
+
+**47. 已开单未打印提货数量查询接口**（EBS_ORDER_UNPRINT_QTY）— EBS→DIM，查询接口，未开始
+
+> 新增 2024.03.25  用于DIM做子库存转移数量控制
+
+**51. EBS订单同步一点通接口**（EBS_ORDER_SYNC_YDT）— EBS→一点通，实时同步，进行中
+
+> 老接口调整：2024.04.25 销售内勤直接在ebs进行销售订单创建，打印后，ebs推送订单给一点通
+
+**52. 一点通销售订单取消接口**（YDT_ORDER_CANCEL）— EBS→一点通，实时同步，进行中
+
+> 老接口调整：2024.04.25  一点通未打单时允许一点通进行取消，ebs处理后实时同步
+
+**53. EBS订单取消同步接口**（EBS_ORDER_CANCEL_SYNC）— EBS→一点通，实时同步，进行中
+
+> 老接口调整：2024.04.25  存在三种来源的订单，直接在EBS操作取消，成功后推送外部系统
+
+**54. EBS提货计划取消同步接口**（EBS_PLAN_CANCEL_SYNC）— EBS→一点通，实时同步，未开始
+
+> 2024.04.25  存在三种来源的提货计划，直接在EBS操作取消，成功后推送外部系统
+
+**57. 销售订单更新查询接口**（EBS_ORDER_UPDATE_CHK）— EBS→DIM，查询接口，进行中
+
+> etl老接口
+
+**58. 提货计划变更信息查询接口**（EBS_PLAN_CHANGE_INFO）— EBS→一点通，查询接口，已完成
+
+> 提货计划传输EBS后，将不允许在一点通修改，只能在EBS修改，定时拉取EBS信息，覆盖一点通信息
+
+**66. EBS创建散装料计划订单**（EBS_CREATE_BULK_ORDER）— 一点通/智链通→EBS，查询接口，已完成
+
+> EBS查询一点通提货计划是否可创建订单
+
+**72. 销售订单车牌修改**（DIM_ORDER_VEHICLE）— EBS→DIM，导入接口，待确认
+
+> 销售订单车牌修改
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)、`HEADER` 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`INTF_ID`、`ORDER_NUMBER` 等13个字段
+
+
+## 成本（7）
+
+**25. 物料成本查询**（DIM_COST_GET）— EBS→DIM，查询接口，已完成
+
+> 物料成本包含原材料、半成品、机物料、成品
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_CODE`、`ORGANIZATION_NAME` 等14个字段
+
+**31. 机物料库存额度查询**（DIM_JCYLIMIT_GET）— EBS→DIM，查询接口，已完成
+
+> 机物料库存额度查询接口新增 2024.01.25
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_CODE`、`ORGANIZATION_NAME` 等13个字段
+
+**35. 收入费用实际值查询接口**（EBS_REV_EXP_ACTUAL）— EBS→DIM，查询接口，未开始
+
+> 新增2024.01.26，废旧收入、制造费用、机物料费用实际值查询接口，通过科目余额取值
+
+**36. 生产批成本检查查询接口**（EBS_WIP_COST_CHECK）— EBS→DIM，查询接口，未开始
+
+> 新增 2024.03.25  用于DIM生产批成本检查
+
+**50. 非原料领用成本查询接口**（DIM_RSTCOST_GET）— EBS→DIM，查询接口，已取消
+
+> 非原料领用成本查询接口
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`KEY_CODE`(VARCHAR2(1)、`KEY_VALUE`(VARCHAR2(3)
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`ORGANIZATION_CODE`、`REQUEST_DOC_NUMBER` 等18个字段
+
+**63. 期末余额查询**（DIM_BALANCES_GET）— EBS→DIM，查询接口，已完成
+
+> 期末余额查询
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`
+
+响应：`LEDGER_ID`、`LEDGER_NAME`、`PERIOD_NAME`、`SHORT_CODE`、`OU_NAME`、`ACCOUNT_CODE`、`ACCOUNT_DESC`、`CURRENCY_CODE` 等9个字段
+
+**74. 投入产出汇总查询**（DIM_BI_RATIO_GET）— EBS→DIM，查询接口，待确认
+
+> 投入产出汇总查询
+
+请求：`BIZTRANSACTIONID`、`CONSUMER`、`COMPANY`、`SRVLEVEL`、`ACCOUNT`、`PASSWORD`、`COUNT`、`USE`、`COMMENTS`、`START_NUMBER`(NUMBER)、`END_NUMBER`(NUMBER)、`PARA_NAME`(VARCHAR2(5) 等16个字段
+
+响应：`BIZTRANSACTIONID`、`SUCCESSCOUNT`、`ERRORCODE`、`ERRORINFO`、`COMMENTS`、`RESULT`、`PERIOD`、`ORGANIZATION_ID` 等16个字段
+
+## 统计概览
+
+| 业务域 | 接口数 | 导入 | 查询 | 实时同步 |
+| --- | --- | --- | --- | --- |
+| 主数据 | 12 | 2 | 10 | 0 |
+| 采购 | 7 | 3 | 4 | 0 |
+| 生产 | 14 | 7 | 3 | 4 |
+| 库存 | 17 | 4 | 12 | 1 |
+| 销售 | 19 | 4 | 11 | 4 |
+| 成本 | 7 | 0 | 7 | 0 |
+
+### 按状态
+
+| 状态 | 数量 |
+| --- | --- |
+| 已取消 | 4 |
+| 已完成 | 47 |
+| 待确认 | 10 |
+| 未开始 | 7 |
+| 进行中 | 8 |
+
+## 相关页面
+
+- [[通威农发/业务蓝图/蓝图方案-仓储与EBS集成]]
+- [[通威农发/技术架构/通威农发-数据库总览]]

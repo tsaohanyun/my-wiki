@@ -105,4 +105,4 @@ IPM五阶段（制造行业）
 - [[concepts/aps-advanced-planning-scheduling|aps-advanced-planning-scheduling]]
 - [[concepts/big-data-development-basics|big-data-development-basics]]
 - [[concepts/big-data-governance|big-data-governance]]
-- [[concepts/blueprint-writing-methodology|blueprint-writing-methodology]]
+- [[通威农发/行业知识/蓝图编写方法论|blueprint-writing-methodology]]
