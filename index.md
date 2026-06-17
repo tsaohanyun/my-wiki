@@ -12,7 +12,7 @@ tags:
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询时先读此文件找到相关页面。
-> 最后更新：2026-06-04 | 总页面数：295
+> 最后更新：2026-06-16 | 总页面数：299
 
 ## 通威农发项目
 
@@ -121,6 +121,7 @@ tags:
 - [[培训/培训-精益生产-标准化工作手册]] — 丰田TPS标准化工作理论框架与TWI核心技能
 - [[培训/培训-金蝶Cloud同步对照表]] — ERP与WMS数据同步字段映射关系
 - [[培训/功能设计快速上手培训]] — 从业务需求到功能设计的5步快速上手培训
+- [[培训/培训-飞书Aily智能体平台]] — 飞书Aily企业级AI智能体平台：产品矩阵、选型、MCP集成、7个业务案例
 
 ## 实体
 - [[entities/fine-report-cpt|fine-report-cpt]] — 帆软 FineReport CPT 报表模板文件，XML 结构、属性、单位系统与修改模式
@@ -185,6 +186,7 @@ tags:
 - [[concepts/digital-transformation-methodology|digital-transformation-methodology]] — 数字化转型方法论：用友12367框架、数字化三段论、智能制造五步法
 - [[concepts/implementation-methodology|implementation-methodology]] — 实施方法论：IPM五阶段、六步法、汉得中台实施方法论体系
 - [[concepts/consulting-sales-methodology|consulting-sales-methodology]] — 咨询与销售方法论：麦肯锡七步法、金蝶售前四阶段、MEDDIC销售方法论
+- [[concepts/飞书Aily-自定义智能体配置|飞书Aily自定义智能体配置]] — 飞书Aily自定义智能体创建全流程：Prompt设计、知识空间、MCP集成、技能编排、渠道发布
 
 
 ## 对比
@@ -204,6 +206,8 @@ tags:
 - [[queries/natural-gas-processing/08-工艺流程详解]] — 天然气处理完整工艺路线详解：入口分离、胺法脱硫、TEG脱水、深冷NGL回收、Claus硫磺回收
 - [[queries/industry-analysis/index]] — 行业分析总览（企业研究、行业格局、市场分析等深度研究产出）
 - [[queries/industry-analysis/baijiu-industry-analysis]] — 酱香型白酒行业分析：市场格局、竞争阵营、周期复盘与发展趋势
+- [[queries/飞书Aily-企业智能客服案例]] — 飞书Aily企业智能客服/AI情报/制造业巡检三个案例：完整Prompt+表结构+MCP+工作流+对话
+- [[queries/飞书Aily-销售客户回款管理案例]] — 飞书Aily销售管理/客户管理/回款管理/一体化管理四个案例：完整Prompt+表结构+对话
 
 ## 制造业方案
 - [[queries/manufacturing-solutions/index]] — 制造业数字化解决方案总览（109份行业方案，13个分类页面）
