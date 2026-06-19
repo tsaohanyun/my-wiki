@@ -143,6 +143,7 @@ tags:
 - [[concepts/frontend-slides-presentation|frontend-slides-presentation]] — 零依赖 HTML 演示文稿生成，100vh 适配与动画丰富
 - [[concepts/claude-api-development|claude-api-development]] — 使用 Anthropic SDK 构建 Claude API 应用的最佳实践
 - [[concepts/mcp-server-development|mcp-server-development]] — Model Context Protocol 服务器开发指南
+- [[concepts/ai-engineering-from-scratch|ai-engineering-from-scratch]] — 开源AI工程课程：503课/20阶段/4语言，从线性代数到Agent集群的端到端学习路径，产出388个Skills+99个Prompts
 - [[concepts/systematic-debugging|systematic-debugging]] — 4阶段根因分析方法论：问题复现、假设验证、根因定位、修复验证
 - [[concepts/test-driven-development|test-driven-development]] — RED-GREEN-REFACTOR 循环的 TDD 实践
 - [[concepts/writing-plans|writing-plans]] — 创建全面的实现计划，包含小任务、精确文件路径和完整代码示例

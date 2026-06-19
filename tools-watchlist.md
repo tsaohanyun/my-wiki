@@ -1,7 +1,7 @@
 ---
 title: 工具收藏清单
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-19
 tags: [工具, 收藏, GitHub]
 ---
 
@@ -33,6 +33,20 @@ tags: [工具, 收藏, GitHub]
 - **依赖**：Node.js / pnpm / TypeScript 生态
 - **评估**：⭐⭐⭐（3/5）—— 功能强大但主人的角色偏技术协调，直接读代码场景较少
 - **备注**：如果后续需要深入某个代码库（如 Hermes Agent 本体源码），再装不迟
+
+### codebase-memory-mcp
+- **仓库**：[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+- **功能**：纯C编写的MCP Server，将代码仓库索引为带标签属性图（SQLite持久化），支持Cypher查询、调用链追踪、影响分析、跨服务HTTP调用检测等14个MCP工具
+- **适用场景**：大规模代码库的结构化查询；变更影响分析；跨服务依赖追踪；死代码检测
+- **核心优势**：
+  - 纯C零依赖，单静态二进制（macOS/Linux/Windows）
+  - 155种语言（内置tree-sitter语法）
+  - 性能极强：Linux内核2800万行3分钟索引，Cypher查询<1ms
+  - 不内嵌LLM，靠MCP Agent翻译查询，Token消耗极低（减少99.2%）
+  - 有学术论文背书（arXiv:2603.27277），2812个测试，SLSA L3安全审计
+- **依赖**：无运行时依赖，下载即用
+- **评估**：⭐⭐⭐⭐（4/5）—— 工程极致主义，大规模结构化分析能力远超Understand-Anything
+- **备注**：与Understand-Anything设计哲学不同——CBM是"赛车引擎"（快而精准），UA是"带导航的轿车"（慢但好懂）。CBM强在跨服务HTTP/消息队列追踪、死代码检测、Cypher查询、LSP级类型解析；UA强在自然语言问答、新人onboarding、业务域分析、引导式学习。主人角色偏技术协调，直接读代码场景较少，如需深入某个代码库再装不迟
 
 ---
 
