@@ -106,3 +106,6 @@ IPM五阶段（制造行业）
 - [[concepts/big-data-development-basics|big-data-development-basics]]
 - [[concepts/big-data-governance|big-data-governance]]
 - [[通威农发/行业知识/蓝图编写方法论|blueprint-writing-methodology]]
+- [[concepts/manufacturing-glossary|制造业术语与业务逻辑知识库]] — 实施中的核心术语
+- [[欧软/欧软公司知识库|欧软公司知识库]] — 实施产品支撑
+- [[欧软/项目交付经验库|项目交付经验库]] — 实施案例和经验

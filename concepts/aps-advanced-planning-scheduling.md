@@ -56,3 +56,8 @@ APS（Advanced Planning and Scheduling）高级计划与排程系统，是在考
 
 **实战案例**
 - [[concepts/tianwei-mes-production-flow|天味MES-生产流程与业务规则]] — 火锅底料MES的工单排程与生产调度实践
+
+## 相关页面
+- [[concepts/manufacturing-glossary|制造业术语与业务逻辑知识库]] — APS中的核心术语
+- [[欧软/欧软公司知识库|欧软公司知识库]] — 悠桦林APS合作伙伴
+- [[欧软/项目交付经验库|项目交付经验库]] — APS的交付案例

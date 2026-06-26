@@ -92,3 +92,6 @@ project: 通用知识
 - [[concepts/smart-factory-planning|智能工厂规划]]
 - [[concepts/isa-95-integration|ISA-95 企业控制系统集成]]
 - [[concepts/logistics-transport-solution|物流与运输解决方案]]
+- [[concepts/manufacturing-glossary|制造业术语与业务逻辑知识库]] — 智能制造的核心术语
+- [[欧软/欧软公司知识库|欧软公司知识库]] — 智能制造的产品实现
+- [[欧软/项目交付经验库|项目交付经验库]] — 智能制造的交付案例

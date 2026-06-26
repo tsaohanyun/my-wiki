@@ -145,3 +145,6 @@ project: 通用知识
 - [[concepts/aps-advanced-planning-scheduling|APS 高级计划与排程]]
 - [[concepts/big-data-governance|大数据治理]]
 - [[concepts/data-asset-management-standard|数据资产管理标准化]]
+- [[concepts/manufacturing-glossary|制造业术语与业务逻辑知识库]] — KPI中的核心术语
+- [[欧软/欧软公司知识库|欧软公司知识库]] — KPI的产品实现
+- [[欧软/项目交付经验库|项目交付经验库]] — KPI的交付案例

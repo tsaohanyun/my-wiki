@@ -70,3 +70,6 @@ project: 通用知识
 - [[concepts/detail-design-specification|详细设计文档编写规范]]
 - [[concepts/apqc-process-metrics|APQC 流程绩效指标库]]
 - [[concepts/enterprise-info-flow-planning|企业信息流规划]]
+- [[concepts/manufacturing-glossary|制造业术语与业务逻辑知识库]] — 价值流中的核心术语
+- [[欧软/欧软公司知识库|欧软公司知识库]] — 价值流的产品实现
+- [[欧软/项目交付经验库|项目交付经验库]] — 价值流的交付案例
