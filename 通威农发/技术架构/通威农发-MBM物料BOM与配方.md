@@ -1,16 +1,20 @@
 ---
-title: MBM物料BOM与配方
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'MBM（Material & BOM Management）物料BOM与配方管理模块，涵盖物料主数据管理、BOM结构配置、配方管理、替代料管理等功能。'
-tags:
-- smart-manufacturing
+description: MBM（Material & BOM Management）物料BOM与配方管理模块，涵盖物料主数据管理、BOM结构配置、配方管理、替代料管理等功能。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: MBM物料BOM与配方
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # MBM物料BOM与配方

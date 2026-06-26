@@ -1,16 +1,20 @@
 ---
-title: IIoT工业物联网
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'IIoT（Industrial Internet of Things）工业物联网模块，负责设备数据采集与监控，包括采集点配置、数据网关、实时数据存储、告警管理等功能。'
-tags:
-- smart-manufacturing
+description: IIoT（Industrial Internet of Things）工业物联网模块，负责设备数据采集与监控，包括采集点配置、数据网关、实时数据存储、告警管理等功能。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: IIoT工业物联网
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # IIoT工业物联网

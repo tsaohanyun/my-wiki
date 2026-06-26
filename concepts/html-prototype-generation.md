@@ -1,21 +1,25 @@
 ---
-title: HTML 原型生成
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-05-01
-type: concept
 description: '使用 Apple Design Language 生成产品原型 HTML 页面。每个页面是自包含的 HTML+CSS+JS 文件，内嵌功能说明面板供利益相关者审阅。覆盖
   Web 端和移动端两种布局模式。
 
   '
+project: 通用知识
+sources:
+- raw/articles/skill-apple-prototype-html.md
+- raw/articles/skill-product-prototype-html.md
+status: published
 tags:
 - framework
 - architecture
 - best-practice
-sources:
-- raw/articles/skill-apple-prototype-html.md
-- raw/articles/skill-product-prototype-html.md
-project: 通用知识
+title: HTML 原型生成
+type: concept
+updated: 2026-05-01
+version: 1.0.20260530
 ---
+
 
 
 # HTML 原型生成

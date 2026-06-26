@@ -1,21 +1,25 @@
 ---
-title: 通威农发-EBS接口详表
+author: Hermes Wiki Agent
 created: '2026-06-04'
-updated: '2026-06-04'
-type: summary
+description: 通威农发EBS与DIM/一点通接口详细定义：76个接口按6大业务域分组（主数据12/采购7/生产14/库存17/销售19/成本7），含完整字段映射
+project: 通威农发
+sources:
+- raw/articles/EBS_接口卡.md
+- raw/articles/EBS_接口服务文档.md
+- raw/articles/EBS_技术接口文档.md
+status: published
 tags:
 - smart-manufacturing
 - ebs
 - interface-design
 - digital-transformation
 - enterprise-management
-sources:
-- raw/articles/EBS_接口卡.md
-- raw/articles/EBS_接口服务文档.md
-- raw/articles/EBS_技术接口文档.md
-project: 通威农发
-description: 通威农发EBS与DIM/一点通接口详细定义：76个接口按6大业务域分组（主数据12/采购7/生产14/库存17/销售19/成本7），含完整字段映射
+title: 通威农发-EBS接口详表
+type: summary
+updated: '2026-06-04'
+version: 1.0.20260604
 ---
+
 
 # EBS接口详表
 

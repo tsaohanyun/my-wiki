@@ -1,15 +1,19 @@
 ---
-title: 行业分析总览
+author: Hermes Wiki Agent
+confidence: medium
 created: 2026-05-15
-updated: 2026-05-15
-type: query
+project: 研究
+status: published
 tags:
 - industry-analysis
 - energy
 - market-research
-confidence: medium
-project: 研究
+title: 行业分析总览
+type: query
+updated: 2026-05-15
+version: 1.0.20260528
 ---
+
 
 # 行业分析总览
 

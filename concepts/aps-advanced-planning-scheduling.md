@@ -1,21 +1,25 @@
 ---
-title: APS 高级计划与排程
+author: Hermes Wiki Agent
 created: 2026-05-05
-updated: 2026-05-05
-type: concept
 description: 'APS（Advanced Planning and Scheduling）高级计划与排程系统，是在考虑物料和能力双重约束下，实现生产计划优化的核心制造系统。
   1. 承诺 — 结合物料和能力，确定能对客户承诺的交期和数量
 
   '
+project: 通用知识
+sources:
+- raw/articles/aps-advanced-planning.md
+status: published
 tags:
 - smart-manufacturing
 - mes
 - efficiency
 - process-management
-sources:
-- raw/articles/aps-advanced-planning.md
-project: 通用知识
+title: APS 高级计划与排程
+type: concept
+updated: 2026-05-05
+version: 1.0.20260626
 ---
+
 
 
 

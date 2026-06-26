@@ -1,17 +1,23 @@
 ---
-title: SQL 查询模板库
-project: 通用
+author: Hermes Wiki Agent
 created: '2026-06-26'
-updated: '2026-06-26'
-type: concept
-description: '> 适用数据库：MySQL 8.0.32 > 业务系统：通威农发 MES / WMS / QMS / APS > 创建日期：2026-06-26 1. [数据质量检查](#1-数据质量检查) 2. [业务分析](#2-业务分析) 3. [窗口函数实战](#3-窗口函数实战) 4. [递归 CTE](#4-递归-cte) 5. [动态 SQL](#5-动态-sql) 6. [性能优化](#6-性能优...'
+description: '> 适用数据库：MySQL 8.0.32 > 业务系统：通威农发 MES / WMS / QMS / APS > 创建日期：2026-06-26
+  1. [数据质量检查](#1-数据质量检查) 2. [业务分析](#2-业务分析) 3. [窗口函数实战](#3-窗口函数实战) 4. [递归 CTE](#4-递归-cte)
+  5. [动态 SQL](#5-动态-sql) 6. [性能优化](#6-性能优...'
+project: 通用
+status: published
 tags:
 - workflow
 - template
 - exception
 - database
 - sql
+title: SQL 查询模板库
+type: concept
+updated: '2026-06-26'
+version: 1.0.20260626
 ---
+
 
 # SQL 查询模板库
 

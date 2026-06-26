@@ -1,17 +1,23 @@
 ---
-title: IIDP平台API接口文档
-project: 通威农发
+author: Hermes Wiki Agent
 created: '2026-06-24'
-updated: '2026-06-24'
-type: architecture
-description: '项目：**通威农发** > 本页面记录通过抓包/逆向分析发现的IIDP平台REST/JSON-RPC接口，包括认证方式、通用调用格式和已验证的具体业务接口。 IIDP平台（地址 `http://172.20.193.21:32679`）使用 JSON-RPC 2.0 协议作为核心通信机制，所有业务操作通过统一的 `/api/root/rpc/service` 端点完成。 **请求体：** ```j...'
+description: 项目：**通威农发** > 本页面记录通过抓包/逆向分析发现的IIDP平台REST/JSON-RPC接口，包括认证方式、通用调用格式和已验证的具体业务接口。
+  IIDP平台（地址 `http://172.20.193.21:32679`）使用 JSON-RPC 2.0 协议作为核心通信机制，所有业务操作通过统一的 `/api/root/rpc/service`
+  端点完成。 **请求体：** ```j...
+project: 通威农发
+status: published
 tags:
 - user
 - workflow
 - template
 - tw-nongfa
 - database
+title: IIDP平台API接口文档
+type: architecture
+updated: '2026-06-24'
+version: 1.0.20260626
 ---
+
 
 项目：**通威农发**
 

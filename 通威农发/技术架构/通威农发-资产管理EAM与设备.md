@@ -1,16 +1,20 @@
 ---
-title: 资产管理EAM与设备
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'EAM（Enterprise Asset Management）资产管理模块，涵盖资产台账、资产折旧、资产维修、资产转移等功能，与EDO设备管理模块互补。'
-tags:
-- smart-manufacturing
+description: EAM（Enterprise Asset Management）资产管理模块，涵盖资产台账、资产折旧、资产维修、资产转移等功能，与EDO设备管理模块互补。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: 资产管理EAM与设备
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # 资产管理EAM与设备

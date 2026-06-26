@@ -1,16 +1,20 @@
 ---
-title: 物流执行LES与WHM
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: '物流执行模块，包含LES（Logistics Execution System）物流执行和WHM仓库辅助管理，涵盖运输调度、车辆管理、装卸管理、物流跟踪等功能。'
-tags:
-- smart-manufacturing
+description: 物流执行模块，包含LES（Logistics Execution System）物流执行和WHM仓库辅助管理，涵盖运输调度、车辆管理、装卸管理、物流跟踪等功能。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: 物流执行LES与WHM
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # 物流执行LES与WHM

@@ -1,21 +1,25 @@
 ---
-title: 通威农发-蓝图方案-仓储与EBS集成
+author: Hermes Wiki Agent
 created: 2026-06-03
-updated: 2026-06-03
-type: entity
+description: 通威农发智能工厂项目仓储管理与EBS解耦蓝图方案：覆盖原料入库（WH001）、生产领料（WH002）、完工入库（WH003）、销售出库（WH004）、调拨管理（WH005）、盘点管理（WH006）、EBS解耦（ERP01-ERP11）7大业务流程，含无人过磅集成方案和WMS智能库房对接方案。
 project: 通威农发
-description: '通威农发智能工厂项目仓储管理与EBS解耦蓝图方案：覆盖原料入库（WH001）、生产领料（WH002）、完工入库（WH003）、销售出库（WH004）、调拨管理（WH005）、盘点管理（WH006）、EBS解耦（ERP01-ERP11）7大业务流程，含无人过磅集成方案和WMS智能库房对接方案。'
+sources:
+- TWAD_IF_203.INV_蓝图解决方案.仓储管理v1.0
+- TWAD_IF_107.INV_调研报告.仓库管理_V1.0_20231207
+- TWAD_IF_107.ERP_调研报告.EBS解耦_V1.0_20231214
+status: published
 tags:
 - smart-manufacturing
 - mes
 - digital-transformation
 - feed-industry
 - supply-chain
-sources:
-- TWAD_IF_203.INV_蓝图解决方案.仓储管理v1.0
-- TWAD_IF_107.INV_调研报告.仓库管理_V1.0_20231207
-- TWAD_IF_107.ERP_调研报告.EBS解耦_V1.0_20231214
+title: 通威农发-蓝图方案-仓储与EBS集成
+type: entity
+updated: 2026-06-03
+version: 1.0.20260617
 ---
+
 
 # 通威农发-蓝图方案-仓储与EBS集成
 

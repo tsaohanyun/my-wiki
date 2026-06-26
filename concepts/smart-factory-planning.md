@@ -1,21 +1,25 @@
 ---
-title: 智能工厂规划
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: '智能工厂是以 MES（制造执行系统）为核心的数字神经系统，通过五大层次的系统建设实现工厂数字化、智能化运营。 2. 控制层 — DCS/SCADA
   控制
 
   '
+project: 通用知识
+sources:
+- raw/articles/smart-factory-planning.md
+status: published
 tags:
 - smart-manufacturing
 - mes
 - iot
 - digital-transformation
-sources:
-- raw/articles/smart-factory-planning.md
-project: 通用知识
+title: 智能工厂规划
+type: concept
+updated: 2026-04-30
+version: 1.0.20260626
 ---
+
 
 
 # 智能工厂规划

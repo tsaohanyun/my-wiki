@@ -1,22 +1,26 @@
 ---
-title: 实施方法论
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-15
-updated: 2026-05-15
-type: concept
 description: '> 信息系统和软件项目的规范化交付方法论，覆盖从项目启动到持续运营的全生命周期。 IPM（Intelligent Plant implementation
   Methodology）是针对离散制造行业智能工厂项目打造的实施方法体系，2017年发布V2.0。
 
   '
+project: 通用知识
+sources:
+- raw/
+status: published
 tags:
 - best-practice
 - process-management
 - smart-manufacturing
 - architecture
-sources:
-- raw/
-confidence: high
-project: 通用知识
+title: 实施方法论
+type: concept
+updated: 2026-05-15
+version: 1.0.20260626
 ---
+
 
 
 # 实施方法论

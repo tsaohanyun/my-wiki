@@ -1,17 +1,23 @@
 ---
-title: 仓储过磅 — VSDX蓝图流程详情
-project: 通威农发
+author: Hermes Wiki Agent
 created: '2026-06-17'
-updated: '2026-06-17'
-type: blueprint
-description: '项目：**通威农发** > 本页面由VSDX蓝图流程文件自动解析生成（python-vsdx），包含泳道角色、流程连接等完整结构化数据。 > 相关的文本概述版本请参见对应的蓝图方案页面。 **页面1: 【MA001.02.01】大宗物料船运入库（流量计）** (93个形状) **参与角色:** 【MA001.02.01】大宗物料船运入库（私有码头、流量计）, 采购员, 仓储员-原料, 码头作业员,...'
+description: '项目：**通威农发** > 本页面由VSDX蓝图流程文件自动解析生成（python-vsdx），包含泳道角色、流程连接等完整结构化数据。
+  > 相关的文本概述版本请参见对应的蓝图方案页面。 **页面1: 【MA001.02.01】大宗物料船运入库（流量计）** (93个形状) **参与角色:** 【MA001.02.01】大宗物料船运入库（私有码头、流量计）,
+  采购员, 仓储员-原料, 码头作业员,...'
+project: 通威农发
+status: published
 tags:
 - workflow
 - tw-nongfa
 - exception
 - equipment
 - kpi
+title: 仓储过磅 — VSDX蓝图流程详情
+type: blueprint
+updated: '2026-06-17'
+version: 1.0.20260626
 ---
+
 
 项目：**通威农发**
 

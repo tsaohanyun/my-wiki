@@ -1,19 +1,23 @@
 ---
-title: 共识管理
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: '共识管理是对协作过程中共识达成、固化与扩展的系统性管理方法。核心在于确保团队/组织在关键决策上达成明确、可追溯、可演进的共识。 │   │       特征：需共识方正面书面答复同意
 
   '
+project: 通用知识
+sources:
+- raw/articles/consensus-management.md
+status: published
 tags:
 - consensus
 - best-practice
 - team-process
-sources:
-- raw/articles/consensus-management.md
-project: 通用知识
+title: 共识管理
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # 共识管理

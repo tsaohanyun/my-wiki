@@ -1,12 +1,8 @@
 ---
-title: 天味MES-生产流程与业务规则
+author: Hermes Wiki Agent
 created: 2026-05-30
-updated: 2026-05-30
-type: concept
-tags:
-- mes
-- smart-manufacturing
-- production
+description: 天味家园B栋MES系统从原料到成品的生产全流程，以及每个环节的防呆防错业务规则。围绕"一颗火锅底料的旅程"串联13个功能模块。
+project: 天味
 sources:
 - raw/tianwei-mes/天味MES-大料配料详设.md
 - raw/tianwei-mes/天味MES-大料预处理详设.md
@@ -21,9 +17,17 @@ sources:
 - raw/tianwei-mes/天味MES-委外物料配置详设.md
 - raw/tianwei-mes/天味MES-工序产品配置详设.md
 - raw/tianwei-mes/天味MES-返工品投料配置详设.md
-description: 天味家园B栋MES系统从原料到成品的生产全流程，以及每个环节的防呆防错业务规则。围绕"一颗火锅底料的旅程"串联13个功能模块。
-project: 天味
+status: published
+tags:
+- mes
+- smart-manufacturing
+- production
+title: 天味MES-生产流程与业务规则
+type: concept
+updated: 2026-05-30
+version: 1.0.20260530
 ---
+
 
 # 天味MES-生产流程与业务规则
 

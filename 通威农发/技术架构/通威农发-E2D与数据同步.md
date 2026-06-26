@@ -1,16 +1,20 @@
 ---
-title: E2D与数据同步
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'E2D（Enterprise to Digital）数据同步模块，负责EBS系统与MES系统之间的数据接口和同步，包括接口配置、数据映射、同步日志等功能。'
-tags:
-- smart-manufacturing
+description: E2D（Enterprise to Digital）数据同步模块，负责EBS系统与MES系统之间的数据接口和同步，包括接口配置、数据映射、同步日志等功能。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: E2D与数据同步
+type: concept
+updated: 2026-05-28
+version: 1.0.20260529
 ---
+
 
 
 # E2D与数据同步

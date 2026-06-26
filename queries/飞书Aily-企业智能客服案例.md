@@ -1,9 +1,12 @@
 ---
-title: 飞书Aily企业智能客服案例
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-06-16
-updated: 2026-06-16
-type: query
-description: '企业智能客服、AI情报系统、制造业智能巡检三个案例的完整实现：System Prompt、知识空间、MCP接口、工作流配置、模拟对话。'
+description: 企业智能客服、AI情报系统、制造业智能巡检三个案例的完整实现：System Prompt、知识空间、MCP接口、工作流配置、模拟对话。
+project: 通用
+sources:
+- raw/articles/飞书Aily官方文档
+status: published
 tags:
 - 飞书
 - Aily
@@ -13,11 +16,12 @@ tags:
 - 智能巡检
 - 企业级
 - 实战案例
-sources:
-- raw/articles/飞书Aily官方文档
-project: 通用
-confidence: high
+title: 飞书Aily企业智能客服案例
+type: query
+updated: 2026-06-16
+version: 1.0.20260616
 ---
+
 
 项目：**通用**
 

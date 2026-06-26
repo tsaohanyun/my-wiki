@@ -1,21 +1,25 @@
 ---
-title: APQC 流程绩效指标库
+author: Hermes Wiki Agent
 created: 2026-05-04
-updated: 2026-05-04
-type: entity
 description: 'APQC（American Productivity & Quality Center）流程分类框架（PCF）的绩效指标库，提供企业各层级流程的标准化度量指标。
   APQC PCF 将企业流程分为多个一级分类，每个分类下有详细子流程及对应的绩效指标：
 
   '
+project: 通用知识
+sources:
+- raw/articles/apqc-process-metrics.md
+status: published
 tags:
 - kpi
 - process-management
 - data-governance
 - manufacturing
-sources:
-- raw/articles/apqc-process-metrics.md
-project: 通用知识
+title: APQC 流程绩效指标库
+type: entity
+updated: 2026-05-04
+version: 1.0.20260530
 ---
+
 
 
 

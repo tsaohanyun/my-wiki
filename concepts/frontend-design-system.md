@@ -1,21 +1,25 @@
 ---
-title: 前端设计系统
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-05-01
-type: concept
 description: '关于创建高质量、有辨识度的前端界面的设计方法论。核心理念是避免"AI 泛风格"（AI slop），追求有意为之的设计方向，无论是极致极简还是极致极繁。
   在编码之前，理解上下文并确定大胆的美学方向：
 
   '
+project: 通用知识
+sources:
+- raw/articles/skill-frontend-design.md
+status: published
 tags:
 - architecture
 - pattern
 - design-principle
 - best-practice
-sources:
-- raw/articles/skill-frontend-design.md
-project: 通用知识
+title: 前端设计系统
+type: concept
+updated: 2026-05-01
+version: 1.0.20260530
 ---
+
 
 
 # 前端设计系统

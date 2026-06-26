@@ -1,9 +1,12 @@
 ---
-title: 飞书Aily智能体平台培训指南
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-06-16
-updated: 2026-06-16
-type: summary
-description: '飞书Aily企业级AI智能体平台全景：产品矩阵、选型指南、核心功能、MCP集成、企业租户管理。含7个完整业务场景案例。'
+description: 飞书Aily企业级AI智能体平台全景：产品矩阵、选型指南、核心功能、MCP集成、企业租户管理。含7个完整业务场景案例。
+project: 通用
+sources:
+- raw/articles/飞书Aily官方文档
+status: published
 tags:
 - 飞书
 - Aily
@@ -13,11 +16,12 @@ tags:
 - 培训
 - MCP
 - 工作流
-sources:
-- raw/articles/飞书Aily官方文档
-project: 通用
-confidence: high
+title: 飞书Aily智能体平台培训指南
+type: summary
+updated: 2026-06-16
+version: 1.0.20260616
 ---
+
 
 项目：**通用**
 

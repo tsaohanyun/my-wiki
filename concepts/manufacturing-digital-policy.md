@@ -1,20 +1,24 @@
 ---
-title: 制造业数字化转型政策
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: '全球主要经济体围绕制造业数字化转型出台的战略性政策体系，涵盖产业引导、资金支持、创新生态、人才培育等维度。 - 推出保护主义贸易政策，营造有利于国内产业发展的环境
 
   '
+project: 通用知识
+sources:
+- raw/articles/manufacturing-digital-policy.md
+status: published
 tags:
 - industry-policy
 - manufacturing
 - digital-transformation
 - industry-4
-sources:
-- raw/articles/manufacturing-digital-policy.md
-project: 通用知识
+title: 制造业数字化转型政策
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # 制造业数字化转型政策

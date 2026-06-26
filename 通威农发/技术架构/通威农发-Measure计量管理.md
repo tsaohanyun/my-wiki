@@ -1,16 +1,20 @@
 ---
-title: Measure计量管理
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'Measure计量管理模块，涵盖秤管理、称重记录、校准管理、计量器具台账等功能，确保生产过程中的计量准确性。'
-tags:
-- smart-manufacturing
+description: Measure计量管理模块，涵盖秤管理、称重记录、校准管理、计量器具台账等功能，确保生产过程中的计量准确性。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: Measure计量管理
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # Measure计量管理

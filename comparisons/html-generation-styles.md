@@ -1,23 +1,27 @@
 ---
-title: HTML 生成风格对比
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: comparison
 description: '- Apple 原型 + FineReport：业务系统原型展示 + 报表模板开发 - 热门模板 + 通用设计：快速套用+定制化
 
   '
-tags:
-- comparison
-- framework
-- architecture
+project: 通用知识
 sources:
 - raw/articles/skill-apple-prototype-html.md
 - raw/articles/skill-retro-futuristic-html.md
 - raw/articles/skill-popular-web-designs.md
 - raw/articles/skill-frontend-design.md
 - raw/articles/skill-frontend-slides.md
-project: 通用知识
+status: published
+tags:
+- comparison
+- framework
+- architecture
+title: HTML 生成风格对比
+type: comparison
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 

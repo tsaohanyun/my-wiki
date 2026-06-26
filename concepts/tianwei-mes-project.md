@@ -1,20 +1,24 @@
 ---
-title: 天味家园B栋MES项目
+author: Hermes Wiki Agent
 created: 2026-05-30
-updated: 2026-05-30
-type: concept
-tags:
-- mes
-- smart-manufacturing
-- digital-transformation
+description: 天味家园B栋老车间工艺和物料防呆防错信息化优化项目（MES系统）的项目入口页，涵盖项目概述、时间线、功能矩阵、系统架构与重大决策。
+project: 天味
 sources:
 - raw/tianwei-mes/天味MES-详设评审清单.md
 - raw/tianwei-mes/天味MES-详设评审功能清单.md
 - raw/tianwei-mes/天味MES-运维部署文档.md
 - raw/tianwei-mes/天味MES-月度汇报会议纪要.md
-description: 天味家园B栋老车间工艺和物料防呆防错信息化优化项目（MES系统）的项目入口页，涵盖项目概述、时间线、功能矩阵、系统架构与重大决策。
-project: 天味
+status: published
+tags:
+- mes
+- smart-manufacturing
+- digital-transformation
+title: 天味家园B栋MES项目
+type: concept
+updated: 2026-05-30
+version: 1.0.20260604
 ---
+
 
 # 天味家园B栋MES项目
 

@@ -1,21 +1,25 @@
 ---
-title: Harness Engineering
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: 'Harness（驾驭层） 是介于 LLM 和用户之间的工程系统。它不是简单的 API 调用封装，而是一整套控制、引导、约束、增强 LLM
   行为的运行时框架。 优秀的 AI Agent = 强大的 LLM × 精密的 Harness
 
   '
+project: 通用知识
+sources:
+- raw/articles/harness-engineering-methodology.md
+status: published
 tags:
 - architecture
 - pattern
 - design-principle
 - ai-agent
-sources:
-- raw/articles/harness-engineering-methodology.md
-project: 通用知识
+title: Harness Engineering
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # Harness Engineering

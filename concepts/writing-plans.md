@@ -1,17 +1,21 @@
 ---
-title: 实现计划编写
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: '创建全面实现计划的指南，将复杂任务分解为可执行的小步骤。 - 小任务 - 每个任务可在30分钟内完成
 
   '
-tags:
-- best-practice
+project: 通用知识
 sources:
 - raw/articles/writing-plans.md
-project: 通用知识
+status: published
+tags:
+- best-practice
+title: 实现计划编写
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # 实现计划编写

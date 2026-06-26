@@ -1,12 +1,17 @@
 ---
-title: 大数据治理
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-05-18
-type: concept
 description: '大数据治理是在数据的全生命周期内，对其进行管理的原则性方法，目标是确保数据的安全、及时、准确、易用。数据生命周期包括：创建→处理→存储→查看→报告和使用→保留和检索→销毁。
   1. 数据上报 — Log Server、binlog 等原始数据产出
 
   '
+project: 通用知识
+sources:
+- raw/articles/big-data-governance-day1.md
+- raw/articles/big-data-governance-day2.md
+- raw/articles/big-data-governance-day3.md
+- raw/articles/data-governance-overview.md
+status: published
 tags:
 - data-governance
 - data-quality
@@ -14,13 +19,12 @@ tags:
 - metadata
 - data-model
 - data-lifecycle
-sources:
-- raw/articles/big-data-governance-day1.md
-- raw/articles/big-data-governance-day2.md
-- raw/articles/big-data-governance-day3.md
-- raw/articles/data-governance-overview.md
-project: 通用知识
+title: 大数据治理
+type: concept
+updated: 2026-05-18
+version: 1.0.20260530
 ---
+
 
 
 # 大数据治理

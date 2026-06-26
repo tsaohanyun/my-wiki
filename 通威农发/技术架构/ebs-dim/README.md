@@ -1,21 +1,25 @@
 ---
-title: README
+author: Hermes Wiki Agent
 created: 2026-05-26
-updated: 2026-05-26
-type: summary
 description: '> 通威股份自动化仓储项目 — EBS系统与DIM平台接口服务文档 > 来源：TWADIF303EBS接口服务文档(接口字段及响应报文)V1.020260106.xlsx
 
   '
+project: 通威
+sources:
+- raw/
+status: published
 tags:
 - digital-transformation
 - smart-manufacturing
 - inventory
 - quality
 - api
-sources:
-- raw/
-project: 通威
+title: README
+type: summary
+updated: 2026-05-26
+version: 1.0.20260604
 ---
+
 # EBS-DIM 接口文档总览
 
 > 项目：**通威农发**（通威股份农业发展有限公司）

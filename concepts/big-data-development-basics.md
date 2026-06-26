@@ -1,22 +1,26 @@
 ---
-title: 企业级大数据技术体系
+author: Hermes Wiki Agent
 created: 2026-05-04
-updated: 2026-05-04
-type: concept
 description: '大数据开发基础技术，涵盖 Hadoop/Spark 技术栈、分布式文件系统 HDFS 等核心技术。^[raw/articles/bigdata-development-basics.md]
   大数据技术源于互联网行业蓬勃发展，用户量和数据量激增。2013年国内互联网公司数据规模：
 
   '
+project: 通用知识
+sources:
+- raw/articles/bigdata-development-basics.md
+status: published
 tags:
 - infra
 - storage
 - database
 - framework
 - architecture
-sources:
-- raw/articles/bigdata-development-basics.md
-project: 通用知识
+title: 企业级大数据技术体系
+type: concept
+updated: 2026-05-04
+version: 1.0.20260530
 ---
+
 
 
 

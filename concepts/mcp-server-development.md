@@ -1,19 +1,23 @@
 ---
-title: MCP 服务器开发
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: 'Model Context Protocol (MCP) 服务器开发指南，使 LLM 能够通过标准化工具接口与外部服务交互。 1. 工具
   (Tools) - 暴露给 LLM 的可调用函数
 
   '
+project: 通用知识
+sources:
+- raw/articles/mcp-builder.md
+status: published
 tags:
 - tool
 - api
-sources:
-- raw/articles/mcp-builder.md
-project: 通用知识
+title: MCP 服务器开发
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # MCP 服务器开发

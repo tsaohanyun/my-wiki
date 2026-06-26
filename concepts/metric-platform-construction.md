@@ -1,22 +1,26 @@
 ---
-title: 指标中台建设方法与实践
+author: Hermes Wiki Agent
 created: 2026-05-04
-updated: 2026-05-04
-type: concept
 description: '指标中台是数据应用的一个分支，是集中化、标准化、自动化、场景化的指标管理、计算、应用平台，专注于解决指标定义不统一、数据冗余、口径不一致以及快速响应业务变化等问题。^[raw/articles/fi-metric-platform-intro.md]
 
   '
+project: 通用知识
+sources:
+- raw/articles/metric-platform-whitepaper.md
+- raw/articles/fi-metric-platform-intro.md
+status: published
 tags:
 - data-governance
 - data-warehouse
 - metadata
 - data-model
 - kpi
-sources:
-- raw/articles/metric-platform-whitepaper.md
-- raw/articles/fi-metric-platform-intro.md
-project: 通用知识
+title: 指标中台建设方法与实践
+type: concept
+updated: 2026-05-04
+version: 1.0.20260530
 ---
+
 
 
 # 指标中台建设方法与实践

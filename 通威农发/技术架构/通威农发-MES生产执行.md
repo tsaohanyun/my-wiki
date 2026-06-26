@@ -1,16 +1,20 @@
 ---
-title: MES生产执行
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'MES（Manufacturing Execution System）生产执行模块，涵盖配料管理（配料单/配盘/投料）、工单管理（生产工单/报工/清洗工单）、生产过程控制（工序流转/状态跟踪）、打包管理（打包工单/称重）、领料管理、生产退料等功能。'
-tags:
-- smart-manufacturing
+description: MES（Manufacturing Execution System）生产执行模块，涵盖配料管理（配料单/配盘/投料）、工单管理（生产工单/报工/清洗工单）、生产过程控制（工序流转/状态跟踪）、打包管理（打包工单/称重）、领料管理、生产退料等功能。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: MES生产执行
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # MES生产执行

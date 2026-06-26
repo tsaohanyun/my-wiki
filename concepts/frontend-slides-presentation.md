@@ -1,20 +1,24 @@
 ---
-title: HTML 演示文稿生成
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-05-01
-type: concept
 description: '创建零依赖、动画丰富的 HTML 演示文稿，完全在浏览器中运行。支持从零创建、PPT转换和已有演示增强三种模式。 1. 零依赖 — 单个
   HTML 文件，内联 CSS/JS，无 npm/构建工具
 
   '
+project: 通用知识
+sources:
+- raw/articles/skill-frontend-slides.md
+status: published
 tags:
 - framework
 - tool
 - best-practice
-sources:
-- raw/articles/skill-frontend-slides.md
-project: 通用知识
+title: HTML 演示文稿生成
+type: concept
+updated: 2026-05-01
+version: 1.0.20260530
 ---
+
 
 
 # HTML 演示文稿生成

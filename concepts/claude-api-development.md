@@ -1,19 +1,23 @@
 ---
-title: Claude API 开发模式
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: '构建 Claude API 应用的开发模式，包括 SDK 选择、prompt caching、流式输出等最佳实践。 1. 使用官方 SDK
   - 优先使用 Anthropic 官方 SDK（Python/TypeScript/Java）
 
   '
+project: 通用知识
+sources:
+- raw/articles/claude-api.md
+status: published
 tags:
 - tool
 - api
-sources:
-- raw/articles/claude-api.md
-project: 通用知识
+title: Claude API 开发模式
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # Claude API 开发模式

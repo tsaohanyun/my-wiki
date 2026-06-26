@@ -1,23 +1,27 @@
 ---
-title: 方法论知识总览
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-15
-updated: 2026-05-15
-type: concept
 description: '> 企业信息化与数字化转型领域的各类方法论体系汇编。涵盖企业架构规划、数字化转型、项目实施交付、管理咨询、售前销售等维度的系统化方法论。
   enterprise-it-planning-methodology — 企业架构（EA）四视图方法论（业务/信息/应用/技术架构），以及IT规划四步法（确认业务目标→评估IT现状→设计目标环境→制定行动计划）。
 
   '
+project: 通用知识
+sources:
+- raw/
+status: published
 tags:
 - best-practice
 - architecture
 - digital-transformation
 - process-management
 - enterprise-management
-sources:
-- raw/
-confidence: high
-project: 通用知识
+title: 方法论知识总览
+type: concept
+updated: 2026-05-15
+version: 1.0.20260530
 ---
+
 
 
 # 方法论知识总览

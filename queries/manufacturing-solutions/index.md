@@ -1,17 +1,21 @@
 ---
-title: 制造业数字化解决方案总览
+author: Hermes Wiki Agent
+confidence: medium
 created: 2026-05-15
-updated: 2026-05-15
-type: query
+project: 研究
+sources:
+- trans-import/
+status: published
 tags:
 - smart-manufacturing
 - digital-transformation
 - mes
-sources:
-- trans-import/
-confidence: medium
-project: 研究
+title: 制造业数字化解决方案总览
+type: query
+updated: 2026-05-15
+version: 1.0.20260604
 ---
+
 
 # 制造业数字化解决方案总览
 

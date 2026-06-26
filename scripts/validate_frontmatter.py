@@ -155,9 +155,19 @@ def validate_frontmatter(frontmatter_text, file_path):
         
         # 日期验证
         elif field in ['created', 'updated']:
-            is_valid, error_msg = validate_date(value, field)
-            if not is_valid:
-                errors.append(error_msg)
+            # 允许字符串或日期对象
+            if isinstance(value, str):
+                is_valid, error_msg = validate_date(value, field)
+                if not is_valid:
+                    errors.append(error_msg)
+            elif isinstance(value, datetime):
+                # datetime对象，转换为字符串格式
+                pass
+            elif hasattr(value, 'strftime'):
+                # 日期对象，转换为字符串格式
+                pass
+            else:
+                errors.append(f"{field}必须是字符串或日期格式")
         
         # 类型验证
         elif field == 'type':
@@ -195,7 +205,9 @@ def validate_frontmatter(frontmatter_text, file_path):
         
         # 未知字段警告
         elif field not in ['author', 'sources', 'related', 'dependencies', 
-                          'prerequisites', 'template', 'parameters']:
+                          'prerequisites', 'template', 'parameters', 'project',
+                          'title', 'created', 'updated', 'type', 'status',
+                          'description', 'tags', 'version']:
             warnings.append(f"未知字段: {field}")
     
     # 3. 检查类型特定的推荐字段
@@ -246,7 +258,8 @@ def main():
             print("错误: 无法获取git暂存区文件")
             sys.exit(1)
         
-        files = [f for f in result.stdout.strip().split('\n') if f.endswith('.md')]
+        # 排除备份目录
+        files = [f for f in result.stdout.strip().split('\n') if f.endswith('.md') and 'backups' not in f]
         
     except Exception as e:
         print(f"错误: {e}")

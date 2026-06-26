@@ -1,20 +1,24 @@
 ---
-title: 数据可视化选型
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: '根据数据关系类型（比较、联系、分布、构成）选择最合适的图表类型，使数据表达准确、直观、高效。 ├── 比较 → 分类 or 时间？→ 分类数/周期数？→
   选图表
 
   '
+project: 通用知识
+sources:
+- raw/articles/data-visualization-selection.md
+status: published
 tags:
 - data-visualization
 - visualization
 - chart
-sources:
-- raw/articles/data-visualization-selection.md
-project: 通用知识
+title: 数据可视化选型
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # 数据可视化选型

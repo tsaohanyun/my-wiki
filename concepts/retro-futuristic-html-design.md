@@ -1,20 +1,24 @@
 ---
-title: 复古未来风 HTML 设计系统
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: 'CRT 终端美学 × 太空时代仪表盘的完整设计系统。三个视觉支柱：CRT终端、太空控制面板、霓虹黑色电影。 - Orbitron：letter-spacing
   0.08-0.15em，标题始终大写
 
   '
+project: 通用知识
+sources:
+- raw/articles/skill-retro-futuristic-html.md
+status: published
 tags:
 - framework
 - design-principle
 - pattern
-sources:
-- raw/articles/skill-retro-futuristic-html.md
-project: 通用知识
+title: 复古未来风 HTML 设计系统
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # 复古未来风 HTML 设计系统

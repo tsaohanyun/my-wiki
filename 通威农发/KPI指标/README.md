@@ -1,21 +1,25 @@
 ---
-title: README
+author: Hermes Wiki Agent
 created: 2026-05-26
-updated: 2026-05-26
-type: summary
 description: '> 通威农发生产运营指标清单，涵盖财务、客户、内部管理、员工发展四大维度 > - 通威农发数据库总览 — 表结构与字段定义
 
   '
+project: 通威
+sources:
+- raw/
+status: published
 tags:
 - mes
 - api
 - documentation
 - kpi-indicator
 - ai-agent
-sources:
-- raw/
-project: 通威
+title: README
+type: summary
+updated: 2026-05-26
+version: 1.0.20260604
 ---
+
 # 通威农发生产运营指标体系
 
 > 项目：**通威农发**（通威股份农业发展有限公司）

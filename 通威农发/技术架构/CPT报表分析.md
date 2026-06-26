@@ -1,21 +1,25 @@
 ---
-title: 通威农发-CPT报表分析
+author: Hermes Wiki Agent
 created: 2026-05-26
-updated: 2026-05-26
-type: entity
 description: '> 通威农发项目共30张FineReport CPT绩效报表的分析经验汇总。 > 报表路径：/home/agentuser/finereport-files/通威农发/
 
   '
+project: 通威
+sources:
+- raw/
+status: published
 tags:
 - inventory
 - quality
 - api
 - security
 - kpi-indicator
-sources:
-- raw/
-project: 通威
+title: 通威农发-CPT报表分析
+type: entity
+updated: 2026-05-26
+version: 1.0.20260604
 ---
+
 
 
 # 通威农发CPT报表分析

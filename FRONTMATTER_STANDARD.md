@@ -1,16 +1,20 @@
 ---
-title: Wiki Frontmatter 标准规范 (v2)
-project: 通用
+author: Hermes Wiki Agent
 created: '2026-06-26'
-updated: '2026-06-26'
-type: reference
-description: 'Wiki frontmatter标准规范，参考Azure DevOps YAML schema最佳实践，支持参数化、模板化、类型约束等高级特性'
+description: Wiki frontmatter标准规范，参考Azure DevOps YAML schema最佳实践，支持参数化、模板化、类型约束等高级特性
+project: 通用
+status: published
 tags:
 - frontmatter
 - yaml
 - standard
 - azure-devops
+title: Wiki Frontmatter 标准规范 (v2)
+type: reference
+updated: '2026-06-26'
+version: 1.0.20260626
 ---
+
 
 # Wiki Frontmatter 标准规范 (v2)
 

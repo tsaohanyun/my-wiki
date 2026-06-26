@@ -1,9 +1,12 @@
 ---
-title: 飞书Aily销售客户回款管理案例
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-06-16
-updated: 2026-06-16
-type: query
-description: '销售管理、客户管理、回款管理三个智能体案例+一体化管理案例。含完整System Prompt、多维表格字段定义、MCP配置、工作流、模拟对话。'
+description: 销售管理、客户管理、回款管理三个智能体案例+一体化管理案例。含完整System Prompt、多维表格字段定义、MCP配置、工作流、模拟对话。
+project: 通用
+sources:
+- raw/articles/飞书Aily官方文档
+status: published
 tags:
 - 飞书
 - Aily
@@ -15,11 +18,12 @@ tags:
 - CRM
 - 企业级
 - 实战案例
-sources:
-- raw/articles/飞书Aily官方文档
-project: 通用
-confidence: high
+title: 飞书Aily销售客户回款管理案例
+type: query
+updated: 2026-06-16
+version: 1.0.20260616
 ---
+
 
 项目：**通用**
 

@@ -1,20 +1,24 @@
 ---
-title: 物流与运输解决方案
+author: Hermes Wiki Agent
 created: 2026-05-05
-updated: 2026-05-05
-type: concept
 description: '基于实时定位系统（RTLS）的物流与运输解决方案，实现供应链可视化与物流效率优化。 - 实时定位系统（RTLS） — 基于 Wi-Fi/RFID
   的工业级实时定位
 
   '
+project: 通用知识
+sources:
+- raw/articles/logistics-transport-solution.md
+status: published
 tags:
 - smart-manufacturing
 - process-management
 - iot
-sources:
-- raw/articles/logistics-transport-solution.md
-project: 通用知识
+title: 物流与运输解决方案
+type: concept
+updated: 2026-05-05
+version: 1.0.20260530
 ---
+
 
 
 # 物流与运输解决方案

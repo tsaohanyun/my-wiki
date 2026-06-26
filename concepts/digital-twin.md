@@ -1,21 +1,25 @@
 ---
-title: 数字孪生技术
+author: Hermes Wiki Agent
 created: 2026-05-05
-updated: 2026-05-05
-type: concept
 description: '数字孪生（Digital Twin）是实现物理空间与数字空间交互映射的通用技术，起源于"阿波罗计划"，通过构建物理实体的数字化镜像，实现全生命周期的模拟、监控和优化。
   - 互操作性 — 物理实体与数字模型之间实时数据交换
 
   '
+project: 通用知识
+sources:
+- raw/articles/digital-twin-report.md
+status: published
 tags:
 - digital-transformation
 - smart-manufacturing
 - iot
 - visualization
-sources:
-- raw/articles/digital-twin-report.md
-project: 通用知识
+title: 数字孪生技术
+type: concept
+updated: 2026-05-05
+version: 1.0.20260530
 ---
+
 
 
 # 数字孪生技术

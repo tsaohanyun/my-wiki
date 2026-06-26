@@ -1,16 +1,20 @@
 ---
-title: LM精益管理
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'LM（Lean Management）精益管理模块，涵盖8D管理、标准化作业、安全环保、变动费用分析、OEE综合效率、投入产出、成本管理等精益生产相关功能。'
-tags:
-- smart-manufacturing
+description: LM（Lean Management）精益管理模块，涵盖8D管理、标准化作业、安全环保、变动费用分析、OEE综合效率、投入产出、成本管理等精益生产相关功能。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: LM精益管理
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # LM精益管理

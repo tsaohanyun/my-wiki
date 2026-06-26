@@ -1,19 +1,23 @@
 ---
-title: 代码审查流程
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: '代码审查的完整流程，包括提交前验证、质量门禁和独立审查。 - systematic-debugging - 审查中发现的问题调试
 
   '
+project: 通用知识
+sources:
+- raw/articles/requesting-code-review.md
+status: published
 tags:
 - best-practice
 - code-review
 - quality
-sources:
-- raw/articles/requesting-code-review.md
-project: 通用知识
+title: 代码审查流程
+type: concept
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # 代码审查流程

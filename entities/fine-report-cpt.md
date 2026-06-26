@@ -1,20 +1,24 @@
 ---
-title: FineReport CPT 模板文件
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: entity
 description: 'CPT 是帆软 FineReport 的报表模板格式，本质是标准 XML 文件（UTF-8），定义数据源、参数、单元格布局、图表、样式和页面设置。
   ├── TableDataMap          — 数据源定义
 
   '
+project: 通用知识
+sources:
+- raw/articles/skill-fine-report-cpt.md
+status: published
 tags:
 - framework
 - api
 - tool
-sources:
-- raw/articles/skill-fine-report-cpt.md
-project: 通用知识
+title: FineReport CPT 模板文件
+type: entity
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # FineReport (帆软报表) CPT 模板文件

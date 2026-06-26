@@ -1,20 +1,24 @@
 ---
-title: 数据治理两阶段实践
+author: Hermes Wiki Agent
 created: 2026-05-05
-updated: 2026-05-05
-type: concept
 description: '企业级数据治理实践方法论，从数据清洁到数据服务化的两阶段演进路径。 - 目标：实现数据可视、共享，支撑数字化转型
 
   '
+project: 通用知识
+sources:
+- raw/articles/data-governance-solution.md
+status: published
 tags:
 - data-governance
 - data-quality
 - data-warehouse
 - metadata
-sources:
-- raw/articles/data-governance-solution.md
-project: 通用知识
+title: 数据治理两阶段实践
+type: concept
+updated: 2026-05-05
+version: 1.0.20260530
 ---
+
 
 
 # 数据治理两阶段实践

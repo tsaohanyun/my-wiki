@@ -1,19 +1,23 @@
 ---
-title: PowerPoint 演示文稿处理
+author: Hermes Wiki Agent
 created: 2026-04-30
-updated: 2026-04-30
-type: entity
 description: '使用 python-pptx 库处理 PowerPoint 演示文稿的完整指南。 - word-document-processing
   - Word 文档
 
   '
+project: 通用知识
+sources:
+- raw/articles/pptx.md
+status: published
 tags:
 - tool
 - documentation
-sources:
-- raw/articles/pptx.md
-project: 通用知识
+title: PowerPoint 演示文稿处理
+type: entity
+updated: 2026-04-30
+version: 1.0.20260530
 ---
+
 
 
 # PowerPoint 演示文稿处理

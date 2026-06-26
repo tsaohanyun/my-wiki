@@ -1,9 +1,12 @@
 ---
-title: 飞书Aily自定义智能体配置指南
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-06-16
-updated: 2026-06-16
-type: concept
-description: '自定义智能体创建全流程：人设Prompt设计、知识空间配置、MCP工具集成、技能编排、渠道发布、进化模式、数据看板。含Prompt模板和数据表结构。'
+description: 自定义智能体创建全流程：人设Prompt设计、知识空间配置、MCP工具集成、技能编排、渠道发布、进化模式、数据看板。含Prompt模板和数据表结构。
+project: 通用
+sources:
+- raw/articles/飞书Aily官方文档
+status: published
 tags:
 - 飞书
 - Aily
@@ -13,11 +16,12 @@ tags:
 - MCP
 - 知识空间
 - 企业级
-sources:
-- raw/articles/飞书Aily官方文档
-project: 通用
-confidence: high
+title: 飞书Aily自定义智能体配置指南
+type: concept
+updated: 2026-06-16
+version: 1.0.20260616
 ---
+
 
 项目：**通用**
 

@@ -1,14 +1,8 @@
 ---
-title: 天味MES-系统集成与交付
+author: Hermes Wiki Agent
 created: 2026-05-30
-updated: 2026-05-30
-type: concept
-tags:
-- mes
-- api
-- integration
-- testing
-- deployment
+description: 天味家园B栋MES系统与WMS、SAP的集成方案、上线策略演变、风险应对、测试方案、培训与部署架构。
+project: 天味
 sources:
 - raw/tianwei-mes/天味MES-WMS与MES接口清单.md
 - raw/tianwei-mes/天味MES-集成接口会议材料.pptx.md
@@ -23,9 +17,19 @@ sources:
 - raw/tianwei-mes/天味MES-操作手册.md
 - raw/tianwei-mes/天味MES-培训计划.md
 - raw/tianwei-mes/天味MES-运维部署文档.md
-description: 天味家园B栋MES系统与WMS、SAP的集成方案、上线策略演变、风险应对、测试方案、培训与部署架构。
-project: 天味
+status: published
+tags:
+- mes
+- api
+- integration
+- testing
+- deployment
+title: 天味MES-系统集成与交付
+type: concept
+updated: 2026-05-30
+version: 1.0.20260530
 ---
+
 
 # 天味MES-系统集成与交付
 

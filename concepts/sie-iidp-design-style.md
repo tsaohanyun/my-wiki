@@ -1,12 +1,14 @@
 ---
-title: SIE-IIDP 网页设计风格
+author: Hermes Wiki Agent
 created: 2026-05-03
-updated: 2026-05-04
-type: concept
 description: 'SIE-IIDP（工业互联网数据平台）是中国制造业 MES 系统的前端设计风格代表，以#AC2A48为品牌主色、极高信息密度、功能主义美学为核心特征的技术后台设计系统。
   技术栈：Vue.js 2.x + Element UI + 自研 SMI Design 组件库 + Tech 微前端框架。
 
   '
+project: 通用知识
+sources:
+- raw/articles/sie-iidp-design-analysis.md
+status: published
 tags:
 - design-system
 - ui-design
@@ -14,10 +16,12 @@ tags:
 - frontend-design
 - component-library
 - mes
-sources:
-- raw/articles/sie-iidp-design-analysis.md
-project: 通用知识
+title: SIE-IIDP 网页设计风格
+type: concept
+updated: 2026-05-04
+version: 1.0.20260530
 ---
+
 
 
 # SIE-IIDP 网页设计风格

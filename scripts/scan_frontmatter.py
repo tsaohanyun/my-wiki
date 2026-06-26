@@ -222,8 +222,8 @@ def scan_and_fix():
     print(f"🔍 开始扫描wiki目录 (v2标准): {WIKI_DIR}")
     
     md_files = list(WIKI_DIR.rglob("*.md"))
-    # 排除报告文件本身
-    md_files = [f for f in md_files if 'frontmatter_scan_' not in f.name]
+    # 排除备份目录和报告文件
+    md_files = [f for f in md_files if 'backups' not in str(f) and 'frontmatter_scan_' not in f.name]
     print(f"找到 {len(md_files)} 个.md文件")
     
     results = {

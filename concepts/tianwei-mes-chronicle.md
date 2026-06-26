@@ -1,16 +1,20 @@
 ---
-title: 天味MES-项目纪事
+author: Hermes Wiki Agent
 created: 2026-05-30
-updated: 2026-05-30
-type: concept
+description: 天味家园B栋MES项目2023年6月至9月共16场会议的关键决策与待办事项，按时间线组织。
+project: 天味
+sources:
+- raw/tianwei-mes/天味MES-月度汇报会议纪要.md
+status: published
 tags:
 - mes
 - documentation
-sources:
-- raw/tianwei-mes/天味MES-月度汇报会议纪要.md
-description: 天味家园B栋MES项目2023年6月至9月共16场会议的关键决策与待办事项，按时间线组织。
-project: 天味
+title: 天味MES-项目纪事
+type: concept
+updated: 2026-05-30
+version: 1.0.20260530
 ---
+
 
 # 天味MES-项目纪事
 

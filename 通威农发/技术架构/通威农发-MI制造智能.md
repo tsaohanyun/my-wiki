@@ -1,16 +1,20 @@
 ---
-title: MI制造智能
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'MI（Manufacturing Intelligence）制造智能模块，涵盖预警管理、测点配置、数据填报、IDA智能分析等功能，支撑工厂数字化决策。'
-tags:
-- smart-manufacturing
+description: MI（Manufacturing Intelligence）制造智能模块，涵盖预警管理、测点配置、数据填报、IDA智能分析等功能，支撑工厂数字化决策。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: MI制造智能
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # MI制造智能

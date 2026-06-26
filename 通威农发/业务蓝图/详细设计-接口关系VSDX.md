@@ -1,17 +1,23 @@
 ---
-title: 业务平台与外部系统接口关系
-project: 通威农发
+author: Hermes Wiki Agent
 created: '2026-06-17'
-updated: '2026-06-17'
-type: blueprint
-description: '项目：**通威农发** > 本页面内容由VSDX接口关系图文件自动解析生成。 业务平台与外部系统（EBS、MES、WMS、QMS等）之间的接口交互关系。 **页面1: 流程所有素材** (117个形状) **页面2: 所有角色** (41个形状) **参与角色:** 生产相关所有角色, 生产文员, 生产班长, 生产经理, 投料工 **页面3: 设备监控** (37个形状) **参与角色:** 【P...'
+description: '项目：**通威农发** > 本页面内容由VSDX接口关系图文件自动解析生成。 业务平台与外部系统（EBS、MES、WMS、QMS等）之间的接口交互关系。
+  **页面1: 流程所有素材** (117个形状) **页面2: 所有角色** (41个形状) **参与角色:** 生产相关所有角色, 生产文员, 生产班长, 生产经理,
+  投料工 **页面3: 设备监控** (37个形状) **参与角色:** 【P...'
+project: 通威农发
+status: published
 tags:
 - workflow
 - tw-nongfa
 - exception
 - equipment
 - wms
+title: 业务平台与外部系统接口关系
+type: blueprint
+updated: '2026-06-17'
+version: 1.0.20260626
 ---
+
 
 项目：**通威农发**
 

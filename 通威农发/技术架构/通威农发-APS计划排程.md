@@ -1,16 +1,20 @@
 ---
-title: APS计划排程
+author: Hermes Wiki Agent
+confidence: high
 created: 2026-05-07
-updated: 2026-05-28
-type: concept
-description: 'APS（Advanced Planning and Scheduling）计划排程模块，涵盖需求管理（年/月计划）、计划排程（日计划/调料分配/月度检查）、物料需求计划、预算管理等功能。'
-tags:
-- smart-manufacturing
+description: APS（Advanced Planning and Scheduling）计划排程模块，涵盖需求管理（年/月计划）、计划排程（日计划/调料分配/月度检查）、物料需求计划、预算管理等功能。
+project: 通威
 sources:
 - raw/
-confidence: high
-project: 通威
+status: published
+tags:
+- smart-manufacturing
+title: APS计划排程
+type: concept
+updated: 2026-05-28
+version: 1.0.20260528
 ---
+
 
 
 # APS计划排程

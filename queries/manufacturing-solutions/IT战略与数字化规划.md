@@ -1,19 +1,23 @@
 ---
-title: IT战略与数字化规划
+author: Hermes Wiki Agent
+confidence: medium
 created: 2026-05-15
-updated: 2026-05-15
-type: query
 description: 'IT战略规划交流20180126.pptx > 1 对XX的初步认知 3 IT规划方法论介绍 始创于1999年10月15日，
 
   '
+project: 研究
+sources:
+- trans-import/
+status: published
 tags:
 - enterprise-management
 - digital-transformation
-sources:
-- trans-import/
-confidence: medium
-project: 研究
+title: IT战略与数字化规划
+type: query
+updated: 2026-05-15
+version: 1.0.20260530
 ---
+
 
 
 # IT战略与数字化规划
