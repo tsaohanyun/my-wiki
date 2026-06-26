@@ -50,6 +50,26 @@ tags: [工具, 收藏, GitHub]
 
 ---
 
+## 🎨 设计系统
+
+### DESIGN.md（Google Labs）
+- **仓库**：[google-labs-code/design.md](https://github.com/google-labs-code/design.md)
+- **功能**：为 AI 编码代理提供设计系统描述格式规范，用结构化文件定义视觉身份
+- **核心特性**：
+  - 双层结构：YAML 前置数据（机器可读的设计令牌）+ Markdown 正文（人类可读的设计说明）
+  - CLI 工具 `@google/design.md`：lint 检查、版本 diff、导出 Tailwind/DTCG 格式
+  - 8 个标准章节：概述→颜色→排版→布局→深度→形状→组件→注意事项
+  - 支持组件令牌引用：`{colors.primary}`、`{typography.body-md}` 等
+- **适用场景**：
+  - 将 Apple Design Language / SIE-IIDP 企业风格固化为可复用设计规范
+  - 多页面产品原型需要统一设计语言时
+  - 给客户交付设计规范文档时
+- **评估**：⭐⭐⭐（3/5）—— 格式规范有价值，但当前工作模式（默认 Apple + 偶尔切换）还未到需要规范化设计系统的程度
+- **状态**：alpha 版本，活跃开发中
+- **备注**：根目录无 DESIGN.md 文件，完整规范在 `docs/spec.md`，示例在 `examples/` 目录（含 Atmospheric Glass、Totality Festival、Paws and Paths 三个设计系统）
+
+---
+
 ## 相关页面
 
 - [[index]] — Wiki 总览
