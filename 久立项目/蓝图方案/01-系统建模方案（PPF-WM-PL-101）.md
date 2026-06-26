@@ -1,20 +1,21 @@
 ---
-title: '一、系统建模方案（PPF-WM-PL-101）'
-project: 通威农发
+author: Hermes Wiki Agent
 created: '2026-06-26'
-updated: '2026-06-26'
-type: blueprint
+description: 久立项目蓝图方案 - 一、系统建模方案（PPF-WM-PL-101）
+project: 久立
+related:
+- '[[久立项目/蓝图方案/久立项目-蓝图方案索引]]'
 status: published
-description: '久立项目蓝图方案 - 一、系统建模方案（PPF-WM-PL-101）'
 tags:
 - blueprint
 - tw-nongfa
 - jiuli
-author: Hermes Wiki Agent
-version: '1.0.0'
-related:
-- '[[久立项目/蓝图方案/久立项目-蓝图方案索引]]'
+title: 一、系统建模方案（PPF-WM-PL-101）
+type: blueprint
+updated: '2026-06-26'
+version: 1.0.0
 ---
+
 
 ## 一、系统建模方案（PPF-WM-PL-101）
 
