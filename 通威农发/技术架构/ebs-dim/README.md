@@ -14,7 +14,7 @@ tags:
 - inventory
 - quality
 - api
-title: README
+title: 'EBS-DIM模块说明'
 type: summary
 updated: 2026-05-26
 version: 1.0.20260604

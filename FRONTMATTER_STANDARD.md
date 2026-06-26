@@ -424,7 +424,7 @@ sources:
 - raw/articles/smart-manufacturing-overview.md
 related:
 - '[[数字化转型]]'
-- '[[工业4.0]]'
+- '[[concepts/smart-manufacturing|工业4.0]]'
 x_domain: 制造业
 x_level: 高级
 ---

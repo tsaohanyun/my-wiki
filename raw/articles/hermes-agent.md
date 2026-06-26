@@ -1,13 +1,21 @@
 ---
-ingested: 2026-04-30
+author: Hermes Wiki Agent
+created: &id001 2026-04-30
+description: Hermes Agent原始资料，AI代理框架介绍
+ingested: *id001
+project: 外部资料
 sha256: d30c1ed9a97b8666
 source_url: hermes-skill://hermes-agent
-title: Hermes Agent
-project: 外部资料
+status: published
 tags:
 - AI
 - 原始资料
+title: Hermes Agent (原始资料)
+type: reference
+updated: *id001
+version: 1.0.0
 ---
+
 
 # Hermes Agent
 

@@ -14,7 +14,7 @@ tags:
 - documentation
 - kpi-indicator
 - ai-agent
-title: README
+title: 'KPI指标说明'
 type: summary
 updated: 2026-05-26
 version: 1.0.20260604

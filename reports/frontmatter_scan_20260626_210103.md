@@ -1,15 +1,16 @@
 ---
-title: Wiki Frontmatter 扫描报告
-project: 通用
 created: '2026-06-26'
-updated: '2026-06-26'
-type: reference
-description: 'Wiki frontmatter扫描报告，显示326个文件的检查结果'
+description: Wiki frontmatter扫描报告，显示326个文件的检查结果
+project: 通用
 tags:
 - frontmatter
 - scan
 - report
+title: Wiki Frontmatter 扫描报告 (20260626_210103)
+type: reference
+updated: '2026-06-26'
 ---
+
 
 # Wiki Frontmatter 扫描报告
 

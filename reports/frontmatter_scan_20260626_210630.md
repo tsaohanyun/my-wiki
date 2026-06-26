@@ -1,19 +1,20 @@
 ---
-title: Wiki Frontmatter 扫描报告 (v2)
-project: 通用
+author: Hermes Wiki Agent
 created: '2026-06-26'
-updated: '2026-06-26'
-type: reference
+description: Wiki frontmatter扫描报告 (v2标准)，显示320个文件的检查结果
+project: 通用
 status: published
-description: 'Wiki frontmatter扫描报告 (v2标准)，显示320个文件的检查结果'
 tags:
 - frontmatter
 - scan
 - report
 - v2
-author: Hermes Wiki Agent
-version: '1.0.0'
+title: Wiki Frontmatter 扫描报告 (20260626_210630)
+type: reference
+updated: '2026-06-26'
+version: 1.0.0
 ---
+
 
 # Wiki Frontmatter 扫描报告 (v2)
 
