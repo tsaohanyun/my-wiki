@@ -152,4 +152,4 @@ version: 1.0.20260626
 - [[concepts/data-asset-management-standard|数据资产管理标准化]]
 - [[concepts/manufacturing-glossary|制造业术语与业务逻辑知识库]] — KPI中的核心术语
 - [[欧软/欧软公司知识库|欧软公司知识库]] — KPI的产品实现
-- [[欧软/项目交付经验库|项目交付经验库]] — KPI的交付案例
+- [[项目经验/制造业项目交付经验库|项目交付经验库]] — KPI的交付案例

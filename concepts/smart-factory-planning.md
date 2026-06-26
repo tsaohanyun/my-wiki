@@ -109,7 +109,7 @@ version: 1.0.20260626
 - [[concepts/digital-transformation-methodology|数字化转型方法论]]
 - [[concepts/manufacturing-glossary|制造业术语与业务逻辑知识库]] — 智能工厂的核心术语
 - [[欧软/欧软公司知识库|欧软公司知识库]] — 智能工厂的产品实现
-- [[欧软/项目交付经验库|项目交付经验库]] — 智能工厂的交付案例
+- [[项目经验/制造业项目交付经验库|项目交付经验库]] — 智能工厂的交付案例
 
 **实战案例**
 - [[concepts/tianwei-mes-project|天味家园B栋MES项目]] — 火锅底料老车间智能工厂改造完整落地案例
