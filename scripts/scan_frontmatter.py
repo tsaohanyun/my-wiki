@@ -224,8 +224,29 @@ def generate_report(results):
     """生成报告"""
     REPORT_FILE.parent.mkdir(parents=True, exist_ok=True)
     
+    # 获取报告文件名作为标题
+    report_title = f"Wiki Frontmatter 扫描报告"
+    report_date = datetime.now().strftime('%Y-%m-%d')
+    report_desc = f"Wiki frontmatter扫描报告，显示{results['total']}个文件的检查结果"
+    
     with open(REPORT_FILE, 'w', encoding='utf-8') as f:
-        f.write("# Wiki Frontmatter 扫描报告\n\n")
+        # 先写frontmatter
+        f.write(f"""---
+title: {report_title}
+project: 通用
+created: '{report_date}'
+updated: '{report_date}'
+type: reference
+description: '{report_desc}'
+tags:
+- frontmatter
+- scan
+- report
+---
+
+""")
+        # 再写报告内容
+        f.write(f"# {report_title}\n\n")
         f.write(f"**扫描时间**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write(f"**扫描目录**: {WIKI_DIR}\n\n")
         
