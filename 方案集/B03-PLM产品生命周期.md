@@ -1,20 +1,22 @@
 ---
-title: PLM产品生命周期
-project: 方案集
 category: 系统方案
-subcategory: B03
+created: &id001 2026-05-27
 file_count: 41
-updated: &id001 2026-05-27
-created: *id001
+project: 方案集
 source_path: D:\前归档\售前\方案\方案集
+subcategory: B03
 tags:
 - CAD
 - ERP
 - PLM
 - 仿真
-- 售前
-- 数字化转型
+- presales
+- digital-transformation
+title: PLM产品生命周期
+updated: *id001
 ---
+
+
 
 # B03 PLM产品生命周期管理方案集
 

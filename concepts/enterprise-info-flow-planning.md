@@ -4,7 +4,7 @@ created: 2026-05-05
 description: '企业信息流规划方法论，研究信息流的特点、规划目的与实施方案。 信息流动过程：信源 → 信道 → 信宿，信宿通过反馈渠道将意见反馈给信源。
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/enterprise-info-flow-planning.md
 status: published
@@ -17,6 +17,7 @@ type: concept
 updated: 2026-05-05
 version: 1.0.20260530
 ---
+
 
 
 

@@ -5,7 +5,7 @@ created: 2026-05-15
 description: '> 企业利用数字技术实现业务转型的系统方法论，涵盖从战略定位到落地实施的完整路径。 源自《企业数字化转型方法论》，六个层次架构：
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/
 status: published
@@ -19,6 +19,7 @@ type: concept
 updated: 2026-05-15
 version: 1.0.20260604
 ---
+
 
 
 

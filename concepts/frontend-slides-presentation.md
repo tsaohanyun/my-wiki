@@ -5,7 +5,7 @@ description: '创建零依赖、动画丰富的 HTML 演示文稿，完全在浏
   HTML 文件，内联 CSS/JS，无 npm/构建工具
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/skill-frontend-slides.md
 status: published
@@ -18,6 +18,7 @@ type: concept
 updated: 2026-05-01
 version: 1.0.20260530
 ---
+
 
 
 

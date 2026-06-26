@@ -5,7 +5,7 @@ description: '大数据治理是在数据的全生命周期内，对其进行管
   1. 数据上报 — Log Server、binlog 等原始数据产出
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/big-data-governance-day1.md
 - raw/articles/big-data-governance-day2.md
@@ -24,6 +24,7 @@ type: concept
 updated: 2026-05-18
 version: 1.0.20260530
 ---
+
 
 
 

@@ -1,12 +1,14 @@
 ---
-source_url: 炒锅联调\系统联调测试方案8月14启动V2.0.docx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 炒锅联调\系统联调测试方案8月14启动V2.0.docx
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: 炒锅联调\系统联调测试方案8月14启动V2.0.docx
 DESC: 测试-炒锅联调方案

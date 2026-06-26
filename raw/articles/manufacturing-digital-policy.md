@@ -1,13 +1,14 @@
 ---
 ingested: 2026-04-30
+project: 外部资料
 sha256: ae3d4c4189f8904c1eac731b21071c11ed45c006f82563c044132f868117a39e
 source_url: 幕布文档导出
-title: manufacturing-digital-policy
-project: 外部资料
 tags:
 - 原始资料
-- 数字化转型
+- digital-transformation
+title: manufacturing-digital-policy
 ---
+
 
 美国先进制造业发展主要举措
 实施延续性政策打造稳定发展大环境

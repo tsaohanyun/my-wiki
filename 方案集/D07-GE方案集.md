@@ -1,13 +1,11 @@
 ---
-title: D07-GE通用电气
-project: 方案集
 category: 供应商方案
 file_count: 5
-updated: 2026-05-26
+project: 方案集
 tags:
 - GE
 - Proficy
-- MES
+- mes
 - iFIX
 - Historian
 - SCADA
@@ -21,7 +19,10 @@ tags:
 - APM
 - OPC UA
 - 工业互联网
+title: D07-GE通用电气
+updated: 2026-05-26
 ---
+
 
 # D07 GE通用电气方案集
 

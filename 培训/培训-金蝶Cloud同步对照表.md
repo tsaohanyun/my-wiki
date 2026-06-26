@@ -15,10 +15,11 @@ tags:
 - documentation
 - database
 title: 培训-金蝶Cloud同步对照表
-type: summary
+type: training
 updated: 2026-05-26
 version: 1.0.20260604
 ---
+
 
 项目：**前归档-培训** | 交叉引用 [[培训/培训-总览]]
 

@@ -1,13 +1,14 @@
 ---
 ingested: 2026-05-04
+project: 外部资料
 sha256: placeholder
 source_url: 公众号"商业智能研究"《制造业数据指标体系》
-title: 制造业数据指标体系
-project: 外部资料
 tags:
 - 原始资料
-- 智能制造
+- smart-manufacturing
+title: 制造业数据指标体系
 ---
+
 
 # 制造业数据指标体系
 

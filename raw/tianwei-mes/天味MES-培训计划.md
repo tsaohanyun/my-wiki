@@ -1,13 +1,15 @@
 ---
-source_url: 培训\培训计划\培训计划.docx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 培训\培训计划\培训计划.docx
 tags:
-- MES
+- mes
 - 原始资料
 - 培训
 - 天味
 ---
+
+
 
 SOURCE: 培训\培训计划\培训计划.docx
 DESC: 培训-培训计划

@@ -5,7 +5,7 @@ created: 2026-05-15
 description: '> 企业架构（EA）是建设企业信息化的顶层设计蓝图，回答"企业去哪里、IT怎么建"的战略问题。IT规划是EA落地的具体路径。 源自《企业架构咨询方法论》，将企业信息化划分为四个相互关联的视图：
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/
 status: published
@@ -17,6 +17,7 @@ type: concept
 updated: 2026-05-15
 version: 1.0.20260604
 ---
+
 
 
 

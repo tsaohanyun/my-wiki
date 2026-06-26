@@ -4,7 +4,7 @@ created: 2026-05-26
 description: '> 通威农发生产运营指标清单，涵盖财务、客户、内部管理、员工发展四大维度 > - 通威农发数据库总览 — 表结构与字段定义
 
   '
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,11 +14,13 @@ tags:
 - documentation
 - kpi-indicator
 - ai-agent
-title: 'KPI指标说明'
-type: summary
+title: KPI指标说明
+type: reference
 updated: 2026-05-26
 version: 1.0.20260604
 ---
+
+
 
 # 通威农发生产运营指标体系
 

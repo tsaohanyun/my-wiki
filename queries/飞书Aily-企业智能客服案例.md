@@ -8,19 +8,21 @@ sources:
 - raw/articles/飞书Aily官方文档
 status: published
 tags:
-- 飞书
+- feishu
 - Aily
-- 智能体
+- agent
 - 智能客服
 - AI情报
 - 智能巡检
-- 企业级
+- enterprise
 - 实战案例
 title: 飞书Aily企业智能客服案例
-type: query
+type: reference
 updated: 2026-06-16
 version: 1.0.20260616
 ---
+
+
 
 
 项目：**通用**

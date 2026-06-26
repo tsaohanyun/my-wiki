@@ -1,14 +1,16 @@
 ---
-source_url: 接口说明\集成测试\系统联调测试方案V1.0.docx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 接口说明\集成测试\系统联调测试方案V1.0.docx
 tags:
-- MES
+- mes
 - SAP
 - WMS
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: 接口说明\集成测试\系统联调测试方案V1.0.docx
 DESC: 接口-系统联调测试方案

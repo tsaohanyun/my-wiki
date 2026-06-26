@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 confidence: high
 created: 2026-05-07
 description: EDO（Equipment & Device Operation）设备管理模块，涵盖设备全生命周期管理，包括设备台账、故障维修、预防性维护、点检巡检、备件管理、特种设备管理等功能。
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,6 +14,7 @@ type: concept
 updated: 2026-05-28
 version: 1.0.20260529
 ---
+
 
 
 

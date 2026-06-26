@@ -5,7 +5,7 @@ description: '根据数据关系类型（比较、联系、分布、构成）选
   选图表
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/data-visualization-selection.md
 status: published
@@ -18,6 +18,7 @@ type: concept
 updated: 2026-04-30
 version: 1.0.20260530
 ---
+
 
 
 

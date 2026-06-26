@@ -1,13 +1,15 @@
 ---
-source_url: 详设评审\1-【生产管理】工单管理.docx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 详设评审\1-【生产管理】工单管理.docx
 tags:
-- MES
+- mes
 - SAP
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: 详设评审\1-【生产管理】工单管理.docx
 DESC: 详设评审-工单管理

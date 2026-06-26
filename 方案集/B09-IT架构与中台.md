@@ -1,18 +1,20 @@
 ---
-title: IT架构与中台方案集
-project: 方案集
 category: 系统方案
-file_count: 166
-updated: 2026-05-27
 extracted_count: 89
+file_count: 166
+project: 方案集
 tags:
 - 中台
 - 咨询
-- 售前
+- presales
 - 微服务
-- 数字化转型
-- 方案
+- digital-transformation
+- solution
+title: IT架构与中台方案集
+updated: 2026-05-27
 ---
+
+
 
 # B09 IT架构规划与中台方案集
 

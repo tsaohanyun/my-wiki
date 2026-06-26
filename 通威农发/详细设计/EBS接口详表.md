@@ -15,10 +15,11 @@ tags:
 - digital-transformation
 - enterprise-management
 title: 通威农发-EBS接口详表
-type: summary
+type: reference
 updated: '2026-06-04'
 version: 1.0.20260604
 ---
+
 
 
 # EBS接口详表

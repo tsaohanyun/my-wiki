@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 confidence: high
 created: 2026-05-07
 description: WMS（Warehouse Management System）仓储管理模块，负责通威农发各工厂/公司的仓库全流程管理。涵盖入库管理（ASN送货单/收货单/验收）、出库管理（发运单/计划销售单/装车）、库存管理（库存原子结构/库存批次/库存移动/调整/预警）、拣货管理（拣货明细/波次）、盘点管理（盘点计划/盘点单/盘点配置）、投料退料（投料任务/生产退料/消耗退料）、不合格品管理（NG库存/不合格
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,6 +14,7 @@ type: concept
 updated: 2026-05-28
 version: 1.0.20260528
 ---
+
 
 
 

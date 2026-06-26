@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 created: 2026-06-19
 description: 开源AI工程完整课程体系：503节实战课、20个递进阶段、4种编程语言，从线性代数手搓到自主Agent集群的端到端学习路径。涵盖数学基础、机器学习、深度学习、计算机视觉、NLP、Transformer、生成式AI、强化学习、LLM工程、多模态AI、Agent工程、生产基础设施、安全伦理、毕设项目。每节课均产出可复用的Prompt/Skill/Agent/MCP
   Server。MIT协议，全部完成。
-project: 通用知识
+project: 通用
 sources:
 - https://github.com/rohitg00/ai-engineering-from-scratch
 - https://aiengineeringfromscratch.com
@@ -22,6 +22,7 @@ type: concept
 updated: 2026-06-19
 version: 1.0.20260619
 ---
+
 
 
 # AI Engineering from Scratch

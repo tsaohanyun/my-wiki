@@ -5,7 +5,7 @@ description: '构建 Claude API 应用的开发模式，包括 SDK 选择、prom
   - 优先使用 Anthropic 官方 SDK（Python/TypeScript/Java）
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/claude-api.md
 status: published
@@ -17,6 +17,7 @@ type: concept
 updated: 2026-04-30
 version: 1.0.20260530
 ---
+
 
 
 

@@ -5,7 +5,7 @@ description: 'CPT 是帆软 FineReport 的报表模板格式，本质是标准 X
   ├── TableDataMap          — 数据源定义
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/skill-fine-report-cpt.md
 status: published
@@ -18,6 +18,7 @@ type: entity
 updated: 2026-04-30
 version: 1.0.20260530
 ---
+
 
 
 

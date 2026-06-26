@@ -4,7 +4,7 @@ created: 2026-05-04
 description: '中小企业数字化转型的研究报告（2023.1），分析中小企业面临的挑战、数字化转型路径和模式创新方向。 - 供应链管理能力弱，难以直接获取市场需求
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/sme-digital-innovation-report.md
 - raw/articles/sme-digital-report-part2.md
@@ -20,6 +20,7 @@ type: concept
 updated: 2026-05-04
 version: 1.0.20260530
 ---
+
 
 
 

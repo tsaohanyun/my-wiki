@@ -1,13 +1,14 @@
 ---
 ingested: 2026-04-30
+project: 外部资料
 sha256: 5ae67dc6d971b48e04e19db296a7d657a65e32c6b123a9df2b9220402085307d
 source_url: 幕布文档导出
-title: big-data-governance-day3
-project: 外部资料
 tags:
 - 原始资料
-- 智能制造
+- smart-manufacturing
+title: big-data-governance-day3
 ---
+
 
 数据治理的背景
 数据治理信息总结：数据结构、数据质量、元数据、数据仓库/商务智能、数据成本、数据模型

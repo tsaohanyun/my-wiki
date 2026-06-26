@@ -1,18 +1,20 @@
 ---
-title: B01-MES制造执行系统方案集
-project: 方案集
 category: 系统方案
-file_count: 292
 effective_count: 223
-updated: 2026-05-27
+file_count: 292
+project: 方案集
 tags:
 - ERP
-- MES
-- 售前
+- mes
+- presales
 - 培训
-- 方案
+- solution
 - 系统方案
+title: B01-MES制造执行系统方案集
+updated: 2026-05-27
 ---
+
+
 
 # B01 MES制造执行系统方案集
 

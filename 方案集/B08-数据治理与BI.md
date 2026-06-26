@@ -1,21 +1,23 @@
 ---
-title: 数据治理与BI方案集
-project: 方案集
 category: 系统方案
-file_count: 89
-updated: 2026-05-27
-created: 2026-05-27
-source: D:\前归档\售前\方案\方案集
-deduped_count: 81
 category_id: B08
+created: 2026-05-27
+deduped_count: 81
+file_count: 89
+project: 方案集
+source: D:\前归档\售前\方案\方案集
 tags:
 - BI
 - 中台
-- 售前
-- 方案
-- 智能制造
+- presales
+- solution
+- smart-manufacturing
 - 系统方案
+title: 数据治理与BI方案集
+updated: 2026-05-27
 ---
+
+
 
 # B08 数据治理与BI方案集
 

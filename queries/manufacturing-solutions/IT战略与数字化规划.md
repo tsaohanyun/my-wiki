@@ -5,7 +5,7 @@ created: 2026-05-15
 description: 'IT战略规划交流20180126.pptx > 1 对XX的初步认知 3 IT规划方法论介绍 始创于1999年10月15日，
 
   '
-project: 研究
+project: 通用
 sources:
 - trans-import/
 status: published
@@ -13,10 +13,12 @@ tags:
 - enterprise-management
 - digital-transformation
 title: IT战略与数字化规划
-type: query
+type: reference
 updated: 2026-05-15
 version: 1.0.20260530
 ---
+
+
 
 
 

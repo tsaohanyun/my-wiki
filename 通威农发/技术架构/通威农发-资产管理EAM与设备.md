@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 confidence: high
 created: 2026-05-07
 description: EAM（Enterprise Asset Management）资产管理模块，涵盖资产台账、资产折旧、资产维修、资产转移等功能，与EDO设备管理模块互补。
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,6 +14,7 @@ type: concept
 updated: 2026-05-28
 version: 1.0.20260528
 ---
+
 
 
 

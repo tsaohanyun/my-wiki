@@ -1,23 +1,24 @@
 ---
-title: D02-SAP方案集
-project: 方案集
 category: 供应商方案
 file_count: 36
-updated: 2026-05-26
+project: 方案集
 tags:
 - SAP
 - ERP
 - S4HANA
-- MES
-- 智能制造
-- 数字化转型
+- mes
+- smart-manufacturing
+- digital-transformation
 - 供应链
 - 主数据
 - 订单管理
 - Oracle
 - Salesforce
 - 甲骨文
+title: D02-SAP方案集
+updated: 2026-05-26
 ---
+
 
 # D02 SAP解决方案集
 

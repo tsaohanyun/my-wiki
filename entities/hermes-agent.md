@@ -5,7 +5,7 @@ description: 'Hermes Agent 是一个功能丰富的 CLI AI Agent 平台，支持
   - 技能创建
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/hermes-agent.md
 status: published
@@ -17,6 +17,7 @@ type: entity
 updated: 2026-04-30
 version: 1.0.20260530
 ---
+
 
 
 

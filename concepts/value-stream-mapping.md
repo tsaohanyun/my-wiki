@@ -5,7 +5,7 @@ description: '价值流图析（VSM），又称物流情报图，是精益生产
   望远镜思维、站在山顶、总经理的思维
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/value-stream-mapping.md
 status: published
@@ -19,6 +19,7 @@ type: concept
 updated: 2026-05-04
 version: 1.0.20260626
 ---
+
 
 
 

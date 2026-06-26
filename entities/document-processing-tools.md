@@ -1,11 +1,17 @@
 ---
-title: 文档处理工具
-project: 通用知识
 category: 工具
-tags: [文档处理, Excel, PDF, Word, OfficeCLI]
 created: 2026-05-27
+project: 通用
+tags:
+- 文档处理
+- Excel
+- PDF
+- Word
+- OfficeCLI
+title: 文档处理工具
 updated: 2026-05-27
 ---
+
 
 # 文档处理工具
 

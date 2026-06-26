@@ -1,20 +1,22 @@
 ---
-title: 罗克韦尔施耐德ABB
-project: 方案集
 category: 供应商方案
-subcategory: D05
+created: &id001 2026-05-27
 file_count: 49
-updated: &id001 2026-05-27
-created: *id001
+project: 方案集
 source_path: D:\前归档\售前\方案\方案集
+subcategory: D05
 tags:
 - 供应商方案
-- 售前
-- 数字化转型
-- 方案
+- presales
+- digital-transformation
+- solution
 - 网络
 - 西门子
+title: 罗克韦尔施耐德ABB
+updated: *id001
 ---
+
+
 
 # D05 罗克韦尔施耐德ABB方案集
 

@@ -1,13 +1,14 @@
 ---
 ingested: 2026-05-03
+project: 外部资料
 sha256: c2fc3fa4bdcf2e4a6e83467907a84ce8223b6130dfbea5174240d0bbd681526d
 source_url: /home/agentuser/trans-import/ (10 DIM HTML pages + CSS/JS/SVG assets)
-title: SIE-IIDP 网页设计风格 — 详细分析报告
-project: 外部资料
 tags:
-- MES
+- mes
 - 原始资料
+title: SIE-IIDP 网页设计风格 — 详细分析报告
 ---
+
 
 # SIE-IIDP 网页设计风格 — 详细分析报告
 

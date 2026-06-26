@@ -1,14 +1,15 @@
 ---
 ingested: 2026-05-05
+project: 外部资料
 sha256: c2a8947c1c3fceb763113e3d6debdba8afa0f25cf99dc1b848914222e83785eb
 source_url: 《智能工厂生产业务平台详细设计-精益》
-title: smart-factory-lean-detail-design
-project: 外部资料
 tags:
 - 原始资料
-- 智能制造
+- smart-manufacturing
 - 精益生产
+title: smart-factory-lean-detail-design
 ---
+
 
 甲方
 

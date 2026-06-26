@@ -1,20 +1,22 @@
 ---
-title: '方案集-APS计划排程'
-project: 方案集
 category: 系统方案
-subcategory: B05
+created: &id001 2026-05-27
 file_count: 44
-updated: &id001 2026-05-27
-created: *id001
+project: 方案集
 source_path: D:\前归档\售前\方案\方案集
+subcategory: B05
 tags:
 - APS
 - ERP
-- MES
-- 售前
-- 方案
+- mes
+- presales
+- solution
 - 系统方案
+title: 方案集-APS计划排程
+updated: *id001
 ---
+
+
 
 # B05 APS高级计划排程方案集
 

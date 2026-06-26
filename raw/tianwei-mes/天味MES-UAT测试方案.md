@@ -1,12 +1,14 @@
 ---
-source_url: UAT测试\天味家园B栋防呆防错UAT测试方案V1.2.docx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: UAT测试\天味家园B栋防呆防错UAT测试方案V1.2.docx
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: UAT测试\天味家园B栋防呆防错UAT测试方案V1.2.docx
 DESC: 测试-UAT方案

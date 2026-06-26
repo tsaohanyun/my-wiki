@@ -1,12 +1,10 @@
 ---
-title: B06-QMS质量管理
-project: 方案集
 category: 行业方案
 file_count: 25
-updated: 2026-05-26
+project: 方案集
 tags:
 - QMS
-- 质量管理
+- quality-management
 - LIMS
 - SPC
 - TQM
@@ -15,7 +13,10 @@ tags:
 - 统计过程控制
 - 全面质量管理
 - 质量体系
+title: B06-QMS质量管理
+updated: 2026-05-26
 ---
+
 
 # B06 QMS质量管理方案集
 

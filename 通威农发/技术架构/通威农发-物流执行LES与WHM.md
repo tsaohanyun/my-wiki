@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 confidence: high
 created: 2026-05-07
 description: 物流执行模块，包含LES（Logistics Execution System）物流执行和WHM仓库辅助管理，涵盖运输调度、车辆管理、装卸管理、物流跟踪等功能。
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,6 +14,7 @@ type: concept
 updated: 2026-05-28
 version: 1.0.20260528
 ---
+
 
 
 

@@ -1,13 +1,14 @@
 ---
 ingested: 2026-05-05
+project: 外部资料
 sha256: placeholder
 source_url: 《数据治理解决方案》
-title: 数据治理解决方案
-project: 外部资料
 tags:
 - 原始资料
-- 数字化转型
+- digital-transformation
+title: 数据治理解决方案
 ---
+
 
 # 数据治理解决方案
 

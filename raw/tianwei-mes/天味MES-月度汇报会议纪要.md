@@ -1,14 +1,16 @@
 ---
-source_url: 老车间数字化改造工艺物料防呆防错信息化项目月度汇报-会议纪要 20230630 V2.pdf
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 老车间数字化改造工艺物料防呆防错信息化项目月度汇报-会议纪要 20230630 V2.pdf
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
-- 数字化转型
+- digital-transformation
 - 食品
 ---
+
+
 
 SOURCE: 老车间数字化改造工艺物料防呆防错信息化项目月度汇报-会议纪要 20230630 V2.pdf
 DESC: 月度汇报-会议纪要

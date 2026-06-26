@@ -1,22 +1,23 @@
 ---
-title: 文档协作流程
 created: 2026-04-30
-updated: 2026-04-30
-type: concept
 description: '文档协作的结构化工作流，帮助用户高效创建和优化文档。 - word-document-processing - Word 文档处理
 
   '
+project: 通用
+sources:
+- raw/articles/doc-coauthoring.md
+status: stub
 tags:
 - best-practice
 - team-process
 - 存根
 - Hermes
 - documentation
-sources:
-- raw/articles/doc-coauthoring.md
-project: 通用知识
-status: stub
+title: 文档协作流程
+type: concept
+updated: 2026-04-30
 ---
+
 
 
 # 文档协作流程

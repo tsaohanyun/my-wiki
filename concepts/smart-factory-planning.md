@@ -5,7 +5,7 @@ description: '智能工厂是以 MES（制造执行系统）为核心的数字�
   控制
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/smart-factory-planning.md
 status: published
@@ -19,6 +19,7 @@ type: concept
 updated: 2026-04-30
 version: 1.0.20260626
 ---
+
 
 
 

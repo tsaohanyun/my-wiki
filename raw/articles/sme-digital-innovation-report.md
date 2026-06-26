@@ -1,14 +1,15 @@
 ---
 ingested: 2026-05-04
+project: 外部资料
 sha256: placeholder
 source_url: 《中小企业数字化模式创新研究报告2023》
-title: 中小企业数字化模式创新研究报告
-project: 外部资料
 tags:
 - 仓储
 - 原始资料
-- 数字化转型
+- digital-transformation
+title: 中小企业数字化模式创新研究报告
 ---
+
 
 发布时间：2023.1
 

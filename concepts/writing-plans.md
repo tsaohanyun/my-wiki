@@ -4,7 +4,7 @@ created: 2026-04-30
 description: '创建全面实现计划的指南，将复杂任务分解为可执行的小步骤。 - 小任务 - 每个任务可在30分钟内完成
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/writing-plans.md
 status: published
@@ -15,6 +15,7 @@ type: concept
 updated: 2026-04-30
 version: 1.0.20260530
 ---
+
 
 
 

@@ -1,14 +1,15 @@
 ---
 ingested: 2026-04-30
+project: 外部资料
 sha256: 8077433ad3d860a01027247b13db78f62366ceb0c03107bbbd89795e6db6740a
 source_url: 幕布文档导出
-title: smart-factory-planning
-project: 外部资料
 tags:
-- MES
+- mes
 - 原始资料
-- 智能制造
+- smart-manufacturing
+title: smart-factory-planning
 ---
+
 
 关于欧软
 欧软简介、组织战略、文化价值、业务架构、案例墙

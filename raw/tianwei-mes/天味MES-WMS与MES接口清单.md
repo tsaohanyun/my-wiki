@@ -1,14 +1,16 @@
 ---
-source_url: 接口说明\天味食品_WMS&博依特MES_接口清单_V1.1_20230620.xlsx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 接口说明\天味食品_WMS&博依特MES_接口清单_V1.1_20230620.xlsx
 tags:
-- MES
+- mes
 - WMS
 - 原始资料
 - 天味
 - 食品
 ---
+
+
 
 SOURCE: 接口说明\天味食品_WMS&[已脱敏]MES_接口清单_V1.1_20230620.xlsx
 DESC: 接口清单-WMS&MES

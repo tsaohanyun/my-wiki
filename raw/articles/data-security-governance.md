@@ -1,14 +1,15 @@
 ---
 ingested: 2026-05-05
+project: 外部资料
 sha256: placeholder
 source_url: 《数据安全治理解决方案》
-title: 数据安全治理解决方案
-project: 外部资料
 tags:
 - 原始资料
 - 安全
-- 智能制造
+- smart-manufacturing
+title: 数据安全治理解决方案
 ---
+
 
 # 数据安全治理解决方案
 

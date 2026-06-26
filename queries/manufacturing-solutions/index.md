@@ -2,7 +2,7 @@
 author: Hermes Wiki Agent
 confidence: medium
 created: 2026-05-15
-project: 研究
+project: 通用
 sources:
 - trans-import/
 status: published
@@ -11,10 +11,12 @@ tags:
 - digital-transformation
 - mes
 title: 制造业数字化解决方案总览
-type: query
+type: reference
 updated: 2026-05-15
 version: 1.0.20260604
 ---
+
+
 
 
 # 制造业数字化解决方案总览

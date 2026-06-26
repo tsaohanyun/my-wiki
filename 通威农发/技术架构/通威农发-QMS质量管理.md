@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 confidence: high
 created: 2026-05-07
 description: QMS（Quality Management System）质量管理模块，涵盖检验管理（来料检验/制程检验/成品检验/出厂检验）、不合格品管理（不合格品审理/处置）、质量追溯（批次追溯/物料追踪）、取样管理、样品检测、质量标准配置等功能。
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,6 +14,7 @@ type: concept
 updated: 2026-05-28
 version: 1.0.20260528
 ---
+
 
 
 

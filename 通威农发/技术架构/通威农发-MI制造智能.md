@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 confidence: high
 created: 2026-05-07
 description: MI（Manufacturing Intelligence）制造智能模块，涵盖预警管理、测点配置、数据填报、IDA智能分析等功能，支撑工厂数字化决策。
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,6 +14,7 @@ type: concept
 updated: 2026-05-28
 version: 1.0.20260528
 ---
+
 
 
 

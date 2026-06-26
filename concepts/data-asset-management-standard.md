@@ -4,7 +4,7 @@ created: 2026-05-05
 description: '数据资产管理标准化实践，涵盖数据从资源到资产再到资本的转化路径与标准体系。 - 十九届四中全会：将数据作为生产要素参与收益分配
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/data-asset-management-standard.md
 status: published
@@ -18,6 +18,7 @@ type: concept
 updated: 2026-05-05
 version: 1.0.20260530
 ---
+
 
 
 

@@ -4,7 +4,7 @@ created: 2026-05-05
 description: '企业级数据治理实践方法论，从数据清洁到数据服务化的两阶段演进路径。 - 目标：实现数据可视、共享，支撑数字化转型
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/data-governance-solution.md
 status: published
@@ -18,6 +18,7 @@ type: concept
 updated: 2026-05-05
 version: 1.0.20260530
 ---
+
 
 
 

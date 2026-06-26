@@ -5,7 +5,7 @@ description: '数据中台是整合企业内外部数据资源，提供统一数
   — 核心业务系统、网银系统、交易平台、风险管理系统、CRM、支付清算等
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/data-mid-platform-solution.md
 status: published
@@ -20,6 +20,7 @@ type: concept
 updated: 2026-05-04
 version: 1.0.20260530
 ---
+
 
 
 

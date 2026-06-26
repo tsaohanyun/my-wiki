@@ -1,15 +1,17 @@
 ---
-source_url: 接口说明\集成接口会议材料.pptx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 接口说明\集成接口会议材料.pptx
 tags:
-- MES
+- mes
 - SAP
 - WMS
 - 原始资料
 - 天味
 - 物流
 ---
+
+
 
 SOURCE: 接口说明\集成接口会议材料.pptx
 DESC: 接口-集成会议材料

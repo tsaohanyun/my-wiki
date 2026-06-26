@@ -5,7 +5,7 @@ description: '数据安全治理解决方案，从业务和数据识别入手，
   制定全生命周期安全策略 → 持续优化
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/data-security-governance.md
 status: published
@@ -17,6 +17,7 @@ type: concept
 updated: 2026-05-05
 version: 1.0.20260530
 ---
+
 
 
 

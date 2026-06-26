@@ -1,13 +1,15 @@
 ---
-source_url: 部署方案评审会\天味食品运维部署文档-v3.docx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 部署方案评审会\天味食品运维部署文档-v3.docx
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
 - 食品
 ---
+
+
 
 SOURCE: 部署方案评审会\天味食品运维部署文档-v3.docx
 DESC: 部署-运维文档

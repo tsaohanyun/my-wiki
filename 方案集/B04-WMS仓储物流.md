@@ -1,18 +1,19 @@
 ---
-title: WMS仓储物流方案集
-project: 方案集
 category: 系统方案
-file_count: 146
-updated: 2026-05-27
 extracted_count: 65
+file_count: 146
+project: 方案集
 tags:
 - WMS
 - 仓储
 - 供应链
-- 售前
-- 方案
+- presales
+- solution
 - 物流
+title: WMS仓储物流方案集
+updated: 2026-05-27
 ---
+
 
 # B04 WMS仓储物流方案集
 

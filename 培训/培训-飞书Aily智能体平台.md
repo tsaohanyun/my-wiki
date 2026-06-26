@@ -8,19 +8,21 @@ sources:
 - raw/articles/飞书Aily官方文档
 status: published
 tags:
-- 飞书
+- feishu
 - Aily
-- 智能体
+- agent
 - AI-Agent
-- 企业级
+- enterprise
 - 培训
 - MCP
 - 工作流
 title: 飞书Aily智能体平台培训指南
-type: summary
+type: training
 updated: 2026-06-16
 version: 1.0.20260616
 ---
+
+
 
 
 项目：**通用**

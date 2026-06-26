@@ -1,13 +1,14 @@
 ---
 ingested: 2026-04-30
+project: 外部资料
 sha256: 550a1723966a427c68b7dc9c3a2f83d7d2daab1aad5d51a2394440fcb6ec8096
 source_url: 幕布文档导出
-title: smart-manufacturing-overview
-project: 外部资料
 tags:
 - 原始资料
-- 智能制造
+- smart-manufacturing
+title: smart-manufacturing-overview
 ---
+
 
 前言
 数据+算力+算法

@@ -5,7 +5,7 @@ description: '关于创建高质量、有辨识度的前端界面的设计方法
   在编码之前，理解上下文并确定大胆的美学方向：
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/skill-frontend-design.md
 status: published
@@ -19,6 +19,7 @@ type: concept
 updated: 2026-05-01
 version: 1.0.20260530
 ---
+
 
 
 

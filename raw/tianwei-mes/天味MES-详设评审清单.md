@@ -1,12 +1,14 @@
 ---
-source_url: 详设评审\0-详设评审清单.xlsx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 详设评审\0-详设评审清单.xlsx
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: 详设评审\0-详设评审清单.xlsx
 DESC: 详设评审-评审清单

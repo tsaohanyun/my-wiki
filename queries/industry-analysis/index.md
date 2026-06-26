@@ -2,17 +2,19 @@
 author: Hermes Wiki Agent
 confidence: medium
 created: 2026-05-15
-project: 研究
+project: 通用
 status: published
 tags:
 - industry-analysis
 - energy
 - market-research
 title: 行业分析总览
-type: query
+type: reference
 updated: 2026-05-15
 version: 1.0.20260528
 ---
+
+
 
 
 # 行业分析总览

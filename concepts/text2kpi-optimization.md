@@ -5,7 +5,7 @@ description: 'Text2KPI 是一个 NL2API（自然语言转 API 调用）系统，
   harness-engineering 方法论，对其人机交互体验提出六项优化方案，并在 V2 设计中完成了分层架构重构。
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/harness-engineering-methodology.md
 - raw/articles/text2kpi-demo-design-v2.md
@@ -21,6 +21,7 @@ type: concept
 updated: 2026-05-02
 version: 1.0.20260530
 ---
+
 
 
 

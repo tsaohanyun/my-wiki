@@ -4,7 +4,7 @@ created: 2026-05-26
 description: '> 通威农发项目共30张FineReport CPT绩效报表的分析经验汇总。 > 报表路径：/home/agentuser/finereport-files/通威农发/
 
   '
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -19,6 +19,7 @@ type: entity
 updated: 2026-05-26
 version: 1.0.20260604
 ---
+
 
 
 

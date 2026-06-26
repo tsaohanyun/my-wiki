@@ -1,12 +1,14 @@
 ---
-source_url: 详设评审\2-【生产管理】【基础配置】工艺配方单.docx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 详设评审\2-【生产管理】【基础配置】工艺配方单.docx
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: 详设评审\2-【生产管理】【基础配置】工艺配方单.docx
 DESC: 详设评审-工艺配方单

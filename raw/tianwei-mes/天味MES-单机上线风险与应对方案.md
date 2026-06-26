@@ -1,12 +1,14 @@
 ---
-source_url: 接口说明\B栋单机上线风险说明与应对方案.docx
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 接口说明\B栋单机上线风险说明与应对方案.docx
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: 接口说明\B栋单机上线风险说明与应对方案.docx
 DESC: 接口-单机上线风险

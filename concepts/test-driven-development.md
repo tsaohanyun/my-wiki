@@ -4,7 +4,7 @@ created: 2026-04-30
 description: '测试驱动开发 (TDD) 的实践指南，强调先写测试、再写实现、最后重构的开发循环。 2. GREEN - 编写最少代码使测试通过
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/test-driven-development.md
 status: published
@@ -17,6 +17,7 @@ type: concept
 updated: 2026-04-30
 version: 1.0.20260530
 ---
+
 
 
 

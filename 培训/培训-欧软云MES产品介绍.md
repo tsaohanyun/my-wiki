@@ -15,10 +15,11 @@ tags:
 - quality
 - data-visualization
 title: 培训-欧软云MES产品介绍
-type: summary
+type: training
 updated: 2026-05-26
 version: 1.0.20260528
 ---
+
 
 项目：**前归档-培训** | 交叉引用 [[培训/培训-总览]]
 

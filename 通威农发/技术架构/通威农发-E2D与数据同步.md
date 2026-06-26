@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 confidence: high
 created: 2026-05-07
 description: E2D（Enterprise to Digital）数据同步模块，负责EBS系统与MES系统之间的数据接口和同步，包括接口配置、数据映射、同步日志等功能。
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,6 +14,7 @@ type: concept
 updated: 2026-05-28
 version: 1.0.20260529
 ---
+
 
 
 

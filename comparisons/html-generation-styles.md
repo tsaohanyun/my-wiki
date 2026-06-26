@@ -4,7 +4,7 @@ created: 2026-04-30
 description: '- Apple 原型 + FineReport：业务系统原型展示 + 报表模板开发 - 热门模板 + 通用设计：快速套用+定制化
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/skill-apple-prototype-html.md
 - raw/articles/skill-retro-futuristic-html.md
@@ -17,10 +17,12 @@ tags:
 - framework
 - architecture
 title: HTML 生成风格对比
-type: comparison
+type: reference
 updated: 2026-04-30
 version: 1.0.20260530
 ---
+
+
 
 
 

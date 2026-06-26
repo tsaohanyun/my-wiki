@@ -3,7 +3,7 @@ author: Hermes Wiki Agent
 confidence: high
 created: 2026-05-07
 description: APS（Advanced Planning and Scheduling）计划排程模块，涵盖需求管理（年/月计划）、计划排程（日计划/调料分配/月度检查）、物料需求计划、预算管理等功能。
-project: 通威
+project: 通威农发
 sources:
 - raw/
 status: published
@@ -14,6 +14,7 @@ type: concept
 updated: 2026-05-28
 version: 1.0.20260528
 ---
+
 
 
 

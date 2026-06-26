@@ -1,9 +1,7 @@
 ---
-title: B07-CRM与营销
-project: 方案集
 category: 行业方案
 file_count: 25
-updated: 2026-05-26
+project: 方案集
 tags:
 - CRM
 - 客户关系管理
@@ -12,10 +10,13 @@ tags:
 - 营销自动化
 - 会员管理
 - 忠诚度
-- 数字化转型
+- digital-transformation
 - 云部署
 - 销售管理
+title: B07-CRM与营销
+updated: 2026-05-26
 ---
+
 
 # B07 CRM与营销方案集
 

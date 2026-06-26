@@ -1,12 +1,14 @@
 ---
-source_url: 上线准备\上线策略报告III .doc
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 上线准备\上线策略报告III .doc
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: 上线准备\上线策略报告III .doc
 DESC: 上线策略-III

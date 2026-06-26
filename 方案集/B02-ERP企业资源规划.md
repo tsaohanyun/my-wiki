@@ -1,20 +1,22 @@
 ---
-title: ERP企业资源规划
-project: 方案集
 category: 系统方案
-subcategory: B02
+created: &id001 2026-05-27
 file_count: 52
-updated: &id001 2026-05-27
-created: *id001
+project: 方案集
 source_path: D:\前归档\售前\方案\方案集
+subcategory: B02
 tags:
 - APS
 - ERP
-- MES
+- mes
 - PLM
 - WMS
-- 售前
+- presales
+title: ERP企业资源规划
+updated: *id001
 ---
+
+
 
 # B02 ERP企业资源规划方案集
 

@@ -1,12 +1,14 @@
 ---
-source_url: 详设评审\详设评审主要功能清单.pdf
 ingested: 2026-05-26
-project: 天味家园B栋MES
+project: 天味
+source_url: 详设评审\详设评审主要功能清单.pdf
 tags:
-- MES
+- mes
 - 原始资料
 - 天味
 ---
+
+
 
 SOURCE: 详设评审\详设评审主要功能清单.pdf
 DESC: 详设评审-功能清单

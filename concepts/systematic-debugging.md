@@ -4,7 +4,7 @@ created: 2026-04-30
 description: '系统化调试的4阶段方法论，强调在修复前必须先理解问题根因。 - test-driven-development - 测试预防缺陷
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/systematic-debugging.md
 status: published
@@ -15,6 +15,7 @@ type: concept
 updated: 2026-04-30
 version: 1.0.20260530
 ---
+
 
 
 

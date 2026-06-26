@@ -8,19 +8,20 @@ sources:
 - raw/articles/飞书Aily官方文档
 status: published
 tags:
-- 飞书
+- feishu
 - Aily
-- 智能体
+- agent
 - AI-Agent
 - Prompt工程
 - MCP
 - 知识空间
-- 企业级
+- enterprise
 title: 飞书Aily自定义智能体配置指南
 type: concept
 updated: 2026-06-16
 version: 1.0.20260616
 ---
+
 
 
 项目：**通用**

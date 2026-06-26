@@ -5,7 +5,7 @@ description: '数字孪生（Digital Twin）是实现物理空间与数字空间
   - 互操作性 — 物理实体与数字模型之间实时数据交换
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/digital-twin-report.md
 status: published
@@ -19,6 +19,7 @@ type: concept
 updated: 2026-05-05
 version: 1.0.20260530
 ---
+
 
 
 

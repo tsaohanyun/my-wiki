@@ -5,7 +5,7 @@ description: 'APQC（American Productivity & Quality Center）流程分类框架
   APQC PCF 将企业流程分为多个一级分类，每个分类下有详细子流程及对应的绩效指标：
 
   '
-project: 通用知识
+project: 通用
 sources:
 - raw/articles/apqc-process-metrics.md
 status: published
@@ -19,6 +19,7 @@ type: entity
 updated: 2026-05-04
 version: 1.0.20260530
 ---
+
 
 
 

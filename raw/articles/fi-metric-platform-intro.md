@@ -1,15 +1,16 @@
 ---
 ingested: 2026-05-04
+project: 外部资料
 sha256: placeholder
 source_url: 《FI指标中台产品介绍V4》
-title: FI指标中台产品介绍
-project: 外部资料
 tags:
 - AI
 - 中台
 - 原始资料
-- 智能制造
+- smart-manufacturing
+title: FI指标中台产品介绍
 ---
+
 
 发布时间：2024.4
 

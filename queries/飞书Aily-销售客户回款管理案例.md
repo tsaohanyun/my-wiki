@@ -8,21 +8,23 @@ sources:
 - raw/articles/飞书Aily官方文档
 status: published
 tags:
-- 飞书
+- feishu
 - Aily
-- 智能体
+- agent
 - 销售管理
 - 客户管理
 - 回款管理
 - 应收账款
 - CRM
-- 企业级
+- enterprise
 - 实战案例
 title: 飞书Aily销售客户回款管理案例
-type: query
+type: reference
 updated: 2026-06-16
 version: 1.0.20260616
 ---
+
+
 
 
 项目：**通用**
