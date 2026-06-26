@@ -59,7 +59,7 @@ sha256: <原始内容（前端元数据下方）的十六进制摘要>
 - 架构与设计：architecture, pattern, design-principle, ddd, microservices, ai-agent, nl2sql, nl2api, design-system, ui-design, css-variables, frontend-design, component-library
 - 基础设施与 DevOps：infra, containerization, orchestration, ci-cd, monitoring, cloud
 - 数据库与存储：database, cache, message-queue, storage
-- 数据治理：data-governance, data-quality, data-warehouse, metadata, data-model, data-lifecycle
+- 数据治理：data-governance, data-quality, data-warehouse, metadata, data-model, data-lifecycle, data-ethics, data-stewardship, normalization, dimensional-modeling, logical-model, physical-model, entity-resolution, dcam, dmm
 - 智能制造：smart-manufacturing, digital-transformation, mes, iot, industry-4, lean-manufacturing, vsm, efficiency, occupational-health, safety-management, kpi-indicator
 - 可视化：visualization, data-visualization, chart
 - 测试与质量：testing, quality, linting, code-review
