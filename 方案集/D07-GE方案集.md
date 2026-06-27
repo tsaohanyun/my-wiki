@@ -21,6 +21,10 @@ tags:
 - 工业互联网
 title: D07-GE通用电气
 updated: 2026-05-26
+aliases:
+  - "GE"
+  - "通用电气"
+  - "Predix"
 ---
 
 

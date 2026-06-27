@@ -18,6 +18,9 @@ title: 智能工厂规划
 type: concept
 updated: 2026-04-30
 version: 1.0.20260626
+aliases:
+  - "智能工厂规划"
+  - "Smart Factory"
 ---
 
 

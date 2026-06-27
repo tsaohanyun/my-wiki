@@ -16,6 +16,9 @@ title: 测试驱动开发
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "TDD"
+  - "测试驱动开发"
 ---
 
 

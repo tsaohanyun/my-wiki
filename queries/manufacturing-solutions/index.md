@@ -14,6 +14,8 @@ title: 制造业数字化解决方案总览
 type: reference
 updated: 2026-05-15
 version: 1.0.20260604
+aliases:
+  - "制造方案索引"
 ---
 
 

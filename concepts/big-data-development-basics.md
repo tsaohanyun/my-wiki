@@ -19,6 +19,10 @@ title: 企业级大数据技术体系
 type: concept
 updated: 2026-05-04
 version: 1.0.20260530
+aliases:
+  - "大数据开发"
+  - "Hadoop"
+  - "Spark"
 ---
 
 

@@ -16,6 +16,9 @@ title: 咨询与销售方法论
 type: concept
 updated: 2026-05-15
 version: 1.0.20260604
+aliases:
+  - "咨询销售"
+  - "售前方法论"
 ---
 
 

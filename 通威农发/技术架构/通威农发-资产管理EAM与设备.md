@@ -13,6 +13,10 @@ title: 资产管理EAM与设备
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "EAM"
+  - "资产管理"
+  - "设备台账"
 ---
 
 

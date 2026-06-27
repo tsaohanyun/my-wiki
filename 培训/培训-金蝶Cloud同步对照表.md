@@ -18,6 +18,8 @@ title: 培训-金蝶Cloud同步对照表
 type: training
 updated: 2026-05-26
 version: 1.0.20260604
+aliases:
+  - "金蝶对照表"
 ---
 
 

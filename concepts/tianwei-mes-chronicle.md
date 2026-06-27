@@ -13,6 +13,9 @@ title: 天味MES-项目纪事
 type: concept
 updated: 2026-05-30
 version: 1.0.20260530
+aliases:
+  - "通威MES编年史"
+  - "项目历程"
 ---
 
 

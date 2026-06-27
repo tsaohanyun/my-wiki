@@ -13,6 +13,9 @@ title: Wiki Frontmatter 标准规范 (v2)
 type: reference
 updated: '2026-06-26'
 version: 1.0.20260626
+aliases:
+  - "Frontmatter规范"
+  - "YAML规范"
 ---
 
 

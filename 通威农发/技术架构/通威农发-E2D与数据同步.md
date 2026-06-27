@@ -13,6 +13,10 @@ title: E2D与数据同步
 type: concept
 updated: 2026-05-28
 version: 1.0.20260529
+aliases:
+  - "E2D"
+  - "数据同步"
+  - "数据交换"
 ---
 
 

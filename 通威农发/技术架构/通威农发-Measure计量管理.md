@@ -13,6 +13,10 @@ title: Measure计量管理
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "计量管理"
+  - "Measure系统"
+  - "过磅"
 ---
 
 

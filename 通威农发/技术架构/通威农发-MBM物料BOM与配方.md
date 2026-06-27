@@ -13,6 +13,10 @@ title: MBM物料BOM与配方
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "MBM"
+  - "物料BOM"
+  - "配方管理"
 ---
 
 

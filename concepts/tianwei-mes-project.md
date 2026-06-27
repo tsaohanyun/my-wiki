@@ -17,6 +17,8 @@ title: 天味家园B栋MES项目
 type: concept
 updated: 2026-05-30
 version: 1.0.20260604
+aliases:
+  - "通威MES项目"
 ---
 
 

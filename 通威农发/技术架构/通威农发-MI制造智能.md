@@ -13,6 +13,10 @@ title: MI制造智能
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "MI"
+  - "制造智能"
+  - "Manufacturing Intelligence"
 ---
 
 

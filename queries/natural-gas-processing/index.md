@@ -7,6 +7,8 @@ tags:
 - 研究
 title: 天然气处理厂 Wiki
 updated: '2026-05-27'
+aliases:
+  - "天然气加工索引"
 ---
 
 

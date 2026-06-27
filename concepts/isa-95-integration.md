@@ -18,6 +18,9 @@ title: ISA-95 企业控制系统集成
 type: concept
 updated: 2026-05-05
 version: 1.0.20260626
+aliases:
+  - "ISA-95"
+  - "MES集成标准"
 ---
 
 

@@ -13,6 +13,10 @@ title: WMS仓储管理
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "WMS系统"
+  - "仓储管理系统"
+  - "通威WMS"
 ---
 
 

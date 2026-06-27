@@ -13,6 +13,9 @@ title: QMS质量管理
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "QMS系统"
+  - "质量管理系统"
 ---
 
 

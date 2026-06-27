@@ -3,6 +3,9 @@ title: Wiki 日志
 project: 通用
 created: '2026-05-27'
 updated: '2026-05-27'
+aliases:
+  - "Wiki日志"
+  - "更新记录"
 ---
 
 ## 2026-05-26 (重构)

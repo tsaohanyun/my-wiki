@@ -18,6 +18,9 @@ title: HTML 原型生成
 type: concept
 updated: 2026-05-01
 version: 1.0.20260530
+aliases:
+  - "HTML原型"
+  - "原型设计"
 ---
 
 

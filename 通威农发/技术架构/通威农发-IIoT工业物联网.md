@@ -13,6 +13,10 @@ title: IIoT工业物联网
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "IIoT"
+  - "工业物联网"
+  - "设备联网"
 ---
 
 

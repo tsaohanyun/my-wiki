@@ -12,6 +12,8 @@ title: 行业分析总览
 type: reference
 updated: 2026-05-15
 version: 1.0.20260528
+aliases:
+  - "行业分析索引"
 ---
 
 

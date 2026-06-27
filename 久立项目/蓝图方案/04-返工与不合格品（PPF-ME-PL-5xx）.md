@@ -14,6 +14,9 @@ title: 四、返工与不合格品（PPF-ME-PL-5xx）
 type: blueprint
 updated: '2026-06-26'
 version: 1.0.0
+aliases:
+  - "返工管理"
+  - "NCR"
 ---
 
 

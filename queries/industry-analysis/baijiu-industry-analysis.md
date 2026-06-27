@@ -16,6 +16,9 @@ title: 酱香型白酒行业分析
 type: reference
 updated: 2026-05-04
 version: 1.0.20260604
+aliases:
+  - "白酒行业"
+  - "酒业分析"
 ---
 
 

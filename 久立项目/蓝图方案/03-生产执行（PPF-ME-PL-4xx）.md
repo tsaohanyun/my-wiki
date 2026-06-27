@@ -14,6 +14,9 @@ title: 三、生产执行（PPF-ME-PL-4xx）
 type: blueprint
 updated: '2026-06-26'
 version: 1.0.0
+aliases:
+  - "生产执行方案"
+  - "工单管理"
 ---
 
 

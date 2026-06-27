@@ -18,6 +18,9 @@ title: 价值流图 VSM
 type: concept
 updated: 2026-05-04
 version: 1.0.20260626
+aliases:
+  - "VSM"
+  - "价值流图"
 ---
 
 

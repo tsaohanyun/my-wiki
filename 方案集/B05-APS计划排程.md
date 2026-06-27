@@ -14,6 +14,10 @@ tags:
 - 系统方案
 title: 方案集-APS计划排程
 updated: *id001
+aliases:
+  - "APS方案"
+  - "计划排程"
+  - "高级排程系统"
 ---
 
 

@@ -18,6 +18,9 @@ title: Harness Engineering
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "Harness工程"
+  - "AI Agent驾驭层"
 ---
 
 

@@ -18,6 +18,9 @@ title: 培训-WMS与MES测试方法论
 type: training
 updated: 2026-05-26
 version: 1.0.20260528
+aliases:
+  - "WMS测试"
+  - "MES测试"
 ---
 
 

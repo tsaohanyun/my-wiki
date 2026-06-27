@@ -16,6 +16,9 @@ title: 企业架构与IT规划方法论
 type: concept
 updated: 2026-05-15
 version: 1.0.20260604
+aliases:
+  - "IT规划方法论"
+  - "信息化规划"
 ---
 
 

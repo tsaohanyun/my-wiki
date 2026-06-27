@@ -18,6 +18,8 @@ title: EBS-DIM模块说明
 type: reference
 updated: 2026-05-26
 version: 1.0.20260604
+aliases:
+  - "EBS维度说明"
 ---
 
 

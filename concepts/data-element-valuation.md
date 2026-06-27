@@ -17,6 +17,9 @@ title: 数据要素价值评估
 type: concept
 updated: 2026-05-05
 version: 1.0.20260530
+aliases:
+  - "数据要素"
+  - "数据估值"
 ---
 
 

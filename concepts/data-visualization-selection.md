@@ -17,6 +17,9 @@ title: 数据可视化选型
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "数据可视化"
+  - "BI工具选型"
 ---
 
 

@@ -18,6 +18,9 @@ title: 通威农发-蓝图方案-仓储与EBS集成
 type: entity
 updated: 2026-06-03
 version: 1.0.20260617
+aliases:
+  - "仓储集成"
+  - "EBS集成"
 ---
 
 

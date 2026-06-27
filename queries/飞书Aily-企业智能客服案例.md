@@ -20,6 +20,9 @@ title: 飞书Aily企业智能客服案例
 type: reference
 updated: 2026-06-16
 version: 1.0.20260616
+aliases:
+  - "Aily客服"
+  - "智能客服"
 ---
 
 

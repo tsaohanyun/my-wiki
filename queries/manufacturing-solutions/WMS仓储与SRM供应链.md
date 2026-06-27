@@ -17,6 +17,8 @@ title: WMS仓储与SRM供应链
 type: reference
 updated: 2026-05-15
 version: 1.0.20260530
+aliases:
+  - "WMS+SRM"
 ---
 
 

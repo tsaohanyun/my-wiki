@@ -22,6 +22,9 @@ title: 飞书Aily销售客户回款管理案例
 type: reference
 updated: 2026-06-16
 version: 1.0.20260616
+aliases:
+  - "Aily销售"
+  - "回款管理"
 ---
 
 

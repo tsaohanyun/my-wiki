@@ -20,6 +20,8 @@ title: 飞书Aily自定义智能体配置指南
 type: concept
 updated: 2026-06-16
 version: 1.0.20260616
+aliases:
+  - "飞书Aily配置"
 ---
 
 

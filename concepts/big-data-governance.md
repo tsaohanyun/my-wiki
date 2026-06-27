@@ -23,6 +23,9 @@ title: 大数据治理
 type: concept
 updated: 2026-05-18
 version: 1.0.20260530
+aliases:
+  - "大数据治理"
+  - "数据湖治理"
 ---
 
 

@@ -6,6 +6,9 @@ tags:
 - GitHub
 title: 工具收藏清单
 updated: 2026-06-19
+aliases:
+  - "工具清单"
+  - "技术雷达"
 ---
 
 

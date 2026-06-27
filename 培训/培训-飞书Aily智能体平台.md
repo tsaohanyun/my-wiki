@@ -20,6 +20,9 @@ title: 飞书Aily智能体平台培训指南
 type: training
 updated: 2026-06-16
 version: 1.0.20260616
+aliases:
+  - "飞书Aily"
+  - "智能体培训"
 ---
 
 

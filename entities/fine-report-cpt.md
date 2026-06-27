@@ -17,6 +17,10 @@ title: FineReport CPT 模板文件
 type: entity
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "FineReport"
+  - "帆软"
+  - "CPT"
 ---
 
 

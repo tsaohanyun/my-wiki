@@ -17,6 +17,9 @@ title: 效率与效率改善方法
 type: concept
 updated: 2026-05-04
 version: 1.0.20260530
+aliases:
+  - "效率提升"
+  - "降本增效"
 ---
 
 

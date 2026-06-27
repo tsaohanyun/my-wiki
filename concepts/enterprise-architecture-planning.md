@@ -16,6 +16,10 @@ title: 企业架构与信息化规划
 type: concept
 updated: 2026-05-05
 version: 1.0.20260530
+aliases:
+  - "企业架构"
+  - "IT规划"
+  - "TOGAF"
 ---
 
 

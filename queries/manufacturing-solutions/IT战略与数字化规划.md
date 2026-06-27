@@ -16,6 +16,9 @@ title: IT战略与数字化规划
 type: reference
 updated: 2026-05-15
 version: 1.0.20260530
+aliases:
+  - "IT战略"
+  - "数字化规划"
 ---
 
 

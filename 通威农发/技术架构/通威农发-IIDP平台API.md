@@ -16,6 +16,10 @@ title: IIDP平台API接口文档
 type: architecture
 updated: '2026-06-24'
 version: 1.0.20260626
+aliases:
+  - "IIDP"
+  - "IIDP API"
+  - "JSON-RPC"
 ---
 
 

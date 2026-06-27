@@ -21,6 +21,9 @@ title: AI Engineering from Scratch
 type: concept
 updated: 2026-06-19
 version: 1.0.20260619
+aliases:
+  - "AI工程"
+  - "从零构建AI"
 ---
 
 

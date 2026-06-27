@@ -207,7 +207,9 @@ def validate_frontmatter(frontmatter_text, file_path):
         elif field not in ['author', 'sources', 'related', 'dependencies', 
                           'prerequisites', 'template', 'parameters', 'project',
                           'title', 'created', 'updated', 'type', 'status',
-                          'description', 'tags', 'version']:
+                          'description', 'tags', 'version', 'aliases',
+                          'confidence', 'category', 'effective_count',
+                          'file_count', 'difficulty', 'source']:
             warnings.append(f"未知字段: {field}")
     
     # 3. 检查类型特定的推荐字段

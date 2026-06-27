@@ -13,6 +13,10 @@ title: 物流执行LES与WHM
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "LES"
+  - "WHM"
+  - "物流执行"
 ---
 
 

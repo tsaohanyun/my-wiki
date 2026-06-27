@@ -14,6 +14,8 @@ title: 主人偏好配置档案
 type: concept
 updated: '2026-06-26'
 version: 1.0.20260626
+aliases:
+  - "用户偏好"
 ---
 
 

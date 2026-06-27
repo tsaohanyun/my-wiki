@@ -16,6 +16,9 @@ title: 业务平台与外部系统接口关系
 type: blueprint
 updated: '2026-06-17'
 version: 1.0.20260626
+aliases:
+  - "接口设计"
+  - "系统接口关系图"
 ---
 
 

@@ -18,6 +18,10 @@ title: APQC 流程绩效指标库
 type: entity
 updated: 2026-05-04
 version: 1.0.20260530
+aliases:
+  - "APQC"
+  - "流程指标"
+  - "PCF"
 ---
 
 

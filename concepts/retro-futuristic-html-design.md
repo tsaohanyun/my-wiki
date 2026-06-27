@@ -17,6 +17,9 @@ title: 复古未来风 HTML 设计系统
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "复古未来风"
+  - "Retro Futuristic"
 ---
 
 

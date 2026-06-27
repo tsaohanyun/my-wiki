@@ -12,6 +12,10 @@ status: published
 description: 'Wiki内容索引，按类型组织所有页面'
 author: Hermes Wiki Agent
 version: '1.0.0'
+aliases:
+  - "Wiki首页"
+  - "知识库首页"
+  - "主页"
 ---
 
 

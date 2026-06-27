@@ -19,6 +19,8 @@ title: Text2KPI Prompt 模板与工程化配置
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "Text2KPI配置"
 ---
 
 

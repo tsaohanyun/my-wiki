@@ -16,6 +16,9 @@ title: PowerPoint 演示文稿处理
 type: entity
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "PPT处理"
+  - "演示文稿"
 ---
 
 

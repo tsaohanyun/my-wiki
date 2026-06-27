@@ -17,6 +17,10 @@ tags:
 - 甲骨文
 title: D02-SAP方案集
 updated: 2026-05-26
+aliases:
+  - "SAP"
+  - "S/4HANA"
+  - "SAP ERP"
 ---
 
 

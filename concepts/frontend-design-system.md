@@ -18,6 +18,9 @@ title: 前端设计系统
 type: concept
 updated: 2026-05-01
 version: 1.0.20260530
+aliases:
+  - "前端设计系统"
+  - "Design System"
 ---
 
 

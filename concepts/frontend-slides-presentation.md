@@ -17,6 +17,9 @@ title: HTML 演示文稿生成
 type: concept
 updated: 2026-05-01
 version: 1.0.20260530
+aliases:
+  - "前端演示"
+  - "Slides"
 ---
 
 

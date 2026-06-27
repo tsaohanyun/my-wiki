@@ -14,6 +14,10 @@ tags:
 - presales
 title: ERP企业资源规划
 updated: *id001
+aliases:
+  - "ERP方案"
+  - "企业资源规划"
+  - "ERP选型"
 ---
 
 

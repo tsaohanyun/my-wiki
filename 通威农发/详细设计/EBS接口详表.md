@@ -18,6 +18,9 @@ title: 通威农发-EBS接口详表
 type: reference
 updated: '2026-06-04'
 version: 1.0.20260604
+aliases:
+  - "EBS接口"
+  - "接口文档"
 ---
 
 

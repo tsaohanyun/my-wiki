@@ -17,6 +17,9 @@ title: 智能制造
 type: concept
 updated: 2026-04-30
 version: 1.0.20260626
+aliases:
+  - "智能制造"
+  - "工业4.0"
 ---
 
 

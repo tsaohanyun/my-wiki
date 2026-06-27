@@ -16,6 +16,9 @@ title: Hermes Agent
 type: entity
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "Hermes"
+  - "AI Agent"
 ---
 
 

@@ -17,6 +17,9 @@ title: 数据治理两阶段实践
 type: concept
 updated: 2026-05-05
 version: 1.0.20260530
+aliases:
+  - "治理两阶段"
+  - "治理路径"
 ---
 
 

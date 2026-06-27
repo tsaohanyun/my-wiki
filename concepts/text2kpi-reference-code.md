@@ -18,6 +18,8 @@ title: Text2KPI 参考代码节选
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "Text2KPI代码"
 ---
 
 

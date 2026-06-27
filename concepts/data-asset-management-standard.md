@@ -17,6 +17,9 @@ title: 数据资产管理标准化
 type: concept
 updated: 2026-05-05
 version: 1.0.20260530
+aliases:
+  - "数据资产"
+  - "数据资产入表"
 ---
 
 

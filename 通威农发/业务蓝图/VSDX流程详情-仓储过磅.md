@@ -16,6 +16,9 @@ title: 仓储过磅 — VSDX蓝图流程详情
 type: blueprint
 updated: '2026-06-17'
 version: 1.0.20260626
+aliases:
+  - "仓储过磅流程"
+  - "过磅业务"
 ---
 
 

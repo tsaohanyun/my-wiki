@@ -14,6 +14,9 @@ title: 系统化调试方法论
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "系统化调试"
+  - "Debug方法"
 ---
 
 

@@ -14,6 +14,8 @@ tags:
 title: 计划模式
 type: concept
 updated: 2026-04-30
+aliases:
+  - "Plan模式"
 ---
 
 

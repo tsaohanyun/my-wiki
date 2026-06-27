@@ -14,6 +14,10 @@ tags:
 - digital-transformation
 title: PLM产品生命周期
 updated: *id001
+aliases:
+  - "PLM"
+  - "Product Lifecycle"
+  - "产品生命周期管理"
 ---
 
 

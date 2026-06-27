@@ -18,6 +18,8 @@ title: 培训-欧软云MES产品介绍
 type: training
 updated: 2026-05-26
 version: 1.0.20260528
+aliases:
+  - "欧软MES培训"
 ---
 
 

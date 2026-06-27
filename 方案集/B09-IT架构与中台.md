@@ -12,6 +12,10 @@ tags:
 - solution
 title: IT架构与中台方案集
 updated: 2026-05-27
+aliases:
+  - "IT架构方案"
+  - "技术中台"
+  - "数据中台"
 ---
 
 

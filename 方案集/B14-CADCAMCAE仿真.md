@@ -15,6 +15,11 @@ tags:
 - 3D打印
 - MBD
 - 工厂仿真
+aliases:
+  - "CAD"
+  - "CAM"
+  - "CAE"
+  - "仿真设计"
 ---
 
 # B14 CADCAMCAE仿真方案集

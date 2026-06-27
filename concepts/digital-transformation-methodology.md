@@ -18,6 +18,9 @@ title: 数字化转型方法论
 type: concept
 updated: 2026-05-15
 version: 1.0.20260604
+aliases:
+  - "数字化转型方法论"
+  - "DX方法论"
 ---
 
 

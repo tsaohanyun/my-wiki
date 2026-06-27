@@ -16,6 +16,9 @@ title: 数据安全治理
 type: concept
 updated: 2026-05-05
 version: 1.0.20260530
+aliases:
+  - "数据安全治理"
+  - "安全合规"
 ---
 
 

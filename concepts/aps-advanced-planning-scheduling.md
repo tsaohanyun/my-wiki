@@ -18,6 +18,9 @@ title: APS 高级计划与排程
 type: concept
 updated: 2026-05-05
 version: 1.0.20260626
+aliases:
+  - "APS概念"
+  - "排程算法"
 ---
 
 

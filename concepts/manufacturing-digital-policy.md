@@ -17,6 +17,9 @@ title: 制造业数字化转型政策
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "制造业政策"
+  - "数字化政策"
 ---
 
 

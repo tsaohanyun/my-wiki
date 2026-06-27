@@ -13,6 +13,10 @@ title: MES生产执行
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "MES系统"
+  - "生产执行系统"
+  - "通威MES"
 ---
 
 

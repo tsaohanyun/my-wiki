@@ -14,6 +14,10 @@ tags:
 - 西门子
 title: 罗克韦尔施耐德ABB
 updated: *id001
+aliases:
+  - "罗克韦尔"
+  - "施耐德"
+  - "ABB"
 ---
 
 

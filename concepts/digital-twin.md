@@ -18,6 +18,9 @@ title: 数字孪生技术
 type: concept
 updated: 2026-05-05
 version: 1.0.20260530
+aliases:
+  - "数字孪生"
+  - "Digital Twin"
 ---
 
 

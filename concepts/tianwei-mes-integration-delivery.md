@@ -28,6 +28,8 @@ title: 天味MES-系统集成与交付
 type: concept
 updated: 2026-05-30
 version: 1.0.20260530
+aliases:
+  - "通威集成交付"
 ---
 
 

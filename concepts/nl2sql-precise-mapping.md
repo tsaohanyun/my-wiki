@@ -19,6 +19,9 @@ title: NL2SQL 精确映射
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "NL2SQL"
+  - "Text2SQL"
 ---
 
 

@@ -19,6 +19,8 @@ title: 实施方法论
 type: concept
 updated: 2026-05-15
 version: 1.0.20260626
+aliases:
+  - "实施方法论"
 ---
 
 

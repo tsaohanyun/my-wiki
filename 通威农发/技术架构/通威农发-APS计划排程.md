@@ -13,6 +13,9 @@ title: APS计划排程
 type: concept
 updated: 2026-05-28
 version: 1.0.20260528
+aliases:
+  - "APS系统"
+  - "计划排程系统"
 ---
 
 

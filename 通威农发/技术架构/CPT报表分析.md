@@ -18,6 +18,10 @@ title: 通威农发-CPT报表分析
 type: entity
 updated: 2026-05-26
 version: 1.0.20260604
+aliases:
+  - "CPT"
+  - "FineReport"
+  - "帆软报表"
 ---
 
 

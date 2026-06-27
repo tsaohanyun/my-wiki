@@ -3,6 +3,9 @@ title: Wiki 模式定义
 project: 通用
 created: '2026-05-27'
 updated: '2026-05-27'
+aliases:
+  - "Wiki Schema"
+  - "元数据规范"
 ---
 
 # Wiki 模式定义
@@ -29,6 +32,7 @@ created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: entity | concept | comparison | query | summary
 tags: [来自下方分类法]
+aliases: [替代名称，如英文缩写、中文别名]  # 提升搜索命中率和双向链接
 sources: [raw/articles/source-name.md]
 # 可选质量信号：
 confidence: high | medium | low        # 论断的支持程度

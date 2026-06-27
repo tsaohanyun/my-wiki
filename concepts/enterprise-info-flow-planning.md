@@ -16,6 +16,8 @@ title: 企业信息流规划
 type: concept
 updated: 2026-05-05
 version: 1.0.20260530
+aliases:
+  - "信息流规划"
 ---
 
 

@@ -20,6 +20,9 @@ title: SIE-IIDP 网页设计风格
 type: concept
 updated: 2026-05-04
 version: 1.0.20260530
+aliases:
+  - "IIDP设计风格"
+  - "SIE风格"
 ---
 
 

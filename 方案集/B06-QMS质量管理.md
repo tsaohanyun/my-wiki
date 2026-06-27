@@ -15,6 +15,10 @@ tags:
 - 质量体系
 title: B06-QMS质量管理
 updated: 2026-05-26
+aliases:
+  - "QMS"
+  - "Quality Management"
+  - "质量管理系统"
 ---
 
 

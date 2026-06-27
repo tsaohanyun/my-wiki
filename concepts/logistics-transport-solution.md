@@ -17,6 +17,9 @@ title: 物流与运输解决方案
 type: concept
 updated: 2026-05-05
 version: 1.0.20260530
+aliases:
+  - "物流运输"
+  - "TMS"
 ---
 
 

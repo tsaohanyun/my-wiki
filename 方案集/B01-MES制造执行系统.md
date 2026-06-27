@@ -12,6 +12,10 @@ tags:
 - 系统方案
 title: B01-MES制造执行系统方案集
 updated: 2026-05-27
+aliases:
+  - "MES"
+  - "Manufacturing Execution"
+  - "制造执行系统"
 ---
 
 

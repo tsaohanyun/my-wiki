@@ -20,6 +20,8 @@ title: Text2KPI 优化方案
 type: concept
 updated: 2026-05-02
 version: 1.0.20260530
+aliases:
+  - "Text2KPI优化"
 ---
 
 

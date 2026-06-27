@@ -19,6 +19,9 @@ title: 指标中台建设方法与实践
 type: concept
 updated: 2026-05-04
 version: 1.0.20260530
+aliases:
+  - "指标平台"
+  - "KPI平台"
 ---
 
 

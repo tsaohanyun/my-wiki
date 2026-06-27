@@ -26,6 +26,8 @@ title: 天味MES-生产流程与业务规则
 type: concept
 updated: 2026-05-30
 version: 1.0.20260530
+aliases:
+  - "通威生产流程"
 ---
 
 

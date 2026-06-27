@@ -14,6 +14,9 @@ title: 一、系统建模方案（PPF-WM-PL-101）
 type: blueprint
 updated: '2026-06-26'
 version: 1.0.0
+aliases:
+  - "系统建模"
+  - "PPF配置"
 ---
 
 

@@ -18,6 +18,9 @@ title: 制造业数据指标体系
 type: concept
 updated: 2026-05-04
 version: 1.0.20260626
+aliases:
+  - "制造业KPI"
+  - "OEE指标"
 ---
 
 

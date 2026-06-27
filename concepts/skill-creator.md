@@ -14,6 +14,9 @@ tags:
 title: 技能创建与优化
 type: concept
 updated: 2026-04-30
+aliases:
+  - "技能创建"
+  - "Skill开发"
 ---
 
 

@@ -20,6 +20,8 @@ title: 方法论知识总览
 type: concept
 updated: 2026-05-15
 version: 1.0.20260530
+aliases:
+  - "方法论总览"
 ---
 
 

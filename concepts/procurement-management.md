@@ -19,6 +19,9 @@ title: 采购管理
 type: concept
 updated: 2026-05-11
 version: 1.0.20260604
+aliases:
+  - "采购管理"
+  - "SRM"
 ---
 
 

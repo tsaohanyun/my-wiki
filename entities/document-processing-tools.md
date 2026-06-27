@@ -10,6 +10,9 @@ tags:
 - OfficeCLI
 title: 文档处理工具
 updated: 2026-05-27
+aliases:
+  - "文档处理工具"
+  - "PDF工具"
 ---
 
 

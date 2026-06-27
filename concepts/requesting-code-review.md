@@ -16,6 +16,9 @@ title: 代码审查流程
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "代码审查"
+  - "Code Review"
 ---
 
 

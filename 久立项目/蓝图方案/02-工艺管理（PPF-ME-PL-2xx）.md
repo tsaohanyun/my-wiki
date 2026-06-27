@@ -14,6 +14,9 @@ title: 二、工艺管理（PPF-ME-PL-2xx）
 type: blueprint
 updated: '2026-06-26'
 version: 1.0.0
+aliases:
+  - "工艺管理方案"
+  - "工艺路线"
 ---
 
 

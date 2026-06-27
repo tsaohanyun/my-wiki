@@ -13,6 +13,10 @@ title: EDO设备管理
 type: concept
 updated: 2026-05-28
 version: 1.0.20260529
+aliases:
+  - "EDO"
+  - "设备管理"
+  - "设备维护"
 ---
 
 

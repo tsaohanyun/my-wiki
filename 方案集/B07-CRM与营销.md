@@ -15,6 +15,10 @@ tags:
 - 销售管理
 title: B07-CRM与营销
 updated: 2026-05-26
+aliases:
+  - "CRM"
+  - "客户关系管理"
+  - "营销管理"
 ---
 
 

@@ -20,6 +20,8 @@ title: HTML 生成风格对比
 type: reference
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "HTML风格对比"
 ---
 
 

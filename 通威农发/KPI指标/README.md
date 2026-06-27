@@ -18,6 +18,8 @@ title: KPI指标说明
 type: reference
 updated: 2026-05-26
 version: 1.0.20260604
+aliases:
+  - "KPI说明"
 ---
 
 

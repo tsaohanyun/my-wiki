@@ -20,6 +20,8 @@ title: 详细设计文档编写规范
 type: concept
 updated: 2026-05-05
 version: 1.0.20260604
+aliases:
+  - "详细设计规范"
 ---
 
 

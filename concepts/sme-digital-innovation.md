@@ -19,6 +19,9 @@ title: 中小企业数字化模式创新
 type: concept
 updated: 2026-05-04
 version: 1.0.20260530
+aliases:
+  - "中小企业数字化"
+  - "SME"
 ---
 
 

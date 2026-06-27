@@ -21,6 +21,9 @@ title: 制造业术语与业务逻辑知识库
 type: glossary
 updated: 2026-06-26
 version: 1.0.20260626
+aliases:
+  - "制造业术语"
+  - "工业词汇"
 ---
 
 

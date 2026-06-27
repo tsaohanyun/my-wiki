@@ -16,6 +16,8 @@ title: 异常管理 — VSDX蓝图流程详情
 type: blueprint
 updated: '2026-06-17'
 version: 1.0.20260626
+aliases:
+  - "异常管理流程"
 ---
 
 

@@ -14,6 +14,8 @@ title: 实现计划编写
 type: concept
 updated: 2026-04-30
 version: 1.0.20260530
+aliases:
+  - "写作计划"
 ---
 
 

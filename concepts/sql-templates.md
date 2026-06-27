@@ -16,6 +16,8 @@ title: SQL 查询模板库
 type: concept
 updated: '2026-06-26'
 version: 1.0.20260626
+aliases:
+  - "SQL模板"
 ---
 
 
