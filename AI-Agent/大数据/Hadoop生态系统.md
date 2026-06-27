@@ -1,226 +1,163 @@
 ---
 title: Hadoop生态系统
-slug: hadoop-ecosystem
-category: 大数据
-tags:
+aliases:
   - Hadoop
-  - HDFS
-  - MapReduce
-  - YARN
-  - Hive
-  - HBase
-  - ZooKeeper
+  - Hadoop Ecosystem
+  - Hadoop生态
+tags:
+  - big-data
+  - hadoop
+  - hdfs
+  - mapreduce
+  - yarn
+  - hive
+  - hbase
+type: guide
+status: published
 created: 2026-06-28
 updated: 2026-06-28
-author: AI-Agent Wiki
-summary: >-
-  Hadoop生态系统是大数据领域的基石，涵盖分布式存储(HDFS)、分布式计算(MapReduce)、
-  资源调度(YARN)、数据仓库、NoSQL数据库(HBase)和分布式协调(ZooKeeper)等核心组件。
-related:
-  - "[[数据中台架构]]"
-  - "[[推荐系统实战]]"
+source: 官方文档整理 + 实践经验
+difficulty: intermediate
+project: AI-Agent知识库
 ---
 
 # Hadoop生态系统
 
-## 概述
-
-Hadoop是Apache软件基金会的开源分布式计算框架，旨在处理大规模数据集。其生态系统由多个子项目组成，共同构建了一个完整的**存储-计算-调度-管理**大数据平台。
-
-```mermaid
-graph TB
-    subgraph "Hadoop生态系统"
-        HDFS[HDFS - 分布式存储]
-        MR[MapReduce - 分布式计算]
-        YARN[YARN - 资源调度]
-        HIVE[Hive - 数据仓库]
-        HBASE[HBase - NoSQL数据库]
-        ZK[ZooKeeper - 分布式协调]
-    end
-    YARN --> MR
-    YARN --> HIVE
-    HDFS --> HBASE
-    HDFS --> HIVE
-    ZK --> HBASE
-    ZK --> HDFS
-```
+> Hadoop 是 Apache 基金会开源的分布式计算框架，为海量数据提供高可靠、高扩展性的存储与计算能力。经过十余年发展，已形成覆盖存储、计算、调度、查询、NoSQL 等领域的完整生态系统。
 
 ---
 
-## 一、HDFS（Hadoop Distributed File System）
+## 一、HDFS 架构
 
-### 1.1 核心架构
+Hadoop Distributed File System（HDFS）是 Hadoop 的分布式存储层，设计目标是在廉价商用服务器集群上存储 PB 级数据，并容忍节点故障。
 
-| 组件 | 说明 |
-|------|------|
-| NameNode | 管理文件系统的命名空间和元数据，记录每个文件的块列表 |
-| DataNode | 存储实际的数据块，定时向NameNode发送心跳和块报告 |
-| Secondary NameNode | 定期合并fsimage和edits log，辅助NameNode |
-| JournalNode | HA架构下用于NameNode的元数据同步 |
+### 1.1 核心组件
 
-### 1.2 HDFS Shell操作
+| 组件 | 角色 | 说明 |
+|------|------|------|
+| **NameNode** | 主节点 | 管理文件系统的命名空间（目录树、文件→块映射），元数据常驻内存 |
+| **Secondary NameNode** | 辅助节点 | 定期合并 fsimage 与 editlog，**不是热备** |
+| **JournalNode** | 高可用组件 | HA 模式下共享 EditLog，保证两个 NameNode 状态一致 |
+| **DataNode** | 从节点 | 实际存储数据块，周期性向 NameNode 发送心跳与块报告 |
 
-```bash
-# 创建目录
-hdfs dfs -mkdir -p /user/data/warehouse
+### 1.2 数据写入流程
 
-# 上传文件
-hdfs dfs -put localfile.txt /user/data/warehouse/
-
-# 查看文件内容
-hdfs dfs -cat /user/data/warehouse/localfile.txt
-
-# 查看目录
-hdfs dfs -ls /user/data/warehouse/
-
-# 删除文件
-hdfs dfs -rm -r /user/data/warehouse/old_data
-
-# 设置副本数
-hdfs dfs -setrep -w 3 /user/data/warehouse/important_data
-
-# 查看文件大小
-hdfs dfs -du -h /user/data/warehouse/
-
-# 合并下载
-hdfs dfs -getmerge /user/data/warehouse/logs/ merged_logs.txt
+```
+Client → NameNode（请求写入）
+  NameNode 校验权限 & 返回 DataNode 列表
+Client → DataNode1 → DataNode2 → DataNode3（Pipeline 副本写入）
+  DataNode3 ACK → DataNode2 ACK → DataNode1 ACK → Client
+Client → NameNode（关闭文件）
 ```
 
-### 1.3 Java API操作
-
-```java
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.*;
-
-public class HDFSOperate {
-
-    private static FileSystem getFileSystem() throws Exception {
-        Configuration conf = new Configuration();
-        conf.set("fs.defaultFS", "hdfs://namenode:9000");
-        conf.set("dfs.replication", "3");
-        // HA配置
-        conf.set("dfs.nameservices", "mycluster");
-        conf.set("dfs.ha.namenodes.mycluster", "nn1,nn2");
-        return FileSystem.get(conf);
-    }
-
-    // 上传文件
-    public static void uploadFile(String localPath, String hdfsPath) throws Exception {
-        FileSystem fs = getFileSystem();
-        fs.copyFromLocalFile(new Path(localPath), new Path(hdfsPath));
-        fs.close();
-    }
-
-    // 读取文件
-    public static void readFile(String hdfsPath) throws Exception {
-        FileSystem fs = getFileSystem();
-        FSDataInputStream in = fs.open(new Path(hdfsPath));
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                System.out.println(line);
-            }
-        }
-        fs.close();
-    }
-
-    // 创建目录
-    public static boolean mkdir(String path) throws Exception {
-        FileSystem fs = getFileSystem();
-        boolean result = fs.mkdirs(new Path(path));
-        fs.close();
-        return result;
-    }
-}
-```
-
-### 1.4 HDFS核心配置（hdfs-site.xml）
+### 1.3 关键配置示例
 
 ```xml
+<!-- hdfs-site.xml -->
 <configuration>
-    <!-- 块大小，默认128MB -->
-    <property>
-        <name>dfs.blocksize</name>
-        <value>268435456</value> <!-- 256MB -->
-    </property>
+  <!-- 副本数 -->
+  <property>
+    <name>dfs.replication</name>
+    <value>3</value>
+  </property>
 
-    <!-- 副本数 -->
-    <property>
-        <name>dfs.replication</name>
-        <value>3</value>
-    </property>
+  <!-- 块大小（默认128MB，大文件场景建议256MB） -->
+  <property>
+    <name>dfs.blocksize</name>
+    <value>268435456</value> <!-- 256MB -->
+  </property>
 
-    <!-- NameNode HA -->
-    <property>
-        <name>dfs.nameservices</name>
-        <value>mycluster</value>
-    </property>
-    <property>
-        <name>dfs.ha.namenodes.mycluster</name>
-        <value>nn1,nn2</value>
-    </property>
-    <property>
-        <name>dfs.namenode.rpc-address.mycluster.nn1</name>
-        <value>namenode1:8020</value>
-    </property>
-    <property>
-        <name>dfs.namenode.rpc-address.mycluster.nn2</name>
-        <value>namenode2:8020</value>
-    </property>
+  <!-- NameNode HA -->
+  <property>
+    <name>dfs.nameservices</name>
+    <value>mycluster</value>
+  </property>
+  <property>
+    <name>dfs.ha.namenodes.mycluster</name>
+    <value>nn1,nn2</value>
+  </property>
 
-    <!-- 自动故障转移 -->
-    <property>
-        <name>dfs.ha.automatic-failover.enabled</name>
-        <value>true</value>
-    </property>
+  <!-- 自动故障转移 -->
+  <property>
+    <name>dfs.ha.automatic-failover.enabled</name>
+    <value>true</value>
+  </property>
 </configuration>
 ```
 
-### ✅ HDFS最佳实践
+### 1.4 HDFS 常用命令
 
-- **小文件问题**：HDFS不适合存储大量小文件（每个小文件约占150B元数据），建议使用 `SequenceFile`、`HAR` 或合并后存储
-- **副本策略**：热数据用3副本，冷数据可降至1-2副本
-- **块大小**：根据集群规模调整，建议128MB~512MB
-- **短路读**：开启 `dfs.client.read.shortcircuit` 提升本地读取性能
-- **纠删码**：Hadoop 3.x支持Erasure Coding，在保证可靠性前提下节省约50%存储空间
+```bash
+# 上传文件
+hdfs dfs -put localfile.txt /user/data/
+
+# 查看目录
+hdfs dfs -ls /user/data/
+
+# 查看文件内容
+hdfs dfs -cat /user/data/localfile.txt
+
+# 设置副本数
+hdfs dfs -setrep -w 5 /user/data/localfile.txt
+
+# 删除文件
+hdfs dfs -rm -r /user/data/old_dir/
+
+# 文件校验
+hdfs dfs -checksum /user/data/localfile.txt
+
+# 均衡数据节点
+hdfs balancer -threshold 10
+```
 
 ---
 
 ## 二、MapReduce
 
-### 2.1 核心流程
+MapReduce 是 Hadoop 的第一代分布式计算引擎，采用 **分而治之** 的思想：将任务拆分为 Map 和 Reduce 两个阶段。
+
+### 2.1 执行流程
 
 ```
-Input -> Split -> Map -> Shuffle -> Sort -> Reduce -> Output
+Input Split → Map（并行）→ Shuffle & Sort → Reduce（汇总）→ Output
 ```
 
-### 2.2 WordCount示例
+### 2.2 WordCount 示例（Java）
 
 ```java
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.*;
-import org.apache.hadoop.mapreduce.*;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
 import java.io.IOException;
 
 public class WordCount {
 
-    public static class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable> {
+    public static class TokenizerMapper
+            extends Mapper<LongWritable, Text, Text, IntWritable> {
         private final static IntWritable one = new IntWritable(1);
         private Text word = new Text();
 
         @Override
-        protected void map(Object key, Text value, Context context)
+        protected void map(LongWritable key, Text value, Context context)
                 throws IOException, InterruptedException {
-            String[] words = value.toString().split("\\s+");
-            for (String w : words) {
-                word.set(w.toLowerCase());
+            String[] tokens = value.toString().split("\\s+");
+            for (String token : tokens) {
+                word.set(token.toLowerCase());
                 context.write(word, one);
             }
         }
     }
 
-    public static class IntSumReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
+    public static class IntSumReducer
+            extends Reducer<Text, IntWritable, Text, IntWritable> {
         private IntWritable result = new IntWritable();
 
         @Override
@@ -240,7 +177,7 @@ public class WordCount {
         Job job = Job.getInstance(conf, "word count");
         job.setJarByClass(WordCount.class);
         job.setMapperClass(TokenizerMapper.class);
-        job.setCombinerClass(IntSumReducer.class);
+        job.setCombinerClass(IntSumReducer.class); // Combiner 本地预聚合
         job.setReducerClass(IntSumReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
@@ -251,429 +188,327 @@ public class WordCount {
 }
 ```
 
-### 2.3 自定义Partitioner与Comparator
+### 2.3 MapReduce 性能优化要点
 
-```java
-// 自定义分区器：按地区分区
-public class RegionPartitioner extends Partitioner<Text, IntWritable> {
-    @Override
-    public int getPartition(Text key, IntWritable value, int numPartitions) {
-        String region = key.toString();
-        if (region.startsWith("north")) return 0;
-        else if (region.startsWith("south")) return 1;
-        else if (region.startsWith("east")) return 2;
-        else return 3;
-    }
-}
-
-// 自定义排序：按值的绝对值排序
-public class AbsComparator extends WritableComparator {
-    protected AbsComparator() {
-        super(IntWritable.class, true);
-    }
-    @Override
-    public int compare(WritableComparable a, WritableComparable b) {
-        IntWritable v1 = (IntWritable) a;
-        IntWritable v2 = (IntWritable) b;
-        return Math.abs(v1.get()) - Math.abs(v2.get());
-    }
-}
-```
-
-### ✅ MapReduce最佳实践
-
-- **Combiner**：减少Shuffle数据量，Combiner逻辑必须满足结合律
-- **数据倾斜**：使用自定义Partitioner或对倾斜Key加随机前缀打散
-- **小表Join**：使用DistributedCache将小表广播到每个Mapper（Map端Join）
-- **压缩**：设置 `mapreduce.map.output.compress=true` 压缩中间结果
+- **Combiner**：在 Map 端预聚合，减少 Shuffle 数据量
+- **压缩**：Map 输出使用 Snappy/LZO 压缩，减少网络 I/O
+- **数据倾斜**：对热点 Key 加随机前缀打散
+- **小文件合并**：使用 `CombineFileInputFormat` 减少 Map Task 数量
+- **调整 Spill**：增大 `io.sort.mb` 减少 Spill 次数
 
 ---
 
-## 三、YARN（Yet Another Resource Negotiator）
+## 三、YARN 调度
+
+Yet Another Resource Negotiator（YARN）是 Hadoop 2.x 引入的资源管理器，将资源管理与计算框架解耦，使 Hadoop 集群可同时运行 MapReduce、Spark、Flink 等多种计算引擎。
 
 ### 3.1 架构
 
-| 角色 | 职责 |
-|------|------|
-| ResourceManager | 全局资源管理，调度应用 |
-| NodeManager | 管理单个节点资源和容器 |
-| ApplicationMaster | 管理单个应用的生命周期 |
-| Container | 资源隔离单元（CPU、内存） |
-
-### 3.2 YARN调度器
-
-```xml
-<!-- capacity-scheduler.xml 容量调度器配置 -->
-<configuration>
-    <property>
-        <name>yarn.scheduler.capacity.root.queues</name>
-        <value>production,development,ad-hoc</value>
-    </property>
-    <property>
-        <name>yarn.scheduler.capacity.root.production.capacity</name>
-        <value>50</value>
-    </property>
-    <property>
-        <name>yarn.scheduler.capacity.root.production.maximum-capacity</name>
-        <value>80</value>
-    </property>
-    <property>
-        <name>yarn.scheduler.capacity.root.development.capacity</name>
-        <value>30</value>
-    </property>
-    <property>
-        <name>yarn.scheduler.capacity.root.ad-hoc.capacity</name>
-        <value>20</value>
-    </property>
-</configuration>
+```
+┌──────────────┐
+│  ResourceManager  │  全局资源管理
+│  ├─ Scheduler     │  调度器（FIFO/Capacity/Fair）
+│  └─ AppManager    │  应用管理器
+└────────┬─────────┘
+         │
+    ┌────┴────┐
+    ▼         ▼
+┌────────┐ ┌────────┐
+│ NodeManager │ │ NodeManager │  节点级资源管理
+│  (Container)│ │  (Container)│  运行具体任务
+└────────┘ └────────┘
 ```
 
-### 3.3 yarn-site.xml 关键配置
+### 3.2 容量调度器配置（capacity-scheduler.xml）
 
 ```xml
 <configuration>
-    <!-- 内存配置 -->
-    <property>
-        <name>yarn.nodemanager.resource.memory-mb</name>
-        <value>16384</value>
-    </property>
-    <property>
-        <name>yarn.scheduler.minimum-allocation-mb</name>
-        <value>1024</value>
-    </property>
-    <property>
-        <name>yarn.scheduler.maximum-allocation-mb</name>
-        <value>8192</value>
-    </property>
+  <!-- 定义多租户队列 -->
+  <property>
+    <name>yarn.scheduler.capacity.root.queues</name>
+    <value>production,development,streaming</value>
+  </property>
 
-    <!-- CPU配置 -->
-    <property>
-        <name>yarn.nodemanager.resource.cpu-vcores</name>
-        <value>16</value>
-    </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.production.capacity</name>
+    <value>60</value> <!-- 60% 资源 -->
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.development.capacity</name>
+    <value>20</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.streaming.capacity</name>
+    <value>20</value>
+  </property>
 
-    <!-- 调度器选择 -->
-    <property>
-        <name>yarn.resourcemanager.scheduler.class</name>
-        <value>org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler</value>
-    </property>
-
-    <!-- 日志聚合 -->
-    <property>
-        <name>yarn.log-aggregation-enable</name>
-        <value>true</value>
-    </property>
+  <!-- 允许弹性扩展 -->
+  <property>
+    <name>yarn.scheduler.capacity.root.production.maximum-capacity</name>
+    <value>80</value> <!-- 最多抢占到 80% -->
+  </property>
 </configuration>
 ```
 
-### ✅ YARN最佳实践
+### 3.3 调度器对比
 
-- 合理设置 `yarn.nodemanager.resource.memory-mb`（通常为物理内存的75%）
-- 避免容器内存超限：设置 `yarn.nodemanager.vmem-pmem-ratio` 控制虚拟内存比例
-- 使用**Fair Scheduler**或**Capacity Scheduler**按队列隔离资源
-- 开启日志聚合方便调试
+| 特性 | FIFO | Capacity | Fair |
+|------|------|----------|------|
+| 公平性 | 无 | 容量配额保证 | 动态公平分配 |
+| 多租户 | 不支持 | 支持 | 支持 |
+| 资源利用率 | 低 | 中 | 高 |
+| 适用场景 | 小集群 | 生产（多部门） | 交互查询多 |
 
 ---
 
-## 四、Hive
+## 四、Hive SQL
 
-### 4.1 内部表与外部表
+Hive 构建在 HDFS 之上，提供类 SQL 查询接口，将 SQL 自动翻译为 MapReduce / Tez / Spark 作业。
+
+### 4.1 数据模型
+
+| 类型 | 说明 | 存储位置 |
+|------|------|----------|
+| **内部表（MANAGED）** | Hive 管理元数据与数据 | `/user/hive/warehouse/` |
+| **外部表（EXTERNAL）** | Hive 只管理元数据 | 自定义 HDFS 路径 |
+| **分区表** | 按列值分目录存储 | 提升查询性能 |
+| **分桶表** | 按列 Hash 分文件 | 便于采样与 JOIN 优化 |
+
+### 4.2 DDL 示例
 
 ```sql
--- 创建外部表（推荐用于共享数据）
-CREATE EXTERNAL TABLE IF NOT EXISTS user_events (
+-- 创建数据库
+CREATE DATABASE IF NOT EXISTS analytics
+COMMENT 'Analytics tables'
+LOCATION '/user/hive/analytics';
+
+-- 创建分区外部表
+CREATE EXTERNAL TABLE IF NOT EXISTS analytics.user_events (
+    event_id     STRING,
     user_id      BIGINT,
     event_type   STRING,
     event_time   TIMESTAMP,
     properties   MAP<STRING, STRING>
 )
-PARTITIONED BY (dt STRING)
+PARTITIONED BY (dt STRING, hour STRING)
 ROW FORMAT DELIMITED
     FIELDS TERMINATED BY '\t'
     COLLECTION ITEMS TERMINATED BY ','
     MAP KEYS TERMINATED BY ':'
 STORED AS ORC
-LOCATION '/warehouse/user_events';
-
--- 加载分区数据
-ALTER TABLE user_events ADD IF NOT EXISTS PARTITION (dt='2026-06-28')
-LOCATION '/warehouse/user_events/dt=2026-06-28';
-
--- 内部表（Hive管理数据生命周期）
-CREATE TABLE user_summary (
-    user_id     BIGINT,
-    total_click BIGINT,
-    total_view  BIGINT,
-    region      STRING
-)
-STORED AS ORC
+LOCATION '/data/events/user_events'
 TBLPROPERTIES ('orc.compress'='SNAPPY');
-```
 
-### 4.2 数据ETL示例
+-- 修复分区
+MSCK REPAIR TABLE analytics.user_events;
 
-```sql
--- 使用窗口函数进行数据清洗与聚合
-INSERT OVERWRITE TABLE user_summary
-SELECT
-    user_id,
-    SUM(CASE WHEN event_type='click' THEN 1 ELSE 0 END) AS total_click,
-    SUM(CASE WHEN event_type='view' THEN 1 ELSE 0 END) AS total_view,
-    FIRST_VALUE(region) OVER (PARTITION BY user_id ORDER BY event_time) AS region
-FROM user_events
-WHERE dt = '2026-06-28'
-GROUP BY user_id, event_type, event_time, region;
-
--- 使用CTE简化复杂查询
-WITH active_users AS (
-    SELECT user_id, COUNT(*) AS event_count
-    FROM user_events
-    WHERE dt BETWEEN '2026-06-01' AND '2026-06-28'
-    GROUP BY user_id
-    HAVING COUNT(*) > 100
+-- 创建分桶表（用于优化 JOIN）
+CREATE TABLE analytics.user_profile_bucketed (
+    user_id   BIGINT,
+    age       INT,
+    gender    STRING,
+    country   STRING
 )
-SELECT region, COUNT(*) AS active_user_count
-FROM user_summary us
-JOIN active_users au ON us.user_id = au.user_id
-GROUP BY region;
+CLUSTERED BY (user_id) INTO 64 BUCKETS
+STORED AS ORC;
 ```
 
-### 4.3 Hive性能优化
+### 4.3 查询优化示例
 
 ```sql
--- 启用向量化执行
+-- 开启向量化执行
 SET hive.vectorized.execution.enabled = true;
 SET hive.vectorized.execution.reduce.enabled = true;
 
--- 启用CBO（基于成本的优化器）
+-- 启用 CBO（基于成本的优化）
 SET hive.cbo.enable = true;
 SET hive.compute.query.using.stats = true;
+SET hive.stats.fetch.column.stats = true;
 
--- Map端Join（小表自动广播）
+-- 开启 MapJoin（小表广播到 Map 端）
 SET hive.auto.convert.join = true;
-SET hive.auto.convert.join.noconditionaltask.size = 100000000;
+SET hive.auto.convert.join.noconditionaltask.size = 100000000; -- 100MB
 
--- 动态分区
-SET hive.exec.dynamic.partition = true;
-SET hive.exec.dynamic.partition.mode = nonstrict;
-
--- 并行执行
-SET hive.exec.parallel = true;
-SET hive.exec.parallel.thread.number = 16;
-
--- 使用Tez引擎
+-- 执行引擎切换到 Tez/Spark
 SET hive.execution.engine = tez;
+
+-- 使用窗口函数替代自连接
+SELECT
+    user_id,
+    event_date,
+    COUNT(*) OVER (PARTITION BY user_id ORDER BY event_date
+                   ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS rolling_7d_events
+FROM analytics.user_events
+WHERE dt >= '2026-06-01';
 ```
 
-### ✅ Hive最佳实践
+### 4.4 性能优化最佳实践
 
-- **优先使用外部表**：避免`DROP TABLE`删除底层数据
-- **分区设计**：按日期、地区等维度分区，避免过度分区
-- **列式存储**：使用ORC + Snappy压缩
-- **数据倾斜处理**：`set hive.groupby.skewindata=true`
+1. **分区裁剪**：查询始终带分区条件 `WHERE dt = '2026-06-28'`
+2. **列裁剪**：避免 `SELECT *`，只选必要列
+3. **文件格式**：使用 ORC + Snappy / Parquet
+4. **执行引擎**：生产环境使用 Tez 或 Spark
+5. **JOIN 优化**：小表 JOIN 大表用 MapJoin；大表 JOIN 大表用分桶
+6. **合理分区粒度**：日分区为主，小时分区为辅，避免过度分区
 
 ---
 
 ## 五、HBase
 
+HBase 是基于 HDFS 的 NoSQL 列式数据库，支持 PB 级数据的随机实时读写。
+
 ### 5.1 数据模型
 
 | 概念 | 说明 |
 |------|------|
-| RowKey | 行键，数据排序与快速查找的依据 |
-| Column Family | 列族，权限控制和存储的基本单位 |
-| Column Qualifier | 列限定符，属于某个列族 |
-| Cell | 单元格，由RowKey+CF+CQ+Timestamp唯一定位 |
-| Region | 表的水平分片，由RegionServer管理 |
+| **Row Key** | 主键，数据按 RowKey 字典序排序存储 |
+| **Column Family** | 列族，定义时声明，一个表一般不超过 3 个 |
+| **Column Qualifier** | 列限定符，运行时动态添加 |
+| **Cell** | 单元格，由 `RowKey + CF + CQ + Timestamp` 唯一确定 |
+| **Region** | 数据分片单位，按 RowKey 范围划分 |
 
-### 5.2 Java API操作
+### 5.2 Java API 示例
 
 ```java
-import org.apache.hadoop.hbase.*;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.util.Bytes;
-import java.util.*;
 
-public class HBaseCRUD {
+import java.io.IOException;
 
-    private static Connection getConnection() throws Exception {
+public class HBaseDemo {
+
+    private static Connection connection;
+
+    static {
         Configuration config = HBaseConfiguration.create();
-        config.set("hbase.zookeeper.quorum", "zk1,zk2,zk3");
-        config.set("hbase.zookeeper.property.clientPort", "2181");
-        return ConnectionFactory.createConnection(config);
-    }
-
-    // 建表
-    public static void createTable() throws Exception {
-        try (Connection conn = getConnection();
-             Admin admin = conn.getAdmin()) {
-            TableDescriptorBuilder tableBuilder = TableDescriptorBuilder.newBuilder(
-                TableName.valueOf("user_profile"));
-            ColumnFamilyDescriptor cf = ColumnFamilyDescriptorBuilder.newBuilder(Bytes.toBytes("info"))
-                .setBloomFilterType(BloomType.ROWCOL)
-                .setMaxVersions(3)
-                .setCompressionType(Compression.Algorithm.SNAPPY)
-                .build();
-            tableBuilder.setColumnFamily(cf);
-            admin.createTable(tableBuilder.build());
+        config.set("hbase.zookeeper.quorum", "zk1:2181,zk2:2181,zk3:2181");
+        try {
+            connection = ConnectionFactory.createConnection(config);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 
-    // 批量写入
-    public static void batchPut() throws Exception {
-        try (Connection conn = getConnection();
-             Table table = conn.getTable(TableName.valueOf("user_profile"))) {
-            List<Put> puts = new ArrayList<>();
+    /** 建表 */
+    public static void createTable() throws IOException {
+        Admin admin = connection.getAdmin();
+        TableName tableName = TableName.valueOf("user_events");
+        if (admin.tableExists(tableName)) return;
+
+        TableDescriptorBuilder tableDesc = TableDescriptorBuilder.newBuilder(tableName);
+        ColumnFamilyDescriptor cf = ColumnFamilyDescriptorBuilder
+                .newBuilder(Bytes.toBytes("info"))
+                .setMaxVersions(3)                    // 保留3个版本
+                .setTimeToLive(7776000)               // TTL: 90天
+                .setCompressionType(
+                    org.apache.hadoop.hbase.io.compress.Compression.Algorithm.SNAPPY)
+                .setBloomFilterType(
+                    org.apache.hadoop.hbase.regionserver.BloomType.ROW)
+                .build();
+        tableDesc.setColumnFamily(cf);
+        admin.createTable(tableDesc.build());
+        admin.close();
+    }
+
+    /** 批量写入（BufferedMutator，高性能） */
+    public static void batchPut() throws IOException {
+        BufferedMutatorParams params = new BufferedMutatorParams(
+                TableName.valueOf("user_events"));
+        params.writeBufferSize(4 * 1024 * 1024); // 4MB 缓冲
+
+        try (BufferedMutator mutator = connection.getBufferedMutator(params)) {
             for (int i = 0; i < 1000; i++) {
                 Put put = new Put(Bytes.toBytes("user_" + i));
-                put.addColumn(Bytes.toBytes("info"), Bytes.toBytes("name"),
+                put.addColumn(
+                    Bytes.toBytes("info"),
+                    Bytes.toBytes("name"),
                     Bytes.toBytes("User" + i));
-                put.addColumn(Bytes.toBytes("info"), Bytes.toBytes("age"),
-                    Bytes.toBytes(20 + i % 30));
-                puts.add(put);
+                mutator.mutate(put);
             }
-            table.put(puts);
+            mutator.flush();
         }
     }
 
-    // Scan查询
-    public static void scanData() throws Exception {
-        try (Connection conn = getConnection();
-             Table table = conn.getTable(TableName.valueOf("user_profile"))) {
-            Scan scan = new Scan();
-            scan.setRowPrefixFilter(Bytes.toBytes("user_1"));  // 前缀过滤
-            scan.addFamily(Bytes.toBytes("info"));
-            scan.setCaching(1000);  // 缓存1000条
-            try (ResultScanner scanner = table.getScanner(scan)) {
-                for (Result result : scanner) {
-                    String name = Bytes.toString(
-                        result.getValue(Bytes.toBytes("info"), Bytes.toBytes("name")));
-                    System.out.println("RowKey: " + Bytes.toString(result.getRow()) + ", Name: " + name);
-                }
+    /** Scan 查询（范围查询） */
+    public static void scanRange() throws IOException {
+        Table table = connection.getTable(TableName.valueOf("user_events"));
+        Scan scan = new Scan();
+        scan.withStartRow(Bytes.toBytes("user_100"));
+        scan.withStopRow(Bytes.toBytes("user_200"));
+        scan.setCaching(1000);     // 每次 RPC 预取 1000 行
+        scan.setCacheBlocks(false); // 大范围扫描关闭缓存
+
+        try (ResultScanner scanner = table.getScanner(scan)) {
+            for (Result result : scanner) {
+                String rowKey = Bytes.toString(result.getRow());
+                String name = Bytes.toString(
+                    result.getValue(Bytes.toBytes("info"), Bytes.toBytes("name")));
+                System.out.println(rowKey + " => " + name);
             }
         }
+    }
+
+    public static void main(String[] args) throws Exception {
+        createTable();
+        batchPut();
+        scanRange();
     }
 }
 ```
 
-### 5.3 RowKey设计策略
+### 5.3 RowKey 设计原则
 
-```
-设计原则：
-1. 散列性：避免热点Region（避免连续递增的RowKey）
-2. 长度控制：建议10~100字节
-3. 查询友好：常用查询条件的反转/哈希前缀
+1. **避免热点**：不要使用自增 ID 或时间戳作为 RowKey 前缀
+2. **打散策略**：对 RowKey 做 Hash 或反转
+3. **预分区**：建表时指定 Split Keys，避免 Region 自动分裂带来的性能抖动
+4. **索引设计**：二级索引通过 Phoenix 或自建索引表实现
 
-常用策略：
-┌──────────────────────────────────────────────────┐
-│ 策略1: 反转RowKey   userId=12345 -> "54321"       │
-│ 策略2: 哈希前缀     md5(userId).subStr(0,4)+userId │
-│ 策略3: 加盐         [region_prefix]_userId         │
-└──────────────────────────────────────────────────┘
-```
+### 5.4 HBase 与 Hive 协同
 
-### ✅ HBase最佳实践
-
-- **RowKey设计**是HBase性能的核心，务必保证散列性
-- **预分区**：建表时预分区避免Region热点
-- **列族数量**：建议不超过3个
-- **BlockCache**：读密集场景增大 `hfile.block.cache.size`
-- **Bulk Load**：大批量导入使用 `bulk load` 避免RegionServer压力
-
----
-
-## 六、ZooKeeper
-
-### 6.1 核心概念
-
-| 概念 | 说明 |
+| 场景 | 选型 |
 |------|------|
-| ZNode | 数据节点，构成层次树结构 |
-| Watcher | 事件监听机制，节点变化时触发回调 |
-| Session | 客户端与服务端的会话，心跳维持 |
-| Leader Election | Leader选举（Paxos/ZAB协议） |
-
-### 6.2 Java API操作
-
-```java
-import org.apache.zookeeper.*;
-import java.util.List;
-import java.util.concurrent.CountDownLatch;
-
-public class ZKDistributedLock implements Watcher {
-    private ZooKeeper zk;
-    private static final String LOCK_ROOT = "/locks";
-    private String lockPath;
-    private final CountDownLatch connectedLatch = new CountDownLatch(1);
-
-    // 分布式锁实现
-    public void acquireLock(String lockName) throws Exception {
-        // 创建临时顺序节点
-        lockPath = zk.create(LOCK_ROOT + "/" + lockName + "_",
-            new byte[0], ZooDefs.Ids.OPEN_ACL_UNSAFE,
-            CreateMode.EPHEMERAL_SEQUENTIAL);
-
-        // 检查是否获得锁
-        while (true) {
-            List<String> children = zk.getChildren(LOCK_ROOT, false);
-            Collections.sort(children);
-            String myNode = lockPath.substring(LOCK_ROOT.length() + 1);
-
-            if (myNode.equals(children.get(0))) {
-                System.out.println("获得锁: " + lockPath);
-                return; // 获得锁
-            }
-
-            // 监听前一个节点
-            String prevNode = children.get(Collections.binarySearch(children, myNode) - 1);
-            final CountDownLatch latch = new CountDownLatch(1);
-            if (zk.exists(LOCK_ROOT + "/" + prevNode, event -> {
-                if (event.getType() == Watcher.Event.EventType.NodeDeleted) {
-                    latch.countDown();
-                }
-            }) == null) {
-                continue; // 前一个节点已删除，重试
-            }
-            latch.await();
-        }
-    }
-
-    public void releaseLock() throws Exception {
-        zk.delete(lockPath, -1);
-        System.out.println("释放锁: " + lockPath);
-    }
-
-    @Override
-    public void process(WatchedEvent event) {
-        if (event.getState() == Watcher.Event.KeeperState.SyncConnected) {
-            connectedLatch.countDown();
-        }
-    }
-}
-```
-
-### ✅ ZooKeeper最佳实践
-
-- **集群规模**：建议3/5/7个节点（奇数，满足多数派）
-- **Session超时**：根据网络状况设置，通常为30~60秒
-- **避免脑裂**：使用Curator框架的高级锁实现
-- **监控**：监控 `zk_avg_latency`、`zk_outstanding_requests` 等指标
+| 离线批量分析 | Hive（SQL → MapReduce/Tez） |
+| 实时点查/范围扫描 | HBase（毫秒级响应） |
+| Hive 查询 HBase 数据 | 建外部表映射 `STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'` |
+| 批量写入 HBase | Hive MR 作业 → HBase（Bulk Load） |
 
 ---
 
-## 常用组件对比
+## 六、最佳实践汇总
 
-| 组件 | 定位 | 使用场景 |
-|------|------|----------|
-| HDFS | 分布式文件系统 | 海量文件存储 |
-| MapReduce | 批处理计算 | 离线ETL、数据分析 |
-| YARN | 资源调度 | 统一资源管理 |
-| Hive | 数据仓库 | SQL查询、报表 |
-| HBase | NoSQL数据库 | 实时读写、随机访问 |
-| ZooKeeper | 分布式协调 | 配置管理、选举、锁 |
+### 6.1 集群规划
+
+| 集群规模 | NameNode 内存 | 建议 |
+|----------|--------------|------|
+| <100 台 DN | 16-32 GB | 单 NameNode |
+| 100-500 台 DN | 64-128 GB | HA + Federation |
+| >500 台 DN | >128 GB | 必须做 Federation |
+
+### 6.2 监控告警要点
+
+- **NameNode 堆内存使用率** > 80% 告警
+- **HDFS Block 丢失**：`dfsadmin -report` 监控 under-replicated blocks
+- **YARN 丢心跳 NodeManager**：连续丢失 3 次告警
+- **HBase RegionServer**：监控 region 数量、MemStore 大小、flush 频率
+
+### 6.3 常见问题排查
+
+| 问题 | 可能原因 | 解决方案 |
+|------|---------|----------|
+| NameNode SafeMode | 副本不足 | `hdfs dfsadmin -safemode leave` |
+| YARN 任务卡在 ACCEPTED | 资源不足 | 检查队列资源、调整分配 |
+| Hive 查询慢 | 数据倾斜/未分区 | 查看 Explain，加分区条件 |
+| HBase 热点 | RowKey 设计不当 | Salt/Hash 打散 RowKey |
+
+---
 
 ## 相关页面
 
-- [[数据中台架构]] - 数据中台架构设计与实现
-- [[推荐系统实战]] - 基于Hadoop生态的推荐系统工程实践
-- [[自然语言处理]] - NLP技术与大数据处理
+- [[Spark核心指南]] - 内存计算引擎，替代 MapReduce 的高性能方案
+- [[Flink流处理指南]] - 实时流处理框架
+- [[数据湖架构]] - 基于 HDFS/对象存储的现代数据湖方案
+- [[数据中台架构]] - 数据采集与治理的顶层设计
+- [[Kafka消息队列]] - 大数据管道核心组件
