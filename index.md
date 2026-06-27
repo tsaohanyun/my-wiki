@@ -341,3 +341,33 @@ aliases:
 
 **项目实战经验**
 - [[通威农发/实战踩坑经验]] — 通威农发项目实施过程中的真实踩坑案例与解决方案
+
+## AI Agent 知识库
+
+> **AI Agent开发与Hermes Agent使用经验**
+> 从Session历史中提取的技术经验，涵盖架构、配置、开发、运维等方面
+> 共14个Wiki页面，按知识维度组织
+
+**基础概念**
+- [[AI-Agent/index|AI Agent知识库首页]] — 知识库总览和导航
+- [[AI-Agent/基础概念/Hermes-Agent架构总览|Hermes架构总览]] — Agent核心组件、配置系统、通信层
+- [[AI-Agent/基础概念/AI-Engineer核心概念|AI Engineer核心概念]] — Prompt Engineering、Agent架构、RAG系统
+
+**实践经验**
+- [[AI-Agent/实践经验/Hermes-WebUI配置与管理|WebUI配置管理]] — hermes-webui vs dashboard区分、启动配置、故障排查
+- [[AI-Agent/实践经验/Hermes-常见问题排查|常见问题排查]] — 启动警告、内存问题、SSH连接问题
+- [[AI-Agent/实践经验/Wiki管理最佳实践|Wiki管理最佳实践]] — YAML规范、aliases批量添加、标签一致性
+- [[AI-Agent/实践经验/SillyTavern配置与使用|SillyTavern配置]] — API配置、角色卡汉化、翻译陷阱
+
+**工具配置**
+- [[AI-Agent/工具配置/SSH隧道与远程管理|SSH隧道管理]] — 端口映射、Windows远程命令、跳板机配置
+- [[AI-Agent/工具配置/XXL-JOB定时任务管理|XXL-JOB管理]] — REST API、任务触发、并行策略
+- [[AI-Agent/工具配置/IIDP绩效指标计算|IIDP指标计算]] — JSON-RPC API、Token获取、数据验证
+- [[AI-Agent/工具配置/微信推送配置|微信推送配置]] — iLink接口、限流策略、最佳实践
+
+**技能开发**
+- [[AI-Agent/技能开发/Hermes-Skills开发指南|Skills开发指南]] — Skill结构、SKILL.md格式、开发流程
+
+**最佳实践**
+- [[AI-Agent/最佳实践/Token消耗策略|Token消耗策略]] — 高消耗场景、优化策略、过期token利用
+- [[AI-Agent/最佳实践/Session历史知识提取|Session知识提取]] — 历史对话分析、知识结构化、Wiki创建
