@@ -8,6 +8,10 @@ aliases:
   - ERP词汇表
   - ERP名词解释
   - ERP专业术语
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 入门
 ---
 
 # ERP术语表

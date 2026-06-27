@@ -8,6 +8,10 @@ aliases:
   - ERP案例集
   - 案例库
   - 实践案例
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 # ERP案例集
@@ -17,6 +21,10 @@ aliases:
 > 说明：本文件汇集了ERP教材中的所有实际案例，便于集中学习和参考。
 > 每个案例都保留了来源章节链接，方便追溯原文。
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 目录
@@ -44,6 +52,10 @@ aliases:
 - [案例3：飞鹤奶粉——YonBIP数字化转型](#案例3飞鹤奶粉YonBIP数字化转型) — [[15-云ERP与云生态|第15章 云ERP与云生态]]
 - [案例4：重庆长江轴承——U9 Cloud智能制造](#案例4重庆长江轴承U9-Cloud智能制造) — [[15-云ERP与云生态|第15章 云ERP与云生态]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第1章 绪论
@@ -71,6 +83,10 @@ aliases:
 
 > 📌 来源：[[01-绪论]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ### 案例分析：联想集团生产管理模式转变
@@ -92,6 +108,10 @@ aliases:
 
 > 📌 来源：[[01-绪论]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第2章 ERP思想发展历程
@@ -123,6 +143,10 @@ aliases:
 
 > 📌 来源：[[02-ERP思想发展历程]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第3章 需求管理
@@ -147,6 +171,10 @@ aliases:
 
 > 📌 来源：[[03-需求管理]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第6章 物料需求计划
@@ -166,6 +194,10 @@ aliases:
 
 > 📌 来源：[[06-物料需求计划]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ### 案例二：某卷烟厂的生产计划管理系统实施
@@ -183,6 +215,10 @@ aliases:
 
 > 📌 来源：[[06-物料需求计划]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第7章 能力需求计划
@@ -208,6 +244,10 @@ aliases:
 
 > 📌 来源：[[07-能力需求计划]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ### 案例：自行车ZXCA-F2的CRP编制
@@ -220,10 +260,18 @@ aliases:
 5. 按工作中心汇总，生成分时段CRP
 6. 绘制能力负荷直方图，分析能力余缺
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 > 📌 来源：[[07-能力需求计划]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第8章 采购管理
@@ -246,6 +294,10 @@ aliases:
 
 > 📌 来源：[[08-采购管理]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第9章 库存管理
@@ -264,6 +316,10 @@ aliases:
 
 > 📌 来源：[[09-库存管理]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ### 案例二：某食品公司库存管理
@@ -281,6 +337,10 @@ aliases:
 
 > 📌 来源：[[09-库存管理]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第10章 车间管理
@@ -310,6 +370,10 @@ aliases:
 
 > 📌 来源：[[10-车间管理]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第11章 财务管理
@@ -331,6 +395,10 @@ aliases:
 
 > 📌 来源：[[11-财务管理]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第12章 成本管理
@@ -356,6 +424,10 @@ aliases:
 
 > 📌 来源：[[12-成本管理]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第13章 高级计划与排程
@@ -372,6 +444,10 @@ aliases:
 
 > 📌 来源：[[13-高级计划与排程]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ### 案例2：某中药企业供应链计划优化
@@ -387,6 +463,10 @@ aliases:
 
 > 📌 来源：[[13-高级计划与排程]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第14章 ERP项目实施
@@ -422,6 +502,10 @@ aliases:
 
 > 📌 来源：[[14-ERP项目实施]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ## 第15章 云ERP与云生态
@@ -437,6 +521,10 @@ aliases:
 
 > 📌 来源：[[15-云ERP与云生态]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ### 案例2：云南白药——大健康数字化转型
@@ -451,6 +539,10 @@ aliases:
 
 > 📌 来源：[[15-云ERP与云生态]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ### 案例3：飞鹤奶粉——YonBIP数字化转型
@@ -464,6 +556,10 @@ aliases:
 
 > 📌 来源：[[15-云ERP与云生态]]
 
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 中级
 ---
 
 ### 案例4：重庆长江轴承——U9 Cloud智能制造

@@ -8,6 +8,10 @@ aliases:
   - ERP知识结构图
   - ERP体系架构
   - ERP学习路线图
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 入门
 ---
 
 # ERP知识框架图

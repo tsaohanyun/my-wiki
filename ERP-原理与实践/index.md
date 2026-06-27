@@ -10,6 +10,10 @@ aliases:
   - ERP教程
 created: 2026-06-27
 updated: 2026-06-27
+created: 2026-06-27
+updated: 2026-06-27
+source: Wiki
+difficulty: 入门
 ---
 
 # ERP原理与实践 知识体系
